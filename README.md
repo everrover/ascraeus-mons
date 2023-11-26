@@ -28,6 +28,10 @@ Progress: 0/100
 | [2917. Find the K-or of an Array](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy #bit-manipulation|
 | [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./dsa/leetcode/kuiperBelt/MinimumEqualSumOfTwoArraysAfterReplacingZeros.java) | |
 | [2923. Find Champion I](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
+| [2942. Find Words Containing Character](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #easy #string |
+| [2943. Maximize Area of Square Hole in Grid](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #math #matrix #logic |
+| [2944. Minimum Number of Coins for Fruits](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #array #dynamic-programming |
+| [2945. Find Maximum Non-decreasing Array Length](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #array #dynamic-programming #stack #mono-stack #math #combinatorics #tricky #wasnt-able-to-solve |
 | --- | --- |
 
 Progress: 4/100
