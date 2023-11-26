@@ -2,11 +2,11 @@
 
 ### Table of Contents - System Design - Low level design
 
-Progress: 0/100
+Progress: 19/100 [1:2:1::Easier:Medium:Hard ratio followed]
 
 ### Table of Contents - System Design - High level design
 
-Progress: 0/100
+Progress: /100
 
 ### Table of Contents - DSA
 
