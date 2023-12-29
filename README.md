@@ -13,6 +13,7 @@ Progress: /100
 | --- | --- |
 | Title | Some pointers |
 | --- | --- |
+| [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2784. Check if Array is Good](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2788. Split Strings by Separator](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
@@ -34,4 +35,4 @@ Progress: /100
 | [2945. Find Maximum Non-decreasing Array Length](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #array #dynamic-programming #stack #mono-stack #math #combinatorics #tricky #wasnt-able-to-solve |
 | --- | --- |
 
-Progress: 4/100
+Progress: 20/100
