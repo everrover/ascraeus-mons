@@ -7,7 +7,7 @@ public class MinNumberOfSwapsToMakeStrBalanced {
    * If any voilation is found, swap the characters and reset the counters. Could have used stack as well.
    * 
    * TC: O(n) SC: O(1)
-   * #stack #greedy
+   * #stack #greedy #string #medium
    */
   public int minSwaps(String s) {
     int res = 0;

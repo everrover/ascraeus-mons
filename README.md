@@ -2,7 +2,7 @@
 
 ### Table of Contents - System Design - Low level design
 
-Progress: 19/100 [1:2:1::Easier:Medium:Hard ratio followed]
+Progress: /100 [1:2:1::Easier:Medium:Hard ratio followed]
 
 ### Table of Contents - System Design - High level design
 
@@ -13,7 +13,7 @@ Progress: /100
 | --- | --- |
 | Title | Some pointers |
 | --- | --- |
-| [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string |
+| [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2784. Check if Array is Good](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2788. Split Strings by Separator](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
@@ -33,6 +33,8 @@ Progress: /100
 | [2943. Maximize Area of Square Hole in Grid](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #math #matrix #logic |
 | [2944. Minimum Number of Coins for Fruits](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #array #dynamic-programming |
 | [2945. Find Maximum Non-decreasing Array Length](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #array #dynamic-programming #stack #mono-stack #math #combinatorics #tricky #wasnt-able-to-solve |
+| [2952. Minimum Number of Coins to be added](.dsa/leetcode/kuiperBelt/MinimumNumberOfCoinsToBeAdded.java) | #array # |
+| [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
 | --- | --- |
 
-Progress: 20/100
+Progress: 21/100  [1:2:1::Easier:Medium:Hard ratio followed]
