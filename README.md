@@ -28,6 +28,7 @@ Progress: /100
 | [2908. Minimum Sum of Mountain Triplets I](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2917. Find the K-or of an Array](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy #bit-manipulation|
 | [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./dsa/leetcode/kuiperBelt/MinimumEqualSumOfTwoArraysAfterReplacingZeros.java) | |
+| [2919. Minimum Increment Operations to Make Array Beautiful](.dsa/leetcode/kuiperBelt/MinoOfIncrementOperationsToMakeArrayBeautiful.java) | #dynamic-programming #arrays #medium|
 | [2923. Find Champion I](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2942. Find Words Containing Character](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #easy #string |
 | [2943. Maximize Area of Square Hole in Grid](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #math #matrix #logic |
@@ -37,4 +38,4 @@ Progress: /100
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
 | --- | --- |
 
-Progress: 21/100  [1:2:1::Easier:Medium:Hard ratio followed]
+Progress: 23/100  [1:2:1::Easier:Medium:Hard ratio followed]
