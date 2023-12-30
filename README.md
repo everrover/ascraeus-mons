@@ -13,6 +13,7 @@ Progress: /100
 | --- | --- |
 | Title | Some pointers |
 | --- | --- |
+| [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2784. Check if Array is Good](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
@@ -38,4 +39,4 @@ Progress: /100
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
 | --- | --- |
 
-Progress: 23/100  [1:2:1::Easier:Medium:Hard ratio followed]
+Progress: 24/100  [1:2:1::Easier:Medium:Hard ratio followed]
