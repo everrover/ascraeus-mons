@@ -37,6 +37,7 @@ Progress: /100
 | [2945. Find Maximum Non-decreasing Array Length](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #array #dynamic-programming #stack #mono-stack #math #combinatorics #tricky #wasnt-able-to-solve |
 | [2952. Minimum Number of Coins to be added](.dsa/leetcode/kuiperBelt/MinimumNumberOfCoinsToBeAdded.java) | #array # |
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
+| [2975. Maximum Square Area Removing Fences From Field](./dsa/leetcode/kuiperBelt/MaximumSquareAreaRemovingFencesFromField.java) | #two-pointers #set #enumeration #area-calculation |
 | --- | --- |
 
-Progress: 24/100  [1:2:1::Easier:Medium:Hard ratio followed]
+Progress: 25/100  [1:2:1::Easier:Medium:Hard ratio followed]
