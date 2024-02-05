@@ -38,6 +38,17 @@ Progress: /100
 | [2952. Minimum Number of Coins to be added](.dsa/leetcode/kuiperBelt/MinimumNumberOfCoinsToBeAdded.java) | #array # |
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
 | [2975. Maximum Square Area Removing Fences From Field](./dsa/leetcode/kuiperBelt/MaximumSquareAreaRemovingFencesFromField.java) | #two-pointers #set #enumeration #area-calculation |
+| [3014. Minimum Number of Pushes to Type Word I](./dsa/leetcode/kuiperBelt/ManimumNumberOfPushedToTypeWordI.java) | #easy #math |
+| [3015. Count the Number of Houses at a Certain Distance I](./dsa/leetcode/kuiperBelt/CountNumberOfHousesAtCertainDistanceI.java) | #enumeration #distance-calculation #medium #little-logic |
 | --- | --- |
 
 Progress: 25/100  [1:2:1::Easier:Medium:Hard ratio followed]
+
+Scripts and automation needed
+- Plugin to scrape the code on the web itself. 
+  - Option to add the code in an existing file
+- Generate name, tags, file-names, the file and mild context around the code
+  - Essentially to do it in two-three copy operations
+    - Generate file contents
+    - Generate file name
+    - Generate .md row
