@@ -1,0 +1,121 @@
+## Scale from zero to millions of users
+
+It's basically ch-1 of the book.
+
+### Trivial stuff
+
+- Single server setup
+- DNS
+  - Basic working : Req: `www.google.com` -> Res: `199.zzz.yyy.xxx`
+- Single server setup
+- JSON and XML as data interchange format
+- Basics around databases: [more]()
+  - SQL
+  - NoSQL
+- Vertical vs. Horizontal scaling
+  - Vertical: More power to the existing server(like more RAM, CPU, etc.)
+  - Horizontal: More servers
+- Load balancing(multiple algos present)
+  - Needed for horizontal scaling
+  - Splits the load between multiple servers
+- Database replication
+  - Master(Write)-slave(Read, Multiple): 
+    - Master writes, slaves only read
+      - Replica lag a concern
+    - Master goes down, slave becomes master
+    - Slave goes down, master takes over
+    - Read-write load skewed towards WRITE, so master is enough for a certain set of data points
+    - Sharding for horizontal scaling
+      - Re-sharding for load distribution
+      - Celebrity problem
+      - De-normalization how?????
+    - Master as a bottleneck
+    - Improved read performance, fault tolerance, and disaster recovery
+  - Master-master: 
+    - Both can write
+    - Conflict resolution needed
+    - Not used much
+- Cache
+  - In-memory data store(mostly)
+  - Not for long-term storage
+  - Redis, Memcached, Elasticache
+  - Cache invalidation and setup(multiple strategies)
+    - TTL
+    - LRU
+    - Write-through
+    - Write-behind
+  - Reduces load and latency
+  - Considerations
+    - Cache size
+    - Cache eviction policy(not too long, not too short)
+    - Inconsistency between cache and DB
+    - Cache stampede
+- SPOF(Single point of failure)
+  - Load balancer, database, server, etc.
+  - Redundancy/over-provisioning needed
+- CDN(Content Delivery Network)
+  - Caches the content(in HDDs) at multiple locations
+  - Reduces latency and load on source storage
+  - CDN load strategies very similar to cache
+    - Push
+    - Pull
+    - Streaming
+    - Web acceleration
+  - CDN problems also similar to cache
+    - Cache stampede
+    - Inconsistency between cache and source(rare, but possible in cases like for streaming configs, etc.)
+    - Cost is a factor
+  - Akamai, Cloudflare, etc.
+- Stateless and stateful services
+  - Stateless: No memory of previous requests
+    - Easier to scale
+    - Load balancer can send requests to any server
+    - No session management
+    - Might have to fetch and send same data points repeatedly
+  - Stateful: Remembers previous requests
+    - Harder to scale
+    - Load balancer needs to send requests to the same server
+    - Session management needed
+- Geographical expansion
+  - Latency and load balanced
+  - Facilitating regional laws and regulations
+  - Data privacy and security
+  - Redundancy tiers and disaster recovery aided
+  - Testing becomes a "scalability-challenge"
+- Message Q's
+  - RabbitMQ, Kafka, SNS/SQS etc.
+  - Example: Publish individual artwork operations to a queue, and have a worker process them, etc.
+  - Redundancy and fault tolerance, with archivals as in Kafka
+  - Asynchronous communication
+  - Load balancing easier
+  - Message ordering is algo-dependent and config dependent
+  - Producer-consumer model and scaling can be separate
+- Logging, Metrics and automated testing
+  - ELK stack, Prometheus, Grafana, etc.
+  - Automated testing for scalability
+  - Logging and metrics for debugging and performance tuning on live services
+
+### References
+
+**https://blog.teamtreehouse.com/should-you-go-beyond-relational-databases**
+
+- How do we know if we are pushing RDBMS to its limits?
+  - Ugly joins
+  - Many single attribute tables refering to central tables
+  - Using serialized data-points for multiple attributes in a single column
+  - n-to-n relationships counts is high
+- Basically, scale only if scale is needed.
+- Big Table
+  - HBase, Cassandra, Hypertable, etc.
+- Document DB
+  - Focus on individual documents(mostly unrelated to each other)
+  - Project Voldemort, CouchDB, MongoDB, ThruDB and Jackrabbit
+- Graph DB
+  - For very big number of relationships
+  - Neo4j, AllegroGraph and Sesame. FreeBase and DirectedEdge are commercial offerings.
+- Hash tables
+  - For very fast lookups
+  - High scalability
+  - Data inconsistency is a concern. ACID properties are not guaranteed.
+  - DynamoDB, Scalaris, Dynomite, Ringo, MemcacheDB and Tokyo Cabinet
+- Brewer’s CAP Theorem

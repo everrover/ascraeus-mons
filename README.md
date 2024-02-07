@@ -6,6 +6,12 @@ Progress: /100 [1:2:1::Easier:Medium:Hard ratio followed]
 
 ### Table of Contents - System Design - High level design
 
+| --- | --- |
+| Title | Some pointers |
+| --- | --- |
+| [Book : System design interview bu Alex Xu - chapter 1](./system-design/high-level-design/system-design-interview-by-alex-xu.md) | |
+| [FB Memcache case study - 2012 - paper](./system-design/high-level-design/FB_memcache_2012.pdf) | 
+
 Progress: /100
 
 ### Table of Contents - DSA
@@ -52,3 +58,6 @@ Scripts and automation needed
     - Generate file contents
     - Generate file name
     - Generate .md row
+
+plugin -> fetch full page and pass on to localhost 
+(extract html from page with code) -> 
