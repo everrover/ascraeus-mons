@@ -12,7 +12,7 @@ Progress: /100 [1:2:1::Easier:Medium:Hard ratio followed]
 | [Book : System design interview bu Alex Xu - chapter 1](./system-design/high-level-design/system-design-interview-by-alex-xu.md) | |
 | [FB Memcache case study - 2012 - paper](./system-design/high-level-design/FB_memcache_2012.pdf) | 
 
-Progress: /100
+Progress: 2/100
 
 ### Table of Contents - DSA
 
