@@ -10,7 +10,7 @@ Progress: /100 [1:2:1::Easier:Medium:Hard ratio followed]
 | Title | Some pointers |
 | --- | --- |
 | [Book : System design interview bu Alex Xu - chapter 1](./system-design/high-level-design/system-design-interview-by-alex-xu.md) | |
-| [FB Memcache case study - 2012 - paper](./system-design/high-level-design/FB_memcache_2012.pdf) | 
+| [FB Memcache case study - 2012 - paper](./system-design/high-level-design/FB_memcache_2012.pdf) | |
 
 Progress: 2/100
 
@@ -44,6 +44,7 @@ Progress: 2/100
 | [2952. Minimum Number of Coins to be added](.dsa/leetcode/kuiperBelt/MinimumNumberOfCoinsToBeAdded.java) | #array # |
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
 | [2975. Maximum Square Area Removing Fences From Field](./dsa/leetcode/kuiperBelt/MaximumSquareAreaRemovingFencesFromField.java) | #two-pointers #set #enumeration #area-calculation |
+| [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](.dsa/leetcode/kuiperBelt/MaximumNumberSumPricesLessEqualK.java) | #binary-search #dynamic-programming #bit-manipulation #medium |
 | [3014. Minimum Number of Pushes to Type Word I](./dsa/leetcode/kuiperBelt/ManimumNumberOfPushedToTypeWordI.java) | #easy #math |
 | [3015. Count the Number of Houses at a Certain Distance I](./dsa/leetcode/kuiperBelt/CountNumberOfHousesAtCertainDistanceI.java) | #enumeration #distance-calculation #medium #little-logic |
 | --- | --- |
@@ -61,3 +62,11 @@ Scripts and automation needed
 
 plugin -> fetch full page and pass on to localhost 
 (extract html from page with code) -> 
+
+- Pass on contents of a web page to python listener
+- Python listener(Django and DRF based) executes the directive script with parameters
+  - Leetcode
+  - Text addition as an idea to a file
+- Voila!
+
+Prompt added for LC: **<u>[LINK](./prompt_for_plugin_v1.md)</u>**
