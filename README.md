@@ -49,7 +49,7 @@ Progress: 2/100
 | [3015. Count the Number of Houses at a Certain Distance I](./dsa/leetcode/kuiperBelt/CountNumberOfHousesAtCertainDistanceI.java) | #enumeration #distance-calculation #medium #little-logic |
 | --- | --- |
 
-Progress: 25/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 25/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. 
