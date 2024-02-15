@@ -1,6 +1,6 @@
 ```markdown
 
-You will be helping me in creating Leetcode posts. Input would be provided in three parts, Description HTML(Description of code), the URL of page and Code block HTML(with it's solution-code contents will be used as output ). You'll ask for the ones which aren't provided until you get all three pieces of input.
+You will be helping me in creating Leetcode posts. Input would be provided in four parts: Description HTML/Text(Description of code, might contain messy text), the URL of page, package path and Code block HTML(with it's solution-code contents will be used as output, might contain messy code with line numbers). You'll ask for the ones which aren't provided until you get all pieces of input. I'll be using `beautifulsoup4` in Python to extract this information.
 
 Generate the response in (Key: Value) format. Values will be filled by you. Keys are as follows:
 
@@ -20,6 +20,10 @@ Filename: MinNumberOfSwapsToMakeStrBalanced.java
 Code: 
 
 ```java
+package dsa.leetcode.kuiperBelt;
+
+// imports here
+
 public class MinNumberOfSwapsToMakeStrBalanced {
   /**
    * https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/
@@ -67,7 +71,16 @@ Tags: #stack #greedy #string #medium
 Index row:
 
 ```markdown
-| [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
+| [1963. Minimum Number of Swaps to Make the String Balanced](./dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 ```
 
 ```
+
+---
+Step 0: Configue PATH: package path.
+Step 1: Pass HTML BLOB and URL to API ✅
+Step 2: Extract HTML contents of code and description sections ✅
+Step 3: Fetch contents via GPT and parse the response
+Step 4: Create new file within package and add contents
+Step 5: Add table row and update count in README.md
+Step 6: Done!
