@@ -53,13 +53,13 @@ Progress: 2/100
 DSA Progress: 26/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
-- Plugin to scrape the code on the web itself. 
+- Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
   - Option to add the code in an existing file
-- Generate name, tags, file-names, the file and mild context around the code
-  - Essentially to do it in two-three copy operations
-    - Generate file contents
-    - Generate file name
-    - Generate .md row
+- Generate name, tags, file-names, the file and mild context around the code ✅
+  - Essentially to do it in two-three copy operations - did in 1✅
+    - Generate file contents✅
+    - Generate file name✅
+    - Generate .md row✅
 
 plugin -> fetch full page and pass on to localhost 
 (extract html from page with code) -> 
