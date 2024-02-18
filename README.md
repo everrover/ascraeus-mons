@@ -20,7 +20,7 @@ Progress: 2/100
 | Title | Some pointers |
 | --- | --- |
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java) | #dynamic-programming #math #combinatorics #hard |
-| [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard |
+| [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|

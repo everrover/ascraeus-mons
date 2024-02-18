@@ -59,9 +59,9 @@ public class LongestDuplicateSubstring {
   /**
    * URL: https://leetcode.com/problems/longest-duplicate-substring/submissions/
    * This solution utilizes Rabin-Karp algorithm for efficient substring search.
-   * It performs binary search on substring length to find the longest duplicating substring.
+   * It performs binary search on substring length(the entire solution space) to find the longest duplicating substring.
    * 
    * TC: O(n log n) SC: O(n)
-   * #binary-search #sliding-window #rolling-hash #suffix-array #hard
+   * #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space
    */
 }
