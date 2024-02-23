@@ -50,11 +50,12 @@ Progress: 2/100
 | [3014. Minimum Number of Pushes to Type Word I](./dsa/leetcode/kuiperBelt/ManimumNumberOfPushedToTypeWordI.java) | #easy #math |
 | [3015. Count the Number of Houses at a Certain Distance I](./dsa/leetcode/kuiperBelt/CountNumberOfHousesAtCertainDistanceI.java) | #enumeration #distance-calculation #medium #little-logic |
 | [3039. Apply Operations to Make String Empty](./dsa/leetcode/kuiperBelt/LastNonEmptyString.java) | #frequency-count #string #medium |
+| [3040. Maximum Number of Operations With the Same Score II](./dsa/leetcode/kuiperBelt/MaximumNumberOfOperationsWithTheSameScoreII.java) | #array #dynamic-programming #memoization #medium |
 | [3043. Find the Length of the Longest Common Prefix](./dsa/leetcode/kuiperBelt/LongestCommonPrefix.java) | #trie #string #array #medium |
 | [3045. Count Prefix and Suffix Pairs II](./dsa/leetcode/kuiperBelt/CountPrefixAndSuffixPairsII.java) | #trie #string #augmented-data-str #hard |
 | --- | --- |
 
-DSA Progress: 30/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 31/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
