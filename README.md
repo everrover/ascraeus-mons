@@ -52,10 +52,11 @@ Progress: 2/100
 | [3039. Apply Operations to Make String Empty](./dsa/leetcode/kuiperBelt/LastNonEmptyString.java) | #frequency-count #string #medium |
 | [3040. Maximum Number of Operations With the Same Score II](./dsa/leetcode/kuiperBelt/MaximumNumberOfOperationsWithTheSameScoreII.java) | #array #dynamic-programming #memoization #medium |
 | [3043. Find the Length of the Longest Common Prefix](./dsa/leetcode/kuiperBelt/LongestCommonPrefix.java) | #trie #string #array #medium |
+| [3044. Most Frequent Prime](./dsa/leetcode/kuiperBelt/MostFrequentPrime.java) | #array #dfs #recursion #prime-check #medium #sieve-of-eratosthenes |
 | [3045. Count Prefix and Suffix Pairs II](./dsa/leetcode/kuiperBelt/CountPrefixAndSuffixPairsII.java) | #trie #string #augmented-data-str #hard |
 | --- | --- |
 
-DSA Progress: 31/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 32/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
