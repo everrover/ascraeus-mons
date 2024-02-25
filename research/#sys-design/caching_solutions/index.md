@@ -5,6 +5,13 @@
 - [Redis](./redis.md)
 - Memcache
 - Couchbase
+- Apache Ignite
+- Hazelcast IMDG
+- Mcrouter
+- Varnish Cache
+- Squid Caching Proxy
+- NGINX
+- Apache Traffic Server
 
 **Niche cases**
 - CDNs for static content storage(helps in load on source server as well)
