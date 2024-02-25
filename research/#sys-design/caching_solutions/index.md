@@ -1,6 +1,8 @@
 # Open-source caching solutions
 
-- [Redis]()
+❗Note: All examples i present will be based off either Java or in shell.
+
+- [Redis](./redis.md)
 - Memcache
 - Couchbase
 
