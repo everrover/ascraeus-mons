@@ -102,3 +102,4 @@ Client-end
 **Data str optimizations, how?**
 
 - [Ziplists](https://redis.com/glossary/redis-ziplist/#:~:text=A%20ziplist%20is%20a%20compressed,allocations%20and%20reduces%20memory%20overhead.)
+- [List](https://www.tecmint.com/open-source-caching-tools-for-linux/#1_Redis)
