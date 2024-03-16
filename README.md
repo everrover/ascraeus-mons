@@ -57,9 +57,10 @@ Progress: 3/100
 | [3048. Earliest Second to Mark Indices I](./dsa/leetcode/kuiperBelt/EarliestSecondToMarkIndicesI.java) | #binary-search #array #optimization #medium |
 | [3063. Linked List Frequency](./dsa/leetcode/kuiperBelt/LinkedListFrequency.java) | #hash-table #linked-list #counting #medium |
 | [3068. Find the Maximum Sum of Node Values](./dsa/leetcode/kuiperBelt/FindTheMaximumSumOfNodeValues.java) | #array #greedy #bit-manipulation #tree #min-tracking #math #hard |
+| [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium |
 | --- | --- |
 
-DSA Progress: 35/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 36/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
