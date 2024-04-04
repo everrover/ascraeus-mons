@@ -60,10 +60,11 @@ Progress: 3/100
 | [3068. Find the Maximum Sum of Node Values](./dsa/leetcode/kuiperBelt/FindTheMaximumSumOfNodeValues.java) | #array #greedy #bit-manipulation #tree #min-tracking #math #hard || [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard |
 | [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium |
 | [3101. Count Alternating Subarrays](./dsa/leetcode/kuiperBelt/CountAlternatingSubarrays.java) | #array #math #dynamic-programming #medium |
+| [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
 | --- | --- |
 
-DSA Progress: 40/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 41/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
