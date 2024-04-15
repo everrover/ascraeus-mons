@@ -20,6 +20,7 @@ Progress: 3/100
 | Title | Some pointers |
 | --- | --- |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium |
+| [827. Making A Large Island](./dsa/leetcode/kuiperBelt/MakingALargeIsland.java) | #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process |
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java) | #dynamic-programming #math #combinatorics #hard |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
@@ -65,7 +66,7 @@ Progress: 3/100
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
 | --- | --- |
 
-DSA Progress: 42/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 43/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
