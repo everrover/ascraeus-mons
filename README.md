@@ -21,12 +21,14 @@ Progress: 3/100
 | --- | --- |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium |
 | [827. Making A Large Island](./dsa/leetcode/kuiperBelt/MakingALargeIsland.java) | #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process |
+| [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java) | #dynamic-programming #math #combinatorics #hard |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard |
 | [2208. Minimum Operations to Halve Array Sum](./dsa/leetcode/kuiperBelt/MinimumOperationsToHalveArraySum.java) | #heap #priority-queue #greedy #medium |
+| [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2784. Check if Array is Good](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
 | [2788. Split Strings by Separator](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
@@ -67,7 +69,7 @@ Progress: 3/100
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
 | --- | --- |
 
-DSA Progress: 44/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 46/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
