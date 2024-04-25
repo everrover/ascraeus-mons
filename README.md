@@ -24,6 +24,7 @@ Progress: 3/100
 | [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java) | #dynamic-programming #math #combinatorics #hard |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space |
+| [1627. Graph Connectivity With Threshold](./dsa/leetcode/kuiperBelt/GraphConnectivityWithThreshold.java) | #array #math #union-find #number-theory #hard |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard |
@@ -69,7 +70,7 @@ Progress: 3/100
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
 | --- | --- |
 
-DSA Progress: 46/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 47/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
