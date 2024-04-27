@@ -1,5 +1,7 @@
 package dsa.leetcode.kuiperBelt;
 
+import java.util.*;
+
 /**
  * https://leetcode.com/problems/graph-connectivity-with-threshold/
  * This solution uses Union-Find data structure to determine if two cities are connected.

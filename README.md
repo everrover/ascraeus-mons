@@ -19,6 +19,8 @@ Progress: 3/100
 <!-- | --- | --- | -->
 | Title | Some pointers |
 | --- | --- |
+| [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
+| [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java) | #simulation #string #easy |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium |
 | [827. Making A Large Island](./dsa/leetcode/kuiperBelt/MakingALargeIsland.java) | #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process |
 | [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
@@ -70,7 +72,7 @@ Progress: 3/100
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
 | --- | --- |
 
-DSA Progress: 47/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 49/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
