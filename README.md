@@ -70,9 +70,10 @@ Progress: 3/100
 | [3101. Count Alternating Subarrays](./dsa/leetcode/kuiperBelt/CountAlternatingSubarrays.java) | #array #math #dynamic-programming #medium |
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
+| [3152. Special Array II](./dsa/leetcode/kuiperBelt/SpecialArrayII.java) | #prefix-sum #array #medium |
 | --- | --- |
 
-DSA Progress: 49/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 50/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
