@@ -71,10 +71,10 @@ Progress: 3/100
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
 | [3152. Special Array II](./dsa/leetcode/kuiperBelt/SpecialArrayII.java) | #prefix-sum #array #medium |
-| [3154. Find Number of Ways to Reach the K-th Stair](./dsa/leetcode/kuiperBelt/FindNumberOfWaysToReachTheKthStair.java) | #math #dynamic-programming #bit-manipulation #memoization #combinatorics #hard |
+| [3154. Find Number of Ways to Reach the K-th Stair](./dsa/leetcode/kuiperBelt/FindNumberOfWaysToReachTheKthStair.java)+1 | #math #dynamic-programming #bit-manipulation #memoization #combinatorics #hard #isolative-perception |
 | --- | --- |
 
-DSA Progress: 51/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 52/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
