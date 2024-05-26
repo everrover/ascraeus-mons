@@ -71,6 +71,7 @@ Progress: 3/100
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
 | [3152. Special Array II](./dsa/leetcode/kuiperBelt/SpecialArrayII.java) | #prefix-sum #array #medium |
+| [3153. Sum of Digit Differences of All Pairs](./dsa/leetcode/kuiperBelt/SumOfDigitDifferencesOfAllPairs.java) | #array #hash-table #math #counting #medium |
 | [3154. Find Number of Ways to Reach the K-th Stair](./dsa/leetcode/kuiperBelt/FindNumberOfWaysToReachTheKthStair.java)+1 | #math #dynamic-programming #bit-manipulation #memoization #combinatorics #hard #isolative-perception |
 | [3160. Find the Number of Distinct Colors Among the Balls](./dsa/leetcode/kuiperBelt/FindNumberOfDistinctColorsAmongBalls.java) | #hash-map #array #medium |
 | [3161. Block Placement Queries](./dsa/leetcode/kuiperBelt/BlockPlacementQueries.java) | #segment-tree #treeset #medium |
