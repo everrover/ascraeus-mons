@@ -10,7 +10,7 @@ package dsa.leetcode.kuiperBelt;
  * TC: O(n^2) SC: O(n^2)
  * #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process
  */
-class Solution {
+class MakingALargeIsland {
   static int m, n;
   public int largestIsland(int[][] grid) {
     m = grid.length; n = grid[0].length;

@@ -2,7 +2,7 @@ package dsa.leetcode.kuiperBelt;
 
 import java.util.*;
 
-class Solution {
+class NumberOfDistinctIslands {
   /**
    * https://leetcode.com/problems/number-of-distinct-islands/
    * 

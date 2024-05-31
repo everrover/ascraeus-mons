@@ -24,9 +24,9 @@ public class MaximumNumberSumPricesLessEqualK {
       return res;
   }
 
-  private boolean check(long check, int x) {
+  private int check(long check, int x) {
       // Assume this method correctly calculates the sum of prices up to 'check' for a given 'x'
       // Placeholder for actual implementation
-      return true;
+      return 0;
   }
 }

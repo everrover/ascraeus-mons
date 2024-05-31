@@ -10,18 +10,18 @@ package dsa.leetcode.kuiperBelt;
  * #hash-table #linked-list #counting #medium
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 
 class Solution {
+
+  // Definition for singly-linked list.
+  public class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+  }
+  
   public ListNode frequenciesOfElements(ListNode head) {
     int max = 0;
     ListNode curr = head;

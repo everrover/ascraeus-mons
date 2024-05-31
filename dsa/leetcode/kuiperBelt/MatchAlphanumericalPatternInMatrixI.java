@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-class Solution {
+class MatchAlphanumericalPatternInMatrixI {
   /**
    * Applied simple brute force(no backtracking here) approach to solve the problem.
    * 
