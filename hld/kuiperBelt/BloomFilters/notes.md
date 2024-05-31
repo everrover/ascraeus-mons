@@ -154,3 +154,4 @@ BF.EXISTS key item
 - [Go code](https://github.com/iamthebot/hyperbloom/blob/master/naivestriped.go)
 - https://redis.io/docs/latest/develop/data-types/probabilistic/bloom-filter/
 - https://redis.io/docs/latest/develop/data-types/probabilistic/cuckoo-filter/
+- https://github.com/guyroyse/understanding-probabilistic-data-structures/blob/master/code/bloom-filter/javascript/bloom.js

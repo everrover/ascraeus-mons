@@ -71,6 +71,7 @@ Progress: 3/100
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
 | [3141. Maximum Hamming Distances](./dsa/leetcode/kuiperBelt/MaxHammingDistances.java) | #array #bit-manipulation #breadth-first-search #hard #brute-force #bit-manipulation #bfs #array #hard |
+| [3143. Maximum Points Inside the Square](./dsa/leetcode/kuiperBelt/MaximumPointsInsideTheSquare.java) | #binary-search #sorting #geometry #hash-table #string #logical #medium |
 | [3152. Special Array II](./dsa/leetcode/kuiperBelt/SpecialArrayII.java) | #prefix-sum #array #medium |
 | [3153. Sum of Digit Differences of All Pairs](./dsa/leetcode/kuiperBelt/SumOfDigitDifferencesOfAllPairs.java) | #array #hash-table #math #counting #medium |
 | [3154. Find Number of Ways to Reach the K-th Stair](./dsa/leetcode/kuiperBelt/FindNumberOfWaysToReachTheKthStair.java)+1 | #math #dynamic-programming #bit-manipulation #memoization #combinatorics #hard #isolative-perception |
@@ -78,7 +79,7 @@ Progress: 3/100
 | [3161. Block Placement Queries](./dsa/leetcode/kuiperBelt/BlockPlacementQueries.java) | #segment-tree #treeset #medium |
 | --- | --- |
 
-DSA Progress: 55/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 56/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
