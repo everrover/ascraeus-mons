@@ -79,9 +79,10 @@ Progress: 3/100
 | [3160. Find the Number of Distinct Colors Among the Balls](./dsa/leetcode/kuiperBelt/FindNumberOfDistinctColorsAmongBalls.java) | #hash-map #array #medium |
 | [3161. Block Placement Queries](./dsa/leetcode/kuiperBelt/BlockPlacementQueries.java) | #segment-tree #treeset #medium |
 | [3164. Find the Number of Good Pairs II](./dsa/leetcode/kuiperBelt/NumberOfGoodPairsII.java) | #array #hash-table #medium |
+| [3170. Lexicographically Minimum String After Removing Stars](./dsa/leetcode/kuiperBelt/LexicographicallyMinimumStringAfterRemovingStars.java) | #hash-table #string #stack #greedy #heap-priority-queue #medium |
 | --- | --- |
 
-DSA Progress: 58/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 59/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
