@@ -2,7 +2,11 @@
 
 ### Table of Contents - System Design - Low level design
 
-Progress: /100 [1:2:1::Easier:Medium:Hard ratio followed]
+Progress: 1/100 [1:2:1::Easier:Medium:Hard ratio followed]
+
+| Title | Tags |
+| --- | --- |
+| [Head First Design Patterns - Chapter 1](./lld/oopdesignpatterns/headfirstdesign/ch1.md) | #strategy-pattern #design-patterns #oop #java #easy |
 
 ### Table of Contents - System Design - High level design
 
