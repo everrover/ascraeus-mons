@@ -1,5 +1,29 @@
 ### Chapter 1: Intro to Design Patterns = *Strategy Pattern*
 
+**The Strategy Pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
+> Design pattern
+> ==============
+> Identify the aspects of your application that vary and separate them from what stays the same.
+> ==============
+> Essentially, encapsulate what varies. DRY principle
+
+> Design principle
+> ================
+> Program to an interface[any super-type which have to be implemented concretely], not an implementation
+> ================
+> Allow behavior to be extended without modifying the code that uses it. i.e. polymorphism
+> In case of Java, it is achieved by using interfaces, abstract classes and super-classes
+
+> Design principle
+> ================
+> Favor composition over inheritance
+> ================
+> Inheritance = "is-a" relationship, Composition = "has-a" relationship. `composition > inheritance`.
+> Composition allows runtime behavior change, inheritance is static
+
+---
+
 ```java
 public class Duck {
   public void quack() {
