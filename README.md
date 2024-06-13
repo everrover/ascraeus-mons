@@ -6,7 +6,9 @@ Progress: 1/100 [1:2:1::Easier:Medium:Hard ratio followed]
 
 | Title | Tags |
 | --- | --- |
-| [Head First Design Patterns - Chapter 1](./lld/oopdesignpatterns/headfirstdesign/ch1.md) | #strategy-pattern #design-patterns #oop #java #easy |
+| [Head First Design Patterns - Chapter 1 - Strategy Pattern](./lld/oopdesignpatterns/headfirstdesign/strategy_pattern_ch1.md) | #strategy-pattern #design-patterns #oop #java #easy |
+| [Head First Design Patterns - Chapter 2 - Observer Pattern](./lld/oopdesignpatterns/headfirstdesign/obs_pattern_ch2.md) | #strategy-pattern #design-patterns #oop #java #easy |
+| [Builder Pattern](./lld/oopdesignpatterns/headfirstdesign/obs_pattern_ch2.md) | #strategy-pattern #design-patterns #oop #java #easy |
 
 ### Table of Contents - System Design - High level design
 
@@ -24,6 +26,7 @@ Progress: 3/100
 | Title | Some pointers |
 | --- | --- |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
+| [489. Robot Room Cleaner](./dsa/leetcode/kuiperBelt/RobotRoomCleaner.java) | #depth-first-search #simulation #hard |
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java) | #simulation #string #easy |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium |
 | [827. Making A Large Island](./dsa/leetcode/kuiperBelt/MakingALargeIsland.java) | #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process |
@@ -86,7 +89,7 @@ Progress: 3/100
 | [3170. Lexicographically Minimum String After Removing Stars](./dsa/leetcode/kuiperBelt/LexicographicallyMinimumStringAfterRemovingStars.java) | #hash-table #string #stack #greedy #heap-priority-queue #medium |
 | --- | --- |
 
-DSA Progress: 59/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 60/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
