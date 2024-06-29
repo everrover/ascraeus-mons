@@ -87,9 +87,10 @@ Progress: 3/100
 | [3161. Block Placement Queries](./dsa/leetcode/kuiperBelt/BlockPlacementQueries.java) | #segment-tree #treeset #medium |
 | [3164. Find the Number of Good Pairs II](./dsa/leetcode/kuiperBelt/NumberOfGoodPairsII.java) | #array #hash-table #medium |
 | [3170. Lexicographically Minimum String After Removing Stars](./dsa/leetcode/kuiperBelt/LexicographicallyMinimumStringAfterRemovingStars.java) | #hash-table #string #stack #greedy #heap-priority-queue #medium |
+| [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium |
 | --- | --- |
 
-DSA Progress: 60/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 61/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
