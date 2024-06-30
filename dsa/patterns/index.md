@@ -10,34 +10,30 @@
 
 ```java
 public class BIT{
-  private int[] bit;
-  private int[] arr;
-  private int n;
-
-  public BIT(int n, int []arr){
+  int[] arr, bit;
+  int n;
+  public BIT(int n, int arr[]){
     this.arr = arr;
-    this.n = n+1;
-    this.bit = new int[n+1];
-    for(int i-0; i<arr.length; i++) update(i+1, arr[i]);
-  }
-
-  private lsb(int x){
-    return x&-x;
-  }
-
-  public void update(int k, int val){
-    for(int x=k+1; x<n; x+=lsb(x)) bit[x] += (val-arr[k]);
-    arr[k] = val;
+    this.n = n;
+    bit= new int[n+1];
+    for(int i=0; i<n; i++){
+      update(i, arr[i]);
+    }
   }
 
   public int getsum(int k){
     int sum = 0;
-    for(; k<n; k+=lsb(k)) sum += bit[k];
+    for(k=k+1; k<n; k-=(k&-k)) sum+=bit[k];
     return sum;
   }
 
-  public void getsum(int l, int r){
-    return getsum(r)-(l>1?getsum(l-1):0);
+  public void update(int k, int val){
+    for(int x=k+1; x<n; x-=(x&-x)) bit[x]+=(val-arr[k]);
+    arr[k] = val;
+  }
+
+  public int getsum(int k){
+    return getsum(a)-b>0?getsum(b):0;
   }
 }
 ```

@@ -4,6 +4,9 @@
 
 > Segment tree is a data structure that allows answering range queries over an array effectively, while still being flexible enough to allow modifying the array. This includes finding the sum of consecutive array elements a[l…r], or finding the minimum element in a such a range in O(logn) time.
 
+**TC::O(nlogn) for construction, O(logn) for query, O(logn) for update**
+**SC::O(2n=n) for construction and upkeep**
+
 ### When can it be used
 
 - Associative property should hold f(a, f(b,c)) = f(f(a,b), c)
@@ -80,128 +83,196 @@ public class SegmentTree {
 ```
 
 **Short version**
+**Practice** :: Target 7mins
   
 ```java
-public class MaxQuerySegmentTree {
-  private int[] st;
-  private int n;
-  private int[] arr;
-
-  public MaxQuerySegmentTree(int[] arr) {
-    n = arr.length;
-    int x = (int) (Math.ceil(Math.log(n) / Math.log(2))); // log2(n)
-    int max_size = 2 * (int) Math.pow(2, x) - 1;
-    st = new int[max_size];
-    constructST(arr, 0, n - 1, 0);
+// ...
+private int constructST(int[] arr, int ss, int se, int si) {
+  if (ss == se) {
+    st[si] = arr[ss];
+    return arr[ss];
   }
-
-  private int getMid(int s, int e) {
-    return s + (e - s) / 2;
-  }
-
-  private int constructST(int[] arr, int ss, int se, int si) {
-    if (ss == se) {
-      st[si] = arr[ss];
-      return arr[ss];
-    }
-    int mid = getMid(ss, se);
-    return st[si] = Math.max(constructST(arr, ss, mid, si * 2 + 1), constructST(arr, mid + 1, se, si * 2 + 2));
-  }
-
-  private int getMax(int ss, int se, int qs, int qe, int si) {
-    if (qs <= ss && qe >= se) return st[si]; // total overlap
-    if (se < qs || ss > qe) return -1; // no overlap
-    int mid = getMid(ss, se); // partial overlap
-    return Math.max(getMax(ss, mid, qs, qe, 2 * si + 1), getMax(mid + 1, se, qs, qe, 2 * si + 2));
-  }
-
-  private int update(int[] arr, int ss, int se, int i, int newVal, int si) {
-    if (i < ss || i > se) Integer.MIN_VALUE;
-    if (ss == se) {
-      arr[i] = newVal;
-      return st[si] = newVal;
-    }
-    int mid = getMid(ss, se);
-    return st[si] = Math.max(update(arr, ss, mid, i, newVal, 2 * si + 1), update(arr, mid + 1, se, i, newVal, 2 * si + 2));
-  }
-
-  public void update(int i, int newVal) {
-    update(arr, 0, n - 1, i, newVal, 0);
-  }
-
-  public int getMax(int qs, int qe) {
-    return getMax(0, n - 1, qs, qe, 0);
-  }
-
-  public static void main(String[] args) {
-    int[] arr = {1, 3, 5, 7, 9, 11};
-    MaxQuerySegmentTree tree = new MaxQuerySegmentTree(arr);
-    System.out.println(tree.getMax(0, 5, 1, 3, 0)); // 7
-    tree.update(arr, 0, 5, 1, 10, 0);
-    System.out.println(tree.getMax(0, 5, 1, 3, 0)); // 10
-  }
+  int mid = getMid(ss, se);
+  return st[si] = Math.max(constructST(arr, ss, mid, si * 2 + 1), constructST(arr, mid + 1, se, si * 2 + 2));
 }
-```
 
-**Practice** :: Target 7mins
+private int getMax(int ss, int se, int qs, int qe, int si) {
+  if (qs <= ss && qe >= se) return st[si]; // total overlap
+  if (se < qs || ss > qe) return -1; // no overlap
+  int mid = getMid(ss, se); // partial overlap
+  return Math.max(getMax(ss, mid, qs, qe, 2 * si + 1), getMax(mid + 1, se, qs, qe, 2 * si + 2));
+}
+
+private int update(int[] arr, int ss, int se, int i, int newVal, int si) {
+  if (i < ss || i > se) Integer.MIN_VALUE;
+  if (ss == se) {
+    arr[i] = newVal;
+    return st[si] = newVal;
+  }
+  int mid = getMid(ss, se);
+  return st[si] = Math.max(update(arr, ss, mid, i, newVal, 2 * si + 1), update(arr, mid + 1, se, i, newVal, 2 * si + 2));
+}
+// ...
+```
 
 ```java
-public class MinQSegmentTree {
-  private int[] arr;  
-  private int[] st;
-  private int n;
-
-  public MinQSegmentTree(int []arr){
-    int n = arr.length;
-    int x = (int) (Math.ceil(Math.log(n)/Math.log(2)));
-    int maxSize = (int)Math.pow(2, x)*2-1;
-    st = new int[maxSize];
-    this.arr = arr;
-    construct();
+// ...
+private int construct(int ss, int se, int si){
+  if(ss == se){
+    return st[si] = arr[ss];
+  }else{
+    int mid = getMid(ss, se);
+    return st[si] = Math.min(construct(ss, mid, si*2+1), construct(mid+1, se, si*2+2));
   }
-
-  private int construct(int ss, int se, int si){
-    if(ss == se){
-      return st[si] = arr[ss];
-    }else{
-      int mid = getMid(ss, se);
-      return st[si] = Math.min(construct(ss, mid, si*2+1), construct(mid+1, se, si*2+2));
-    }
-  }
-
-  private int getMin(int ss, int se, int qs, int qe, int si){
-    if(qs<=ss && qe>=se) return st[si];
-    else if(qs>se || qe<ss) return Integer.MAX_VALUE;
-    else{
-      int mid = getMid(ss, se);
-      return Math.min(getMin(ss, mid, qs, qe, si*2+1), getMin(mid+1, se, qs, qe, si*2+2));
-    }
-  }
-  private update(int ss, int se, int si, int idx, int newVal){
-    if(idx<ss || idx >se) return Integer.MAX_VALUE;
-    else if(ss == se) return st[si] = arr[idx] = newVal;
-    else{
-      int mid = getMid(ss, se);
-      if(idx >= ss && idx <=mid) update(ss, mid, si*2+1, idx, newVal);
-      else update(mid+1, idx si*2+1, idx, newVal);
-      return st[si] = Math.min(st[si*2+1], st[si*2+2]);
-    }
-  }
-
-  private int getMin(int qs, int qe){
-    getMin(0, n-1, qs, qe, 0);
-  }
-
-  private void update(int idx, int newVal){
-    update(0, n-1, 0, idx, newVal);
-  }
-
 }
+
+private int getMin(int ss, int se, int qs, int qe, int si){
+  if(qs<=ss && qe>=se) return st[si];
+  else if(qs>se || qe<ss) return Integer.MAX_VALUE;
+  else{
+    int mid = getMid(ss, se);
+    return Math.min(getMin(ss, mid, qs, qe, si*2+1), getMin(mid+1, se, qs, qe, si*2+2));
+  }
+}
+private update(int ss, int se, int si, int idx, int newVal){
+  if(idx<ss || idx >se) return Integer.MAX_VALUE;
+  else if(ss == se) return st[si] = arr[idx] = newVal;
+  else{
+    int mid = getMid(ss, se);
+    if(idx >= ss && idx <=mid) update(ss, mid, si*2+1, idx, newVal);
+    else update(mid+1, idx si*2+1, idx, newVal);
+    return st[si] = Math.min(st[si*2+1], st[si*2+2]);
+  }
+}
+// ...
 ```
+
+Ref:: https://cp-algorithms.com/data_structures/segment_tree.html
+
+### Advanced variants
+
+- Finding GCD(and LCM) of a range
+  ```txt
+  gcd(i) = gcd(gcd(i*2+1), gcd(i*2+2))
+  search(i,l,r) = if l<=ss && r>=se return st[i]
+                  else if r<ss || l>se return 0
+                  else return gcd(search(i*2+1,l,r), search(i*2+2,l,r))
+  ```
+
+- Counting the number of zeros, searching for the k-th zero
+  ```txt
+  // build, update and count is ~ to sum query
+  count(i) = count(i*2+1) + count(i*2+2)
+  search(i,k) = if k<=count(i*2+1) search(i*2+1) else search(i*2+2)
+  ```
+  ```java
+  public int search(int si, int k, int ss, int se) {
+    if (k > st[si]) return -1;
+    if (ss == se) return ss;
+    int mid = getMid(ss, se);
+    if (k <= st[si * 2 + 1]) return search(si * 2 + 1, k, ss, mid);
+    return search(si * 2 + 2, k - st[si * 2 + 1], mid + 1, se);
+  }
+  ```
+
+- Find max and it's occurance count
+  ```java
+  public int[] construct(int ss, int se, int si) {
+    if (ss == se) {
+      return st[si] = new int[]{arr[ss], 1};
+    }
+    int mid = getMid(ss, se);
+    int[] left = construct(ss, mid, si * 2 + 1);
+    int[] right = construct(mid + 1, se, si * 2 + 2);
+    if (left[0] == right[0]) {
+      return st[si] = new int[]{left[0], left[1] + right[1]};
+    }
+    return st[si] = new int[]{Math.max(left[0], right[0]), left[0] > right[0] ? left[1] : right[1]};
+  }
+
+  public int[] getMax(int ss, int se, int qs, int qe, int si) {
+    if (qs <= ss && qe >= se) return st[si];
+    if (se < qs || ss > qe) return new int[]{Integer.MIN_VALUE, 0};
+    int mid = getMid(ss, se);
+    int[] left = getMax(ss, mid, qs, qe, si * 2 + 1);
+    int[] right = getMax(mid + 1, se, qs, qe, si * 2 + 2);
+    if (left[0] == right[0]) {
+      return new int[]{left[0], left[1] + right[1]};
+    }
+    return new int[]{Math.max(left[0], right[0]), left[0] > right[0] ? left[1] : right[1]};
+  }
+
+  public int getMaxValue(int ss, int se, int qs, int qe, int si) {
+    return getMax(ss, se, qs, qe, si)[0];
+  }
+
+  public int getMaxCount(int ss, int se, int qs, int qe, int si) {
+    return getMax(ss, se, qs, qe, si)[1];
+  }
+
+  public void update(int ss, int se, int i, int newVal, int si) {
+    if (i < ss || i > se) return;
+    if (ss == se) {
+      arr[i] = st[si][0] = newVal;
+      return;
+    }
+    int mid = getMid(ss, se);
+    update(ss, mid, i, newVal, si * 2 + 1);
+    update(mid + 1, se, i, newVal, si * 2 + 2);
+    if (st[si * 2 + 1][0] == st[si * 2 + 2][0]) {
+      st[si] = new int[]{st[si * 2 + 1][0], st[si * 2 + 1][1] + st[si * 2 + 2][1]};
+    } else {
+      st[si] = new int[]{Math.max(st[si * 2 + 1][0], st[si * 2 + 2][0]), st[si * 2 + 1][0] > st[si * 2 + 2][0] ? st[si * 2 + 1][1] : st[si * 2 + 2][1]};
+    }
+  }
+  ```
+
+- Searching for an array prefix with a given amount
+  | Find the smallest index i such that the sum of the first `i` elements of the array is at least `x`
+  ```txt
+  // build, update and count is ~ to sum query
+  sum(i) = sum(i*2+1) + sum(i*2+2)
+  search(i,x) = if x<=sum(i*2+1) search(i*2+1,x) else search(i*2+2,x)
+  ```
+  ```java
+  public int search(int si, int x, int ss, int se) { // init with search(0, x, 0, n-1)
+    if (qs > se || qe < ss) return -1;
+    else if (ss == se) return ss;
+    int mid = getMid(ss, se);
+    int left = search(si * 2 + 1, x, ss, mid);
+    if (left == -1) return left; // on left we may or may not find the value
+    return search(si * 2 + 2, x, mid + 1, se);
+  }
+  ```
+  p.s. Binary-search can be used to find the pivot in prefix sum array. Also, BST essentially mimics the above behaviour, successor/predecessor op, with O(logn) time complexity for both search and update operations
+
+- Searching for the first element greater than a given amount
+  | For a given value `x` and a range  `a[l...r]`  find the smallest `a[i]` in the range  `a[l...r]`, such that `a[i]` is greater than `x`.
+  ```txt
+  max(i) = max(max(i*2+1), max(i*2+2))
+  search(i,x) = if x>=max(i) return -1
+                else if x<max(i*2+1) search(i*2+1,x) else search(i*2+2,x)
+  ```
+  ```java
+  public int search(int si, int x, int ss, int se, int qs, int qe) { // init with search(0, x, 0, n-1, l, r)
+    if (qs > se || qe < ss) return -1;
+    else if (ss == se) return ss;
+    int mid = getMid(ss, se);
+    int left = search(si * 2 + 1, x, ss, mid, qs, qe);
+    if (left != -1) return left;
+    return search(si * 2 + 2, x, mid + 1, se, qs, qe);
+  }
+  ```
+
+- 
+
 
 ### Fenwick tree
 
 > A Fenwick tree or binary indexed tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers.
+
+**TC::O(nlogn) for construction, O(logn) for query, O(logn) for update**
+**SC::O(n) for construction and upkeep**
 
 ### When can it be used
 
@@ -211,18 +282,18 @@ public class MinQSegmentTree {
 
 **Tree exist w.r.t. bits set**
 
-```txt
+```markdown
 // parent-child relationship
 0 (0000)
 |
 // only 1 bit set more than lsb(0)=0 [from right]
 1 (*0001*)    2 (001**0**)  4 (0**1**00)              8 (**1**000)
               |             |                         |
-              3 (*0011*)    5 (0101) 6 (011**0**)     9 (1001)  10 (10**1**0) 12 (1**1**00)
-                                     |                          |             | 
-                                     7 (*0111*)                 11 (*1011*)   13 (110**1**) 14 (11**1**0)
-                                                                                            |
-                                                                                            15 (**1111**)
+              3 (*0011*)    5(*0101*) 6 (011**0**)    9(*1001*)  10 (10**1**0) 12 (1**1**00)
+                                      |                          |             | 
+                                      7 (*0111*)                 11 (*1011*)   13 (110**1**) 14 (11**1**0)
+                                                                                             |
+                                                                                             15 (*1111*)
 
 lsb(i) = i & -i // least significant bit - & op with 2s complement
 parent(i) = i - lsb(i) // used for query
@@ -250,7 +321,7 @@ and remaining bits are the count of elements for which we store range info in th
                                                                   15 (14,14)
 ```
 
-**A version with expl**
+**A version with expl** :: Target 4mins
 
 ```java
 public class FenwickTree {
@@ -268,11 +339,15 @@ public class FenwickTree {
     ft = new int[n + 1];
     this.n = n;
     this.arr = arr;
-    for(int i = 0; i < n; i++) update(i+1, arr[i]);
+    for(int i = 0; i < n; i++) update(i, arr[i]);
   }
 
-  private int parent(int i) { // parent of node i
+  private int parent(int i) { // parent of node i - use i-(i&-i) for parent node and not method
     return i - lsb(i);
+  }
+
+  private int next(int i) { // next of node i - use i+(i&-i) for next node and not method
+    return i + lsb(i);
   }
 
   private int lsb(int i) { // least significant bit
@@ -281,7 +356,7 @@ public class FenwickTree {
 
   public int rangesumquery(int b) {
     int sum = 0;
-    for (; b>0; b=parent(b)) sum+=ft[b];
+    for (b=b+1; b>0; b=parent(b)) sum+=ft[b];
     return sum;
   }
 
@@ -290,11 +365,8 @@ public class FenwickTree {
   }
 
   public void update(int k, int newval) {
-    for(int idx=k+1; idx<ft.length; idx+=lsb(idx)) ft[idx]+=(newval-arr[k]);
+    for(int idx=k+1; idx<ft.length; idx=next(idx)) ft[idx]+=(newval-arr[k]);
     arr[k] = newval;
   }
 }
 ```
-
-### Advanced variants
-
