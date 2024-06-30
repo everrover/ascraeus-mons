@@ -1,6 +1,4 @@
-# Segment tree & Fenwick tree
-
-## Segment tree
+## Segment tree & [Fenwick tree](./binindexedtree.md)
 
 > Segment tree is a data structure that allows answering range queries over an array effectively, while still being flexible enough to allow modifying the array. This includes finding the sum of consecutive array elements a[l…r], or finding the minimum element in a such a range in O(logn) time.
 
@@ -308,107 +306,116 @@ Ref:: https://cp-algorithms.com/data_structures/segment_tree.html
   }
   ```
 
+- Searching for the k-th largest element in a range
+  ```java
+  // ???
+  ```
 
-### Fenwick tree
+### Storing vertices at each node - Merge Sort Tree
 
-> A Fenwick tree or binary indexed tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers.
+Storing data structures on segment tree nodes. For example, storing a sorted array(built via merged arrays on child nodes) for binary search based queries of current segment on each node. 
 
-**TC::O(nlogn) for construction, O(logn) for query, O(logn) for update**
-**SC::O(n) for construction and upkeep**
-
-### When can it be used
-
-- Associative property should hold f(a, f(b,c)) = f(f(a,b), c)
-- Mathematical inverse should be possible for functions
-- Examples: Addition, Multiplication, etc.
-
-**Tree exist w.r.t. bits set**
-
-```markdown
-// parent-child relationship
-0 (0000)
-|
-// only 1 bit set more than lsb(0)=0 [from right]
-1 (*0001*)    2 (001**0**)  4 (0**1**00)              8 (**1**000)
-              |             |                         |
-              3 (*0011*)    5(*0101*) 6 (011**0**)    9(*1001*)  10 (10**1**0) 12 (1**1**00)
-                                      |                          |             | 
-                                      7 (*0111*)                 11 (*1011*)   13 (110**1**) 14 (11**1**0)
-                                                                                             |
-                                                                                             15 (*1111*)
-
-lsb(i) = i & -i // least significant bit - & op with 2s complement
-parent(i) = i - lsb(i) // used for query
-child(i) = i + lsb(i) // used for update
-
-// ranges covered
-4=(0)(100) (layer1 so picked 0000 in bin[no-set-bits] as init and 100 elems afterwards) -> 0,3
-5=(01)(01) -> (layer2 so picked 0100 in bin as init[1-set-bits] and 0001 elems afterwards) -> 4,4
-7=(011)(1) -> (layer3 so picked 0110 in bin as init[2-set-bits] and 0001 elems afterwards) -> 6,6
-11=(101)(1) -> (layer3 so picked 1010 in bin as init[2-set-bits] and 0001 elems afterwards) -> 10,10
-13=(11)(01) -> (layer3 so picked 1100 in bin as init[2-set-bits] and 0001 elems afterwards) -> 12,12
-14=(11)(10) -> (layer3 so picked 1100 in bin as init[2-set-bits] and 0010 elems afterwards) -> 12,13
-15=(111)(1) -> (layer4 so picked 1110 in bin as init[3-set-bits] and 0001 elems afterwards) -> 14,14
-
-layer means number of set bits picked as prefix
-and remaining bits are the count of elements for which we store range info in that layer
-0 (0000)
-|
-1 (0 - 1)     2 (0,1)    4 (0,3)             8 (0,7)
-              |             |                |
-              3 (2,2)    5 (4,4)  6 (4,5)    9 (8,8)  10 (8,9)    12 (8,11)
-                                  |                   |           | 
-                                  7 (6,6)             11 (10,10)  13 (12,12) 14 (12,13)
-                                                                  |
-                                                                  15 (14,14)
-```
-
-**A version with expl** :: Target 4mins
+TC: O(2\*n\*logn=n\*logn) for construction, O(logn^2) for query, O(n*logn) for update. 
+SC: O(n\*logn+2\*n) for construction and upkeep
 
 ```java
-public class FenwickTree {
-  private int[] ft;
-  private int n;
-  private int []arr;
-
-  public FenwickTree(int n) {
-    ft = new int[n + 1];
-    this.n = n;
-    this.arr = new int[n];
+// ...
+private int[] construct(int ss, int se, int si) {
+  if (ss == se) {
+    st[si] = new int[1];
+    st[si][0] = arr[ss];
+  } else {
+    int mid = getMid(ss, se);
+    st[si] = new int[se - ss + 1];
+    int []left = construct(ss, mid, left(si));
+    int []right = construct(mid + 1, se, right(si));
+    merge(st[si], left, right);
   }
+  return st[si];
+}
 
-  public FenwickTree(int n, int []arr) {
-    ft = new int[n + 1];
-    this.n = n;
-    this.arr = arr;
-    for(int i = 0; i < n; i++) update(i, arr[i]);
+private void query(int ss, int se, int qs, int qe, int si, int x) {
+  if (qs <= ss && qe >= se) {
+    return binarySearch(st[si], x);
+  } else if (se < qs || ss > qe) {
+    return -1;
   }
+  int mid = getMid(ss, se);
+  return Math.max(query(ss, mid, qs, qe, left(si), x), query(mid + 1, se, qs, qe, right(si), x));
+}
 
-  private int parent(int i) { // parent of node i - use i-(i&-i) for parent node and not method
-    return i - lsb(i);
-  }
-
-  private int next(int i) { // next of node i - use i+(i&-i) for next node and not method
-    return i + lsb(i);
-  }
-
-  private int lsb(int i) { // least significant bit
-    return i & -i;
-  }
-
-  public int rangesumquery(int b) {
-    int sum = 0;
-    for (b=b+1; b>0; b=parent(b)) sum+=ft[b];
-    return sum;
-  }
-
-  public int rangesumquery(int a, int b) {
-    return rangesumquery(b) - (a == 1 ? 0 : rangesumquery(a - 1));
-  }
-
-  public void update(int k, int newval) {
-    for(int idx=k+1; idx<ft.length; idx=next(idx)) ft[idx]+=(newval-arr[k]);
-    arr[k] = newval;
+private void update(int ss, int se, int i, int newVal, int si) {
+  if (i < ss || i > se) return;
+  if (ss == se) {
+    arr[i] = newVal;
+    st[si] = new int[1];
+    st[si][0] = newVal;
+  } else {
+    int mid = getMid(ss, se);
+    update(ss, mid, i, newVal, left(si));
+    update(mid + 1, se, i, newVal, right(si));
+    merge(st[si], st[left(si)], st[right(si)]);
   }
 }
+```
+
+If we were to use `TreeSet`(a red-black BST) for storing sorted array, then the time complexity would be O(nlogn) for construction, O(logn) for query, O(logn) for update. 
+
+**Basically we can use any data structure at reqd places that supports the operations as per the req**
+
+### Lazy propagation
+
+TLDR; Range updates via segmen tree updates in O(logn) time.
+
+Basically, the child nodes are updated with the pending updates from the parent node. This is done to avoid updating the child nodes multiple times(by clubbing the updates together) and in cases when it isn't needed.
+
+TC: O(nlogn) for construction, O(logn) for query, O(logn) for update
+SC: O(2n) for construction and upkeep
+
+```java
+int []lazy = new int[maxSize]; // for each node, lazy[i] stores pending updates
+// arr[n] can't be updated directly in O(logn) time
+// ...
+private void build(int ss, int se, int si) {
+  if (ss == se) {
+    st[si] = arr[ss];
+  } else {
+    int mid = getMid(ss, se);
+    build(ss, mid, left(si));
+    build(mid + 1, se, right(si));
+    st[si] = 0;
+  }
+}
+
+private void push(int si){
+  st[left(si)] += lazy[si];
+  st[right(si)] += lazy[si];
+  lazy[left(si)] += lazy[si];
+  lazy[right(si)] += lazy[si];
+  lazy[si] = 0;
+}
+
+public void update(int ss, int se, int qs, int qe, int si, int diff) {
+  if (qs > se || qe < ss) return;
+  else if (ss == qs && se == qe) {
+    st[si] += diff;
+    lazy[si] += diff;
+  } else {
+    push(si);
+    int mid = getMid(ss, se);
+    update(ss, mid, qs, Math.min(qe, mid), left(si), diff);
+    update(mid + 1, se, Math.max(qs, mid + 1), qe, right(si), diff);
+    st[si] = Math.max(st[left(si)], st[right(si)]);
+  }
+}
+
+public int getSum(int ss, int se, int qs, int qe, int si) {
+  if (qs > se || qe < ss) return 0;
+  if (ss == qs && se == qe) return st[si];
+  push(si);
+  int mid = getMid(ss, se);
+  return getSum(ss, mid, qs, Math.min(qe, mid), left(si)) + getSum(mid + 1, se, Math.max(qs, mid + 1), qe, right(si));
+}
+
+// ...
 ```
