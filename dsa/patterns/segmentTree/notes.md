@@ -170,59 +170,57 @@ Ref:: https://cp-algorithms.com/data_structures/segment_tree.html
     if (k > st[si]) return -1;
     if (ss == se) return ss;
     int mid = getMid(ss, se);
-    if (k <= st[si * 2 + 1]) return search(si * 2 + 1, k, ss, mid);
-    return search(si * 2 + 2, k - st[si * 2 + 1], mid + 1, se);
+    if (k <= st[left(si)]) return search(left(si), k, ss, mid);
+    return search(right(si), k - st[left(si)], mid + 1, se);
   }
   ```
 
 - Find max and it's occurance count
   ```java
-  public int[] construct(int ss, int se, int si) {
-    if (ss == se) {
-      return st[si] = new int[]{arr[ss], 1};
-    }
+  public static class Data {
+    public int max, count;
+    public Data(int max, int count) {this.max = max;this.count = count;}
+  }
+  public Data construct(int ss, int se, int si) {
+    if (ss == se) return st[si] = new Data(arr[ss], 1);
     int mid = getMid(ss, se);
-    int[] left = construct(ss, mid, si * 2 + 1);
-    int[] right = construct(mid + 1, se, si * 2 + 2);
-    if (left[0] == right[0]) {
-      return st[si] = new int[]{left[0], left[1] + right[1]};
-    }
-    return st[si] = new int[]{Math.max(left[0], right[0]), left[0] > right[0] ? left[1] : right[1]};
+    Data left = construct(ss, mid, left(si));
+    Data right = construct(mid + 1, se, right(si));
+    if (left.max == right.max) return st[si] = new Data(left.max, left.count + right.count);
+    return st[si] = new Data(Math.max(left.max, right.max), left.max > right.max ? left.count : right.count);
   }
 
-  public int[] getMax(int ss, int se, int qs, int qe, int si) {
+  public Data getMax(int ss, int se, int qs, int qe, int si) {
     if (qs <= ss && qe >= se) return st[si];
-    if (se < qs || ss > qe) return new int[]{Integer.MIN_VALUE, 0};
+    if (se < qs || ss > qe) return new Data(Integer.MIN_VALUE, 0);
     int mid = getMid(ss, se);
-    int[] left = getMax(ss, mid, qs, qe, si * 2 + 1);
-    int[] right = getMax(mid + 1, se, qs, qe, si * 2 + 2);
-    if (left[0] == right[0]) {
-      return new int[]{left[0], left[1] + right[1]};
-    }
-    return new int[]{Math.max(left[0], right[0]), left[0] > right[0] ? left[1] : right[1]};
+    Data left = getMax(ss, mid, qs, qe, left(si));
+    Data right = getMax(mid + 1, se, qs, qe, right(si));
+    if (left.max == right.max) return new Data(left.max, left.count + right.count);
+    return new Data(Math.max(left.max, right.max), left.max > right.max ? left.count : right.count);
   }
 
   public int getMaxValue(int ss, int se, int qs, int qe, int si) {
-    return getMax(ss, se, qs, qe, si)[0];
+    return getMax(ss, se, qs, qe, si).value;
   }
 
   public int getMaxCount(int ss, int se, int qs, int qe, int si) {
-    return getMax(ss, se, qs, qe, si)[1];
+    return getMax(ss, se, qs, qe, si).count;
   }
 
   public void update(int ss, int se, int i, int newVal, int si) {
     if (i < ss || i > se) return;
     if (ss == se) {
-      arr[i] = st[si][0] = newVal;
+      arr[i] = st[si].max = newVal;
       return;
     }
     int mid = getMid(ss, se);
-    update(ss, mid, i, newVal, si * 2 + 1);
-    update(mid + 1, se, i, newVal, si * 2 + 2);
-    if (st[si * 2 + 1][0] == st[si * 2 + 2][0]) {
-      st[si] = new int[]{st[si * 2 + 1][0], st[si * 2 + 1][1] + st[si * 2 + 2][1]};
+    update(ss, mid, i, newVal, left(si));
+    update(mid + 1, se, i, newVal, right(si));
+    if (st[left(si)].max == st[right(si)].max) {
+      st[si] = new Data(st[left(si)].max, st[left(si)].count + st[right(si)].count);
     } else {
-      st[si] = new int[]{Math.max(st[si * 2 + 1][0], st[si * 2 + 2][0]), st[si * 2 + 1][0] > st[si * 2 + 2][0] ? st[si * 2 + 1][1] : st[si * 2 + 2][1]};
+      st[si] = new Data(Math.max(st[left(si)].max, st[right(si)].max), st[left(si)].max > st[right(si)].max ? st[left(si)].count : st[right(si)].count);
     }
   }
   ```
