@@ -9,56 +9,35 @@
 - [Segment tree and Fenwick tree](dsa/patterns/segment-tree-and-fenwick-tree.md)
 
 ```java
-public class MinQSegmentTree {
-  private int[] arr;  
-  private int[] st;
+public class BIT{
+  private int[] bit;
+  private int[] arr;
   private int n;
 
-  public MinQSegmentTree(int []arr){
-    int n = arr.length;
-    int x = (int) (Math.ceil(Math.log(n)/Math.log(2)));
-    int maxSize = (int)Math.pow(2, x)*2-1;
-    st = new int[maxSize];
+  public BIT(int n, int []arr){
     this.arr = arr;
-    construct();
+    this.n = n+1;
+    this.bit = new int[n+1];
+    for(int i-0; i<arr.length; i++) update(i+1, arr[i]);
   }
 
-  private int construct(int ss, int se, int si){
-    if(ss == se){
-      return st[si] = arr[ss];
-    }else{
-      int mid = getMid(ss, se);
-      return st[si] = Math.min(construct(ss, mid, si*2+1), construct(mid+1, se, si*2+2));
-    }
+  private lsb(int x){
+    return x&-x;
   }
 
-  private int getMin(int ss, int se, int qs, int qe, int si){
-    if(qs<=ss && qe>=se) return st[si];
-    else if(qs>ss || qe<se) return Integer.MAX_VALUE;
-    else{
-      int mid = getMid(ss, se);
-      return Math.min(getMin(ss, mid, qs, qe, si*2+1), getMin(mid+1, se, qs, qe, si*2+2));
-    }
-  }
-  private update(int ss, int se, int si, int idx, int newVal){
-    if(idx<ss || idx >se) return Integer.MAX_VALUE;
-    else if(ss == se) {
-      return st[si] = arr[idx] = newVal;
-    }else{
-      int mid = getMid(ss, se);
-      if(idx >= ss && idx <=mid) update(ss, mid, si*2+1, idx, newVal);
-      else update(mid+1, idx si*2+1, idx, newVal);
-      return st[si] = Math.min(st[si*2+1], st[si*2+2]);
-    }
+  public void update(int k, int val){
+    for(int x=k+1; x<n; x+=lsb(x)) bit[x] += (val-arr[k]);
+    arr[k] = val;
   }
 
-  private int getMin(int qs, int qe){
-    getMin(0, n-1, qs, qe, 0);
+  public int getsum(int k){
+    int sum = 0;
+    for(; k<n; k+=lsb(k)) sum += bit[k];
+    return sum;
   }
 
-  private void update(int idx, int newVal){
-    update(0, n-1, 0, idx, newVal);
+  public void getsum(int l, int r){
+    return getsum(r)-(l>1?getsum(l-1):0);
   }
-
 }
 ```
