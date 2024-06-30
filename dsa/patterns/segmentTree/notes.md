@@ -262,7 +262,51 @@ Ref:: https://cp-algorithms.com/data_structures/segment_tree.html
   }
   ```
 
-- 
+- Search for a subarray with the maximum sum in a given range of array `arr[l...r]`
+  ```java
+  public static class Data {
+    public int ans, prefix, suffix, sum;
+    public Data(int ans, int prefix, int suffix, int sum) { this.ans = ans; this.prefix = prefix; this.suffix  = suffix; this.sum = sum; }
+    public Data(int val) { this.ans = this.prefix = this.suffix  = this.sum = Math.max(0, val); }
+  }
+  
+  private Data combine(Data left, Data right) {
+    // visualize with diagram
+    int ans = Math.max(Math.max(left.ans, right.ans), left.suffix + right.prefix);
+    int prefix = Math.max(left.prefix, left.sum + right.prefix);
+    int suffix = Math.max(right.suffix, right.sum + left.suffix);
+    int sum = left.sum + right.sum;
+    return new Data(ans, prefix, suffix, sum);
+  }
+
+  public Data construct(int ss, int se, int si) {
+    if (ss == se) return st[si] = new Data(arr[ss]);
+    else {
+      int mid = getMid(ss, se);
+      return st[si] = combine(construct(ss, mid, left(si)), construct(mid + 1, se, right(si)));
+    }
+  }
+
+  public Data getMax(int ss, int se, int qs, int qe, int si) {
+    if (qs <= ss && qe >= se) return st[si];
+    if (se < qs || ss > qe) return new Data(0);
+    int mid = getMid(ss, se);
+    return combine(getMax(ss, mid, qs, qe, left(si)), getMax(mid + 1, se, qs, qe, right(si)));
+  }
+
+  public void update(int ss, int se, int i, int newVal, int si) {
+    if(i<ss && se>i) return;
+    else if(ss == se) {
+      arr[i] = newVal;
+      st[si] = new Data(newVal);
+    }else{
+      int mid = getMid(ss, se);
+      update(ss, mid, i, newVal, left(si));
+      update(mid+1, se, i, newVal, right(si));
+      st[si] = combine(st[left(si)], st[right(si)]);
+    }
+  }
+  ```
 
 
 ### Fenwick tree
