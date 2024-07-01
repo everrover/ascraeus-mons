@@ -337,11 +337,11 @@ private int[] construct(int ss, int se, int si) {
 private void query(int ss, int se, int qs, int qe, int si, int x) {
   if (qs <= ss && qe >= se) {
     return binarySearch(st[si], x);
-  } else if (se < qs || ss > qe) {
-    return -1;
-  }
-  int mid = getMid(ss, se);
-  return Math.max(query(ss, mid, qs, qe, left(si), x), query(mid + 1, se, qs, qe, right(si), x));
+              } else if (se < qs || ss > qe) {
+                return -1;
+              }
+              int mid = getMid(ss, se);
+              return Math.max(query(ss, mid, qs, qe, left(si), x), query(mid + 1, se, qs, qe, right(si), x));
 }
 
 private void update(int ss, int se, int i, int newVal, int si) {
@@ -388,10 +388,14 @@ private void build(int ss, int se, int si) {
 }
 
 private void push(int si){
-  st[left(si)] += lazy[si];
-  st[right(si)] += lazy[si];
-  lazy[left(si)] += lazy[si];
-  lazy[right(si)] += lazy[si];
+  if(left(si) < n){
+    st[left(si)] += lazy[si];
+    lazy[left(si)] += lazy[si];
+  }
+  if(right(si) < n){
+    st[right(si)] += lazy[si];
+    lazy[right(si)] += lazy[si];
+  }
   lazy[si] = 0;
 }
 
@@ -413,6 +417,28 @@ public int getSum(int ss, int se, int qs, int qe, int si) {
   if (qs > se || qe < ss) return 0;
   if (ss == qs && se == qe) return st[si];
   push(si);
+  int mid = getMid(ss, se);
+  return getSum(ss, mid, qs, Math.min(qe, mid), left(si)) + getSum(mid + 1, se, Math.max(qs, mid + 1), qe, right(si));
+}
+
+// ...
+
+// ----------- without lazy propagation
+private void update(int ss, int se, int qs, int qe, int si, int diff) {
+  if (qs > se || qe < ss) return;
+  if (ss == qs && se == qe) {
+    st[si] += diff;
+    return;
+  }
+  int mid = getMid(ss, se);
+  update(ss, mid, qs, Math.min(qe, mid), left(si), diff);
+  update(mid + 1, se, Math.max(qs, mid + 1), qe, right(si), diff);
+  st[si] = Math.max(st[left(si)], st[right(si)]);
+}
+
+private int getSum(int ss, int se, int qs, int qe, int si) {
+  if (qs > se || qe < ss) return 0;
+  if (ss == qs && se == qe) return st[si];
   int mid = getMid(ss, se);
   return getSum(ss, mid, qs, Math.min(qe, mid), left(si)) + getSum(mid + 1, se, Math.max(qs, mid + 1), qe, right(si));
 }

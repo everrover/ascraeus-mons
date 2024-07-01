@@ -95,9 +95,81 @@ public class FenwickTree {
     return rangesumquery(b) - (a == 1 ? 0 : rangesumquery(a - 1));
   }
 
+  public void update(int k, int val) {
+    for(int idx=k+1; idx<ft.length; idx=next(idx)) ft[idx]+=val;
+    arr[k] += val;
+  }
+}
+```
+
+### Niche cases 
+
+**Range update and pt query**
+
+```java
+public class FenwickTree {
+  
+  // same as above ... without `arr` and `n` as they are not needed
+
+  public int pointquery(int b) { // sum[b...b]
+    int sum = 0;
+    for (b=b+1; b>0; b=parent(b)) sum+=ft[b];
+    return sum;
+  }
+
   public void update(int k, int newval) {
     for(int idx=k+1; idx<ft.length; idx=next(idx)) ft[idx]+=(newval-arr[k]);
-    arr[k] = newval;
+  }
+
+  public void rangeupdate(int l, int r, int val) {
+    /** if update triggered on [l,r] then with `val` then for query on any index `b`
+     * i<l => no impact on sum
+     * r>=i>=l => sum = orig_sum+val
+     * r<i => sum = orig_sum+val-val = orig_sum
+     */
+    update(l, val);
+    update(r + 1, -val);
+  }
+}
+```
+
+**Range update and range query**
+
+```java
+public class RRFenwickTree {
+  
+  private int[] ft1, ft2;
+  private int n;
+
+  public RRFenwickTree(int n) {
+    ft1 = new int[n + 1];
+    ft2 = new int[n + 1];
+    this.n = n;
+  }
+
+  public RRFenwickTree(int n, int []arr) {
+    RRFT(n);
+    for(int i = 0; i < n; i++) rangeupdate(i, i, arr[i]);
+  }
+
+  public void rangeupdate(int l, int r, int val) {
+    /** if update triggered on [l,r] then with `val` then after re-arranging
+     * the formulae we get will result in reqd query results. There are six cases in total and after re-aranging we get the apt results. Ver less chance of such tricky scenarios being asked in interviews.
+     * 
+     * Took me 2 hrs to evaluate all 6 cases and then re-arrange the formulae to get the apt results.
+     */
+    ft1.update(l, val);
+    ft1.update(r + 1, -val);
+    ft2.update(l, val * (l - 1));
+    ft2.update(r + 1, -val * r);
+  }
+
+  public int prefixquery(int b) {
+    return ft1.rangequery(b) * b - ft2.rangequery(b); // b * ()
+  }
+
+  public int rangesumquery(int a, int b) {
+    return prefixquery(b) - (a == 1 ? 0 : prefixquery(a - 1));
   }
 }
 ```
