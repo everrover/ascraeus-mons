@@ -33,6 +33,7 @@ Progress: 3/100
 | [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java) | #dynamic-programming #math #combinatorics #hard |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space |
+| [1622. Fancy Sequence](./dsa/leetcode/kuiperBelt/FancySequence.java) | #math #design #segment-tree #hard #mod-inverse-algo #tricky |
 | [1627. Graph Connectivity With Threshold](./dsa/leetcode/kuiperBelt/GraphConnectivityWithThreshold.java) | #array #math #union-find #number-theory #hard |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
@@ -90,7 +91,7 @@ Progress: 3/100
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium |
 | --- | --- |
 
-DSA Progress: 61/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 62/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
