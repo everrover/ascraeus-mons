@@ -14,7 +14,14 @@ import java.util.List;
  * mul contributes => mul = (mul * m) % mod & add = (add * m) % mod, since get(i) = (val[i]*mul + add)*m % mod
  * 
  * but for ith element the already applied operations before it are not to be considered, so inverse mod operation is used to get the 
- * original value when the operations are applied i.e. val[i] = (val[i]*mul + add) % mod
+ * original value when the operations are applied i.e. get(i) = (val[i]*mul + add) % mod
+ * 
+ * I tried segment tree and fenwick tree on this problem for storing the multiples and additions along with index, but ... TLE.
+ * 
+ * Fermat's Little Theorem: If m is prime, then for any integer a, (a^p - a) % p = 0 => a^p % p - a % p = 0 => a^p % p = a % p
+ * If we divide by a, then a^(p-1) % p = 1 => a^(p-2) % p = a^(-1) % p
+ * 
+ * It's derived via Euler's theorm: https://brilliant.org/wiki/eulers-totient-function/
  * 
  * Complexity - TC: append, addAll, multAll - O(1), getIndex - O(1), SC: O(n) due to the list
  * 

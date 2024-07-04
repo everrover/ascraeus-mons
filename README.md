@@ -26,6 +26,7 @@ Progress: 3/100
 | Title | Some pointers |
 | --- | --- |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
+| [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java) | #hash-table #linked-list #design #doubly-linked-list #hard |
 | [489. Robot Room Cleaner](./dsa/leetcode/kuiperBelt/RobotRoomCleaner.java) | #depth-first-search #simulation #hard |
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java) | #simulation #string #easy |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium |
@@ -91,7 +92,7 @@ Progress: 3/100
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium |
 | --- | --- |
 
-DSA Progress: 62/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 63/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
