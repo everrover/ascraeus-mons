@@ -363,9 +363,9 @@ If we were to use `TreeSet`(a red-black BST) for storing sorted array, then the 
 
 **Basically we can use any data structure at reqd places that supports the operations as per the req**
 
-### Lazy propagation
+### Lazy propagation - GO TO TOP
 
-TLDR; Range updates via segmen tree updates in O(logn) time.
+TLDR; Range updates via segment tree updates in O(logn) time.
 
 Basically, the child nodes are updated with the pending updates from the parent node. This is done to avoid updating the child nodes multiple times(by clubbing the updates together) and in cases when it isn't needed.
 
@@ -388,14 +388,10 @@ private void build(int ss, int se, int si) {
 }
 
 private void push(int si){
-  if(left(si) < n){
-    st[left(si)] += lazy[si];
-    lazy[left(si)] += lazy[si];
-  }
-  if(right(si) < n){
-    st[right(si)] += lazy[si];
-    lazy[right(si)] += lazy[si];
-  }
+  st[left(si)] += lazy[si];
+  lazy[left(si)] += lazy[si];
+  st[right(si)] += lazy[si];
+  lazy[right(si)] += lazy[si];
   lazy[si] = 0;
 }
 
