@@ -54,6 +54,7 @@ Progress: 3/100
 | [2901.  Longest Unequal Adjacent Groups Subsequence II](./dsa/leetcode/kuiperBelt/LongestUnequalAdjGroupsSubseqII.java) | |
 | [2902. Count of Sub-Multisets With Bounded Sum](./dsa/leetcode/kuiperBelt/CountOfSubMultisetsWithBoundedSum.java) | A very curious new approach |
 | [2908. Minimum Sum of Mountain Triplets I](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy|
+| [2916. Subarrays Distinct Element Sum of Squares II](./dsa/leetcode/kuiperBelt/SubarraysDistinctElementSumOfSquaresII.java) | #array #dynamic-programming #binary-indexed-tree #segment-tree #hard #lazy-propagation #math-optimization #tricky |
 | [2917. Find the K-or of an Array](.dsa/leetcode/kuiperBelt/EasySetI.java) | #easy #bit-manipulation|
 | [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./dsa/leetcode/kuiperBelt/MinimumEqualSumOfTwoArraysAfterReplacingZeros.java) | |
 | [2919. Minimum Increment Operations to Make Array Beautiful](.dsa/leetcode/kuiperBelt/MinoOfIncrementOperationsToMakeArrayBeautiful.java) | #dynamic-programming #arrays #medium|
@@ -93,7 +94,7 @@ Progress: 3/100
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium |
 | --- | --- |
 
-DSA Progress: 65/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 66/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
