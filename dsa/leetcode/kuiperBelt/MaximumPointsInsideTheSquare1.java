@@ -10,7 +10,7 @@ import java.util.Arrays;
  * TC: O(3*n=n) SC: O(n)
  * #array #hash-table #string #binary-search #sorting #medium
  */
-public class MaximumPointsInsideTheSquare {
+class MaximumPointsInsideTheSquare1 {
 
   public int maxPointsInsideSquare(int[][] points, String s) {
     int secondTagged = Integer.MAX_VALUE;

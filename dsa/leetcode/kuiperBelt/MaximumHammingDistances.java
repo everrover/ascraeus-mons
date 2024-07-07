@@ -22,7 +22,7 @@ import java.util.LinkedList;
  * #bit-manipulation #bfs #array #hard #brute-force
  * [more-opt-code](dsa/leetcode/kuiperBelt/MaxHammingDistances.java)
  */
-public class Solution {
+public class MaximumHammingDistances {
   public int[] maxHammingDistances(int[] nums, int m) {
     int []res = new int[nums.length];
     Set<Integer> setOfEle = new HashSet<>();

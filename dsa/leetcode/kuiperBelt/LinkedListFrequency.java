@@ -11,7 +11,7 @@ package dsa.leetcode.kuiperBelt;
  */
 
 
-class Solution {
+class LinkedListFrequency {
 
   // Definition for singly-linked list.
   public class ListNode {

@@ -16,7 +16,7 @@ import java.util.Map;
  * #math #number-theory #hard #brute-force
  */
 
-class Solution {
+class CountArrayPairsDivisibleByK {
   private long gcd(long a, long b) {
     if(b>a) return gcd(b,a);
     if (b==0) return a;

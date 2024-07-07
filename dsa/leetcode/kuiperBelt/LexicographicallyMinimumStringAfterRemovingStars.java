@@ -1,5 +1,7 @@
 package dsa.leetcode.kuiperBelt;
 
+import java.util.Stack;
+
 /**
  * https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/
  * The algorithm uses a stack for each character to track its indices.

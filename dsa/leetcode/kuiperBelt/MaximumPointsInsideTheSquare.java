@@ -15,7 +15,7 @@ package dsa.leetcode.kuiperBelt;
  * #binary-search #sorting #geometry #medium #binsearch-over-solution-space
  * [Next](./MaximumPointsInsideTheSquare1.java) 
  */
-public class Solution {
+public class MaximumPointsInsideTheSquare {
   public int maxPointsInsideSquare(int[][] points, String s) {
     int res = 0;
     int l = 0, r = 0, mid;

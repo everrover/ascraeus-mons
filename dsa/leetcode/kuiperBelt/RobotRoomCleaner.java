@@ -27,7 +27,7 @@ interface Robot {
     public void clean();
 }
 
-class Solution {
+public class RobotRoomCleaner {
     private static Robot r; private static int dir=0;
     private static int [][]moves = new int[][]{{-1,0},{0,1},{1,0},{0,-1}};
     private void recurse(int face, int i, int j, int [][]grid){

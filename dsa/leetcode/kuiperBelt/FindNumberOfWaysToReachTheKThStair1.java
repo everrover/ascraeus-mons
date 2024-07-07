@@ -12,7 +12,7 @@ package dsa.leetcode.kuiperBelt;
  * SC: O(1)
  * #math #dynamic-programming #bit-manipulation #memoization #combinatorics #hard #isolative-strategy-to-percieve-the-problem
  */
-public class FindNumberOfWaysToReachTheKThStair {
+public class FindNumberOfWaysToReachTheKThStair1 {
 
   public int waysToReachStair(int k) {
     if(k <= 5) return new int[]{2,4,4,3,2,4}[k];

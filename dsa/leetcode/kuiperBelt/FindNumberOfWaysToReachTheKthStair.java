@@ -15,7 +15,7 @@ import java.util.Map;
  * #math #dynamic-programming #bit-manipulation #memoization #combinatorics #hard
  */
 
-class Solution {
+class FindNumberOfWaysToReachTheKthStair {
   private Map<Long, Long> dp;
   private static long []exp = null;
   

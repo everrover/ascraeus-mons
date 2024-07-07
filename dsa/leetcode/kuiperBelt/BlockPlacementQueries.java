@@ -53,7 +53,8 @@ public class BlockPlacementQueries {
     List<Boolean> res = new LinkedList<>();
     ST st = new ST(n);
     TreeSet<Integer> s = new TreeSet<>();
-    s.add(0);n    s.add(1000000);
+    s.add(0);
+    s.add(1000000);
     for(int []q: queries){
       if(q[0] == 1){
         int x = q[1];
