@@ -93,9 +93,10 @@ Progress: 3/100
 | [3165. Maximum Sum of Subsequence With Non-adjacent Elements](./dsa/leetcode/kuiperBelt/MaximumSumOfSubsequenceWithNonAdjacentElements.java) | #segment-tree #dynamic-programming #array #hard #recursion #modular-arithmetic |
 | [3170. Lexicographically Minimum String After Removing Stars](./dsa/leetcode/kuiperBelt/LexicographicallyMinimumStringAfterRemovingStars.java) | #hash-table #string #stack #greedy #heap-priority-queue #medium |
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium |
+| [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 67/100  [1:2:1::Easier:Medium:Hard ratio followed]
+DSA Progress: 68/100  [1:2:1::Easier:Medium:Hard ratio followed]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
