@@ -11,7 +11,7 @@ import java.util.List;
  * https://leetcode.com/problems/binary-tree-vertical-order-traversal/
  *
  * The approach involves BFS/DFS to traverse the tree while keeping track of columns.
- * We use a TreeMap to easily sort and retrieve column-wise nodes, ensuring their order from left to right is maintained.
+ * We use a depth index for sorting, ensuring their order from left to right and top to bottom is maintained.
  * 
  * TC: O(NlogN) due to sorting, SC: O(N) for storing nodes.
  *

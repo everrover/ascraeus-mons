@@ -13,7 +13,9 @@ import java.util.TreeMap;
  * For remove, we find ranges that overlap with the new range and split them. by sub-tree creation and deletion.
  * For query, we find the range that overlaps with the query range and return true if it exists.
  * 
- * TC: for addRange and removeRange: O(n), for queryRange: O(log n)
+ * TC: for addRange and removeRange: O(log n) :: subtree is deleted via deleting the submap(root) ref and all underneath it
+ *     Guava implements it better
+ *     for queryRange: O(log n)
  * SC: O(n)
  * #bin-search-tree #segment-tree #design #hard
  */
