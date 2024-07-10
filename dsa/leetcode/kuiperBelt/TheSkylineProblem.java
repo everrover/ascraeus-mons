@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * https://leetcode.com/problems/the-skyline-problem/
+ *
  * The skyline problem solved using a line sweep algorithm.
  * We converted the building endpoints into 'Line' objects marking their start and end.
  * A custom comparator for sorting these lines is used to manage the processing order.
@@ -12,7 +13,7 @@ import java.util.*;
  * TC: O(n log n) SC: O(n)
  * #heap #priority-queue #line-sweep #hard
  */
-public class Solution {
+public class TheSkylineProblem {
     class Line implements Comparable<Line>{
         public int x, y;
         public boolean isStart;

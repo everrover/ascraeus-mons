@@ -103,7 +103,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 74/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
+DSA Progress: 76/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
