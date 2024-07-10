@@ -80,7 +80,8 @@ Progress: 3/100
 | [3045. Count Prefix and Suffix Pairs II](./dsa/leetcode/kuiperBelt/CountPrefixAndSuffixPairsII.java) | #trie #string #augmented-data-str #hard |
 | [3048. Earliest Second to Mark Indices I](./dsa/leetcode/kuiperBelt/EarliestSecondToMarkIndicesI.java) | #binary-search #array #optimization #medium |
 | [3063. Linked List Frequency](./dsa/leetcode/kuiperBelt/LinkedListFrequency.java) | #hash-table #linked-list #counting #medium |
-| [3068. Find the Maximum Sum of Node Values](./dsa/leetcode/kuiperBelt/FindTheMaximumSumOfNodeValues.java) | #array #greedy #bit-manipulation #tree #min-tracking #math #hard || [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard |
+| [3068. Find the Maximum Sum of Node Values](./dsa/leetcode/kuiperBelt/FindTheMaximumSumOfNodeValues.java) | #array #greedy #bit-manipulation #tree #min-tracking #math #hard |
+| [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard |
 | [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium |
 | [3101. Count Alternating Subarrays](./dsa/leetcode/kuiperBelt/CountAlternatingSubarrays.java) | #array #math #dynamic-programming #medium |
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
@@ -99,7 +100,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 72/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
+DSA Progress: 73/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
