@@ -115,8 +115,8 @@ public class RectangleAreaII {
             lx = Math.max(next.left, rx);
             rx = Math.max(rx, next.right);           
           }
-          res += ((rx-lx)*ht)%MOD;
-          res %= MOD;
+          res += (((rx-lx)%MOD)*ht)%MOD;
+          // res %= MOD;
         }
       }
 

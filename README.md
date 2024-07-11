@@ -28,6 +28,7 @@ Progress: 3/100
 | [218. The Skyline Problem](./dsa/leetcode/kuiperBelt/TheSkylineProblem.java) | #heap #priority-queue #line-sweep #hard |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium |
+| [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force |
 | [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java) | #hash-table #linked-list #design #doubly-linked-list #hard |
 | [489. Robot Room Cleaner](./dsa/leetcode/kuiperBelt/RobotRoomCleaner.java) | #depth-first-search #simulation #hard |
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java) | #simulation #string #easy |

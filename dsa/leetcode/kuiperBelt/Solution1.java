@@ -4,28 +4,6 @@ import java.util.Arrays;
 import java.util.TreeSet;
 
 public class Solution1 {
-
-  private static class Pair<T, K> {
-    private T key;
-    private K value;
-
-    public Pair(T key, K value) {
-      this.key = key;
-      this.value = value;
-    }
-
-    public T getKey() {
-      return key;
-    }
-
-    public K getValue() {
-      return value;
-    }
-
-    public String toString(){
-      return "{"+key+"-"+value+"}";
-    }
-  }
   class Solution {
     private final long MOD = (long)(1e9+7);
     private final long B = (long)(1e3);
