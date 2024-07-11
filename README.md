@@ -39,6 +39,7 @@ Progress: 3/100
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java) | #array #segment-tree #line-sweep #ordered-set #hard |
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java) | #segment-tree #line-sweep #ordered-set #hard |
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java) | #dynamic-programming #math #combinatorics #hard |
+| [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space |
 | [1622. Fancy Sequence](./dsa/leetcode/kuiperBelt/FancySequence.java) | #math #design #segment-tree #hard #mod-inverse-algo #tricky |
 | [1627. Graph Connectivity With Threshold](./dsa/leetcode/kuiperBelt/GraphConnectivityWithThreshold.java) | #array #math #union-find #number-theory #hard |
@@ -104,7 +105,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 76/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
+DSA Progress: 77/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
