@@ -26,6 +26,7 @@ Progress: 3/100
 | Title | Some pointers |
 | --- | --- |
 | [218. The Skyline Problem](./dsa/leetcode/kuiperBelt/TheSkylineProblem.java) | #heap #priority-queue #line-sweep #hard |
+| [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java) | #array #math #sorting #matrix #hard |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium |
 | [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force |
@@ -105,7 +106,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 77/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
+DSA Progress: 78/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
