@@ -77,6 +77,7 @@ Progress: 3/100
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
 | [2975. Maximum Square Area Removing Fences From Field](./dsa/leetcode/kuiperBelt/MaximumSquareAreaRemovingFencesFromField.java) | #two-pointers #set #enumeration #area-calculation |
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](.dsa/leetcode/kuiperBelt/MaximumNumberSumPricesLessEqualK.java) | #binary-search #dynamic-programming #bit-manipulation #medium |
+| [3009. Maximum Number of Intersections on the Chart](./dsa/leetcode/kuiperBelt/MaximumNumberOfIntersectionsOnTheChart.java) | #array #math #binary-indexed-tree #geometry #hard |
 | [3014. Minimum Number of Pushes to Type Word I](./dsa/leetcode/kuiperBelt/ManimumNumberOfPushedToTypeWordI.java) | #easy #math |
 | [3015. Count the Number of Houses at a Certain Distance I](./dsa/leetcode/kuiperBelt/CountNumberOfHousesAtCertainDistanceI.java) | #enumeration #distance-calculation #medium #little-logic |
 | [3039. Apply Operations to Make String Empty](./dsa/leetcode/kuiperBelt/LastNonEmptyString.java) | #frequency-count #string #medium |
@@ -106,7 +107,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 78/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
+DSA Progress: 79/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)

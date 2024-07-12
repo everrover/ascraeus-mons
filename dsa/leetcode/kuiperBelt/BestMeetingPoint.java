@@ -15,6 +15,8 @@ import java.util.List;
  * If we apply for any combination of 1s, median is always the optimal point
  * simply if we resolve min(|x-x1|+|y-y1|) for all (x1, y1), we get the median point
  * 
+ * Learning - Look for mean, mode, median and square root for optimization problems. Possible results can be obtained via them.
+ * 
  * Tried BFS but it worked in O((m*n)^2) TC, so TLE
  * 
  * TC: O(nlogn+m*n) SC: O(m+n)
