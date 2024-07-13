@@ -28,6 +28,7 @@ Progress: 3/100
 | [218. The Skyline Problem](./dsa/leetcode/kuiperBelt/TheSkylineProblem.java) | #heap #priority-queue #line-sweep #hard |
 | [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java) | #array #math #sorting #matrix #hard |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
+| [301. Remove Invalid Parentheses](./dsa/leetcode/kuiperBelt/RemoveInvalidParentheses.java) | #backtracking #string #bfs #hard |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium |
 | [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force |
 | [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java) | #hash-table #linked-list #design #doubly-linked-list #hard |
@@ -109,7 +110,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 81/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 82/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
