@@ -46,6 +46,7 @@ Progress: 3/100
 | [1627. Graph Connectivity With Threshold](./dsa/leetcode/kuiperBelt/GraphConnectivityWithThreshold.java) | #array #math #union-find #number-theory #hard |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
+| [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard |
 | [2183. Count Array Pairs Divisible by K](./dsa/leetcode/kuiperBelt/CountArrayPairsDivisibleByK.java) | #math #number-theory #hard |
 | [2208. Minimum Operations to Halve Array Sum](./dsa/leetcode/kuiperBelt/MinimumOperationsToHalveArraySum.java) | #heap #priority-queue #greedy #medium |
@@ -107,7 +108,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 79/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
+DSA Progress: 80/100  [1:2:1:: Attempt made to follow Easy:Medium:Hard]
 
 Scripts and automation needed
 - Plugin to scrape the code on the web itself. ✅ - [ice-and-laprus](https://github.com/everrover/ice-and-laprus/)
