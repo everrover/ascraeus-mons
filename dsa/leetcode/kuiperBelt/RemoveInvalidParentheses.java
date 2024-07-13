@@ -5,14 +5,17 @@ import java.util.List;
 
 /**
  * https://leetcode.com/problems/remove-invalid-parentheses/
+ *
  * This solution utilizes recursion and backtracking to effectively remove invalid parentheses,
  * ensuring the generation of valid parentheses combinations with the minimum number of removals.
- * 
+ *
+ * For backtracking we use BFS to traverse the tree of all possible states of the string, and we use a set to avoid duplicate states.
+ *
  * TC: O((2^n) * n) SC: O(n) due to the recursion stack and the space for storing the answer
  * #backtracking #string #bfs #hard
  */
 
-class Solution {
+class RemoveInvalidParentheses {
   public List<String> removeInvalidParentheses(String s) {
     List<String> ans = new ArrayList<>();
     remove(s, ans, 0, 0, new char[]{'(', ')'});
