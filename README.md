@@ -32,7 +32,6 @@ Progress: 3/100
 | [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force |
 | [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java) | #hash-table #linked-list #design #doubly-linked-list #hard |
 | [489. Robot Room Cleaner](./dsa/leetcode/kuiperBelt/RobotRoomCleaner.java) | #depth-first-search #simulation #hard |
-| [493. Reverse Pairs](./dsa/leetcode/kuiperBelt/ReversePairs.java) | #array #binary-search #divide-and-conquer #binary-indexed-tree #segment-tree #merge-sort #ordered-set #hard |
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java) | #simulation #string #easy |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium |
 | [715. Range Module](./dsa/leetcode/kuiperBelt/RangeModule.java) | #ordered-set #segment-tree #design #hard |
