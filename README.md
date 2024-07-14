@@ -48,6 +48,7 @@ Progress: 3/100
 | [1627. Graph Connectivity With Threshold](./dsa/leetcode/kuiperBelt/GraphConnectivityWithThreshold.java) | #array #math #union-find #number-theory #hard |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
+| [2060. Check if an Original String Exists Given Two Encoded Strings](./dsa/leetcode/kuiperBelt/CheckIfAnOriginalStringExistsGivenTwoEncodedStrings.java) | #dynamic-programming #string #hard |
 | [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard |
 | [2183. Count Array Pairs Divisible by K](./dsa/leetcode/kuiperBelt/CountArrayPairsDivisibleByK.java) | #math #number-theory #hard |
@@ -110,7 +111,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 82/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 83/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
@@ -135,3 +136,10 @@ plugin -> fetch full page and pass on to localhost
 Prompt added for LC: **<u>[LINK](./prompt_for_plugin_v1.md)</u>**
 
 [Backlog](./backlog.md)
+
+### Important concepts
+
+- Permutations and Combinations
+- Bit manipulation
+- Graph algorithms
+- Modular arithmetic
