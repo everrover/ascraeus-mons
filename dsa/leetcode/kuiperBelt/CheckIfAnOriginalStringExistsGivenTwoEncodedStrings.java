@@ -2,12 +2,28 @@ package dsa.leetcode.kuiperBelt;
 
 /*
  * https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/
- * This solution utilizes dynamic programming to explore all possible ways of decoding the given encoded strings.
- * It uses a 3D boolean DP array to store intermediate results for subproblems, defined by current indices in each string and the difference in decoded length.
- * The key idea is to handle digits by trying different lengths they might represent and recurse accordingly, adjusting the difference.
- * TC: Complexity not specified as it depends on number of paths explored
- * SC: O(n^2 * diff) where n is the maximum length of the string and diff is the range of difference between decoded lengths.
- * #dynamic-programming #string #hard
+ *
+ * diff = extra chars in s1 - extra chars in s2
+ * Only when this difference is 0, can we check if chs1[r1] == chs2[r2] or not.
+ * Since we can only remove chars from s1 & s2 sequentially from either side.
+ * Max range of nums is 40 so max diff can be -1000...1000.
+ *
+ * dp(r1, r2, diff) = true | r1==chs1.length, r2==chs2.length, diff==0
+ *                  = dp(r1+cnt, r2, diff+num(r1...r1+cnt)) | diff<0, chs1[r1...r1+cnt] are numeric, cnt<3 | check with all possible number combos
+ *                  = dp(r1+1, r2, diff-1) | diff>0, chs1[r1] is char | reduce diff by 1 by expending 1 char
+ *                  = dp(r1+1, r2+1, diff) | diff==0, chs1[r1] == chs2[r2] | both chars same
+ *                  = dp(r1, r2+cnt, diff-num(r2...r2+cnt)) | diff<0, chs2[r2...r2+cnt] are numeric, cnt<3 | check with all possible number combos
+ *                  = dp(r1, r2+1, diff+1) | diff<0, chs2[r2...r2+cnt] are numeric, cnt<3 | reduce diff by 1 by expending 1 char
+ *                  = false | otherwise
+ *
+ *
+ * I put memoization on this bottom-up recursion i.e. DFS
+ * I put up some extra cases which caused me to get WA, corrected them and voila!
+ *
+ * TC: O(n^2*(2*max-diff))
+ * SC: O(n^2 * (2*max-diff))
+ *
+ * #dynamic-programming #string #hard #recursion #tricky
  */
 
 public class CheckIfAnOriginalStringExistsGivenTwoEncodedStrings {

@@ -6,6 +6,8 @@ import java.util.List;
 /**
  * https://leetcode.com/problems/remove-invalid-parentheses/
  *
+ * Needed help at it...😑
+ *
  * This solution utilizes recursion and backtracking to effectively remove invalid parentheses,
  * ensuring the generation of valid parentheses combinations with the minimum number of removals.
  *
@@ -23,12 +25,12 @@ class RemoveInvalidParentheses {
   }
 
   public void remove(String s, List<String> ans, int li, int lj,  char[] par) {
-    for (int stack = 0, i = li; i < s.length(); ++i) {
+    for (int stack = 0, i = li; i < s.length(); ++i) { // 0...li-1 are valid
       if (s.charAt(i) == par[0]) stack++;
       if (s.charAt(i) == par[1]) stack--;
-      if (stack >= 0) continue;
+      if (stack >= 0) continue; // count is valid
       for (int j = lj; j <= i; ++j)
-        if (s.charAt(j) == par[1] && (j == lj || s.charAt(j - 1) != par[1]))
+        if (s.charAt(j) == par[1] && (j == lj || s.charAt(j - 1) != par[1]))  // try excluding one of invalid ')'[l->r] or '('[r->l]
           remove(s.substring(0, j) + s.substring(j + 1, s.length()), ans, i, j, par);
       return;
     }
