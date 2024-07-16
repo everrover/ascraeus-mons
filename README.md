@@ -38,6 +38,7 @@ Progress: 3/100
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium |
 | [715. Range Module](./dsa/leetcode/kuiperBelt/RangeModule.java) | #ordered-set #segment-tree #design #hard |
 | [727. Minimum Window Subsequence](./dsa/leetcode/kuiperBelt/MinimumWindowSubsequence.java) | #dynamic-programming #sliding-window #string #hard |
+| [727. Minimum Window Subsequence](./dsa/leetcode/kuiperBelt/MinimumWindowSubsequence.java) | #sliding-window #dynamic-programming #string #hard |
 | [827. Making A Large Island](./dsa/leetcode/kuiperBelt/MakingALargeIsland.java) | #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process |
 | [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java) | #array #segment-tree #line-sweep #ordered-set #hard |
@@ -113,7 +114,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 85/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 86/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
