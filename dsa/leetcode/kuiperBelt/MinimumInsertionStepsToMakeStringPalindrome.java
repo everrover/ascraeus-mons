@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 /**
  * https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
- * The problem is to insert the minimum number of characters to a string to make it a palindrome.
- * Approach: Use dynamic programming to find the longest palindromic subsequence.
- * The minimum insertions needed would be the length of the string minus the length of this subsequence.
+ *
+ * It was a curious observation. I was thinking of LCS solution saw that i can check for equivalency on str[idx] and
+ * str[str.length-jdx-1] to see the number of matching characters.
  *
  * TC: O(n^2) SC: O(n^2)
- * #dynamic-programming #string #palindrome #hard
+ * #dynamic-programming #string #palindrome #hard #lcs #dfs
  */
 
 public class MinimumInsertionStepsToMakeStringPalindrome {
