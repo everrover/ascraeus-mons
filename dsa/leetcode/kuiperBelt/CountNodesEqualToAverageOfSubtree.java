@@ -1,5 +1,7 @@
 package dsa.leetcode.kuiperBelt;
 
+import dsa.leetcode.internals.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -16,6 +18,7 @@ package dsa.leetcode.kuiperBelt;
  * }
  *
  * https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
+ *
  * This solution recursively computes sum and count of nodes for each subtree to calculate average.
  * It then compares the average with the root node value of the current subtree.
  * 
@@ -23,7 +26,7 @@ package dsa.leetcode.kuiperBelt;
  * #tree #dfs #binary-tree #medium
  */
 
-class Solution {
+class CountNodesEqualToAverageOfSubtree {
   public int averageOfSubtree(TreeNode root) {
     int []avg = dfs(root);
     return avg[2];
