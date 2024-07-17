@@ -47,6 +47,7 @@ Progress: 3/100
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space |
 | [1312. Minimum Insertion Steps to Make a String Palindrome](./dsa/leetcode/kuiperBelt/MinimumInsertionStepsToMakeStringPalindrome.java) | #dynamic-programming #string #palindrome #hard |
+| [1570. Dot Product of Two Sparse Vectors](./dsa/leetcode/kuiperBelt/DotProductOfTwoSparseVectors.java) | #array #hash-table #two-pointers #design #medium |
 | [1622. Fancy Sequence](./dsa/leetcode/kuiperBelt/FancySequence.java) | #math #design #segment-tree #hard #mod-inverse-algo #tricky |
 | [1627. Graph Connectivity With Threshold](./dsa/leetcode/kuiperBelt/GraphConnectivityWithThreshold.java) | #array #math #union-find #number-theory #hard |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
@@ -114,7 +115,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 86/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 87/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
