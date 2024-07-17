@@ -58,6 +58,7 @@ Progress: 3/100
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard |
 | [2183. Count Array Pairs Divisible by K](./dsa/leetcode/kuiperBelt/CountArrayPairsDivisibleByK.java) | #math #number-theory #hard |
 | [2208. Minimum Operations to Halve Array Sum](./dsa/leetcode/kuiperBelt/MinimumOperationsToHalveArraySum.java) | #heap #priority-queue #greedy #medium |
+| [2265. Count Nodes Equal to Average of Subtree](./dsa/leetcode/kuiperBelt/CountNodesEqualToAverageOfSubtree.java) | #tree #dfs #binary-tree #medium |
 | [2286. Booking Concert Tickets in Groups](./dsa/leetcode/kuiperBelt/BookingConcertTicketsInGroups.java) | #binary-search #design #binary-indexed-tree #segment-tree #hard |
 | [2407. Longest Increasing Subsequence II](./dsa/leetcode/kuiperBelt/LongestIncreasingSubsequenceII.java) | #dynamic-programming #segment-tree #binary-indexed-tree #monotonic-queue #hard |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard |
@@ -116,7 +117,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard |
 | --- | --- |
 
-DSA Progress: 88/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 89/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
