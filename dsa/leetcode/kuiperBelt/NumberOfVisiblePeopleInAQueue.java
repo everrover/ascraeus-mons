@@ -4,8 +4,11 @@ import java.util.Stack;
 
 /**
  * https://leetcode.com/problems/number-of-visible-people-in-a-queue/
+ *
  * The approach uses a monotonic stack to keep track of heights as we iterate from the end of the queue to the start.
  * For each person, we count how many people are shorter until we find one taller and mark them as visible.
+ *
+ * Started iteration from left->right and wasn't able to find the count of reqd elements. So tried with right->left and, voila!
  * 
  * TC: O(n) SC: O(n)
  * #monotonic-stack #array #hard

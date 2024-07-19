@@ -4,10 +4,19 @@ import java.util.*;
 
 /**
  * https://leetcode.com/problems/minimum-cost-to-hire-k-workers/
+ *
  * To form a paid group with exactly k workers, this solution keeps track of workers' quality to wage ratio.
- * It uses a priority queue to manage workers by their wage to quality ratio in descending order, aiming to minimize total wage.
+ *
+ * It uses a priority queue to manage workers by their wage to quality ratio in descending order, aiming to minimize total
+ * wage. Because in a given set of k workers(we track the workers with lowest wage/quality ratio in PQ), the worker with
+ * the highest wage/quality ratio will set the wage for the group.
+ *
  * Sorting of workers by quality ensures the proportionality rule for pay is maintained.
- * 
+ *
+ * I iterated over all scenarios in my head and used PQs for both earlier
+ * Quality(low<->high) & Cost(high->low)[obvious, since for a given quality, we want to minimize cost]
+ * : and found the one to work for the given solution. And hence picked it.
+ *
  * TC: O(nlogn) SC: O(n)
  * #greedy #sorting #heap #priority-queue #hard
  */
