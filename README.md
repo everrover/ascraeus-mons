@@ -44,6 +44,7 @@ Progress: 3/100
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java) | #segment-tree #line-sweep #ordered-set #hard                                                                      |
 | [857. Minimum Cost to Hire K Workers](./dsa/leetcode/kuiperBelt/MinimumCostToHireKWorkers.java) | #greepy #sorting #heap #priority-queue #hard |
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java) | #dynamic-programming #math #combinatorics #hard                                                                   |
+| [953. Verifying an Alien Dictionary](./dsa/leetcode/kuiperBelt/VerifyingAnAlienDictionary.java) | #array #hash-table #string #easy |
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard                                                                                     |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space               |
 | [1293. Shortest Path in a Grid with Obstacles Elimination](./dsa/leetcode/kuiperBelt/ShortestPathInAGridWithObstaclesElimination.java) | #breadth-first-search #dynamic-programming #matrix #hard |
@@ -121,7 +122,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | --- | ---                                                                                                               |
 
-DSA Progress: 94/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 95/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
