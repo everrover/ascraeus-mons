@@ -26,6 +26,7 @@ Progress: 3/100
 | Title | Some pointers                                                                                                     |
 | --- |-------------------------------------------------------------------------------------------------------------------|
 | [218. The Skyline Problem](./dsa/leetcode/kuiperBelt/TheSkylineProblem.java) | #heap #priority-queue #line-sweep #hard                                                                           |
+| [283. Move Zeroes](./dsa/leetcode/kuiperBelt/MoveZeroes.java) | #array #two-pointers #easy |
 | [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java) | #array #math #sorting #matrix #hard                                                                               |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard                                                                                          |
 | [301. Remove Invalid Parentheses](./dsa/leetcode/kuiperBelt/RemoveInvalidParentheses.java) | #backtracking #string #bfs #hard                                                                                  |
@@ -122,7 +123,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | --- | ---                                                                                                               |
 
-DSA Progress: 95/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 96/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
