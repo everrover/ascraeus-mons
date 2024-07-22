@@ -32,6 +32,7 @@ Progress: 3/100
 | [301. Remove Invalid Parentheses](./dsa/leetcode/kuiperBelt/RemoveInvalidParentheses.java) | #backtracking #string #bfs #hard                                                                                  |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium                         |
 | [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force                                |
+| [329. Longest Increasing Path in a Matrix](./dsa/leetcode/kuiperBelt/LongestIncreasingPathInMatrix.java) | #array #dynamic-programming #depth-first-search #graph #memoization #hard |
 | [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java) | #hash-table #linked-list #design #doubly-linked-list #hard                                                        |
 | [489. Robot Room Cleaner](./dsa/leetcode/kuiperBelt/RobotRoomCleaner.java) | #depth-first-search #simulation #hard                                                                             |
 | [493. Reverse Pairs](./dsa/leetcode/kuiperBelt/ReversePairs.java) | #divide-and-conquer #merge-sort #binary-search #hard                                                              |
@@ -125,7 +126,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | --- | ---                                                                                                               |
 
-DSA Progress: 98/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 99/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
