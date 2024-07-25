@@ -1,0 +1,68 @@
+package dsa.leetcode.kuiperBelt;
+
+import java.util.*;
+
+/**
+ * https://leetcode.com/problems/sliding-window-median/
+ *
+ * The algorithm utilizes two TreeSets to maintain the order and balance of the sliding window elements. 
+ * One TreeSet is for the smaller half of the window and the other for the larger half. 
+ * Whenever the window slides, the elements are adjusted to keep the two halves balanced. 
+ * If the number of elements is odd, the median is the top element of the smaller half; 
+ * if even, it is the average of the top elements of both halves.
+ * 
+ * TC: O(n log k) SC: O(k)
+ * #sliding-window #heap #tree-set #hard
+ */
+
+public class SlidingWindowMedian {
+
+  // Comparator to maintain the sorted order in TreeSet
+  class Solution {
+    boolean ise;
+    int ss1, ss2;
+    TreeSet<Integer> ts1, ts2;
+
+    public double[] medianSlidingWindow(int[] nums, int k) {
+      double[] res = new double[nums.length - k + 1];
+      Comparator<Integer> comparator = (a, b) -> nums[a] != nums[b] ? Integer.compare(nums[a], nums[b]) : a - b;
+
+      // TreeSet for the first half (max heap operation using reversed order)
+      ts1 = new TreeSet<>(comparator.reversed());
+      // TreeSet for the second half (min heap operation)
+      ts2 = new TreeSet<>(comparator);
+
+      ise = k % 2 == 0;
+      ss1 = (int) Math.ceil((double) k / 2);
+      ss2 = Math.floorDiv(k, 2);
+
+      for (int i = 0; i < k; i++) ts1.add(i);
+      balanceTs();
+
+      res[0] = result(nums);
+      for (int i = k; i < nums.length; i++) {
+        if (!ts1.remove(i - k)) ts2.remove(i - k);
+        ts2.add(i);
+        ts1.add(ts2.pollFirst());
+        balanceTs();
+        res[i - k + 1] = result(nums);
+      }
+      return res;
+    }
+
+    private double result(int[] nums) {
+      double res = 0.0 + nums[ts1.first()];
+      if (ise) {
+        res += nums[ts2.first()];
+        res /= 2;
+      }
+      return res;
+    }
+
+    private void balanceTs() {
+      while (ts1.size() > ss1) ts2.add(ts1.pollFirst());
+      while (ts2.size() > ss2) ts1.add(ts2.pollFirst());
+    }
+  }
+
+}
