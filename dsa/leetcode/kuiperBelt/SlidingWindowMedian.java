@@ -6,10 +6,17 @@ import java.util.*;
  * https://leetcode.com/problems/sliding-window-median/
  *
  * The algorithm utilizes two TreeSets to maintain the order and balance of the sliding window elements. 
- * One TreeSet is for the smaller half of the window and the other for the larger half. 
- * Whenever the window slides, the elements are adjusted to keep the two halves balanced. 
+ * One TreeSet is for the smaller half of the window and the other for the larger half.
+ *
+ * Whenever the window slides, the elements are adjusted to keep the two halves balanced.
+ * Faced problem here, used int[]{elem,index}. And also used he same comparator with getFirst() and getLast() methods.
+ * Got me confused. So, simplified approach.
+ *
  * If the number of elements is odd, the median is the top element of the smaller half; 
  * if even, it is the average of the top elements of both halves.
+ *
+ * Could've used PriorityQueue, but would've needed to track valid counts and would have to delete elements from the heap
+ * using a separate set to track elements in current window and perform deletes using lazy deletion.
  * 
  * TC: O(n log k) SC: O(k)
  * #sliding-window #heap #tree-set #hard
@@ -17,8 +24,6 @@ import java.util.*;
 
 public class SlidingWindowMedian {
 
-  // Comparator to maintain the sorted order in TreeSet
-  class Solution {
     boolean ise;
     int ss1, ss2;
     TreeSet<Integer> ts1, ts2;
@@ -63,6 +68,5 @@ public class SlidingWindowMedian {
       while (ts1.size() > ss1) ts2.add(ts1.pollFirst());
       while (ts2.size() > ss2) ts1.add(ts2.pollFirst());
     }
-  }
 
 }

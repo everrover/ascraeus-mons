@@ -6,10 +6,21 @@ public class LongestIncreasingPathInMatrix {
   /**
    * https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
    * 
-   * The solution involves Depth-First Search (DFS) with memoization to explore each cell's longest increasing path. Memoization helps avoid recomputation by storing results of subproblems, ensuring efficient execution.
-   * 
+   * The solution involves Depth-First Search (DFS) with memoization to explore each cell's longest increasing path. Since,
+   * a node will be visited only once(1->2->1 isn't allowed so will not backtrack), we can store the result in a 2D array
+   * to avoid recomputation.
+   *
+   * dp(i, j) = max(1 + dp(r,c)), where r,c are neighbors of i,j and matrix[r][c] > matrix[i][j]
+   *          = 0, if i<0 or j<0 or i>=m or j>=n or matrix[i][j]<=matrix[i][j](already visited or not increasing)
+   *
+   * Topological sort is also possible, with indegree and outdegree calculation, but it's not as intuitive as DFS.
+   *
    * TC: O(m * n) SC: O(m * n)
-   * #array #dynamic-programming #depth-first-search #graph #memoization #hard
+   * #array #dynamic-programming #depth-first-search #graph #memoization #hard #topological-sort
+   *
+   * Follow-up: Another approach? Yes. Using topo-sort. Can we use BFS? Yes.
+   * Follow-up: What if strictly inc seq is not required? Yes, using topo-sort. And DFS too, but additional layers of DP
+   * will be needed. To track already visited nodes.
    */
 
   private static int [][]moves = new int[][]{{-1,0},{0,1},{1,0},{0,-1}};

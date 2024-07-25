@@ -15,7 +15,7 @@ import java.util.Map;
  * #math #number-theory #hard
  */
 
-class Solution {
+class CountArrayPairsDivisibleByK1 {
   private long gcd(long a, long b) {
     if(b>a) return gcd(b,a);
     if (b==0) return a;

@@ -11,7 +11,7 @@ import java.util.Queue;
  * TC: O(m*n) SC: O(m*n)
  * #breadth-first-search #matrix #medium
  */
-public class ShortstPathToGetFood {
+public class ShortestPathToGetFood {
 
   private final static int[][] moves = new int[][]{{0,1},{0,-1},{1,0},{-1,0}};
 
