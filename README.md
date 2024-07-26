@@ -71,6 +71,7 @@ Progress: 3/100
 | [2208. Minimum Operations to Halve Array Sum](./dsa/leetcode/kuiperBelt/MinimumOperationsToHalveArraySum.java) | #heap #priority-queue #greedy #medium                                                                             |
 | [2265. Count Nodes Equal to Average of Subtree](./dsa/leetcode/kuiperBelt/CountNodesEqualToAverageOfSubtree.java) | #tree #dfs #binary-tree #medium                                                                                   |
 | [2286. Booking Concert Tickets in Groups](./dsa/leetcode/kuiperBelt/BookingConcertTicketsInGroups.java) | #binary-search #design #binary-indexed-tree #segment-tree #hard                                                   |
+| [2302. Count Subarrays With Score Less Than K](./dsa/leetcode/kuiperBelt/CountSubarraysWithScoreLessThanK.java) | #array #binary-search #sliding-window #prefix-sum #hard |
 | [2328. Number of Increasing Paths in a Grid](./dsa/leetcode/kuiperBelt/NumberOfIncreasingPathsInGrid.java) | #array #dynamic-programming #depth-first-search #graph #memoization #matrix #hard |
 | [2407. Longest Increasing Subsequence II](./dsa/leetcode/kuiperBelt/LongestIncreasingSubsequenceII.java) | #dynamic-programming #segment-tree #binary-indexed-tree #monotonic-queue #hard                                    |
 | [2416. Sum of Prefix Scores of Strings](./dsa/leetcode/kuiperBelt/SumOfPrefixScoresOfStrings.java) | #trie #string #hard |
@@ -130,7 +131,7 @@ Progress: 3/100
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java) | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | --- | ---                                                                                                               |
 
-DSA Progress: 103/100  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 104/100  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
