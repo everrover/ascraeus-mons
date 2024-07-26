@@ -1,8 +1,18 @@
 package dsa.leetcode.kuiperBelt;
 
-class Solution {
+class SumOfPrefixScoresOfStrings {
 
-  // Trie Node class
+  /**
+   * https://leetcode.com/problems/sum-of-prefix-scores-of-strings/
+   *
+   * Use a Trie data structure. Insert all the words into it, and keep a counter at each node that will tell you how
+   * many times we have visited each prefix.
+   * This allows us to efficiently retrieve the score of each prefix during traversal.
+   *
+   * TC: O(N * M) SC: O(K)
+   * #trie #string #hard
+   */
+
   private static class TN {
     char ch;
     int cnt;
@@ -14,7 +24,6 @@ class Solution {
       cnt = 0;
     }
 
-    // Add a word to the Trie
     public void addWord(char[] chs) {
       TN t = this;
       for (int i = 0; i < chs.length; i++) {
@@ -27,7 +36,6 @@ class Solution {
       }
     }
 
-    // Traverse Trie to get prefix score
     public int traverse(char[] chs) {
       int res = 0;
       TN t = this;
@@ -39,16 +47,6 @@ class Solution {
       return res;
     }
   }
-
-  /**
-   * https://leetcode.com/problems/sum-of-prefix-scores-of-strings/
-   * 
-   * Use a Trie data structure. Insert all the words into it, and keep a counter at each node that will tell you how many times we have visited each prefix.
-   * This allows us to efficiently retrieve the score of each prefix during traversal.
-   * 
-   * TC: O(N * M) SC: O(K)
-   * #trie #string #hard
-   */
   public int[] sumPrefixScores(String[] words) {
     TN root = new TN('.');
     int[] res = new int[words.length];

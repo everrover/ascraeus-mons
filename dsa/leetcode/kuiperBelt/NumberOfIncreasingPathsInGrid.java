@@ -6,8 +6,10 @@ public class NumberOfIncreasingPathsInGrid {
   /**
    * https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/
    *
-   * Define f(i, j) as the number of increasing paths starting from cell (i, j). Use DFS and memoization to avoid re-computation.
-   * Traverse every cell to check as starting point and increment result modulo 10^9+7.
+   * Define f(i, j) as the number of increasing paths 'starting' from cell (i, j). Use DFS and memoization to avoid
+   * re-computation. Traverse every cell to check as starting point and increment result modulo 10^9+7.
+   *
+   * ~ to LongestIncreasingPathInMatrix.java
    *
    * TC: O(m * n) SC: O(m * n)
    * #array #dynamic-programming #depth-first-search #graph #memoization #matrix #hard
