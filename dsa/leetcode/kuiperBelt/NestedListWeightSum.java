@@ -5,7 +5,13 @@ import java.util.List;
 /**
  * https://leetcode.com/problems/nested-list-weight-sum/
  *
- * The solution follows a depth-first search (DFS) approach to traverse each element in the nested list. If the element is an integer, it multiplies it by its depth and adds it to the result. If the element is a list, it recursively calls the DFS function with increased depth to process the elements within.
+ * The solution follows a depth-first search (DFS) approach to traverse each element in the nested list.
+ * If the element is an integer, it multiplies it by its depth and adds it to the result. If the element is a list,
+ * it recursively calls the DFS function with increased depth to process the elements within.
+ *
+ * Alternatively, we can use a breadth-first search (BFS) approach to traverse each element in the nested list.
+ *
+ * Code commented is to run this app here. Uncomment&Impl the interface to run.
  *
  * TC: O(n) SC: O(d)
  * #depth-first-search #bfs #recursion #nested-lists #medium
@@ -13,27 +19,27 @@ import java.util.List;
 
 public class NestedListWeightSum {
 
-    public int depthSum(List<NestedInteger> nestedList) {
-        int res = 0;
-        for (NestedInteger ni : nestedList) {
-            res += dfs(ni, 1);
-        }
-        return res;
-    }
-
-    private int dfs(NestedInteger ni, int depth) {
-        int res = 0;
-        if (ni.isInteger()) {
-            res += depth * ni.getInteger();
-        } else {
-            for (NestedInteger n : ni.getList()) {
-                res += dfs(n, depth + 1);
-            }
-        }
-        return res;
-    }
+//    public int depthSum(List<NestedInteger> nestedList) {
+//        int res = 0;
+//        for (NestedInteger ni : nestedList) {
+//            res += dfs(ni, 1);
+//        }
+//        return res;
+//    }
+//
+//    private int dfs(NestedInteger ni, int depth) {
+//        int res = 0;
+//        if (ni.isInteger()) {
+//            res += depth * ni.getInteger();
+//        } else {
+//            for (NestedInteger n : ni.getList()) {
+//                res += dfs(n, depth + 1);
+//            }
+//        }
+//        return res;
+//    }
 }
-
+/*
 // This is the interface that allows for creating nested lists.
 // You should not implement it, or speculate about its implementation
 public interface NestedInteger {
@@ -59,4 +65,4 @@ public interface NestedInteger {
     // @return the nested list that this NestedInteger holds, if it holds a nested list;
     // Return an empty list if this NestedInteger holds a single integer
     public List<NestedInteger> getList();
-}
+}*/

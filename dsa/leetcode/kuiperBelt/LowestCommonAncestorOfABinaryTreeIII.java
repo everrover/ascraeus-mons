@@ -20,6 +20,17 @@ public class LowestCommonAncestorOfABinaryTreeIII {
    * and check if either node matches the current node or is an ancestor of the found path.
    * If both nodes are found along the path from the root, the current node is the LCA.
    *
+   * Alternatively, we can find the height of both nodes and traverse the tree from the node to the LCA.
+   *
+   * Also, there's the cicuit racer approach to find the LCA in O(1) space. But it can lead to higher TC. eg- case of 1 and 20000 height.
+   *
+   Node r1 = p, r2 = q;
+   while(r1 != r2){
+     r1 = r1.parent==null?p:r1.parent;
+     r2 = r2.parent==null?q:r2.parent;
+   }
+   return r2;
+   *
    * TC: O(n) SC: O(n)
    * #binary-tree #dfs #lca #medium
    */
@@ -53,5 +64,23 @@ public class LowestCommonAncestorOfABinaryTreeIII {
       return true;
     }
     return (current == p || current == q);
+  }
+
+  public Node lowestCommonAncestorWithHt(Node p, Node q) {
+    Node r1 = p, r2 = q;
+    int h1 = 0, h2 = 0;
+    while(r1.parent != null){h1++; r1=r1.parent;}
+    while(r2.parent != null){h2++; r2=r2.parent;}
+    r1 = p; r2 = q;
+    while(h1!=h2){
+      if(h1 > h2){ r1 = r1.parent; h1--; }
+      else if(h2 > h1){ r2 = r2.parent; h2--; }
+    }
+    while(r1 != r2){
+      r1 = r1.parent;
+      r2 = r2.parent;
+    }
+
+    return r2;
   }
 }

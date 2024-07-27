@@ -9,7 +9,10 @@ import java.util.*;
  * the top k frequent elements. The queue orders the elements by their frequency, allowing us to efficiently
  * obtain the k most frequent elements.
  *
+ * How about using no extra space? We can use quick select. We can also use bucket sort.
+ *
  * TC: O(n log k) SC: O(n)
+ *
  * #hashmap #priorityqueue #heaps #medium
  */
 
@@ -29,6 +32,7 @@ public class TopKFrequentElements {
             pq.offer(me.getKey());
             if (pq.size() > k) pq.poll(); // Ensure the queue has no more than k elements
         }
+//        while(pq.size()>k) pq.poll();
 
         int[] res = new int[pq.size()];
         // Retrieve the top k frequent elements
