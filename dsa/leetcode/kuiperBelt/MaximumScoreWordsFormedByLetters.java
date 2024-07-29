@@ -1,12 +1,16 @@
 package dsa.leetcode.kuiperBelt;
 
-class Solution {
+class MaximumScoreWordsFormedByLetters {
   /**
    * https://leetcode.com/problems/maximum-score-words-formed-by-letters/
    *
    * Given a list of words and a list of letters with associated scores, the goal is to calculate the maximum score
    * possible from any combination of the given words. The words can only be formed using each letter once. Use a
    * backtracking approach to explore all possible combinations of words and calculate the best score.
+   *
+   * Alternatively, we can use a bitmask to represent the frequency of each character in the letters. For each word,
+   * we can calculate the score and the frequency of each character. We can then iterate through all possible bitmasks
+   * and calculate the score for each combination of words. This approach is more efficient than backtracking.
    *
    * TC: O(2^n * m) where n is the number of words and m is the length of the word.
    * SC: O(m) for storing frequency of characters.
