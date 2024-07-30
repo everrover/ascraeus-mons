@@ -13,12 +13,12 @@ public class FrogJump {
    * The DFS method recursively checks if it can reach the last stone from the current stone by attempting all valid jump sizes. 
    * Memoization is used to store results of subproblems to avoid redundant calculations.
    * 
-   * TC: O(n^2) | SC: O(n^2)
+   * TC: O(n*k) | SC: O(n*k)
    * #array #dynamic-programming #hard
    */
   
   public boolean canCross(int[] stones) {
-    Map<Integer, Boolean>[] dp = new Map[stones.length];
+    Map<Integer, Boolean>[] dp = new Map[stones.length]; // can use [len][2001] to save space... didn't
     return dfs(0, 0, stones, dp);
   }
 
