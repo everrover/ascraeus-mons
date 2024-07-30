@@ -32,6 +32,7 @@
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) |                                                                                                                   |
 | [391. PerfectRectangle](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PerfectRectangle.java) | #trick #math                                                                                                  |
 | [397. Count Range Sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountOfRangeSum/Solution.java) | #merge-sort #merge-algo #math #sliding-window #binary-search-tree #binary-indexed-tree                        |
+| [403. Frog Jump](./dsa/leetcode/kuiperBelt/FrogJump.java) | #array #dynamic-programming #hard |
 | [437. PathSumIII](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PathSumIII.java)          | binary-tree #preorder-traversal #dfs #bfs #dynamic-programming                                                |
 | [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java)                                 | #hash-table #linked-list #design #doubly-linked-list #hard                                                        |
 | [466. Count Reps](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountRepetitions.java)    | #pattern-matching #dp                                                                                         |
@@ -265,9 +266,9 @@
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 110/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 111/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 556/1600
+All problems progress in LeetCode: 557/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
