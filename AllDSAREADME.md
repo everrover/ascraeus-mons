@@ -192,6 +192,7 @@
 | [2565. Subsequence With the Minimum Score](https://github.com/everrover/mount-kronos/blob/main/NinetySix/SubseqWithMinScore.java) | #split-sliding-window #sliding-window #suffix-precomputation #dp #binary-search #bin-search-across_sol-space  |
 | [2663. Lexicographically Smallest Beautiful String](https://github.com/everrover/mount-kronos/blob/main/LordShiva/LexoSmallestBeautifulString.java) | #                                                                                                             |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard                                                                           |
+| [2751. Robot Collisions](./dsa/leetcode/kuiperBelt/RobotCollisions.java) | #stack #array #sorting #simulation #hard |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java)        | #easy                                                                                                             |
 | [2784. Check if Array is Good](.dsa/leetcode/kuiperBelt/EasySetI.java)                    | #easy                                                                                                             |
 | [2788. Split Strings by Separator](.dsa/leetcode/kuiperBelt/EasySetI.java)                | #easy                                                                                                             |
@@ -266,9 +267,9 @@
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 111/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 112/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 557/1600
+All problems progress in LeetCode: 558/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
