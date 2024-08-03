@@ -266,11 +266,12 @@
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium                                                                                        |
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | [3239. Minimum Number of Flips to Make Binary Grid Palindromic](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromic.java) | #grid #matrix #palindrome #greedy #medium |
+| [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromicII.java) | #matrix #palindrome #greedy #medium |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 113/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 114/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 559/1600
+All problems progress in LeetCode: 560/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
