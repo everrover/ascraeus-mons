@@ -1,6 +1,7 @@
 package dsa.leetcode.kuiperBelt;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class RobotCollisions {
 
@@ -12,22 +13,24 @@ public class RobotCollisions {
    * against the top of the stack to determine if a collision occurs. Resolve collisions by comparing healths
    * and update accordingly.
    *
+   * TBH it wasn't that hard...
+   *
    * TC: O(n log n) SC: O(n)
    * #stack #array #sorting #simulation #hard
    */
 
-  public List<Integer> survivedRobotsHealths(int[] positions, int[] healths, String directions) {
-    class T {
-      public int p, h, i;
-      public boolean il;
+  private static class T {
+    public int p, h, i;
+    public boolean il;
 
-      public T(int i, int p, int h, char s) {
-        this.i = i;
-        this.p = p;
-        this.h = h;
-        this.il = s == 'L';
-      }
+    public T(int i, int p, int h, char s) {
+      this.i = i;
+      this.p = p;
+      this.h = h;
+      this.il = s == 'L';
     }
+  }
+  public List<Integer> survivedRobotsHealths(int[] positions, int[] healths, String directions) {
     
     T ts[] = new T[positions.length];
     for (int i = 0; i < positions.length; i++) {

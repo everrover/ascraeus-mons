@@ -11,7 +11,7 @@ public class FindTheNumberOfWinningPlayers {
    * For each player, check if they picked more than i balls of any color.
    *
    * TC: O(n * k) SC: O(n * k)
-   * #hashmap #array #greedy #easy
+   * #hashmap #array #greedy #easy #contest
    */
 
   public int winningPlayerCount(int n, int[][] pick) {

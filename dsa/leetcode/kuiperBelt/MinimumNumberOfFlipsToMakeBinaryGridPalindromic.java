@@ -11,7 +11,7 @@ public class MinimumNumberOfFlipsToMakeBinaryGridPalindromic {
    *
    * TC: O(m * n/2)
    * SC: O(1)
-   * #grid #matrix #palindrome #greedy #medium
+   * #grid #matrix #palindrome #greedy #medium #contest
    */
 
   public int minFlips(int[][] grid) {
