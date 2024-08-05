@@ -268,11 +268,12 @@
 | [3238. Find the Number of Winning Players](./dsa/leetcode/kuiperBelt/FindTheNumberOfWinningPlayers.java) | #hashmap #array #greedy #easy |
 | [3239. Minimum Number of Flips to Make Binary Grid Palindromic](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromic.java) | #grid #matrix #palindrome #greedy #medium |
 | [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromicII.java) | #matrix #palindrome #greedy #medium |
+| [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 115/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 116/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 561/1600
+All problems progress in LeetCode: 562/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
