@@ -18,3 +18,11 @@
 - https://leetcode.com/problems/longest-common-subsequence/
 - https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/submissions/
 - https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/
+- https://leetcode.com/problems/alternating-groups-iii
+- https://leetcode.com/problems/time-taken-to-mark-all-nodes/
+- https://leetcode.com/problems/stickers-to-spell-word/?envType=company&envId=facebook&favoriteSlug=facebook-all&difficulty=HARD
+
+### Other tasks
+
+- Add resume link and other links on my website
+- 
