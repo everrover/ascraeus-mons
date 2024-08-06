@@ -27,6 +27,7 @@
 | [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force                                |
 | [319. Bulb switcher](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BulbSwitcher/BulbSwitcher.java) | #maths #trick #simulation-was-overkill                                                                        |
 | [329. Longest Increasing Path in a Matrix](./dsa/leetcode/kuiperBelt/LongestIncreasingPathInMatrix.java) | #array #dynamic-programming #depth-first-search #graph #memoization #hard                                         |
+| [330. Patching Array](./dsa/leetcode/kuiperBelt/PatchingArray.java) | #array #greedy #hard |
 | [339. Nested List Weight Sum](./dsa/leetcode/kuiperBelt/NestedListWeightSum.java)         | #depth-first-search #bfs #recursion #nested-lists #medium                                                         |
 | [347. Top K Frequent Elements](./dsa.leetcode.kuiperBelt/TopKFrequentElements.java)       | #hashmap #priorityqueue #heaps #medium                                                                            |
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) |                                                                                                                   |
@@ -271,9 +272,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 116/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 117/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 562/1600
+All problems progress in LeetCode: 563/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
