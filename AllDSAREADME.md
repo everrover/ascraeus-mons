@@ -58,6 +58,7 @@
 | [727. Minimum Window Subsequence](./dsa/leetcode/kuiperBelt/MinimumWindowSubsequence.java) | #dynamic-programming #sliding-window #string #hard #sliding-window                                                |
 | [740. Delete and Earn](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/DeleteAndEarn/sol.md)                   |                                                                                                                   |
 | [743. Network Delay Time](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/NetworkDelayTime.java) | #dijkstras-algorithm                                                                                          |
+| [745. Prefix and Suffix Search](./dsa/leetcode/kuiperBelt/PrefixAndSuffixSearch.java) | #trie #string #design #hard |
 | [756. Pyramid transition matrix](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PyramidTransitionMatrix.java) | #dfs #bfs #recursion #backtracking                                                                            |
 | [789. Escaaape the ghosts](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PacmanEscapesTheGhost.java) | #math #easy                                                                                                   |
 | [799. Champagne Tower](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChampagneTower/sol.md)                  |                                                                                                                   |
@@ -272,9 +273,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 117/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 118/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 563/1600
+All problems progress in LeetCode: 564/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
