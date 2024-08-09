@@ -34,6 +34,7 @@
 | [391. PerfectRectangle](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PerfectRectangle.java) | #trick #math                                                                                                  |
 | [397. Count Range Sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountOfRangeSum/Solution.java) | #merge-sort #merge-algo #math #sliding-window #binary-search-tree #binary-indexed-tree                        |
 | [403. Frog Jump](./dsa/leetcode/kuiperBelt/FrogJump.java) | #array #dynamic-programming #hard |
+| [407. Trapping Rain Water II](./dsa/leetcode/kuiperBelt/TrappingRainWaterII.java) | #array #bfs #heap #priority-queue #matrix #hard |
 | [437. PathSumIII](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PathSumIII.java)          | binary-tree #preorder-traversal #dfs #bfs #dynamic-programming                                                |
 | [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java)                                 | #hash-table #linked-list #design #doubly-linked-list #hard                                                        |
 | [466. Count Reps](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountRepetitions.java)    | #pattern-matching #dp                                                                                         |
@@ -273,9 +274,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 118/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 119/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 564/1600
+All problems progress in LeetCode: 565/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
