@@ -47,6 +47,7 @@
 | [518. Counting Coins II](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountingcCoins_II/sol.md)             | #dynamic-programming #memory-optimization                                                                     |
 | [546. Remove boxes](https://github.com/everrover/mount-kronos/blob/main/LordShiva/RemoveBoxes.java)       | #dynamic-programming #array #tricky #important                                                                |
 | [547. Number of Provinces](https://github.com/everrover/mount-kronos/blob/main/SuperMario/NumberOfProvinces.java) | #graphs #dfs #bfs                                                                                             |
+| [552. Student Attendance Record II](./dsa/leetcode/kuiperBelt/StudentAttendanceRecordII.java) | #dp #string #hard |
 | [560. Subarray Sum Equals K](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/SubarraySumEqualsK.java) | #simulation #dynamic-programming                                                                              |
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java)         | #simulation #string #easy                                                                                         |
 | [664. Strange printer](https://github.com/everrover/mount-kronos/blob/main/LordShiva/StrangePrinter.java) | #dynamic-programming #array #tricky #important                                                                |
@@ -274,9 +275,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 119/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 120/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 565/1600
+All problems progress in LeetCode: 566/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
