@@ -14,6 +14,12 @@ public class TrappingRainWaterII {
    * 
    * TC: O(m*n*log(m*n)) SC: O(m*n)
    * #array #bfs #heap #priority-queue #matrix #hard
+   * 
+   * The case of 1D elevation map is solved via maintaining two max arrays for left and right iterations.
+   * It fails here in cases like:
+    // 2 2 2 2
+    // 2 1 1 2
+    // 2 2 1 2
    */
 
   private static class T {
