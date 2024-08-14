@@ -12,6 +12,7 @@
 | [127. Word ladder](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordLadder.java) | #strings #hashing #trie #bfs #graphs                                                                          |
 | [139. Word Break](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordBreak.java) | #dynamic-programming #trie #string #hashing                                                                   |
 | [140. Word Break II](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordBreakII.java) | #dynamic-programming #trie #string #hashing #backtracking                                                     |
+| [149. Max Points on a Line](./dsa/leetcode/kuiperBelt/MaxPointsOnALine.java) | #array #hash-table #math #geometry #hard |
 | [189. Rotate array](https://github.com/everrover/mount-kronos/blob/main/SuperMario/RotateArr.java) | #array #rotation #trick #easy                                                                                 |
 | [207. Course Schedule](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CourseSchedule.java) | #easy #dfs #graphs #cycle-detection                                                                           |
 | [218. The Skyline Problem](./dsa/leetcode/kuiperBelt/TheSkylineProblem.java)              | #heap #priority-queue #line-sweep #hard                                                                           |
@@ -276,9 +277,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 121/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 122/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 567/1600
+All problems progress in LeetCode: 568/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
