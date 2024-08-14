@@ -18,6 +18,7 @@
 | [218. The Skyline Problem](./dsa/leetcode/kuiperBelt/TheSkylineProblem.java)              | #heap #priority-queue #line-sweep #hard                                                                           |
 | [235. Lowest Common Ancestor of a Binary Search Tree](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/LCA/Solution.java) | #easy #binary-tree                                                                                            |
 | [269. Alien Dictionary](./dsa/leetcode/kuiperBelt/AlienDictionary.java) | #array #string #dfs #bfs #graph #topological-sort #hard |
+| [282. Expression Add Operators](./dsa/leetcode/kuiperBelt/ExpressionAddOperators.java) | #math #string #backtracking #hard |
 | [283. Move Zeroes](./dsa/leetcode/kuiperBelt/MoveZeroes.java)                             | #array #two-pointers #easy                                                                                        |
 | [295. Find Median From Data Stream](./dsa/leetcode/kuiperBelt/FindMedianFromDataStream.java) | #heap #priority-queue #design #data-stream #hard                                                                  |
 | [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java)                | #array #math #sorting #matrix #hard                                                                               |
@@ -278,9 +279,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 123/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 124/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 569/1600
+All problems progress in LeetCode: 570/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
