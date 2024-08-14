@@ -8,6 +8,9 @@ public class TrappingRainWater {
    *
    * Calculates the amount of trapped rain water in the given elevation map.
    * Uses dynamic programming to store the maximum height to the left and right of each bar.
+   * 
+   * We could use a two-pointer approach to solve this problem as well with a monotonic stack
+   * via left->right and right->left iterations.
    *
    * TC: O(n) SC: O(n)
    * #array #two-pointers #dynamic-programming #stack #hard
