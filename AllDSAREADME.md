@@ -92,6 +92,7 @@
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space               |
 | [1091. Shortest Path in Binary Matrix](https://github.com/everrover/mount-kronos/blob/main/SuperMario/ShortestPathInBinaryMatrix.java) | #bfs #shortest-path #matrix                                                                                   |
 | [1092. Shortest Common Supersequence](https://github.com/everrover/mount-kronos/blob/main/NinetySix/ShortestCommonSupersequence.java) | #dynamic-programming #memory-optimization #LCS #piggybacking                                                  |
+| [1106. Parsing A Boolean Expression](./dsa/leetcode/kuiperBelt/ParsingABooleanExpression.java) | #stack #recursion #string #hard |
 | [1143. Longest common sub-seq](https://github.com/everrover/mount-kronos/blob/main/NinetySix/LongestCommonSubseq.java) | #dynamic-programming #memory-optimization                                                                     |
 | [1147. Longest Chunked Palindrome Decomposition](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LongestChunkedPalindromeDecomposition.java) | #dynamic-programming #palindrome #no-effort #two-pointer #string                                              |
 | [1155. Rolling dice with sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/DiceRollsWithTargetSum.java) | #dynamic-programming #memory-optimization                                                                     |
@@ -277,9 +278,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 122/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 123/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 568/1600
+All problems progress in LeetCode: 569/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
