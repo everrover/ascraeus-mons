@@ -6,6 +6,7 @@
 | Title                                                                                     | Some pointers                                                                                                     |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
+| [42. Trapping Rain Water](./dsa/leetcode/kuiperBelt/TrappingRainWater.java) | #array #two-pointers #dynamic-programming #stack #hard |
 | [76. Minimum Window Substring](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinWindowSubstring.java) | #sliding-window #hashmap #array #string #done-b4                                                              |
 | [84. Largest rectangle in histogram](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/LargestRectangleInHistogram/Solution.java) | #🙅🏻\u200d♀ #monotonic-stack #dynamic-programming #stack                                                          |
 | [85. Maximal Rectangle](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaximalRectangle.java) | #based-on-others #monotonic-stack #dynamic-programming #stack                                                 |
@@ -280,9 +281,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 125/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 126/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 571/1600
+All problems progress in LeetCode: 572/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
