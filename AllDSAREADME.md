@@ -32,6 +32,7 @@
 | [295. Find Median From Data Stream](./dsa/leetcode/kuiperBelt/FindMedianFromDataStream.java) | #heap #priority-queue #design #data-stream #hard                                                                  |
 | [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java)                | #array #math #sorting #matrix #hard                                                                               |
 | [296. Best Meeting Point](./dsa/leetcode/jovianMoonOrbit/BestMeetingPoint.java) | #array #math #sorting #matrix #hard |
+| [296. Best Meeting Point](./dsa/leetcode/jovianMoonOrbit/BestMeetingPoint.java) | #array #math #sorting #matrix #hard |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard                                                                                          |
 | [301. Remove Invalid Parentheses](./dsa/leetcode/kuiperBelt/RemoveInvalidParentheses.java) | #backtracking #string #bfs #hard                                                                                  |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium                         |
@@ -289,9 +290,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 134/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 135/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 576/1600
+All problems progress in LeetCode: 577/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
