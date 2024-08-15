@@ -16,6 +16,7 @@
 | [140. Word Break II](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordBreakII.java) | #dynamic-programming #trie #string #hashing #backtracking                                                     |
 | [149. Max Points on a Line](./dsa/leetcode/kuiperBelt/MaxPointsOnALine.java) | #array #hash-table #math #geometry #hard |
 | [154. Find Minimum in Rotated Sorted Array II](./dsa/leetcode/kuiperBelt/FindMinimumInRotatedSortedArrayII.java) | #array #binary-search #hard |
+| [174. Dungeon Game](./dsa/leetcode/kuiperBelt/DungeonGame.java) | #array #dynamic-programming #matrix #hard |
 | [188. Best Time to Buy and Sell Stock IV](./dsa/leetcode/kuiperBelt/BestTimeToBuyAndSellStockIv.java) | #array #dynamic-programming #hard |
 | [189. Rotate array](https://github.com/everrover/mount-kronos/blob/main/SuperMario/RotateArr.java) | #array #rotation #trick #easy                                                                                 |
 | [207. Course Schedule](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CourseSchedule.java) | #easy #dfs #graphs #cycle-detection                                                                           |
@@ -283,9 +284,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 128/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 129/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 570/1600
+All problems progress in LeetCode: 571/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
