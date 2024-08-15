@@ -23,6 +23,8 @@
 | [218. The Skyline Problem](./dsa/leetcode/kuiperBelt/TheSkylineProblem.java)              | #heap #priority-queue #line-sweep #hard                                                                           |
 | [235. Lowest Common Ancestor of a Binary Search Tree](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/LCA/Solution.java) | #easy #binary-tree                                                                                            |
 | [253. Meeting Rooms II](./dsa/leetcode/kuiperBelt/MeetingRoomsII.java) | #array #two-pointers #greedy #sorting #heap #priority-queue #medium |
+| [256. Paint House](./dsa/leetcode/kuiperBelt/PaintHouse.java) | #array #dynamic-programming #medium |
+| [256. Paint House](./dsa/leetcode/kuiperBelt/PaintHouse.java) | #array #dp #paint-house #medium |
 | [269. Alien Dictionary](./dsa/leetcode/kuiperBelt/AlienDictionary.java) | #array #string #dfs #bfs #graph #topological-sort #hard |
 | [282. Expression Add Operators](./dsa/leetcode/kuiperBelt/ExpressionAddOperators.java) | #math #string #backtracking #hard |
 | [283. Move Zeroes](./dsa/leetcode/kuiperBelt/MoveZeroes.java)                             | #array #two-pointers #easy                                                                                        |
@@ -285,9 +287,9 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | ---                                                                                       | ---                                                                                                               |
 
-DSA Progress: 130/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 132/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 572/1600
+All problems progress in LeetCode: 574/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
