@@ -1,6 +1,6 @@
 package dsa.leetcode.kuiperBelt;
 
-class Solution {
+class PaintHouseII {
     /**
      * https://leetcode.com/problems/paint-house-ii/
      *

@@ -10,9 +10,14 @@ public class MaximumValueSumByPlacingThreeRooksII {
    * The idea is to sort the rows of the board in descending order based on cell values,
    * and then use recursive depth-first search (DFS) to attempt to place the three rooks
    * in non-attacking positions within the top three rows.
+   * 
+   * We can use segment-tree here as well. Or a PQ. To find 2nd and third max.
+   * 
+   * Only difference in /maximum-value-sum-by-placing-three-rooks-ii and /maximum-value-sum-by-placing-three-rooks-i is
+   * the constraints. 500/100 max board size respectively.
    *
-   * TC: O(m * n^2) SC: O(m * n)
-   * #chess #DFS #dynamic-programming #hard
+   * TC: O(m * n * log(n)) SC: O(m * n)
+   * #chess #DFS #dynamic-programming #hard #greedy #sorting #segment-tree #prefix-sum
    */
 
   private final static int F = 0, S = 1;
@@ -39,7 +44,7 @@ public class MaximumValueSumByPlacingThreeRooksII {
     long[][] dp = new long[m + 1][n + 1];
     long res = B;
 
-    for (int idx = 0; idx < 3; idx++) {
+    for (int idx = 0; idx < n; idx++) {
       for (int i = 0; i < m; i++) Arrays.fill(dp[i], -1);
       res = Math.max(res, elems[0][idx][F] + dfs(1, elems[0][idx][S], -1, elems, dp));
     }

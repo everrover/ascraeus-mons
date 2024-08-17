@@ -2,7 +2,7 @@ package dsa.leetcode.kuiperBelt;
 
 // imports here
 
-public class PaintHouse {
+public class PaintHouse1 {
   
   /**
    * https://leetcode.com/problems/paint-house/

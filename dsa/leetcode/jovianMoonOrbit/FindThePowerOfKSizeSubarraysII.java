@@ -15,10 +15,15 @@ import java.util.Arrays;
  * 
  * Simply iterate through the array to find the length of the longest subarray 
  * ending at each index that is consecutive and sorted. Then, use this to determine 
- * if each k-size subarray is valid.
+ * if each k-size subarray is valid. While thinking of two-pointer with sliding-window approach, 
+ * I added consecutive length of consecutive sorted subarrays to mark. Simply found the 
+ * correlation hence.
+ * 
+ * The constraints were 10^3 for /find-the-power-of-k-size-subarrays-i and 10^6 for /find-the-power-of-k-size-subarrays-ii.
+ * No other difference.
  * 
  * TC: O(n) SC: O(n)
- * #array #sliding-window #medium
+ * #array #sliding-window #medium #two-pointer
  */
 
 public class FindThePowerOfKSizeSubarraysII {
