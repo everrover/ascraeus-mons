@@ -282,12 +282,13 @@
 | [3239. Minimum Number of Flips to Make Binary Grid Palindromic](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromic.java) | #grid #matrix #palindrome #greedy #medium |
 | [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromicII.java) | #matrix #palindrome #greedy #medium |
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
+| [3255. Find the Power of K-Size Subarrays II](./dsa/leetcode/jovianMoonOrbit/FindThePowerOfKSizeSubarraysII.java) | #array #sliding-window #medium |
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 129/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 130/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 569/1600
+All problems progress in LeetCode: 570/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
