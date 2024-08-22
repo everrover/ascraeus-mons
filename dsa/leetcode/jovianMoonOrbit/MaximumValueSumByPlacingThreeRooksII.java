@@ -44,7 +44,7 @@ public class MaximumValueSumByPlacingThreeRooksII {
     long[][] dp = new long[m + 1][n + 1];
     long res = B;
 
-    for (int idx = 0; idx < n; idx++) {
+    for (int idx = 0; idx < n; idx++) { // could've used 3 here.
       for (int i = 0; i < m; i++) Arrays.fill(dp[i], -1);
       res = Math.max(res, elems[0][idx][F] + dfs(1, elems[0][idx][S], -1, elems, dp));
     }
@@ -57,7 +57,7 @@ public class MaximumValueSumByPlacingThreeRooksII {
     if (dp[idx][rdx1 + 1] != -1) return dp[idx][rdx1 + 1];
 
     long res = dfs(idx + 1, rdx2, rdx1, elems, dp); // pick nth from this layer
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) { // could've used 3 here.
       if (elems[idx][i][S] == rdx1 || elems[idx][i][S] == rdx2) continue;
       if (rdx1 != -1) res = Math.max(res, elems[idx][i][F]);
       else {
