@@ -279,6 +279,7 @@
 | [3170. Lexicographically Minimum String After Removing Stars](./dsa/leetcode/kuiperBelt/LexicographicallyMinimumStringAfterRemovingStars.java) | #hash-table #string #stack #greedy #heap-priority-queue #medium        |
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium |
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard |
+| [3219. Minimum Cost for Cutting Cake II](./dsa/leetcode/jovianMoonOrbit/MinimumCostForCuttingCakeII.java) | #array #greedy #sorting #hard |
 | [3238. Find the Number of Winning Players](./dsa/leetcode/kuiperBelt/FindTheNumberOfWinningPlayers.java) | #hashmap #array #greedy #easy |
 | [3239. Minimum Number of Flips to Make Binary Grid Palindromic](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromic.java) | #grid #matrix #palindrome #greedy #medium |
 | [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromicII.java) | #matrix #palindrome #greedy #medium |
@@ -287,9 +288,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 131/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 132/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 571/1600
+All problems progress in LeetCode: 572/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
