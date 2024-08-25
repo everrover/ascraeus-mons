@@ -108,6 +108,7 @@
 | [1192. Connections in a Network - Articulation points](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ArticulationPoints/sol.md) | #dynamic-programming #graph-theory #cycle-detection               |
 | [1202. Smallest String With Swaps](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/SmallestStringWithSwaps/sol.md) | |
 | [1210. Minimum Moves to Reach Target with Rotations](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinMovesToReachTargetWithRotations.java) | #bfs #dp #tricky #optimization #memoization-optimization           |
+| [1216. Valid Palindrome III](./dsa/leetcode/jovianMoonOrbit/ValidPalindromeIII.java) | #dynamic-programming #string #hard |
 | [1249. Minimum Remove to Make Valid Parentheses](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinRemoveToMakeValidParenthesis.java) | #stacks #string |
 | [1255. Maximum Score Words Formed by Letters](./dsa/leetcode/kuiperBelt/MaximumScoreWordsFormedByLetters.java) | #array #string #dynamic-programming #backtracking #bit-manipulation #hard                                         |
 | [1263. Minimum Moves to Move a Box to Their Target Location](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinMovesToMoveBoxToTargetLocation.java) | #dfs #state-traversal #bfs #route-optimization #tricky             |
@@ -288,9 +289,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 132/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 133/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 572/1600
+All problems progress in LeetCode: 573/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
