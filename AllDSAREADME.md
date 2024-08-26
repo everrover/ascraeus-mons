@@ -26,6 +26,7 @@
 | [256. Paint House](./dsa/leetcode/kuiperBelt/PaintHouse.java) | #array #dynamic-programming #medium |
 | [265. Paint House II](./dsa/leetcode/kuiperBelt/PaintHouseII.java) | #array #dynamic-programming #hard |
 | [269. Alien Dictionary](./dsa/leetcode/kuiperBelt/AlienDictionary.java) | #array #string #dfs #bfs #graph #topological-sort #hard |
+| [273. Integer to English Words](./dsa/leetcode/jovianMoonOrbit/IntegerToEnglishWords.java) | #math #string #recursion #hard |
 | [282. Expression Add Operators](./dsa/leetcode/kuiperBelt/ExpressionAddOperators.java) | #math #string #backtracking #hard |
 | [283. Move Zeroes](./dsa/leetcode/kuiperBelt/MoveZeroes.java)                             | #array #two-pointers #easy |
 | [295. Find Median From Data Stream](./dsa/leetcode/kuiperBelt/FindMedianFromDataStream.java) | #heap #priority-queue #design #data-stream #hard |
@@ -289,9 +290,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 133/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 134/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 573/1600
+All problems progress in LeetCode: 574/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
