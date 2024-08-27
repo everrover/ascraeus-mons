@@ -14,6 +14,8 @@ public class IntegerToEnglishWords {
    * 2. Convert each three-digit group to words using a helper method.
    * 3. Combine the results with appropriate thousand/million/billion labels.
    * 
+   * idk why is it even hard
+   * 
    * TC: O(n) SC: O(1)
    * #math #string #recursion #hard
    */
