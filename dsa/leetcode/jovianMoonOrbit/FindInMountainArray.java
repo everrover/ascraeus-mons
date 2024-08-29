@@ -2,6 +2,11 @@ package dsa.leetcode.jovianMoonOrbit;
 
 public class FindInMountainArray {
 
+    private interface MountainArray {
+        int get(int index);
+        int length();
+    }
+
     /**
      * https://leetcode.com/problems/find-in-mountain-array/
      * 
