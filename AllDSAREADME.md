@@ -103,6 +103,7 @@
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space               |
 | [1091. Shortest Path in Binary Matrix](https://github.com/everrover/mount-kronos/blob/main/SuperMario/ShortestPathInBinaryMatrix.java) | #bfs #shortest-path #matrix |
 | [1092. Shortest Common Supersequence](https://github.com/everrover/mount-kronos/blob/main/NinetySix/ShortestCommonSupersequence.java) | #dynamic-programming #memory-optimization #LCS #piggybacking       |
+| [1095. Find in Mountain Array](./dsa/leetcode/jovianMoonOrbit/FindInMountainArray.java) | #binary-search #interactive #hard |
 | [1106. Parsing A Boolean Expression](./dsa/leetcode/kuiperBelt/ParsingABooleanExpression.java) | #stack #recursion #string #hard |
 | [1143. Longest common sub-seq](https://github.com/everrover/mount-kronos/blob/main/NinetySix/LongestCommonSubseq.java) | #dynamic-programming #memory-optimization |
 | [1147. Longest Chunked Palindrome Decomposition](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LongestChunkedPalindromeDecomposition.java) | #dynamic-programming #palindrome #no-effort #two-pointer #string   |
@@ -291,9 +292,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 135/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 136/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 575/1600
+All problems progress in LeetCode: 576/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
