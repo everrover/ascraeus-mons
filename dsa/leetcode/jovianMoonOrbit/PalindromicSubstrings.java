@@ -10,6 +10,12 @@ public class PalindromicSubstrings {
    * Count the number of palindromic substrings by expanding around each possible center of the palindrome.
    * Each character and each pair of characters are considered as the center, and expand around them.
    * 
+   * If DP were to be used, we'd have to traverse through (n^2)/2 states to check count of palindromic substrings.
+   * dp(i, j) = s[i] == s[j] && dp(i + 1, j - 1), i>j
+   *          = true, i==j
+   *          = false, j>i
+   * Increase the count of palindromic substrings if dp(i, j) is true for all (i, j) combos.
+   * 
    * TC: O(n^2) SC: O(1)
    * #two-pointers #dynamic-programming #string #medium
    */
