@@ -61,6 +61,7 @@
 | [547. Number of Provinces](https://github.com/everrover/mount-kronos/blob/main/SuperMario/NumberOfProvinces.java) | #graphs #dfs #bfs |
 | [552. Student Attendance Record II](./dsa/leetcode/kuiperBelt/StudentAttendanceRecordII.java) | #dp #string #hard |
 | [560. Subarray Sum Equals K](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/SubarraySumEqualsK.java) | #simulation #dynamic-programming |
+| [647. Palindromic Substrings](./dsa/leetcode/jovianMoonOrbit/PalindromicSubstrings.java) | #two-pointers #dynamic-programming #string #medium |
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java)         | #simulation #string #easy |
 | [664. Strange printer](https://github.com/everrover/mount-kronos/blob/main/LordShiva/StrangePrinter.java) | #dynamic-programming #array #tricky #important |
 | [672. Bulb switcher II](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BulbSwitcherII.java) | #simulation-on-paper #trick #simulation-was-overkill-in-code       |
@@ -293,9 +294,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 137/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 138/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 577/1600
+All problems progress in LeetCode: 578/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
