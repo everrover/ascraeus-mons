@@ -46,6 +46,7 @@
 | [397. Count Range Sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountOfRangeSum/Solution.java) | #merge-sort #merge-algo #math #sliding-window #binary-search-tree #binary-indexed-tree                        |
 | [403. Frog Jump](./dsa/leetcode/kuiperBelt/FrogJump.java) | #array #dynamic-programming #hard |
 | [407. Trapping Rain Water II](./dsa/leetcode/kuiperBelt/TrappingRainWaterII.java) | #array #bfs #heap #priority-queue #matrix #hard |
+| [426. Convert Binary Search Tree to Sorted Doubly Linked List](./dsa/leetcode/jovianMoonOrbit/ConvertBstToSortedDoublyLinkedList.java) | #linked-list #tree #binary-search-tree #medium |
 | [437. PathSumIII](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PathSumIII.java)          | binary-tree #preorder-traversal #dfs #bfs #dynamic-programming     |
 | [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java)                                 | #hash-table #linked-list #design #doubly-linked-list #hard             |
 | [466. Count Reps](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountRepetitions.java)    | #pattern-matching #dp |
@@ -295,9 +296,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 139/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 140/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 579/1600
+All problems progress in LeetCode: 580/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
