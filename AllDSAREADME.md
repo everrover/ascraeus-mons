@@ -57,6 +57,7 @@
 | [515. 515. Find Largest Value in Each Tree Row](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindLargestInEachBinTreeRow.java) | #binary-tree #bfs #dfs |
 | [518. Counting Coins II](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountingcCoins_II/sol.md)             | #dynamic-programming #memory-optimization |
 | [525. Contiguous Array](./dsa/leetcode/jovianMoonOrbit/ContiguousArray.java) | #array #hash-table #prefix-sum #medium |
+| [528. Random Pick with Weight](./dsa/leetcode/jovianMoonOrbit/RandomPickWithWeight.java) | #array #math #binary-search #prefix-sum #randomized #medium |
 | [546. Remove boxes](https://github.com/everrover/mount-kronos/blob/main/LordShiva/RemoveBoxes.java)       | #dynamic-programming #array #tricky #important |
 | [547. Number of Provinces](https://github.com/everrover/mount-kronos/blob/main/SuperMario/NumberOfProvinces.java) | #graphs #dfs #bfs |
 | [552. Student Attendance Record II](./dsa/leetcode/kuiperBelt/StudentAttendanceRecordII.java) | #dp #string #hard |
@@ -294,9 +295,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 138/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 139/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 578/1600
+All problems progress in LeetCode: 579/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
