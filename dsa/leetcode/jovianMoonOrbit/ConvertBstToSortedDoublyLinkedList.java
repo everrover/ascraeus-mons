@@ -28,6 +28,8 @@ class Node {
  *
  * TC: O(n) SC: O(h), where n is the number of nodes, and h is the height of the tree.
  * #linked-list #tree #binary-search-tree #medium
+ * 
+ * p.s. did this problem in university...
  */
 class Solution {
     public Node treeToDoublyList(Node root) {

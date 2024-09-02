@@ -12,6 +12,7 @@ public class ContiguousArray {
    *
    * Found by building prefix sum arrays. If for two points the diff is the same bw count of zeros and ones
    * , then the subarray between them has equal number of zeros and ones.
+   * 
    * TC: O(n) SC: O(n)
    * #array #hash-table #prefix-sum #medium
    */

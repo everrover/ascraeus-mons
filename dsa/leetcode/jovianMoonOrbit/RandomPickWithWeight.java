@@ -6,7 +6,16 @@ public class RandomPickWithWeight {
   /**
    * https://leetcode.com/problems/random-pick-with-weight/
    *
-   * Compute prefix sums array and use binary search to find the index.
+   * Compute prefix sums array and use binary search to find the index. This essentially builds a weighted sampler.
+   * 
+   * Visualize the random picking as a line from 0 to the sum of all weights. The probability of picking an index is proportional to the weight at that index.
+   * 
+   * Got the hint from stacked dice decks in game of Catan.
+   * 
+   * For [4,3,17,5]
+   * 4 4 4 4 3 3 3 17 (...17 times) 5 5 5 5 5
+   * 
+   * But since range is big(10^9), we can't create an array of that size. So we use prefix sum array to simulate the same.
    *
    * TC: O(log n) for pickIndex()
    * SC: O(n) for storing prefix sums
