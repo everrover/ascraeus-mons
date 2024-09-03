@@ -8,10 +8,12 @@ public class CustomSortString {
    * https://leetcode.com/problems/custom-sort-string/
    *
    * Permute the characters of s so that they match the custom order defined in order.
+   * 
    * Count how many times each character appears in s and arrange characters by the order.
-   * Append remaining characters that are not in order at the end.
+   * 
+   * Append remaining characters that are not in order at the end. Or on positions where they appear in s.
    *
-   * TC: O(n) SC: O(1)
+   * TC: O(n) SC: O(n)[res arr]
    * #hash-table #string #sorting #medium
    */
 

@@ -7,10 +7,10 @@ public class MaximumSwap {
   /**
    * https://leetcode.com/problems/maximum-swap/
    *
-   * Given an integer num, this method finds the maximum valued number you can get
-   * by swapping two digits at most once.
+   * For each number's last occurrence, we check if there is a larger number to the right of it. 
+   * We pick the largest number to the right of it and swap it with the current number.
    *
-   * TC: O(n) SC: O(n)
+   * TC: O(n^2) SC: O(1)
    * #math #greedy #medium
    */
 
