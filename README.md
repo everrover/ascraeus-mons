@@ -18,6 +18,8 @@ Progress: 1/100 [1:2:1::Easier:Medium:Hard ratio followed]
 | [Book : System design interview bu Alex Xu - chapter 1](./system-design/high-level-design/system-design-interview-by-alex-xu.md) | |
 | [FB Memcache case study - 2012 - paper](./research/#sys-design/caching_solutions/FB_memcache_2012.pdf) | |
 | [Caching solution and premise](./research/#sys-design/caching_solutions/index.md) | |
+| [PageRank algorithm](./research/page-rank-algo/PageRankAlgoNotes.pdf) | |
+
 Progress: 3/100
 
 ### [DSA](./AllDSAREADME.md)
