@@ -80,6 +80,7 @@
 | [756. Pyramid transition matrix](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PyramidTransitionMatrix.java) | #dfs #bfs #recursion #backtracking |
 | [778. Swim in Rising Water](./dsa/leetcode/jovianMoonOrbit/SwimInRisingWater.java) | #array #binary-search #dfs #bfs #union-find #heap #matrix #hard |
 | [789. Escaaape the ghosts](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PacmanEscapesTheGhost.java) | #math #easy |
+| [791. Custom Sort String](./dsa/leetcode/jovianMoonOrbit/CustomSortString.java) | #hash-table #string #sorting #medium |
 | [799. Champagne Tower](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChampagneTower/sol.md)                  | |
 | [803. Bricks falling when hit](https://github.com/everrover/mount-kronos/blob/main/SuperMario/StableBric.java)+[Sol#1](https://github.com/everrover/mount-kronos/blob/main/SuperMario/StableBrix.java) | #dfs #bfs #graphs #union-find |
 | [826. Most Profit Assigning Work](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaxProfitAssignment.java) | #implmentation |
@@ -296,9 +297,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 140/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 141/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 580/1600
+All problems progress in LeetCode: 581/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
