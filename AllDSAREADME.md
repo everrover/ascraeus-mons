@@ -104,6 +104,7 @@
 | [960. Delete Columns to Make Sorted III](https://github.com/everrover/mount-kronos/blob/main/SuperMario/DeleteColumnsToMakeSortedIII/sol.md) | #dynamic-programming  #longest-increasing-subseq #memory-optimization                                         |
 | [982. Triples with Bitwise AND Equal To Zero](https://github.com/everrover/mount-kronos/blob/main/LordShiva/TriplesWithBitwiseANDEqualToZero.java) | #bitwise-ops #math #combinatorics  #optimization |
 | [983. Minimum Cost For Tickets](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MinCostForTickets.java)        | #dynamic-programming #array #greedy |
+| [986. Interval List Intersections](./dsa/leetcode/jovianMoonOrbit/IntervalListIntersections.java) | #array #two-pointers #medium |
 | [987. Vertical Order Traversal of a Binary Tree](./dsa/leetcode/kuiperBelt/VerticalOrderTraversalOfBinaryTree.java) | #hash-table #tree #dfs #bfs #sorting #binary-tree #hard                |
 | [995. Minimum Number Of K Consecutive Bit Flips](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumNumberOfKConsecutiveBitFlips.java) | #tricky-approach #queue #sliding-window #unable-to-do-on-my-own    |
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard |
@@ -299,9 +300,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 143/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 144/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 583/1600
+All problems progress in LeetCode: 584/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
