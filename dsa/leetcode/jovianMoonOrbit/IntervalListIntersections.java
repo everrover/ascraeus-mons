@@ -8,9 +8,10 @@ public class IntervalListIntersections {
    * https://leetcode.com/problems/interval-list-intersections/
    *
    * Kept track of the current intervals from both lists, moved to the next interval in respective list based on the comparisons of end times.
-   *
+   * Basically it's a derivative of the merge step in merge sort.
+   * 
    * TC: O(n+m) SC: O(n+m)
-   * #array #two-pointers #medium
+   * #array #two-pointers #medium #merge-sort
    */
 
   public int[][] intervalIntersection(int[][] f, int[][] s) {
