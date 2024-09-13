@@ -24,7 +24,7 @@ Progress: 3/100
 
 ### [DSA](./AllDSAREADME.md)
 
-DSA Progress: 151/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 152/256  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
