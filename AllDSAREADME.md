@@ -95,6 +95,7 @@
 | [875. Koko eating bananas](https://github.com/everrover/mount-kronos/blob/main/SuperMario/KokoEatingBananas.java) | #binary-search #bin-search-over-solution-space |
 | [877. Stone Game](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/StoneGame/sol.md)                            | #dynamic-programming #game-theory #greedy #math |
 | [887. Super Egg Drop](https://github.com/everrover/mount-kronos/blob/main/SuperMario/EggDroppingPuzzle.java) | #binary-search #dynamic-programming #tricky-optimization           |
+| [904. Fruit Into Baskets](./dsa/leetcode/jovianMoonOrbit/FruitIntoBaskets.java) | #array #hash-table #sliding-window #medium |
 | [917. Reverse Only Letters](https://github.com/everrover/mount-kronos/blob/main/NinetySix/ReverseOnlyLetters.java) | #easy #memory-optimization #two-pass |
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java)   | #dynamic-programming #math #combinatorics #hard |
 | [921. Minimum Add to Make Parentheses Valid](./dsa/leetcode/jovianMoonOrbit/MinimumAddToMakeParenthesesValid.java) | #string #stack #greedy #medium |
@@ -301,9 +302,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 145/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 146/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 585/1600
+All problems progress in LeetCode: 586/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
