@@ -7,7 +7,10 @@ public class FruitIntoBaskets {
   /**
    * https://leetcode.com/problems/fruit-into-baskets/submissions/
    *
-   * You only have two baskets, and each basket can only hold a single type of fruit. Starting from any tree, pick fruits until you cannot fit them in the two baskets. Keep track of fruit counts with a hashmap and use the sliding window technique to find the maximum number of fruits you can pick.
+   * We need to find the largest subarray with at most two distinct elements. Using sliding window technique,
+   * we track the subarray with at most two distinct elements and keep track of the maximum length.
+   * 
+   * p.s. technically fruits array should be named as trees array
    *
    * TC: O(n) SC: O(1)
    * #array #hash-table #sliding-window #medium
