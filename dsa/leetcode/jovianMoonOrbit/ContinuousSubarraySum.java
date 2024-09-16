@@ -9,6 +9,8 @@ public class ContinuousSubarraySum {
      * https://leetcode.com/problems/continuous-subarray-sum/submissions/
      * 
      * To determine if the array contains a subarray whose sum is a multiple of `k`, the algorithm leverages the property of prefix sums and modular arithmetic. By maintaining a running sum and storing previously seen sums modulo `k` in a hashmap, we can efficiently check for the existence of a valid subarray.
+     * (prefsum[i] - prefsum[j])%k == 0 => prefsum[i]%k == prefsum[j]%k => true, i>j
+     * else, => false 
      * 
      * TC: O(n) SC: O(n)
      * #array #hash-table #math #prefix-sum #medium
