@@ -73,6 +73,7 @@
 | [691. Stickers to Spell Word](./dsa/leetcode/jovianMoonOrbit/StickersToSpellWord.java) | #array #string #dynamic-programming #backtracking #bit-manipulation #hard |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium                          |
 | [695. Max Area of Island](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MaxAreaOfIsland.java) | #dfs #bfs #graphs #cycle-detection #matrix |
+| [708. Insert into a Sorted Circular Linked List](./dsa/leetcode/jovianMoonOrbit/InsertIntoASortedCircularLinkedList.java) | #linked-list #insertion #medium |
 | [714. Best Time to Buy and Sell Stock with Transaction Fee](./dsa/leetcode/jovianMoonOrbit/BestTimeToBuyAndSellStockWithTransactionFee.java) | #array #dp #greedy #medium |
 | [715. Range Module](./dsa/leetcode/kuiperBelt/RangeModule.java)                           | #ordered-set #segment-tree #design #hard |
 | [719. Find K-th Smallest Pair Distance](https://github.com/everrover/mount-kronos/blob/main/SuperMario/FindKthSmallestPairDistance.java) | #binary-search #binary-search-over-solution-space #tricky          |
@@ -303,9 +304,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 147/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 148/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 587/1600
+All problems progress in LeetCode: 588/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
