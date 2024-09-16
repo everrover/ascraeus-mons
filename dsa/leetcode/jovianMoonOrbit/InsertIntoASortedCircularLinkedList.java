@@ -30,7 +30,7 @@ class Node {
  * #linked-list #insertion #medium
  */
 
-public class Solution {
+public class InsertIntoASortedCircularLinkedList {
     public Node insert(Node head, int insertVal) {
         Node n = new Node(insertVal);
         if (head == null) {
