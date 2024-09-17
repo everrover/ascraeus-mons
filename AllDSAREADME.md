@@ -78,6 +78,7 @@
 | [715. Range Module](./dsa/leetcode/kuiperBelt/RangeModule.java)                           | #ordered-set #segment-tree #design #hard |
 | [719. Find K-th Smallest Pair Distance](https://github.com/everrover/mount-kronos/blob/main/SuperMario/FindKthSmallestPairDistance.java) | #binary-search #binary-search-over-solution-space #tricky          |
 | [727. Minimum Window Subsequence](./dsa/leetcode/kuiperBelt/MinimumWindowSubsequence.java) | #dynamic-programming #sliding-window #string #hard #sliding-window     |
+| [739. Daily Temperatures](./dsa/leetcode/jovianMoonOrbit/DailyTemperatures.java) | #array #stack #monotonic-stack #medium |
 | [740. Delete and Earn](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/DeleteAndEarn/sol.md)                   | |
 | [743. Network Delay Time](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/NetworkDelayTime.java) | #dijkstras-algorithm |
 | [745. Prefix and Suffix Search](./dsa/leetcode/kuiperBelt/PrefixAndSuffixSearch.java) | #trie #string #design #hard |
@@ -304,9 +305,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 148/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 149/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 588/1600
+All problems progress in LeetCode: 589/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
