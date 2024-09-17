@@ -6,12 +6,13 @@ public class NextGreaterElementI {
 	/**
 	 * https://leetcode.com/problems/next-greater-element-i/
 	 *
-	 * Use a stack to keep track of elements and a hashmap to store the next greater element for each.
-	 * Traverse nums2, using the stack to find and store the next greater element for each number.
-	 * Then, for each element in nums1, get the next greater element from the hashmap.
+	 * ~ logic as in DailyTemperatures.java
+	 * Since in worst case, we can have largest element for i in nums1 only to right of i in nums2,
+	 * we can use a hashmap to store the next greater element for each element in nums2. It's done by default,
+	 * when we maintain a monotonic stack(inc) of elements in nums2. And small->greater relationship.
 	 *
 	 * TC: O(nums1.length + nums2.length) SC: O(nums2.length)
-	 * #array #hash-table #stack #monotonic-stack #easy
+	 * #array #hash-table #stack #monotonic-stack #medium
 	 */
 	
 	public int[] nextGreaterElement(int[] nums1, int[] nums2) {

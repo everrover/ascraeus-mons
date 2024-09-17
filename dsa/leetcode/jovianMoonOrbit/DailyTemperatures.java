@@ -7,9 +7,8 @@ public class DailyTemperatures {
  /**
  * https://leetcode.com/problems/daily-temperatures/
  *
- * Given an array of integers `temperatures`, return an array `answer` such that `answer[i]`
- * is the number of days you have to wait after the ith day to get a warmer temperature.
- * Use a stack to keep track of indices of the temperatures array.
+ * Use a stack to keep track of indices of the temperatures array. For a given temp, all days before it
+ * with lower temperatures can be popped from the stack and the difference in days can be calculated.
  * 
  * TC: O(n) SC: O(n)
  * #array #stack #monotonic-stack #medium
