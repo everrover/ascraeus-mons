@@ -54,6 +54,7 @@
 | [489. Robot Room Cleaner](./dsa/leetcode/kuiperBelt/RobotRoomCleaner.java)                | #depth-first-search #simulation #hard |
 | [493. Reverse pairs](https://github.com/everrover/mount-kronos/blob/main/NinetySix/ReversePairs/Solution.java) | #binary-search #bst #merge-sort #segment-tree #binary-indexed-tree |
 | [493. Reverse Pairs](./dsa/leetcode/kuiperBelt/ReversePairs.java)                         | #divide-and-conquer #merge-sort #binary-search #hard |
+| [496. Next Greater Element I](./dsa/leetcode/jovianMoonOrbit/NextGreaterElementI.java) | #array #hash-table #stack #monotonic-stack #easy |
 | [502. IPO](https://github.com/everrover/mount-kronos/blob/main/SuperMario/IPO.java)       | #greedy #heap #priority-queue #trivial-optimization                |
 | [515. 515. Find Largest Value in Each Tree Row](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindLargestInEachBinTreeRow.java) | #binary-tree #bfs #dfs |
 | [518. Counting Coins II](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountingcCoins_II/sol.md)             | #dynamic-programming #memory-optimization |
@@ -305,9 +306,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 149/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 150/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 589/1600
+All problems progress in LeetCode: 590/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
