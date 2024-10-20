@@ -69,7 +69,6 @@
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java)         | #simulation #string #easy |
 | [664. Strange printer](https://github.com/everrover/mount-kronos/blob/main/LordShiva/StrangePrinter.java) | #dynamic-programming #array #tricky #important |
 | [670. Maximum Swap](./dsa/leetcode/jovianMoonOrbit/MaximumSwap.java) | #math #greedy #medium |
-| [670. Maximum Swap](./dsa/leetcode/jovianMoonOrbit/MaximumSwap.java) | #math #greedy #medium |
 | [672. Bulb switcher II](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BulbSwitcherII.java) | #simulation-on-paper #trick #simulation-was-overkill-in-code       |
 | [684. Redudant Connections](https://github.com/everrover/mount-kronos/blob/main/SuperMario/DisjointSet.java) | #dfs #cycle-detection |
 | [691. Stickers to Spell Word](./dsa/leetcode/jovianMoonOrbit/StickersToSpellWord.java) | #array #string #dynamic-programming #backtracking #bit-manipulation #hard |
@@ -307,7 +306,7 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 151/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 150/256  [1:2:1::Easier:Medium:Hard ratio]
 
 All problems progress in LeetCode: 591/1600
 
