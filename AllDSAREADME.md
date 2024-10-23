@@ -5,6 +5,7 @@
 <!-- | --- | --- | -->
 | Title | Some pointers |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
 | [42. Trapping Rain Water](./dsa/leetcode/kuiperBelt/TrappingRainWater.java) | #array #two-pointers #dynamic-programming #stack #hard |
 | [76. Minimum Window Substring](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinWindowSubstring.java) | #sliding-window #hashmap #array #string #done-b4 |
@@ -306,7 +307,7 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 150/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 151/256  [1:2:1::Easier:Medium:Hard ratio]
 
 All problems progress in LeetCode: 591/1600
 
