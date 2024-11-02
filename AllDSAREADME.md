@@ -90,6 +90,7 @@
 | [791. Custom Sort String](./dsa/leetcode/jovianMoonOrbit/CustomSortString.java) | #hash-table #string #sorting #medium |
 | [799. Champagne Tower](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChampagneTower/sol.md)                  | |
 | [803. Bricks falling when hit](https://github.com/everrover/mount-kronos/blob/main/SuperMario/StableBric.java)+[Sol#1](https://github.com/everrover/mount-kronos/blob/main/SuperMario/StableBrix.java) | #dfs #bfs #graphs #union-find |
+| [815. Bus Routes](./dsa/leetcode/jovianMoonOrbit/BusRoutesHard.java) | #array #hash-table #breadth-first-search #hard |
 | [826. Most Profit Assigning Work](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaxProfitAssignment.java) | #implmentation |
 | [827. Making A Large Island](./dsa/leetcode/kuiperBelt/MakingALargeIsland.java)           | #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process               |
 | [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
@@ -307,9 +308,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 151/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 152/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 591/1600
+All problems progress in LeetCode: 592/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
