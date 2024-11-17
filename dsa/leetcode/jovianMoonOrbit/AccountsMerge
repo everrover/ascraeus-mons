@@ -10,9 +10,11 @@ public class AccountsMerge {
    * disjoint set (also known as union-find) to group emails encountering a shared email, indicating 
    * that the emails should belong to the same cluster. Finally, sort and compile the emails under their 
    * respective names.
+   * 
+   * Could've used DFS/BFS and binary search to improve the performance, but the current solution is sufficient.
    *
    * TC: O(A \log A), where A is the total number of accounts. SC: O(A)
-   * #array #hash-table #string #union-find #medium
+   * #array #hash-table #string #union-find #medium #bfs #dfs #binary-search
    */
 
   public static N find(N root) {
