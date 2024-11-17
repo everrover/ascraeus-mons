@@ -72,6 +72,7 @@
 | [670. Maximum Swap](./dsa/leetcode/jovianMoonOrbit/MaximumSwap.java) | #math #greedy #medium |
 | [672. Bulb switcher II](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BulbSwitcherII.java) | #simulation-on-paper #trick #simulation-was-overkill-in-code       |
 | [684. Redudant Connections](https://github.com/everrover/mount-kronos/blob/main/SuperMario/DisjointSet.java) | #dfs #cycle-detection |
+| [689. Maximum Sum of 3 Non-Overlapping Subarrays](./dsa/leetcode/jovianMoonOrbit/MaximumSumOf3NonOverlappingSubarrays.java) | #array #dynamic-programming #hard |
 | [691. Stickers to Spell Word](./dsa/leetcode/jovianMoonOrbit/StickersToSpellWord.java) | #array #string #dynamic-programming #backtracking #bit-manipulation #hard |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium                          |
 | [695. Max Area of Island](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MaxAreaOfIsland.java) | #dfs #bfs #graphs #cycle-detection #matrix |
@@ -309,9 +310,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 153/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 154/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 593/1600
+All problems progress in LeetCode: 594/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
