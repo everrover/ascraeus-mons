@@ -1,12 +1,11 @@
 package dsa.leetcode.jovianMoonOrbit;
 
-public class Solution {
+public class RotatingTheBox {
   /**
    * https://leetcode.com/problems/rotating-the-box/
    *
-   * The solution involves rotating the box 90 degrees clockwise and then letting the stones fall due
-to gravity. Start by rotating the matrix, then iterate from the bottom to let the stones ('#') 
-fall into place, bypassing obstacles ('*').
+   * Simple brute-force dawgs... Rotate the box 90 degrees clockwise, store into another array
+   * and then simulate the gravity by iterating from top to bottom and left to right.
    *
    * TC: O(m*n) SC: O(m*n)
    * #array #matrix #twopointers #medium 

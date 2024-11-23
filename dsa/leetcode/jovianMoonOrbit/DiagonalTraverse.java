@@ -16,6 +16,7 @@ public class DiagonalTraverse {
     int[] res = new int[ROW * COL];
     int idx = 0;
     for (int i = 0; i < COL + ROW - 1; i++) {
+      // if i<COL, it's the top row, else it's the right column
       int r = i < COL ? 0 : (i - COL + 1);
       int c = i < COL ? i : (COL - 1);
       int sz = 0;
@@ -26,7 +27,6 @@ public class DiagonalTraverse {
       }
       if (i % 2 == 0) {
         for (int j = idx - sz, k = idx - 1; j < k; j++, k--) {
-          // Swap to reverse the order of elements in even indexed diagonal
           int tmp = res[j];
           res[j] = res[k];
           res[k] = tmp;
