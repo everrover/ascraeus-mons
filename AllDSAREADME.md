@@ -174,6 +174,7 @@
 | [1793. Maximum Score of a Good Subarray](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaximumScoreOfGoodSubarray.java) | #greedy #two-pointer #ranged-two-pointer #based-on-others #monotonic-stack #dynamic-programming #stack        |
 | [1799. Maximize Score After N Operations](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MaximizeScoreAfterNOperations.java) | #backtracking #dynamic-programming #gcd #memoization #tricky-optimization #bitmasking                         |
 | [1855. Maximum Distance Between a Pair of Values](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MaximumDistanceBetweenPairOfValues.java) | #two-pointer-approach #binary-search #greedy #array-traversal      |
+| [1861. Rotating the Box](./dsa/leetcode/jovianMoonOrbit/RotatingTheBox.java) | #array #matrix #twopointers #medium |
 | [1894. Find the Student that Will Replace the Chalk](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindStudentThatWillReplaceChalk.java) | #prefix-sum #binary-search #trivial #simulation #preventing-recomputes                                        |
 | [1936. Add Minimum Number of Rungs](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddMinNumberOfRungs.java) | #maths #greedy |
 | [1944. Number of Visible People in a Queue](./dsa/leetcode/kuiperBelt/NumberOfVisiblePeopleInAQueue.java) | #monotonic-stack #array #hard |
@@ -310,9 +311,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 154/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 155/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 594/1600
+All problems progress in LeetCode: 595/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
