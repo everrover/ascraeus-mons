@@ -7,12 +7,14 @@ import java.util.*;
  *
  * Expand both encoded arrays into their full forms. Multiply corresponding elements
  * from each and compress the result back into a run-length encoded array.
+ * 
+ * Since prev num can merge with next num, we need to keep track of the previous number and count.
  *
  * TC: O(n + m) SC: O(n + m)
  * #array #two-pointers #medium
  */
 
-public class Solution {
+public class ProductOfTwoRunLengthEncodedArrays {
   public List<List<Integer>> findRLEArray(int[][] encoded1, int[][] encoded2) {
     int p1 = 0, p2 = 0, c1 = encoded1[0][1], c2 = encoded2[0][1];
     int num1 = encoded1[0][0], num2 = encoded2[0][0], pnum=-1, cnow=0;
