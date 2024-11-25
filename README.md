@@ -22,9 +22,11 @@ Progress: 1/100 [1:2:1::Easier:Medium:Hard ratio followed]
 
 Progress: 3/100
 
-### [DSA](./AllDSAREADME.md)
+### Data Structures and Algorithms
 
-DSA Progress: 166/256  [1:2:1::Easier:Medium:Hard ratio]
+| [Topics](./DSATopics.md) | [DSA](./AllDSAREADME.md)
+
+DSA Progress: 167/256  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 
