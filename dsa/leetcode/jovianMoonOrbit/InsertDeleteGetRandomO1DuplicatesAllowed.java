@@ -2,16 +2,20 @@ package dsa.leetcode.jovianMoonOrbit;
 
 import java.util.*;
 
-public class RandomizedCollection {
+public class InsertDeleteGetRandomO1DuplicatesAllowed {
   /**
    * https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
    * 
-   * This solution uses a List to store elements and a Map to track indices of each element in the List. 
-   * For insertion, the element is added to the list and the index is recorded in the map. 
-   * For removal, the element's index is removed from the map, and the last element in the list is moved 
-   * to the position of the element that is to be removed. The method getRandom simply returns a random 
-   * element from the list.
+   * ~ to this (problem)[./InsertDeleteGetRandomO1.java]
    * 
+   * **A list along with random number generator actually mimics a probability distribution**, where the 
+   * probability of selecting an element is dependent on the size and number of occurrences of the 
+   * element in the list. And not only on latter.
+   * 
+   * - Earlier I tried using a count map to store the count of each element, but that doesn't work because
+   * probability of selecting an element is dependent on the number of unique elements in the list. And not 
+   * at all on the number of occurrences of the element at all.
+   *  
    * TC: O(1) on average for each operation
    * SC: O(n)
    * 
@@ -22,7 +26,7 @@ public class RandomizedCollection {
   List<Integer> list;
   Random rand = new Random();
 
-  public RandomizedCollection() {
+  public InsertDeleteGetRandomO1DuplicatesAllowed() {
     this.set = new HashMap<>();
     this.list = new ArrayList<>();
   }

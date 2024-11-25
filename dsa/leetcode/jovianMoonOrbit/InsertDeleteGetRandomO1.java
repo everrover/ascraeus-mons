@@ -2,13 +2,16 @@ package dsa.leetcode.jovianMoonOrbit;
 
 import java.util.*;
 
-public class RandomizedSet {
+public class InsertDeleteGetRandomO1 {
   
   /**
    * https://leetcode.com/problems/insert-delete-getrandom-o1/
    * 
    * Implemented using a combination of a hash map and an array list.
    * Supports operations in average O(1) time complexity.
+   * 
+   * ~ algos used in popular statistical algorithms like Markov chain 
+   * Monte Carlo and Metropolis–Hastings algorithm.
    * 
    * TC: O(1) on average SC: O(n)
    * #hash-map #array-list #random #medium
@@ -18,7 +21,7 @@ public class RandomizedSet {
   List<Integer> list;
   Random rand = new Random();
 
-  public RandomizedSet() {
+  public InsertDeleteGetRandomO1() {
     this.set = new HashMap<>();
     this.list = new ArrayList<>();
   }
