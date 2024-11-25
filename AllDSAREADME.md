@@ -44,6 +44,7 @@
 | [347. Top K Frequent Elements](./dsa.leetcode.kuiperBelt/TopKFrequentElements.java)       | #hashmap #priorityqueue #heaps #medium |
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) | |
 | [380. Insert Delete GetRandom O(1)](./dsa/leetcode/jovianMoonOrbit/InsertDeleteGetRandomO1.java) | #hash-map #array-list #random #medium |
+| [381. Insert Delete GetRandom O(1) - Duplicates Allowed](./dsa/leetcode/jovianMoonOrbit/InsertDeleteGetRandomO1DuplicatesAllowed.java) | #array #hash-table #design #randomized #hard |
 | [391. PerfectRectangle](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PerfectRectangle.java) | #trick #math |
 | [397. Count Range Sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountOfRangeSum/Solution.java) | #merge-sort #merge-algo #math #sliding-window #binary-search-tree #binary-indexed-tree                        |
 | [403. Frog Jump](./dsa/leetcode/kuiperBelt/FrogJump.java) | #array #dynamic-programming #hard |
@@ -315,9 +316,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 159/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 160/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 599/1600
+All problems progress in LeetCode: 600/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
