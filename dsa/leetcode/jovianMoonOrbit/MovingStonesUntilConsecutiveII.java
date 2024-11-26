@@ -30,7 +30,7 @@ public class MovingStonesUntilConsecutiveII {
     for(int i=0, j=0; j<stones.length; j++){
       while(stones[j] - stones[i] >= N) i++; // Maintain window of size >= N
       // when count(stones) in window is N-1 and gap is N-2, we have one contiguous
-      // group of stones and a odd one, we need to use 2 moves, not 1. We can't move 
+      // group of stones and an odd one, we need to use 2 moves, not 1. We can't move 
       // the odd stone in the middle, so we need to move the stone at one end one 
       // step ahead of the group to make space for the stone at the other end.
       // N=7, 1 2 4 5 6 7 ; 10 -> 1 2 3 4 5 6 7 // 1 move
