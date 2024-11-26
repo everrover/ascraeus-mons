@@ -49,6 +49,7 @@
 | [397. Count Range Sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountOfRangeSum/Solution.java) | #merge-sort #merge-algo #math #sliding-window #binary-search-tree #binary-indexed-tree                        |
 | [403. Frog Jump](./dsa/leetcode/kuiperBelt/FrogJump.java) | #array #dynamic-programming #hard |
 | [407. Trapping Rain Water II](./dsa/leetcode/kuiperBelt/TrappingRainWaterII.java) | #array #bfs #heap #priority-queue #matrix #hard |
+| [424. Longest Repeating Character Replacement](./dsa/leetcode/RhoCassiopeiae/LongestRepeatingCharacterReplacement.java) | #hash-table #string #sliding-window #medium |
 | [426. Convert Binary Search Tree to Sorted Doubly Linked List](./dsa/leetcode/jovianMoonOrbit/ConvertBstToSortedDoublyLinkedList.java) | #linked-list #tree #binary-search-tree #medium |
 | [437. PathSumIII](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PathSumIII.java)          | binary-tree #preorder-traversal #dfs #bfs #dynamic-programming     |
 | [460. LFU Cache](./dsa/leetcode/kuiperBelt/LFUCache.java)                                 | #hash-table #linked-list #design #doubly-linked-list #hard             |
@@ -187,7 +188,7 @@
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 | [1970. Last Day Where You Can Still Cross](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LastDayWhereYouCanStillCross.java) | #binary-search #dfs #bfs #disjoint-sets #tricky #inverse-thought-process                                      |
 | [1997. First Day Where You Have Been in All the Rooms](./NinetySix/FirstDayWhereYouHaveBeenInAllRooms/FirstDayWhereYouHaveBeenInAllRooms.java) | #greedy #tricky-dp #graphs #dynamic-programming #deep-logic        |
-| [2009. Minimum Number of Operations to Make Array Continuous](./dsa/leetcode/jovianMoonOrbit/MinNumberOfOperationsToMakeArrayContinuous.java) | #array #binary-search #sliding-window #hard |
+| [2009. Minimum Number of Operations to Make Array Continuous](./dsa/leetcode/jovianMoonOrbit/MinNumberOfOperationsToMakeArrayContinuous.java) | #array #sliding-window #hard #tricky |
 | [2060. Check if an Original String Exists Given Two Encoded Strings](./dsa/leetcode/kuiperBelt/CheckIfAnOriginalStringExistsGivenTwoEncodedStrings.java) | #dynamic-programming #string #hard #recursion #tricky |
 | [2076. Process Restricted Friend Requests](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ProcessRestrictedFriendRequests/sol.md) | |
 | [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
@@ -318,9 +319,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 162/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 163/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 602/1600
+All problems progress in LeetCode: 603/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
