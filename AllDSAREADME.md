@@ -122,6 +122,7 @@
 | [987. Vertical Order Traversal of a Binary Tree](./dsa/leetcode/kuiperBelt/VerticalOrderTraversalOfBinaryTree.java) | #hash-table #tree #dfs #bfs #sorting #binary-tree #hard                |
 | [995. Minimum Number Of K Consecutive Bit Flips](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumNumberOfKConsecutiveBitFlips.java) | #tricky-approach #queue #sliding-window #unable-to-do-on-my-own    |
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard |
+| [1040. Moving Stones Until Consecutive II](./dsa/leetcode/jovianMoonOrbit/MovingStonesUntilConsecutiveII.java) | #array #two-pointers #sorting #medium |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space               |
 | [1091. Shortest Path in Binary Matrix](https://github.com/everrover/mount-kronos/blob/main/SuperMario/ShortestPathInBinaryMatrix.java) | #bfs #shortest-path #matrix |
 | [1092. Shortest Common Supersequence](https://github.com/everrover/mount-kronos/blob/main/NinetySix/ShortestCommonSupersequence.java) | #dynamic-programming #memory-optimization #LCS #piggybacking       |
@@ -316,9 +317,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 160/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 161/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 600/1600
+All problems progress in LeetCode: 601/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
