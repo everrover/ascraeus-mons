@@ -118,6 +118,7 @@
 | [953. Verifying an Alien Dictionary](./dsa/leetcode/kuiperBelt/VerifyingAnAlienDictionary.java) | #array #hash-table #string #easy |
 | [956. Tallest Billboard](https://github.com/everrover/mount-kronos/blob/main/SuperMario/TallestBillboard.java) | #dynamic-programming #knapsack #memoization #tricky #unbounded-knapsack                                       |
 | [960. Delete Columns to Make Sorted III](https://github.com/everrover/mount-kronos/blob/main/SuperMario/DeleteColumnsToMakeSortedIII/sol.md) | #dynamic-programming  #longest-increasing-subseq #memory-optimization                                         |
+| [968. Binary Tree Cameras](./dsa/leetcode/RhoCassiopeiae/BinaryTreeCameras.java) | #tree #dfs #dynamic-programming #hard |
 | [982. Triples with Bitwise AND Equal To Zero](https://github.com/everrover/mount-kronos/blob/main/LordShiva/TriplesWithBitwiseANDEqualToZero.java) | #bitwise-ops #math #combinatorics  #optimization |
 | [983. Minimum Cost For Tickets](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MinCostForTickets.java)        | #dynamic-programming #array #greedy |
 | [986. Interval List Intersections](./dsa/leetcode/jovianMoonOrbit/IntervalListIntersections.java) | #array #two-pointers #medium |
@@ -321,9 +322,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 165/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 166/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 605/1600
+All problems progress in LeetCode: 606/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
