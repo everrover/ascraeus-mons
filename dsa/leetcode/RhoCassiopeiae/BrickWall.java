@@ -6,9 +6,11 @@ public class BrickWall {
   /**
    * https://leetcode.com/problems/brick-wall/
    *
-   * To minimize the number of crossed bricks, find edges where the bricks end more frequently.
    * We count the frequencies of the edges not including the right-most of each row.
    * The line will pass through the least number of bricks at a position with the maximum number of edges.
+   * 
+   * Earlier thought of using multiple indexes as pointers for each row, and using vertical line to sweep at
+   * each brick-right-edge.
    *
    * TC: O(n) where n is the total number of bricks
    * SC: O(m) where m is the number of distinct edge positions
