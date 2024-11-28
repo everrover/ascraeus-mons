@@ -106,6 +106,7 @@
 | [841. Keys and rooms](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/KeysAndRooms.java)    | #dfs |
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java)                  | #array #segment-tree #line-sweep #ordered-set #hard |
 | [857. Minimum Cost to Hire K Workers](./dsa/leetcode/kuiperBelt/MinimumCostToHireKWorkers.java) | #greepy #sorting #heap #priority-queue #hard |
+| [863. All Nodes Distance K in Binary Tree](./dsa/leetcode/RhoCassiopeiae/AllNodesDistanceKInBinaryTree.java) | #binary-tree #tree #dfs #bfs #medium |
 | [875. Koko eating bananas](https://github.com/everrover/mount-kronos/blob/main/SuperMario/KokoEatingBananas.java) | #binary-search #bin-search-over-solution-space |
 | [877. Stone Game](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/StoneGame/sol.md)                            | #dynamic-programming #game-theory #greedy #math |
 | [887. Super Egg Drop](https://github.com/everrover/mount-kronos/blob/main/SuperMario/EggDroppingPuzzle.java) | #binary-search #dynamic-programming #tricky-optimization           |
@@ -322,9 +323,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 166/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 167/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 606/1600
+All problems progress in LeetCode: 607/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
