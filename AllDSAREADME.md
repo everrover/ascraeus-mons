@@ -190,6 +190,7 @@
 | [1861. Rotating the Box](./dsa/leetcode/jovianMoonOrbit/RotatingTheBox.java) | #array #matrix #twopointers #medium |
 | [1868. Product of Two Run-Length Encoded Arrays](./dsa/leetcode/jovianMoonOrbit/ProductOfTwoRunLengthEncodedArrays.java) | #array #two-pointers #medium |
 | [1894. Find the Student that Will Replace the Chalk](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindStudentThatWillReplaceChalk.java) | #prefix-sum #binary-search #trivial #simulation #preventing-recomputes                                        |
+| [1909. Remove One Element to Make the Array Strictly Increasing](./dsa/leetcode/RhoCassiopeiae/RemoveOneElementToMakeArrayStrictlyIncreasing.java) | #array #greedy #easy |
 | [1936. Add Minimum Number of Rungs](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddMinNumberOfRungs.java) | #maths #greedy |
 | [1944. Number of Visible People in a Queue](./dsa/leetcode/kuiperBelt/NumberOfVisiblePeopleInAQueue.java) | #monotonic-stack #array #hard |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
@@ -328,9 +329,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 172/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 173/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 612/1600
+All problems progress in LeetCode: 613/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
