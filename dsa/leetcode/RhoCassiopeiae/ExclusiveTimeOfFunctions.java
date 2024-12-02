@@ -11,10 +11,14 @@ public class ExclusiveTimeOfFunctions {
    * Use a stack to track function calls and calculate exclusive times.
    * On 'start', push the current function with the starting time onto the stack.
    * On 'end', pop from the stack to find the function's total time.
+   * 
+   * It's equivalent to a one I did before.... so no biggie!
    *
    * TC: O(m), SC: O(n)
-   * #array #stack #medium
+   * #array #stack #easy
    */
+
+  private static final String S = "start";
 
   public int[] exclusiveTime(int n, List<String> logs) {
     int[] res = new int[n];
