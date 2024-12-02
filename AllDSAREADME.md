@@ -58,6 +58,7 @@
 | [489. Robot Room Cleaner](./dsa/leetcode/kuiperBelt/RobotRoomCleaner.java)                | #depth-first-search #simulation #hard |
 | [493. Reverse pairs](https://github.com/everrover/mount-kronos/blob/main/NinetySix/ReversePairs/Solution.java) | #binary-search #bst #merge-sort #segment-tree #binary-indexed-tree |
 | [493. Reverse Pairs](./dsa/leetcode/kuiperBelt/ReversePairs.java)                         | #divide-and-conquer #merge-sort #binary-search #hard |
+| [494. Target Sum](./dsa/leetcode/RhoCassiopeiae/TargetSum.java) | #array #dynamic-programming #backtracking #medium |
 | [496. Next Greater Element I](./dsa/leetcode/jovianMoonOrbit/NextGreaterElementI.java) | #array #hash-table #stack #monotonic-stack #easy |
 | [498. Diagonal Traverse](./dsa/leetcode/jovianMoonOrbit/DiagonalTraverse.java) | #array #matrix #simulation #medium |
 | [502. IPO](https://github.com/everrover/mount-kronos/blob/main/SuperMario/IPO.java)       | #greedy #heap #priority-queue #trivial-optimization                |
@@ -327,9 +328,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 171/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 172/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 611/1600
+All problems progress in LeetCode: 612/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
