@@ -8,9 +8,8 @@ public class AsteroidCollision {
    * https://leetcode.com/problems/asteroid-collision/
    *
    * The solution uses a stack to keep track of the asteroids as they move.
-   * If a new asteroid is positive, it is simply added to the stack.
-   * If it is negative, the stack is checked for collisions with any positive asteroids.
-   * In the case of a collision, the smaller asteroid explodes, and if sizes are equal, both explode.
+   * Essentially all positive asteroids will move to the right and all negative asteroids will move to the left.
+   * Any out-of-order ones are to be eliminated if they collide.
    *
    * TC: O(n) SC: O(n)
    * #array #stack #simulation #medium
