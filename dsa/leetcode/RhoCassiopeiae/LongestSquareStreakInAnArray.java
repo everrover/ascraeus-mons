@@ -7,9 +7,12 @@ public class LongestSquareStreakInAnArray {
   /**
    * https://leetcode.com/problems/longest-square-streak-in-an-array/submissions/
    * 
-   * Use a HashSet to store unique elements from the array and sort them. For each element, check if its square exists in the set.
+   * Use a HashSet to store unique elements from the array and sort them. 
+   * For each element, check if its square exists in the set.
    * Continuously check and count until no more squares are found for the sequence.
-   * Return the maximum count found, otherwise, return -1 if no valid square streaks are found.
+   * 
+   * It's essentially dynamic programming without explicit state traversal using DFS. 
+   * ❗️ Could've done that as well though...
    * 
    * TC: O(n log n) SC: O(n)
    * #array #hash-table #sorting #dynamic-programming #medium
@@ -34,4 +37,22 @@ public class LongestSquareStreakInAnArray {
     }
     return res > 1 ? res : -1;
   }
+  // public int longestSquareStreak(int[] nums) {
+  //   Arrays.sort(nums);
+  //   int res = -1;
+  //   Map<Integer, Integer> streaks = new HashMap<>();
+  //   for(int num: nums){
+  //     int sqroot = (int) Math.sqrt(num);
+  //     if(sqroot * sqroot == num && streaks.containsKey(sqroot)){
+  //       streaks.put(num, streaks.get(sqroot) + 1);
+  //     }else{
+  //       streaks.put(num, 1);
+  //     }
+  //   }
+  //   for(int e: streaks.values()){
+  //     res = Math.max(res, e);
+  //   }
+    
+  //   return res==1?-1:res;
+  // }
 }

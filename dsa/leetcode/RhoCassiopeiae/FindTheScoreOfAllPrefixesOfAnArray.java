@@ -1,12 +1,14 @@
 package dsa.leetcode.RhoCassiopeiae;
 
-public class Solution {
+public class FindTheScoreOfAllPrefixesOfAnArray {
   /**
    * https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/
    *
    * Iterate through the array while maintaining the maximum value
    * for each prefix to calculate its conversion value. Update the 
    * running sum to derive the prefix scores.
+   * 
+   * ❗️ I wonder why an easy problem like this is tagged as medium.
    *
    * TC: O(n) SC: O(1)
    * #array #prefix-sum #medium
