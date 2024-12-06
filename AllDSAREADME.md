@@ -240,6 +240,7 @@
 | [2456. Most Popular Video Creator](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MostPopularVideoCreator.java) | #greedy #priority-queue #sorting #math #optimization               |
 | [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/HtOfBinTreeAfterSubtreeRemovalQueries.java) | #DFS #bfs #binary-tree #tricky #best-and-2nd-best |
 | [2477. MinimumFuelToReportToCapitol](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MinimumFuelToReportToCapitol.java) | #DFS #bfs #tree #post-order-traversal #math-and-logic              |
+| [2501. Longest Square Streak in an Array](./dsa/leetcode/RhoCassiopeiae/LongestSquareStreakInAnArray.java) | #array #hash-table #sorting #dynamic-programming #medium |
 | [2508. Add Edges to Make Degrees of All Nodes Even](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddEdgesToMakeDegreesOfAllNodesEven.java) | ##two-pointer #sliding-window #unconventional-traversal            |
 | [2516. Take K of Each Character From Left and Right](https://github.com/everrover/mount-kronos/blob/main/NinetySix/TakeKOfEachCharacterFromLeftAndRight.java) | #split-sliding-window #sliding-window #suffix-precomputation       |
 | [2551. Put Marbles in Bags](https://github.com/everrover/mount-kronos/blob/main/SuperMario/PickingMarbles.java) | #math #combinatorics #dp #tricky |
@@ -331,9 +332,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 175/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 176/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 615/1600
+All problems progress in LeetCode: 616/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
