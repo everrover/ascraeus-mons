@@ -247,6 +247,7 @@
 | [2555. Separate Digits in an Array](https://github.com/everrover/mount-kronos/blob/main/LordShiva/SeparateDigitsInArr.java) | #contest #easy #traversal |
 | [2556. Disconnect Path in a Binary Matrix by at Most One Flip](./LordShiva/DisconnectPathInBinMatrixByAtmostOneFlip.java) | #dfs #rashly-coded #contest |
 | [2565. Subsequence With the Minimum Score](https://github.com/everrover/mount-kronos/blob/main/NinetySix/SubseqWithMinScore.java) | #split-sliding-window #sliding-window #suffix-precomputation #dp #binary-search #bin-search-across_sol-space  |
+| [2640. Find the Score of All Prefixes of an Array](./dsa/leetcode/RhoCassiopeiae/FindTheScoreOfAllPrefixesOfAnArray.java) | #array #prefix-sum #medium |
 | [2663. Lexicographically Smallest Beautiful String](https://github.com/everrover/mount-kronos/blob/main/LordShiva/LexoSmallestBeautifulString.java) | # |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard |
 | [2751. Robot Collisions](./dsa/leetcode/kuiperBelt/RobotCollisions.java) | #stack #array #sorting #simulation #hard |
@@ -330,9 +331,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 174/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 175/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 614/1600
+All problems progress in LeetCode: 615/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
