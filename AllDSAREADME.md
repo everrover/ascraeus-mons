@@ -166,6 +166,7 @@
 | [1570. Dot Product of Two Sparse Vectors](./dsa/leetcode/kuiperBelt/DotProductOfTwoSparseVectors.java) | #array #hash-table #two-pointers #design #medium |
 | [1575. Count All Possible Routes](https://github.com/everrover/mount-kronos/blob/main/SuperMario/CountAllRoutes.java) | #dfs #dynamic-programming #array |
 | [1578. Minimum Time to Make Rope Colorful](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MinimumTimeToMakeRopeColorful.java) | #greedy #math #simple |
+| [1590. Make Sum Divisible by P](./dsa/leetcode/RhoCassiopeiae/MakeSumDivisibleByP.java) | #array #hash-table #prefix-sum #medium |
 | [1591. Strange Printer II](https://github.com/everrover/mount-kronos/blob/main/LordShiva/StrangePrinterII.java) | #topological-sort |
 | [1622. Fancy Sequence](./dsa/leetcode/kuiperBelt/FancySequence.java)                      | #math #design #segment-tree #hard #mod-inverse-algo #tricky            |
 | [1626. Best Team With No Conflicts](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BestTeamWithNoConflicts.java) | #dp #binary-indexed-tree #longest-increasing-subsequence #sorting  |
@@ -332,9 +333,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 176/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 177/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 616/1600
+All problems progress in LeetCode: 617/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
