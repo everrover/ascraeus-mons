@@ -6,7 +6,12 @@ public class FindDivisibilityArrayOfString {
    *
    * We compute the remainder of the prefix ending at each index.
    * If divisible by m, we set 1; otherwise, 0.
-   * Remainder is updated iteratively to avoid recomputation.
+   * `num` is updated = 0, if divisible => full_num = num*10^x+remaining_num
+   * if num % m == 0, then div-idx = 1, and divisibility for remaining_num 
+   * can be calculated separately.
+   * 
+   * So to mitigate the overflow in case of large nos, we use long to store 
+   * the number and reset it to 0 if divisible by m.
    *
    * TC: O(n) SC: O(n)
    * #array #math #string #medium

@@ -14,6 +14,9 @@ public class LongestSquareStreakInAnArray {
    * It's essentially dynamic programming without explicit state traversal using DFS. 
    * ❗️ Could've done that as well though...
    * 
+   * Binary search could've been used to find the square of a number repeatedly, with logic
+   * similar to as in Sieve of Eratosthenes. on sorted array, ofcourse.
+   * 
    * TC: O(n log n) SC: O(n)
    * #array #hash-table #sorting #dynamic-programming #medium
    */
