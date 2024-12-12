@@ -23,6 +23,7 @@
 | [207. Course Schedule](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CourseSchedule.java) | #easy #dfs #graphs #cycle-detection |
 | [218. The Skyline Problem](./dsa/leetcode/kuiperBelt/TheSkylineProblem.java)              | #heap #priority-queue #line-sweep #hard |
 | [235. Lowest Common Ancestor of a Binary Search Tree](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/LCA/Solution.java) | #easy #binary-tree |
+| [239. Sliding Window Maximum](./dsa/leetcode/RhoCassiopeiae/SlidingWindowMaximum.java) | #array #deque #sliding-window #hard |
 | [253. Meeting Rooms II](./dsa/leetcode/kuiperBelt/MeetingRoomsII.java) | #array #two-pointers #greedy #sorting #heap #priority-queue #medium |
 | [256. Paint House](./dsa/leetcode/kuiperBelt/PaintHouse.java) | #array #dynamic-programming #medium |
 | [265. Paint House II](./dsa/leetcode/kuiperBelt/PaintHouseII.java) | #array #dynamic-programming #hard |
@@ -336,9 +337,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 180/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 181/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 620/1600
+All problems progress in LeetCode: 621/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 

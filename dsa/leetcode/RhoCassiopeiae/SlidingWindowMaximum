@@ -1,0 +1,30 @@
+package dsa.leetcode.RhoCassiopeiae;
+
+import java.util.*;
+
+public class SlidingWindowMaximum {
+
+  /**
+   * https://leetcode.com/problems/sliding-window-maximum/
+   *
+   * The solution employs a deque (double-ended queue) data structure to manage the current window's elements efficiently.
+   * As the sliding window moves, elements get added to the deque until they become unnecessary, at which point they are removed.
+   * This allows for constant time retrieval of the maximum element in the current window.
+   *
+   * TC: O(n) SC: O(k)
+   * #array #deque #sliding-window #hard
+   */
+
+  public int[] maxSlidingWindow(int[] nums, int k) {
+    int[] ans = new int[nums.length - k + 1];
+    Deque<Integer> q = new LinkedList<>();
+    for (int i = 0; i < nums.length; i++) {
+      while (q.size() > 0 && q.getLast() < nums[i]) q.removeLast();
+      q.add(nums[i]);
+      if (i - k + 1 < 0) continue; // init k elements
+      ans[i - k + 1] = q.getFirst();
+      if (nums[i - k + 1] == q.getFirst()) q.removeFirst();
+    }
+    return ans;
+  }
+}
