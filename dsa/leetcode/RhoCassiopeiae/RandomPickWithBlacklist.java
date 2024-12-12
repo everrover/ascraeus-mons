@@ -2,7 +2,7 @@ package dsa.leetcode.RhoCassiopeiae;
 
 import java.util.*;
 
-public class Solution {
+public class RandomPickWithBlacklist {
     /**
      * https://leetcode.com/problems/random-pick-with-blacklist/
      * 
@@ -14,12 +14,10 @@ public class Solution {
      * #hash-map #randomization #hard
      */
 
-    private int MOD = 0;
-    private int idx = 0;
+    private int idx = 0, MOD = 0;
     private Map<Integer, Integer> map = new HashMap<>();
 
-    public Solution(int n, int[] blacklist) {
-        MOD = n;
+    public RandomPickWithBlacklist(int n, int[] blacklist) {
         int len = blacklist.length, idx = 0;
         Set<Integer> set = new HashSet<>();
         for(int b: blacklist) if(b < n) set.add(b);
@@ -27,14 +25,15 @@ public class Solution {
         for (int i=0; i<n && i<2*set.size(); i++){
             if (!set.contains(i)) arr.add(i);
         }
+        MOD = n;
         for (int i = 0; i < len ; i++) {
             map.put(blacklist[i], arr.get(idx));
-            idx = (idx+1)%arr.size();
+            idx = (idx+1)%arr.size(); // refers to a existing valid element
         }
     }
 
-    public int pick() {
-        // this mimics the needed random function
+    public int pick() {// this mimics the needed random function 
+        // very well, ideally i could've used timestamp-seed based random function
         idx = (idx+1)%MOD;
         return map.containsKey(idx) ? map.get(idx) : idx;
     }
