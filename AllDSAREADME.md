@@ -156,6 +156,7 @@
 | [1323. Max 69 number](https://github.com/everrover/mount-kronos/blob/main/NinetySix/Maximum69Number.java) | #java #easy |
 | [1373. Maximum Sum BST in Binary Tree](./dsa/leetcode/kuiperBelt/MaximumSumBstInBinaryTree.java) | #dynamic-programming #tree #depth-first-search #binary-search-tree #binary-tree #hard |
 | [1376. Inform employees](https://github.com/everrover/mount-kronos/blob/main/SuperMario/InformEmployee.java) | #dfs #easy #bfs #tree |
+| [1402. Reducing Dishes](./dsa/leetcode/RhoCassiopeiae/ReducingDishes.java) | #array #dynamic-programming #greedy #sorting #hard |
 | [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FibNumbersWithSumK.java) | #math #greedy |
 | [1463. Cherry Pickup II](https://github.com/everrover/mount-kronos/blob/main/SuperMario/CherryPickupII.java) | #dfs #dynamic-programming |
 | [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](./LordShiva/ProbabilityOfTwoBoxesHavingSameNumberOfDistinctBalls.java) | #dynamic-programming #memoization #combinatorics #backtracking #tricky #hard                                  |
@@ -337,9 +338,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 181/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 182/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 621/1600
+All problems progress in LeetCode: 622/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
