@@ -316,6 +316,7 @@
 | [3068. Find the Maximum Sum of Node Values](./dsa/leetcode/kuiperBelt/FindTheMaximumSumOfNodeValues.java) | #array #greedy #bit-manipulation #tree #min-tracking #math #hard       |
 | [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard |
 | [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium |
+| [3093. Longest Common Suffix Queries](./dsa/leetcode/RhoCassiopeiae/LongestCommonSuffixQueries.java) | #array #string #trie #hard |
 | [3101. Count Alternating Subarrays](./dsa/leetcode/kuiperBelt/CountAlternatingSubarrays.java) | #array #math #dynamic-programming #medium |
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
@@ -340,9 +341,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 185/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 186/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 625/1600
+All problems progress in LeetCode: 626/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
