@@ -7,9 +7,10 @@ public class ReducingDishes {
   /**
    * https://leetcode.com/problems/reducing-dishes/
    * 
-   * Sort satisfaction levels. Use dynamic programming to find the optimal solution.
-   * Save previous best like-time coefficient and corresponding element sum in dp array.
-   * If adding current element to previous best increases it, then add it.
+   * Sort `satisfaction` levels. Use dynamic programming for memoization.
+   * Either include the current `satisfaction` level or skip it.
+   * 
+   * ❗️Greedy choice works... by starting at any index in sorted `satisfaction` order.
    * 
    * TC: O(n^2) SC: O(n^2)
    * #array #dynamic-programming #greedy #sorting #hard
@@ -33,4 +34,17 @@ public class ReducingDishes {
     for (int[] d : dp) Arrays.fill(d, -1);
     return statedfs(0, 1, satisfaction);
   }
+
+  // public int maxSatisfaction(int[] satisfaction) {
+  //   Arrays.sort(satisfaction);
+  //   int res = 0, sum = 0;
+  //   for(int i=-1; i<satisfaction.length; i++){
+  //     sum = 0;
+  //     for(int j=1; i+j<satisfaction.length; j++){
+  //       sum += j*satisfaction[i+j];
+  //     }
+  //     res = Math.max(res, sum);
+  //   }
+  //   return res;
+  // }
 }
