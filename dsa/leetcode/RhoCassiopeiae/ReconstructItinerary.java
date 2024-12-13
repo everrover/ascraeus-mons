@@ -7,10 +7,9 @@ public class ReconstructItinerary {
   /**
    * https://leetcode.com/problems/reconstruct-itinerary/
    *
-   * The goal is to construct an itinerary that uses all the given
-   * tickets once and only once. Start the itinerary from JFK and use
-   * a depth-first search (DFS) to explore all possible paths.
-   * The DFS ensures we always explore the smallest lexically available airport.
+   * The problem's def is to perform an Eulerian path traversal on a graph of flights, starting from JFK and visiting all nodes.
+   * So did just that... using a depth-first search (DFS) approach, utilizing a map to maintain adjacency lists for each airport
+   * To ensure airports are visited in lexical order, a priority queue is used. Could've used a sorted list as well.
    *
    * TC: O(E*log(E)) where E is the number of tickets
    * SC: O(E)

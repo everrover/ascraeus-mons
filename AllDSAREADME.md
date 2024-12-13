@@ -42,6 +42,7 @@
 | [329. Longest Increasing Path in a Matrix](./dsa/leetcode/kuiperBelt/LongestIncreasingPathInMatrix.java) | #array #dynamic-programming #depth-first-search #graph #memoization #hard                                         |
 | [330. Patching Array](./dsa/leetcode/kuiperBelt/PatchingArray.java) | #array #greedy #hard |
 | [332. Reconstruct Itinerary](./dsa/leetcode/RhoCassiopeiae/ReconstructItinerary.java) | #dfs #graph #eulerian-path #hard |
+| [332. Reconstruct Itinerary](./dsa/leetcode/RhoCassiopeiae/ReconstructItinerary.java) | #dfs #graph #eulerian-circuit #hard |
 | [339. Nested List Weight Sum](./dsa/leetcode/kuiperBelt/NestedListWeightSum.java)         | #depth-first-search #bfs #recursion #nested-lists #medium              |
 | [347. Top K Frequent Elements](./dsa.leetcode.kuiperBelt/TopKFrequentElements.java)       | #hashmap #priorityqueue #heaps #medium |
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) | |
@@ -339,9 +340,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 184/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 185/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 624/1600
+All problems progress in LeetCode: 625/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
