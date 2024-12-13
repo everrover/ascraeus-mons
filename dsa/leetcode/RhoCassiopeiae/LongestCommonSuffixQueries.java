@@ -5,12 +5,15 @@ public class LongestCommonSuffixQueries {
   /**
    * https://leetcode.com/problems/longest-common-suffix-queries/
    *
-   * Reverse the strings and build a Trie, storing the best word’s index by comparing suffixes.
+   * Reverse the strings and build a Trie, storing the best word’s index 
+   * by comparing suffixes[prefixes in reversed string] of all words.
    * Traverse the reversed query, updating the maximum index from Trie.
    * If no matching suffix, return the minimum length index.
    * 
-   * TC: O(Total length of wordsContainer + Total length of wordsQuery) 
-   * SC: O(Total length of wordsContainer)
+   * ❗️ How's this hard?
+   * 
+   * TC: O(N+M)~O(n*maxlen(word)+m*maxlen(query)) SC: O(N)~O(n*maxlen(word))
+   * N: sum of length of all words, M: sum of length of all queries
    * #array #string #trie #hard
    */
 

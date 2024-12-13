@@ -9,11 +9,11 @@ public class ReconstructItinerary {
    *
    * The problem's def is to perform an Eulerian path traversal on a graph of flights, starting from JFK and visiting all nodes.
    * So did just that... using a depth-first search (DFS) approach, utilizing a map to maintain adjacency lists for each airport
-   * To ensure airports are visited in lexical order, a priority queue is used. Could've used a sorted list as well.
+   * To ensure airports are visited in lexical order[greedy choice], a priority queue is used. Could've used a sorted list as well.
    *
    * TC: O(E*log(E)) where E is the number of tickets
    * SC: O(E)
-   * #dfs #graph #eulerian-path #hard
+   * #dfs #graph #eulerian-path #hard #greedy
    */
 
   private void dfs(String curr, Map<String, Boolean> mkV, Map<String, Queue<String>> adjList, final List<String> path){
