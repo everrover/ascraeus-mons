@@ -74,6 +74,7 @@
 | [554. Brick Wall](./dsa/leetcode/RhoCassiopeiae/BrickWall.java) | #array #hash-table #medium |
 | [560. Subarray Sum Equals K](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/SubarraySumEqualsK.java) | #simulation #dynamic-programming |
 | [636. Exclusive Time of Functions](./dsa/leetcode/RhoCassiopeiae/ExclusiveTimeOfFunctions.java) | #array #stack #medium |
+| [636. Exclusive Time of Functions](./dsa/leetcode/RhoCassiopeiae/ExclusiveTimeOfFunctions.java) | #array #stack #medium |
 | [647. Palindromic Substrings](./dsa/leetcode/jovianMoonOrbit/PalindromicSubstrings.java) | #two-pointers #dynamic-programming #string #medium |
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java)         | #simulation #string #easy |
 | [658. Find K Closest Elements](./dsa/leetcode/jovianMoonOrbit/FindKClosestElements.java) | #array #binary-search #sliding-window #medium |
@@ -338,9 +339,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 182/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 183/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 622/1600
+All problems progress in LeetCode: 623/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
