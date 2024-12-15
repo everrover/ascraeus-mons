@@ -166,6 +166,7 @@
 | [1481. Least Number of Unique Integers after K Removals](./dsa/leetcode/RhoCassiopeiae/LeastNumberOfUniqueIntegersAfterKRemovals.java) | #array #hash-table #greedy #sorting #medium |
 | [1499. max-value-of-equation](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MaxValueOfEqForPoints.java) | #heap #sliding-window #deque #maths |
 | [1514. Path with Maximum Probability](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/PathWithMaxProbability/sol.md) | #dijkstras-algorithm |
+| [1515. Best Position for a Service Centre](./dsa/leetcode/RhoCassiopeiae/BestPositionForAServiceCentre.java) | #array #math #geometry #randomized #hard |
 | [1521. Find a Value of a Mysterious Function Closest to Target](./SuperMario/FindValueOfMysteriousFunctionClosestToTarget.java) | #bitset-ops #hashing #optimization #cheated🙃 |
 | [1534. Count Good Triplets](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountGoodTriplets/Solution.java)   | |
 | [1547. Minimum Cost to Cut a Stick](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MinimumCostToCutStick/sol.md) | |
@@ -341,9 +342,9 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 186/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 187/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 626/1600
+All problems progress in LeetCode: 627/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
