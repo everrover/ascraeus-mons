@@ -6,8 +6,12 @@ public class MaximumSubarraySumWithLengthDivisibleByK {
   /**
    * https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/
    *
-   * To find the maximum sum of a subarray where the length is divisible by k, maintain a prefix array of length k that tracks the minimum prefix sum mod k. Utilize this information to calculate the maximum sum for each subarray ending at different indices.
-   *
+   * Did a similar one before.
+   * 
+   * For each index i, we've to find the max-sum, at indexes j, where j % k == i % k.
+   * To maximize the sum, we need to minimize the prefix sum at each index j.
+   * So, we keep track of the minimum prefix sum at each index j % k.
+   * 
    * TC: O(n) SC: O(k)
    * #array #hash-table #prefix-sum #medium
    */
