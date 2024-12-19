@@ -258,6 +258,7 @@
 | [2556. Disconnect Path in a Binary Matrix by at Most One Flip](./LordShiva/DisconnectPathInBinMatrixByAtmostOneFlip.java) | #dfs #rashly-coded #contest |
 | [2565. Subsequence With the Minimum Score](https://github.com/everrover/mount-kronos/blob/main/NinetySix/SubseqWithMinScore.java) | #split-sliding-window #sliding-window #suffix-precomputation #dp #binary-search #bin-search-across_sol-space  |
 | [2575. Find the Divisibility Array of a String](./dsa/leetcode/RhoCassiopeiae/FindDivisibilityArrayOfString.java) | #array #math #string #medium |
+| [2577. Minimum Time to Visit a Cell In a Grid](./dsa/leetcode/RhoCassiopeiae/MinimumTimeToVisitACellInAGrid.java) | #array #breadth-first-search #graph #heap #matrix #shortest-path #hard |
 | [2640. Find the Score of All Prefixes of an Array](./dsa/leetcode/RhoCassiopeiae/FindTheScoreOfAllPrefixesOfAnArray.java) | #array #prefix-sum #medium |
 | [2663. Lexicographically Smallest Beautiful String](https://github.com/everrover/mount-kronos/blob/main/LordShiva/LexoSmallestBeautifulString.java) | # |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard |
@@ -346,9 +347,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 191/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 192/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 631/1600
+All problems progress in LeetCode: 632/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
