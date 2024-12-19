@@ -7,8 +7,10 @@ public class MinimumTimeToVisitACellInAGrid {
   /**
    * https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/
    *
-   * Utilize a priority queue to efficiently calculate the minimum time path in the grid.
-   * The algorithm employs Dijkstra's approach, considering all viable path options.
+   * ~ logic as in FindMinimumTimeToReachLastRoomIi.java.
+   * 
+   * However, instead of waiting for threshold to be reached, we move back and forth between
+   * current and previous cell to wait for the threshold to be reached.
    *
    * TC: O(m * n * log(m * n)) SC: O(m * n)
    * #array #breadth-first-search #graph #heap #matrix #shortest-path #hard
@@ -45,7 +47,7 @@ public class MinimumTimeToVisitACellInAGrid {
         int r = curr.r+dir[0], c = curr.c+dir[1];
         if(r<0 || r>=m || c<0 || c>=n) continue; // Skip invalid positions
         int next = Math.max(
-          ((grid[r][c]-curr.t)%2==0?1:0)+grid[r][c],
+          ((grid[r][c]-curr.t)%2==0?1:0)+grid[r][c], // go back and forth between current and previous cell
           curr.t+1
         );
         if(v[r][c] > next){

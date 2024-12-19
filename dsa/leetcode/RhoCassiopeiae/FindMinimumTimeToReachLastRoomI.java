@@ -7,10 +7,7 @@ public class FindMinimumTimeToReachLastRoomI {
   /**
    * https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/
    *
-   * Use shortest path algorithms.
-   * Traverse the grid using a priority queue to always process from the room
-   * with the currently known minimum time. Track and update the minimum time
-   * required to reach each room, ensuring no unnecessary stays.
+   * ~ logic as in FindMinimumTimeToReachLastRoomIi.java
    *
    * TC: O(n * m * log(n * m)) SC: O(n * m)
    * #array #graph #priority-queue #matrix #shortest-path #medium
