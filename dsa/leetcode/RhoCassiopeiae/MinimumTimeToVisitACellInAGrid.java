@@ -40,6 +40,7 @@ public class MinimumTimeToVisitACellInAGrid {
 
     while(!pq.isEmpty()){
       T curr = pq.poll();
+      // we can't even move back and forth to bide the time
       if(curr.r == m-1 && curr.c == n-1) return curr.t;
       else if(v[curr.r][curr.c] < curr.t) continue;
       v[curr.r][curr.c] = curr.t;
@@ -47,6 +48,11 @@ public class MinimumTimeToVisitACellInAGrid {
         int r = curr.r+dir[0], c = curr.c+dir[1];
         if(r<0 || r>=m || c<0 || c>=n) continue; // Skip invalid positions
         int next = Math.max(
+          // try some examples
+          // 0 1 2 9 => moving from 0->1->2 takes 2 seconds, to reach nine we need atleast 8 secs at (2)
+          // if we move back and forth bw. 1&2, 2+1(1)+1(2)+1(1)+1(2)+1(1)+1(2)+1(9)[diff bw. 9 and 2 is odd]
+          // 0 1 2 10 => moving from 0->1->2 takes 2 seconds, to reach ten we need atleast 9 secs at (2)
+          // 2+1(1)+1(2)+1(1)+1(2)+1(1)+1(2)+1(1)+1(10)[diff bw. 10 and 2 is even]
           ((grid[r][c]-curr.t)%2==0?1:0)+grid[r][c], // go back and forth between current and previous cell
           curr.t+1
         );
