@@ -13,7 +13,7 @@ package dsa.leetcode.RhoCassiopeiae;
  * #hash-table #graph #medium
  */
 
-class Solution {
+class NodeWithHighestEdgeScore {
   public int edgeScore(int[] edges) {
     // Array to accumulate edge scores
     long[] a = new long[edges.length];

@@ -2,7 +2,7 @@ package dsa.leetcode.RhoCassiopeiae;
 
 import java.util.Arrays;
 
-public class Solution {
+public class SortArrayByIncreasingFrequency {
   /**
    * https://leetcode.com/problems/sort-array-by-increasing-frequency/
    * 
