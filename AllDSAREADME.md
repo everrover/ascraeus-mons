@@ -178,6 +178,7 @@
 | [1622. Fancy Sequence](./dsa/leetcode/kuiperBelt/FancySequence.java)                      | #math #design #segment-tree #hard #mod-inverse-algo #tricky            |
 | [1626. Best Team With No Conflicts](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BestTeamWithNoConflicts.java) | #dp #binary-indexed-tree #longest-increasing-subsequence #sorting  |
 | [1627. Graph Connectivity With Threshold](./dsa/leetcode/kuiperBelt/GraphConnectivityWithThreshold.java) | #array #math #union-find #number-theory #hard |
+| [1636. Sort Array by Increasing Frequency](./dsa/leetcode/RhoCassiopeiae/SortArrayByIncreasingFrequency.java) | #array #hash-table #sorting #easy |
 | [1650. Lowest Common Ancestor of a Binary Tree III](./dsa/leetcode/kuiperBelt/LowestCommonAncestorOfABinaryTreeIII.java) | #binary-tree #dfs #lca #medium |
 | [1665. Minimum Initial Energy to Finish Tasks](./dsa/leetcode/kuiperBelt/MinimumInitialEnergyToFinishTasks.java) | #array #greedy #sorting #hard |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/SumOfAbsoluteDiffInSortedArrays/sol.md) | #math |
@@ -347,9 +348,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 192/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 193/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 632/1600
+All problems progress in LeetCode: 633/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
