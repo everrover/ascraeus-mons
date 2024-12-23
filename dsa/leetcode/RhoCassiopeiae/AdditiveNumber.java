@@ -1,11 +1,12 @@
 package dsa.leetcode.RhoCassiopeiae;
 
-public class Solution {
+public class AdditiveNumber {
 
   /**
    * https://leetcode.com/problems/additive-number/
    *
-   * An additive number is a string whose digits form an additive sequence (e.g., Fibonacci sequence). A valid sequence should contain at least three numbers, and each subsequent number should be the sum of the previous two.
+   * Ditto : https://leetcode.com/problems/split-array-into-fibonacci-sequence/ 
+   * [LINK][./dsa/leetcode/RhoCassiopeiae/SplitArrayIntoFibonacciSequence.java]
    *
    * TC: O(N^3) SC: O(N)
    * #string #backtracking #medium
