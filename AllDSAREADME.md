@@ -113,6 +113,7 @@
 | [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
 | [838. Push dominoes](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PushDominos.java)      | #implmentation |
 | [841. Keys and rooms](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/KeysAndRooms.java)    | #dfs |
+| [842. Split Array into Fibonacci Sequence](./dsa/leetcode/RhoCassiopeiae/SplitArrayIntoFibonacciSequence.java) | #string #backtracking #medium |
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java)                  | #array #segment-tree #line-sweep #ordered-set #hard |
 | [857. Minimum Cost to Hire K Workers](./dsa/leetcode/kuiperBelt/MinimumCostToHireKWorkers.java) | #greepy #sorting #heap #priority-queue #hard |
 | [863. All Nodes Distance K in Binary Tree](./dsa/leetcode/RhoCassiopeiae/AllNodesDistanceKInBinaryTree.java) | #binary-tree #tree #dfs #bfs #medium |
@@ -351,9 +352,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 196/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 197/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 636/1600
+All problems progress in LeetCode: 637/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
