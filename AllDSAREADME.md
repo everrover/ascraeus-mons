@@ -35,6 +35,7 @@
 | [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java)                | #array #math #sorting #matrix #hard |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
 | [301. Remove Invalid Parentheses](./dsa/leetcode/kuiperBelt/RemoveInvalidParentheses.java) | #backtracking #string #bfs #hard |
+| [306. Additive Number](./dsa/leetcode/RhoCassiopeiae/AdditiveNumber.java) | #string #backtracking #medium |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium                         |
 | [315. Count of Smaller Numbers After Self](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountOfSmallerElementsAfterSelf/sol.md) | |
 | [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force                                |
@@ -352,9 +353,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 197/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 198/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 637/1600
+All problems progress in LeetCode: 638/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
