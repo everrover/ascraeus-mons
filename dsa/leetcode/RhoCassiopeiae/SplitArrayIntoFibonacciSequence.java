@@ -7,8 +7,11 @@ public class SplitArrayIntoFibonacciSequence {
   /**
    * https://leetcode.com/problems/split-array-into-fibonacci-sequence/
    *
-   * Recursive backtracking approach to split the string into a sequence that resembles a Fibonacci sequence.
-   * Validate conditions such as bounds and correct sequence formation.
+   * Simple brute-force. 
+   * Edge cases:
+   * 1. No leading zeros except for zero itself
+   * 2. No overflow ? >= Integer.MAX_VALUE
+   * 3. No negative numbers
    *
    * TC: O(2^n) SC: O(n)
    * #string #backtracking #medium
