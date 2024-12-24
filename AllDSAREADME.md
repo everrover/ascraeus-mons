@@ -76,6 +76,7 @@
 | [528. Random Pick with Weight](./dsa/leetcode/jovianMoonOrbit/RandomPickWithWeight.java) | #array #math #binary-search #prefix-sum #randomized #medium |
 | [546. Remove boxes](https://github.com/everrover/mount-kronos/blob/main/LordShiva/RemoveBoxes.java)       | #dynamic-programming #array #tricky #important |
 | [547. Number of Provinces](https://github.com/everrover/mount-kronos/blob/main/SuperMario/NumberOfProvinces.java) | #graphs #dfs #bfs |
+| [551. Student Attendance Record I](./dsa/leetcode/fermi_s_paradox/StudentAttendanceRecordI.java) | #string #easy |
 | [552. Student Attendance Record II](./dsa/leetcode/kuiperBelt/StudentAttendanceRecordII.java) | #dp #string #hard |
 | [554. Brick Wall](./dsa/leetcode/RhoCassiopeiae/BrickWall.java) | #array #hash-table #medium |
 | [560. Subarray Sum Equals K](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/SubarraySumEqualsK.java) | #simulation #dynamic-programming |
@@ -354,9 +355,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 199/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 200/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 639/1600
+All problems progress in LeetCode: 640/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
