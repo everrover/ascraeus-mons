@@ -7,15 +7,14 @@ public class HighAccessEmployees {
   /**
    * https://leetcode.com/problems/high-access-employees/
    *
-   * The solution identifies 'high-access' employees by examining access times
-   * sorted for each employee. It checks if at least three accesses occur
-   * within any one-hour window without wrapping to the next hour.
+   * For a given emp, sort the access times and check if there are 3 or more accesses within 60 minutes.
+   * Used sliding window to check the time difference between each pair of accesses.
    *
-   * TC: O(n log n) due to sorting and O(n^2) for checking each pair of times,
+   * TC: O(n log n) due to sorting and O(2*n) for checking each pair of times,
    * where n is the number of accesses.
    * SC: O(n) used for storing employee access lists.
    *
-   * #array #hash-table #string #sorting #medium
+   * #array #hash-table #string #sorting #medium #sliding-window
    */
 
   public List<String> findHighAccessEmployees(List<List<String>> accessTimes) {

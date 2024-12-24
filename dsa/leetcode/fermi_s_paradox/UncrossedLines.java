@@ -2,13 +2,12 @@ package dsa.leetcode.fermi_s_paradox;
 
 import java.util.*;
 
-public class Solution {
+public class UncrossedLines {
   /**
    * https://leetcode.com/problems/uncrossed-lines/
    *
-   * Uses dynamic programming to find the maximum number of uncrossed lines that can be drawn
-   * between two arrays. The recurrence checks pairs of numbers
-   * and continues if they are equal.
+   * At same nos, we have one extra line. Else, we check with `i+1` and `j` or `i` and `j+1`.
+   * If we reach the end of the arrays, we have the max combo... so return 0.
    *
    * TC: O(n*m) SC: O(n*m) where n and m are the lengths of nums1 and nums2 respectively
    * #array #dynamic-programming #medium

@@ -53,4 +53,21 @@ public class StudentAttendanceRecordII {
     return memo[n][1][2];
   }
    */
+  /*
+  
+  private int dfs(int ab, int lt, int day, final int n, final int[][][]dp){
+    if(day == n) return 1;
+    if(dp[ab][lt][day] != -1) return dp[ab][lt][day];
+    int res = 0;
+    if(ab < 1) res = (res + dfs(ab+1, 0, day+1, n, dp))%MOD;
+    if(lt < 2) res = (res + dfs(ab, lt+1, day+1, n, dp))%MOD;
+    res = (res + dfs(ab, 0, day+1, n, dp))%MOD;
+    return dp[ab][lt][day] = res;
+  }
+  public int checkRecord(int n) {
+    int [][][]dp = new int[2][3][n];
+    for(int [][]dd: dp) for(int []d: dd) Arrays.fill(d, -1);
+    return dfs(0, 0, 0, n, dp);
+  }
+   */
 }
