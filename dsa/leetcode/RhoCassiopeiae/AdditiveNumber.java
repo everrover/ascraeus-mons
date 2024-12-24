@@ -8,7 +8,7 @@ public class AdditiveNumber {
    * Ditto : https://leetcode.com/problems/split-array-into-fibonacci-sequence/ 
    * [LINK][./dsa/leetcode/RhoCassiopeiae/SplitArrayIntoFibonacciSequence.java]
    *
-   * TC: O(N^3) SC: O(N)
+   * TC: O(2^N) SC: O(N)
    * #string #backtracking #medium
    */
 

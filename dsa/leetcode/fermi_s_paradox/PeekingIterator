@@ -7,8 +7,8 @@ public class PeekingIterator implements Iterator<Integer> {
   /**
    * https://leetcode.com/problems/peeking-iterator/
    * 
-   * This class extends an iterator to include a peek operation by caching the
-   * next element, allowing the next element to be viewed without advancing the iterator.
+   * We're always at the next element to be returned. 
+   * So, we can just store the next element and return it when peek() is called.
    * 
    * TC: O(1) per operation, SC: O(1)
    * #iterator #design #medium
