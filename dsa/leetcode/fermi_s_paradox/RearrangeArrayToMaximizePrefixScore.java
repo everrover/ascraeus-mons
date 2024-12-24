@@ -7,8 +7,13 @@ public class RearrangeArrayToMaximizePrefixScore {
   /**
    * https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/
    * 
-   * Sort the array in decreasing order and count the number of positive values in the prefix sum array.
-   * The goal is to maximize the number of positive integers in the prefix.
+   * GREEDY CHOICE :: Sort the array in decreasing order and count the number of 
+   * positive values in the prefix sum array. And prefix-sum using them.
+   * 
+   * Start iterating non-positive values and break when prefix sum becomes negative.
+   * 
+   * p.s. Technically above mentioned sum is suffix-sum, but in reverse sorted array,
+   * it becomes prefix-sum.
    * 
    * TC: O(n log n) due to sorting, SC: O(1)
    * #array #greedy #sorting #prefix-sum #medium
