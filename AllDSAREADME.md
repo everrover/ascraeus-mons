@@ -31,6 +31,7 @@
 | [273. Integer to English Words](./dsa/leetcode/jovianMoonOrbit/IntegerToEnglishWords.java) | #math #string #recursion #hard |
 | [282. Expression Add Operators](./dsa/leetcode/kuiperBelt/ExpressionAddOperators.java) | #math #string #backtracking #hard |
 | [283. Move Zeroes](./dsa/leetcode/kuiperBelt/MoveZeroes.java)                             | #array #two-pointers #easy |
+| [284. Peeking Iterator](./dsa/leetcode/fermi_s_paradox/PeekingIterator.java) | #iterator #design #medium |
 | [295. Find Median From Data Stream](./dsa/leetcode/kuiperBelt/FindMedianFromDataStream.java) | #heap #priority-queue #design #data-stream #hard |
 | [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java)                | #array #math #sorting #matrix #hard |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
@@ -353,9 +354,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 198/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 199/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 638/1600
+All problems progress in LeetCode: 639/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
