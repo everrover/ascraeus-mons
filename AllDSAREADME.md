@@ -306,6 +306,7 @@
 | [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./dsa/leetcode/kuiperBelt/MinimumEqualSumOfTwoArraysAfterReplacingZeros.java) | |
 | [2919. Minimum Increment Operations to Make Array Beautiful](.dsa/leetcode/kuiperBelt/MinoOfIncrementOperationsToMakeArrayBeautiful.java) | #dynamic-programming #arrays #medium |
 | [2923. Find Champion I](.dsa/leetcode/kuiperBelt/EasySetI.java)                           | #easy |
+| [2933. High-Access Employees](./dsa/leetcode/fermi_s_paradox/HighAccessEmployees.java) | #array #hash-table #string #sorting #medium |
 | [2942. Find Words Containing Character](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #easy #string |
 | [2943. Maximize Area of Square Hole in Grid](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #math #matrix #logic |
 | [2944. Minimum Number of Coins for Fruits](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #array #dynamic-programming |
@@ -355,9 +356,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 200/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 201/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 640/1600
+All problems progress in LeetCode: 641/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
