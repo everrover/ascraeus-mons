@@ -259,6 +259,7 @@
 | [2456. Most Popular Video Creator](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MostPopularVideoCreator.java) | #greedy #priority-queue #sorting #math #optimization               |
 | [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/HtOfBinTreeAfterSubtreeRemovalQueries.java) | #DFS #bfs #binary-tree #tricky #best-and-2nd-best |
 | [2477. MinimumFuelToReportToCapitol](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MinimumFuelToReportToCapitol.java) | #DFS #bfs #tree #post-order-traversal #math-and-logic              |
+| [2482. Difference Between Ones and Zeros in Row and Column](./dsa/leetcode/fermi_s_paradox/DifferenceBetweenOnesAndZerosInRowAndColumn.java) | #array #matrix #simulation #medium |
 | [2501. Longest Square Streak in an Array](./dsa/leetcode/RhoCassiopeiae/LongestSquareStreakInAnArray.java) | #array #hash-table #sorting #dynamic-programming #medium |
 | [2508. Add Edges to Make Degrees of All Nodes Even](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddEdgesToMakeDegreesOfAllNodesEven.java) | ##two-pointer #sliding-window #unconventional-traversal            |
 | [2516. Take K of Each Character From Left and Right](https://github.com/everrover/mount-kronos/blob/main/NinetySix/TakeKOfEachCharacterFromLeftAndRight.java) | #split-sliding-window #sliding-window #suffix-precomputation       |
@@ -360,9 +361,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 205/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 206/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 645/1600
+All problems progress in LeetCode: 646/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
