@@ -140,6 +140,7 @@
 | [987. Vertical Order Traversal of a Binary Tree](./dsa/leetcode/kuiperBelt/VerticalOrderTraversalOfBinaryTree.java) | #hash-table #tree #dfs #bfs #sorting #binary-tree #hard                |
 | [995. Minimum Number Of K Consecutive Bit Flips](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumNumberOfKConsecutiveBitFlips.java) | #tricky-approach #queue #sliding-window #unable-to-do-on-my-own    |
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard |
+| [1029. Two City Scheduling](./dsa/leetcode/fermi_s_paradox/TwoCityScheduling.java) | #array #greedy #dynamic-programming #medium |
 | [1035. Uncrossed Lines](./dsa/leetcode/fermi_s_paradox/UncrossedLines.java) | #array #dynamic-programming #medium |
 | [1040. Moving Stones Until Consecutive II](./dsa/leetcode/jovianMoonOrbit/MovingStonesUntilConsecutiveII.java) | #array #two-pointers #sorting #medium |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space               |
@@ -358,9 +359,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 203/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 204/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 643/1600
+All problems progress in LeetCode: 644/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
