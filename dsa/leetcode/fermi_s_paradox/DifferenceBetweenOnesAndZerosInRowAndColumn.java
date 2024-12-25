@@ -1,12 +1,16 @@
 package dsa.leetcode.fermi_s_paradox;
 
-public class Solution {
+public class DifferenceBetweenOnesAndZerosInRowAndColumn {
   /**
    * https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/
    * 
-   * The solution involves calculating the difference matrix by counting the number of ones in each row and column,
-   * and subtracting it from the number of zeros. This is efficiently stored and used to compute the difference
-   * in one pass over the entire matrix.
+   * Count ones in each row and column...
+   * zero count = `m-rowOnes` for row and `n-colOnes` for column.
+   * diff = rowOnes - rowZeros + colOnes - colZeros
+   *      = rowOnes - (m - rowOnes) + colOnes - (n - colOnes)
+   *      = 2*rowOnes + 2*colOnes - n - m
+   * 
+   * ❗️How's this `medium`???
    * 
    * TC: O(m * n) SC: O(m + n)
    * #array #matrix #simulation #medium

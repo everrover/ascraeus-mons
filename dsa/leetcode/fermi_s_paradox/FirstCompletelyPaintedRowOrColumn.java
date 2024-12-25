@@ -4,9 +4,9 @@ public class FirstCompletelyPaintedRowOrColumn {
   /**
    * https://leetcode.com/problems/first-completely-painted-row-or-column/
    *
-   * We process each integer from the array `arr` and paint the corresponding cell in the matrix `mat`. 
-   * Using auxiliary arrays to count the number of painted cells in each row and column, 
-   * once any row or column is completely painted, return the index at which this condition is met.
+   * for each val in `mat`, store its position.
+   * iterate over `arr`, paint the cell and check if the row or column is 
+   * fully painted using the count arrays.
    *
    * TC: O(m*n) SC: O(m+n)
    * #array #hash-table #matrix #medium
