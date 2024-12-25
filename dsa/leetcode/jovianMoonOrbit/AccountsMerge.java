@@ -34,7 +34,7 @@ public class AccountsMerge {
       for (int i = 1; i < lst.size(); i++) {
         String em = lst.get(i);
         if (map.containsKey(em)) {
-          union(nmap.get(j), nmap.get(map.get(em)));
+          N.union(nmap.get(j), nmap.get(map.get(em)));
         } else {
           map.put(em, j);
         }
@@ -69,5 +69,12 @@ class N {
     a = find(a);
     b = find(b);
     if (a != b) a.p = b;
+  }
+
+  static N find(N root) {
+    var a = root;
+    while (a.p != a) a = a.p;
+    root.p = a;
+    return a;
   }
 }
