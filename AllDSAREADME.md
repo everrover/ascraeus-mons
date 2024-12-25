@@ -271,6 +271,7 @@
 | [2577. Minimum Time to Visit a Cell In a Grid](./dsa/leetcode/RhoCassiopeiae/MinimumTimeToVisitACellInAGrid.java) | #array #breadth-first-search #graph #heap #matrix #shortest-path #hard |
 | [2587. Rearrange Array to Maximize Prefix Score](./dsa/leetcode/fermi_s_paradox/RearrangeArrayToMaximizePrefixScore.java) | #array #greedy #sorting #prefix-sum #medium |
 | [2640. Find the Score of All Prefixes of an Array](./dsa/leetcode/RhoCassiopeiae/FindTheScoreOfAllPrefixesOfAnArray.java) | #array #prefix-sum #medium |
+| [2661. First Completely Painted Row or Column](./dsa/leetcode/fermi_s_paradox/FirstCompletelyPaintedRowOrColumn.java) | #array #hash-table #matrix #medium |
 | [2663. Lexicographically Smallest Beautiful String](https://github.com/everrover/mount-kronos/blob/main/LordShiva/LexoSmallestBeautifulString.java) | # |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard |
 | [2751. Robot Collisions](./dsa/leetcode/kuiperBelt/RobotCollisions.java) | #stack #array #sorting #simulation #hard |
@@ -359,9 +360,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 204/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 205/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 644/1600
+All problems progress in LeetCode: 645/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
