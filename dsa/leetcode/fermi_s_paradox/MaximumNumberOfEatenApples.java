@@ -6,9 +6,7 @@ public class MaximumNumberOfEatenApples {
   /**
    * https://leetcode.com/problems/maximum-number-of-eaten-apples/
    *
-   * To maximize the number of apples eaten, track the apples by their expiration dates using a priority queue.
-   * At each day, prioritize eating apples that will rot sooner and maintain the count of uneaten, non-rotten apples.
-   * Continue eating apples even beyond the initial days if any remain uneaten but not yet rotten.
+   * Greedy choice : track the apples by their expiration `day` and `count` using a priority queue
    *
    * TC: O(n log n) SC: O(n)
    * #array #greedy #heap #priority-queue #medium
