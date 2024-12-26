@@ -3,18 +3,20 @@ package dsa.leetcode.fermi_s_paradox;
 import java.util.Deque;
 import java.util.ArrayDeque;
 
-public class Solution {
+public class ShortestSubarrayWithSumAtLeastK {
 
   /**
    * https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
    *
-   * The goal is to find the shortest subarray with a sum at least k.
-   * We use a prefix sum to efficiently compute subarray sums and a deque for maintaining
-   *   indices of potential starting points of such subarrays, leveraging the monotonic queue pattern.
+   * For each index `i`  need to find the smallest sum and an largest index j such
+   * that prefix_i - prefix_j >= k. We can use a monotonic queue to keep track of 
+   * the indices of the prefix sums. 
+   * Also, we can use monotonic increasing stack with binary-search for the same. It works 
+   * in logaritmic time, though.
    *
    * TC: O(n), where n is the length of the array.
    * SC: O(n), to store the prefix sums and deque.
-   * #array #queue #prefix-sum #monotonic-queue #hard
+   * #array #queue #prefix-sum #monotonic-queue #hard #binary-search #monotonic-stack #stack #heap
    */
 
   public int shortestSubarray(int[] nums, long k) {
@@ -39,5 +41,38 @@ public class Solution {
     if (res == Integer.MAX_VALUE) return -1;
     return res;
   }
+
+  /*
+  private static class T{
+    public int idx;
+    public long s;
+    public T(long s, int idx){
+      this.s = s;
+      this.idx = idx;
+    }
+  }
+  public int shortestSubarray(int[] nums, long k) {
+    long rsum = 0L;
+    int res = Integer.MAX_VALUE;
+    Queue<T> q = new PriorityQueue<>((a, b) -> Long.compare(a.s,b.s));
+    for (int i=0; i<nums.length; i++) {
+      rsum += nums[i];
+      // check if the sum of the subarray >= k
+      if(rsum >= k) res = Math.min(res,i+1);
+
+      // basically, we try to find the largest index j such that rsum - q[j].s >= k
+      // by tracking smallest running sums, we can iterate over largest arrays that support our req
+      // they won't be used for next iterations, so we can remove them
+      while (!q.isEmpty() && rsum-q.peek().s >= k) {
+        res = Math.min(res,
+                      i-q.poll().idx);
+      }
+      q.offer(new T(rsum, i));
+    }
+        
+    if(res == Integer.MAX_VALUE) return -1;
+    return res;
+  }
+   */
 
 }
