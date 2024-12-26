@@ -191,6 +191,7 @@
 | [1665. Minimum Initial Energy to Finish Tasks](./dsa/leetcode/kuiperBelt/MinimumInitialEnergyToFinishTasks.java) | #array #greedy #sorting #hard |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/SumOfAbsoluteDiffInSortedArrays/sol.md) | #math |
 | [1687. Delivering Boxes from Storage to Ports](https://github.com/everrover/mount-kronos/blob/main/LordShiva/DeliveringBoxesFromStorageToPorts.java) | #dynamic-programming #sliding-window #mono-deque #prefix-sum #segment-tree #optimization #sliding-window      |
+| [1705. Maximum Number of Eaten Apples](./dsa/leetcode/fermi_s_paradox/MaximumNumberOfEatenApples.java) | #array #greedy #heap #priority-queue #medium |
 | [1720. Decode XORed arr](https://github.com/everrover/mount-kronos/blob/main/NinetySix/DecodeXORedArr.java) | #binary-math #easy |
 | [1722. Minimise Hamming Distance](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MinimiseHammingDistance/Solution.java) | #graphs #math-and-logic #strongly-connected-components #dfs        |
 | [1728. Cat and mouse II](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CatAndMouseII.java)                   | #graphs #dfs #dp #memoiation #game-theory #trick #dfs-no-visit-track #dfs                                     |
@@ -362,9 +363,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 207/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 208/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 647/1600
+All problems progress in LeetCode: 648/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
