@@ -212,6 +212,7 @@
 | [1928. Minimum Cost to Reach Destination in Time](./dsa/leetcode/RhoCassiopeiae/MinimumCostToReachDestinationInTime.java) | #graph #shortest-path #dijkstra #hard |
 | [1936. Add Minimum Number of Rungs](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddMinNumberOfRungs.java) | #maths #greedy |
 | [1944. Number of Visible People in a Queue](./dsa/leetcode/kuiperBelt/NumberOfVisiblePeopleInAQueue.java) | #monotonic-stack #array #hard |
+| [1945. Sum of Digits of String After Convert](./dsa/leetcode/fermi_s_paradox/SumOfDigitsOfStringAfterConvert.java) | #string #simulation #easy |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 | [1970. Last Day Where You Can Still Cross](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LastDayWhereYouCanStillCross.java) | #binary-search #dfs #bfs #disjoint-sets #tricky #inverse-thought-process                                      |
 | [1997. First Day Where You Have Been in All the Rooms](./NinetySix/FirstDayWhereYouHaveBeenInAllRooms/FirstDayWhereYouHaveBeenInAllRooms.java) | #greedy #tricky-dp #graphs #dynamic-programming #deep-logic        |
@@ -361,9 +362,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 206/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 207/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 646/1600
+All problems progress in LeetCode: 647/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
