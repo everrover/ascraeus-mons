@@ -119,6 +119,7 @@
 | [842. Split Array into Fibonacci Sequence](./dsa/leetcode/RhoCassiopeiae/SplitArrayIntoFibonacciSequence.java) | #string #backtracking #medium |
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java)                  | #array #segment-tree #line-sweep #ordered-set #hard |
 | [857. Minimum Cost to Hire K Workers](./dsa/leetcode/kuiperBelt/MinimumCostToHireKWorkers.java) | #greepy #sorting #heap #priority-queue #hard |
+| [862. Shortest Subarray with Sum at Least K](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithSumAtLeastK.java) | #array #queue #prefix-sum #monotonic-queue #hard |
 | [863. All Nodes Distance K in Binary Tree](./dsa/leetcode/RhoCassiopeiae/AllNodesDistanceKInBinaryTree.java) | #binary-tree #tree #dfs #bfs #medium |
 | [875. Koko eating bananas](https://github.com/everrover/mount-kronos/blob/main/SuperMario/KokoEatingBananas.java) | #binary-search #bin-search-over-solution-space |
 | [877. Stone Game](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/StoneGame/sol.md)                            | #dynamic-programming #game-theory #greedy #math |
@@ -363,9 +364,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 208/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 209/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 648/1600
+All problems progress in LeetCode: 649/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
