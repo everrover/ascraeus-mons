@@ -337,6 +337,7 @@
 | [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard |
 | [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium |
 | [3093. Longest Common Suffix Queries](./dsa/leetcode/RhoCassiopeiae/LongestCommonSuffixQueries.java) | #array #string #trie #hard |
+| [3097. Shortest Subarray With OR at Least K II](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithORAtLeastKII.java) | #array #bit-manipulation #sliding-window #medium |
 | [3101. Count Alternating Subarrays](./dsa/leetcode/kuiperBelt/CountAlternatingSubarrays.java) | #array #math #dynamic-programming #medium |
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
@@ -364,9 +365,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 209/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 210/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 649/1600
+All problems progress in LeetCode: 650/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
