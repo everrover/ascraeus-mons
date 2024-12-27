@@ -102,6 +102,7 @@
 | [735. Asteroid Collision](./dsa/leetcode/RhoCassiopeiae/AsteroidCollision.java) | #array #stack #simulation #medium |
 | [739. Daily Temperatures](./dsa/leetcode/jovianMoonOrbit/DailyTemperatures.java) | #array #stack #monotonic-stack #medium |
 | [740. Delete and Earn](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/DeleteAndEarn/sol.md)                   | |
+| [741. Cherry Pickup](./dsa/leetcode/fermi_s_paradox/CherryPickup.java) | #array #dynamic-programming #matrix #hard |
 | [743. Network Delay Time](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/NetworkDelayTime.java) | #dijkstras-algorithm |
 | [745. Prefix and Suffix Search](./dsa/leetcode/kuiperBelt/PrefixAndSuffixSearch.java) | #trie #string #design #hard |
 | [756. Pyramid transition matrix](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PyramidTransitionMatrix.java) | #dfs #bfs #recursion #backtracking |
@@ -365,9 +366,9 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 210/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 211/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 650/1600
+All problems progress in LeetCode: 651/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
