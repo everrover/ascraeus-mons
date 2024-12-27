@@ -5,47 +5,86 @@ public class ShortestSubarrayWithORAtLeastKII {
   /**
    * https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/
    *
-   * To find the length of the shortest subarray, maintain each subarray’s bitwise OR result.
-   * The OR operation never unsets any bits and only sets new bits. Hence, use bit masks
-   * to track at most 32 different results for each number. Use a binary search approach
-   * to find the minimal subarray length.
+   * OR mask array is always increasing, so we can use binary search to find the
+   * minimum subarray length.
+   * 
+   * Since **increasing property is followed** and previous mask[s] are never used by a
+   * recent index. Since current OR at idx already is >= k, if we start from that
+   * OR will only increase.
+   * 
+   * For example in [4,2,1,2,1,8,1] and k=11, the OR mask array is [4,6,7,7,7,15,15] 
+   * At idx 5[8], we find minimum window starting at idx 3[2] with OR mask 11. 
+   * For idx 6[1], we don't bother with masks before idx 3[2]. We start from just idx 3[2]
+   * 
+   * we can use a sliding window[or a deque] to keep increasing the right pointer till
+   * the OR mask is less than k. Once the OR mask is greater than k, we can start
+   * decreasing the left pointer till the OR mask is less than k, while updating the result.
    *
    * TC: O(n*log(n)) SC: O(n*32)
    * #array #bit-manipulation #sliding-window #medium
    */
 
-  public int minimumSubarrayLength(int[] nums, int k) {
+   public int minimumSubarrayLength(int[] nums, int k) {
     final int N = nums.length;
-    int [][]mask = new int[N][32];
-    for(int i=0; i<N; i++){
+    int []mask = new int[32];
+    int res = Integer.MAX_VALUE, left = 0, right = 0;
+    int ored = 0;
+    while(right<N) {
       for(int j=0; j<32; j++){
-        mask[i][j] = (i>0?mask[i-1][j]:0)+(((nums[i]&(1<<j)) > 0)?1:0);
+        if((nums[right] & (1<<j)) > 0) { mask[j]++; }
       }
-    }
-    int res = Integer.MAX_VALUE;
-    for(int i=0; i<N; i++){
-      int j = find(i, mask, k);
-      if(j!=Integer.MAX_VALUE) res = Math.min(i-j+1, res);
+      right++;
+      while(left<right && findor(mask)>=k){
+        res = Math.min(right-left, res);
+        for(int j=0; j<32; j++){
+          if((nums[left] & (1<<j)) > 0) { mask[j]--; }
+        }
+        left++;
+      }
     }
     return res==Integer.MAX_VALUE?-1:res;
   }
   
-  private int find(int idx, int mask[][], int k){
-    int l = 0, r = idx;
-    int mid = 0, res = Integer.MAX_VALUE;
-    while(l<=r){
-      int ored = 0;
-      mid = (l+r)/2;
-      for(int j=0; j<32; j++){
-        if(mask[idx][j]-(mid>0?mask[mid-1][j]:0) > 0) { ored += (1<<j); }
-      }
-      if(ored >= k){
-        res = mid;
-        l=mid+1;
-      }else{
-        r=mid-1;
-      }
+  public int findor(int []mask){
+    int ored = 0;
+    for(int j=0; j<32; j++){
+      if(mask[j]>0) { ored += (1<<j); }
     }
-    return res;
+    return ored;
   }
+
+  // public int minimumSubarrayLength(int[] nums, int k) {
+  //   final int N = nums.length;
+  //   int [][]mask = new int[N][32];
+  //   for(int i=0; i<N; i++){
+  //     for(int j=0; j<32; j++){
+  //       mask[i][j] = (i>0?mask[i-1][j]:0)+(((nums[i]&(1<<j)) > 0)?1:0);
+  //     }
+  //   }
+  //   int res = Integer.MAX_VALUE;
+  //   for(int i=0; i<N; i++){
+  //     int j = find(i, mask, k);
+  //     if(j!=Integer.MAX_VALUE) res = Math.min(i-j+1, res);
+  //   }
+  //   return res==Integer.MAX_VALUE?-1:res;
+  // }
+  
+  // private int find(int idx, int mask[][], int k){
+  //   int l = 0, r = idx;
+  //   int mid = 0, res = Integer.MAX_VALUE;
+  //   while(l<=r){
+  //     int ored = 0;
+  //     mid = (l+r)/2;
+  //     for(int j=0; j<32; j++){
+  //       if(mask[idx][j]-(mid>0?mask[mid-1][j]:0) > 0) { ored += (1<<j); }
+  //     }
+  //     if(ored >= k){
+  //       res = mid;
+  //       l=mid+1;
+  //     }else{
+  //       r=mid-1;
+  //     }
+  //   }
+  //   return res;
+  // }
 }
