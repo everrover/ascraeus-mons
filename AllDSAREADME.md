@@ -365,12 +365,13 @@
 | [3342. Find Minimum Time to Reach Last Room II](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomIi.java) | #array #graph #heap #matrix #shortest-path #medium |
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | [3402. Minimum Operations to Make Columns Strictly Increasing](./dsa/leetcode/fermi_s_paradox/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | #matrix #greedy #easy |
+| [3403. Find the Lexicographically Largest String From the Box I](./dsa/leetcode/fermi_s_paradox/FindTheLexicographicallyLargestStringFromTheBoxI.java) | #string #greedy #medium |
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 213/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 214/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 653/1600
+All problems progress in LeetCode: 654/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
