@@ -339,6 +339,7 @@
 | [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard |
 | [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium |
 | [3093. Longest Common Suffix Queries](./dsa/leetcode/RhoCassiopeiae/LongestCommonSuffixQueries.java) | #array #string #trie #hard |
+| [3095. Shortest Subarray With OR at Least K](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithORAtLeastK.java) | #array #bit-manipulation #sliding-window #easy |
 | [3097. Shortest Subarray With OR at Least K II](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithORAtLeastKII.java) | #array #bit-manipulation #sliding-window #medium |
 | [3101. Count Alternating Subarrays](./dsa/leetcode/kuiperBelt/CountAlternatingSubarrays.java) | #array #math #dynamic-programming #medium |
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
@@ -370,9 +371,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 215/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 216/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 655/1600
+All problems progress in LeetCode: 656/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
