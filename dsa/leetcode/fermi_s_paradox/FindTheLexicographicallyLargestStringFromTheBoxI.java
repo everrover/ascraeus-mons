@@ -5,8 +5,8 @@ public class FindTheLexicographicallyLargestStringFromTheBoxI {
   /**
    * https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/description/
    *
-   * Find the lexicographically largest substring with a maximum size of n - numFriends + 1 by iterating backwards.
-   * Maintain a current substring and update the result if a larger string is found.
+   * Amongst all possible substrings(with a maximum size of n - numFriends + 1), the largest one is tracked
+   * and returned.
    * 
    * TC: O(n) SC: O(n) where n is the length of the string
    * #string #greedy #medium

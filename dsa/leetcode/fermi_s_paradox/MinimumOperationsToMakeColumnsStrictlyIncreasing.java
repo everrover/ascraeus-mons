@@ -4,7 +4,9 @@ public class MinimumOperationsToMakeColumnsStrictlyIncreasing {
   /**
    * https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/description/
    * 
-   * For each column, iterate through the rows; if an element in the current row is not greater than the element in the previous row, increase it to be strictly greater. Count the operations needed.
+   * For each column, iterate through the rows; 
+   * if an element in the current row is not greater than the element in the previous row, 
+   * increase it to be strictly greater. Count the operations needed.
    * 
    * TC: O(m * n) SC: O(1)
    * #matrix #greedy #easy

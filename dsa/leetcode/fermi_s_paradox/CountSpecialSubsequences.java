@@ -2,7 +2,7 @@ package dsa.leetcode.fermi_s_paradox;
 
 import java.util.Arrays;
 
-public class Solution {
+public class CountSpecialSubsequences {
   private static int [][]gcdMemo;
 
   /**
@@ -11,8 +11,8 @@ public class Solution {
    * Count pairs where nums[p] / nums[q] equals nums[s] / nums[r],
    * using GCD to handle ratios efficiently.
    *
-   * TC: O(n^2) in average case SC: O(n^2)
-   * #array #combinatorial #medium
+   * TC: O(n^2) SC: O(n^2)
+   * #array #mathematical #medium #math #gcd
    */
 
   int memoizedGCD(int a, int b) {
@@ -43,7 +43,8 @@ public class Solution {
         }
       }
       for(s = r + 2; s < nums.length; ++s) {
-        // TODO: Implement the rest of the logic based on the problem constraints.
+        int []f = gcdfactors(nums[r], nums[s]);
+        res += map[f[0]][f[1]];
       }
     }
     return res;
