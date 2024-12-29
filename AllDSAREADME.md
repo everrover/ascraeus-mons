@@ -189,6 +189,7 @@
 | [1626. Best Team With No Conflicts](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BestTeamWithNoConflicts.java) | #dp #binary-indexed-tree #longest-increasing-subsequence #sorting  |
 | [1627. Graph Connectivity With Threshold](./dsa/leetcode/kuiperBelt/GraphConnectivityWithThreshold.java) | #array #math #union-find #number-theory #hard |
 | [1636. Sort Array by Increasing Frequency](./dsa/leetcode/RhoCassiopeiae/SortArrayByIncreasingFrequency.java) | #array #hash-table #sorting #easy |
+| [1639. Number of Ways to Form a Target String Given a Dictionary](./dsa/leetcode/fermi_s_paradox/NumberOfWaysToFormTargetStringGivenDictionary.java) | #dynamic-programming #string #hard |
 | [1650. Lowest Common Ancestor of a Binary Tree III](./dsa/leetcode/kuiperBelt/LowestCommonAncestorOfABinaryTreeIII.java) | #binary-tree #dfs #lca #medium |
 | [1665. Minimum Initial Energy to Finish Tasks](./dsa/leetcode/kuiperBelt/MinimumInitialEnergyToFinishTasks.java) | #array #greedy #sorting #hard |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/SumOfAbsoluteDiffInSortedArrays/sol.md) | #math |
@@ -369,9 +370,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 214/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 215/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 654/1600
+All problems progress in LeetCode: 655/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
