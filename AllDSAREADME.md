@@ -266,6 +266,7 @@
 | [2466. Count Ways To Build Good Strings](./dsa/leetcode/fermi_s_paradox/CountWaysToBuildGoodStrings.java) | #dynamic-programming #medium |
 | [2477. MinimumFuelToReportToCapitol](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MinimumFuelToReportToCapitol.java) | #DFS #bfs #tree #post-order-traversal #math-and-logic              |
 | [2482. Difference Between Ones and Zeros in Row and Column](./dsa/leetcode/fermi_s_paradox/DifferenceBetweenOnesAndZerosInRowAndColumn.java) | #array #matrix #simulation #medium |
+| [2484. Count Palindromic Subsequences](./dsa/leetcode/fermi_s_paradox/CountPalindromicSubsequences.java) | #string #dynamic-programming #hard |
 | [2501. Longest Square Streak in an Array](./dsa/leetcode/RhoCassiopeiae/LongestSquareStreakInAnArray.java) | #array #hash-table #sorting #dynamic-programming #medium |
 | [2508. Add Edges to Make Degrees of All Nodes Even](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddEdgesToMakeDegreesOfAllNodesEven.java) | ##two-pointer #sliding-window #unconventional-traversal            |
 | [2516. Take K of Each Character From Left and Right](https://github.com/everrover/mount-kronos/blob/main/NinetySix/TakeKOfEachCharacterFromLeftAndRight.java) | #split-sliding-window #sliding-window #suffix-precomputation       |
@@ -372,9 +373,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 217/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 218/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 657/1600
+All problems progress in LeetCode: 658/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
