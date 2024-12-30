@@ -9,6 +9,10 @@ public class CountPalindromicSubsequences {
    * It uses dynamic programming to track occurrences of two digit pairs as prefixes and suffixes,
    * allowing for combination of a middle digit to form palindromic subsequences.
    * 
+   * This problem involved a ton of precision as per the constraints.
+   * 
+   * First, 
+   * 
    * TC: O(n) SC: O(1)
    * #string #dynamic-programming #hard
    */
