@@ -80,6 +80,7 @@
 | [552. Student Attendance Record II](./dsa/leetcode/kuiperBelt/StudentAttendanceRecordII.java) | #dp #string #hard |
 | [554. Brick Wall](./dsa/leetcode/RhoCassiopeiae/BrickWall.java) | #array #hash-table #medium |
 | [560. Subarray Sum Equals K](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/SubarraySumEqualsK.java) | #simulation #dynamic-programming |
+| [564. Find the Closest Palindrome](./dsa/leetcode/fermi_s_paradox/FindTheClosestPalindrome.java) | #math #string #hard |
 | [636. Exclusive Time of Functions](./dsa/leetcode/RhoCassiopeiae/ExclusiveTimeOfFunctions.java) | #array #stack #medium |
 | [647. Palindromic Substrings](./dsa/leetcode/jovianMoonOrbit/PalindromicSubstrings.java) | #two-pointers #dynamic-programming #string #medium |
 | [657. Robot Return to Origin](./dsa/leetcode/kuiperBelt/RobotReturnToOrigin.java)         | #simulation #string #easy |
@@ -373,9 +374,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 218/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 219/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 658/1600
+All problems progress in LeetCode: 659/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
