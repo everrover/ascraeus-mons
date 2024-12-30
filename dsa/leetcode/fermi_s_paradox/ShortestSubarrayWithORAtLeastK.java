@@ -7,9 +7,8 @@ public class ShortestSubarrayWithORAtLeastK {
   /**
    * https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/
    *
-   * Iterate over all subarrays and compute their OR until it is greater than or equal to k.
-   * Track the minimum length of such subarrays.
-   * If no such subarray exists, return -1.
+   * Ditto of [this](./ShortestSubarrayWithSumAtLeastKII.java).
+   * But brute-force is enough here...
    * 
    * TC: O(n^2) SC: O(1)
    * #array #bit-manipulation #sliding-window #easy

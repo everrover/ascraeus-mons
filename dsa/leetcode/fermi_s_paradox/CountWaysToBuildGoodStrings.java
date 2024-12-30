@@ -10,8 +10,9 @@ public class CountWaysToBuildGoodStrings {
   /**
    * https://leetcode.com/problems/count-ways-to-build-good-strings/?envType=daily-question&envId=2024-12-30
    *
-   * Utilize dynamic programming to count the number of valid strings by adding characters '0' and '1' within a given length range.
-   * Calculate the number of good strings with length less or equal to a specified constant, applying group size logic for consecutive zeros and ones.
+   * Try adding both ones and zero counts for an index. If the index is within the valid range, count it.
+   * 
+   * Memoization on top of top-down recursive loop, i.e. `dfs`.
    *
    * TC: O(high) SC: O(high)
    * #dynamic-programming #medium
