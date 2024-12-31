@@ -5,8 +5,29 @@ public class ReachingPoints {
     /**
      * https://leetcode.com/problems/reaching-points/description/?envType=company&envId=goldman-sachs&favoriteSlug=goldman-sachs-all
      *
-     * We backtrack from the target point (tx, ty) to the starting point (sx, sy) by reversing the allowed operations.
-     * The operation can be seen as repeating steps backward which reduce either x or y component.
+     * If we go top-down, we've got a big binary tree and a ton of combinations to check
+     * dfs(sx, sy, tx, ty){
+     *   if(sx > tx || sy > ty) return false;
+     *   if(sx == tx && sy == ty) return true;
+     *   return dfs(sx + sy, sy, tx, ty) || dfs(sx, sx + sy, tx, ty);
+     * }
+     * Per the constraints it doesn't work.
+     * 
+     * I plotted a map and found going from (sx, sy) to next state
+     * For any given multiple, m*sx,n*sy there's only one path to reach it
+     * And going to parent state, there are two possibilities
+     * x, y = x', y' if x' = x+y, y' = y => x = x' - y = x' - y'
+     * x, y = x', y' if x' = x, y' = x+y => y = y' - x = y' - x'
+     * 
+     * going down tree levels multiples m and n are always increasing.
+     * if x' > y' then x' = x + y, y' = y
+     * if y' > x' then x' = x, y' = x + y
+     * 
+     * to accomodate for x, y -> x+y, y -> x+2y, y ... and going up,
+     * we use modulo operation.
+     * 
+     * x, y = x', y' if x' = x+y, y' = y => x = x' % y = x' % y'
+     * x, y = x', y' if x' = x, y' = x+y => y = y' % x = y' % x'
      *
      * TC: O(log(max(tx, ty))) SC: O(1)
      * #math #reachability #hard
@@ -19,6 +40,8 @@ public class ReachingPoints {
                 ty %= tx;
             }
         }
+        // check for last remaining step since we broke at first occurance
+        // of tx <= sx, ty <= sy
         return (sx == tx && sy <= ty && (ty - sy) % sx == 0) || 
                (sy == ty && sx <= tx && (tx - sx) % sy == 0);
     }
