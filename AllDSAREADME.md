@@ -108,6 +108,7 @@
 | [745. Prefix and Suffix Search](./dsa/leetcode/kuiperBelt/PrefixAndSuffixSearch.java) | #trie #string #design #hard |
 | [756. Pyramid transition matrix](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PyramidTransitionMatrix.java) | #dfs #bfs #recursion #backtracking |
 | [778. Swim in Rising Water](./dsa/leetcode/jovianMoonOrbit/SwimInRisingWater.java) | #array #binary-search #dfs #bfs #union-find #heap #matrix #hard |
+| [780. Reaching Points](./dsa/leetcode/fermi_s_paradox/ReachingPoints.java) | #math #reachability #hard |
 | [789. Escaaape the ghosts](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PacmanEscapesTheGhost.java) | #math #easy |
 | [791. Custom Sort String](./dsa/leetcode/jovianMoonOrbit/CustomSortString.java) | #hash-table #string #sorting #medium |
 | [799. Champagne Tower](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChampagneTower/sol.md)                  | |
@@ -374,9 +375,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 219/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 220/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 659/1600
+All problems progress in LeetCode: 660/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
