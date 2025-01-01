@@ -172,6 +172,7 @@
 | [1376. Inform employees](https://github.com/everrover/mount-kronos/blob/main/SuperMario/InformEmployee.java) | #dfs #easy #bfs #tree |
 | [1402. Reducing Dishes](./dsa/leetcode/RhoCassiopeiae/ReducingDishes.java) | #array #dynamic-programming #greedy #sorting #hard |
 | [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FibNumbersWithSumK.java) | #math #greedy |
+| [1422. Maximum Score After Splitting a String](./dsa/leetcode/fermi_s_paradox/MaximumScoreAfterSplittingAString.java) | #string #prefix-sum #easy |
 | [1463. Cherry Pickup II](https://github.com/everrover/mount-kronos/blob/main/SuperMario/CherryPickupII.java) | #dfs #dynamic-programming |
 | [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](./LordShiva/ProbabilityOfTwoBoxesHavingSameNumberOfDistinctBalls.java) | #dynamic-programming #memoization #combinatorics #backtracking #tricky #hard                                  |
 | [1478. Allocate Mailboxes](https://github.com/everrover/mount-kronos/blob/main/SuperMario/AllocateMailboxes.java) | #math #dynamic-programming #sorting |
@@ -376,9 +377,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 221/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 222/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 661/1600
+All problems progress in LeetCode: 662/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
