@@ -22,7 +22,6 @@ public class MaximumScoreAfterSplittingAString {
       int z = i + 1 - pre[i];
       int o = pre[s.length() - 1] - pre[i];
       res = Math.max(res, o + z);
-      // System.out.println(pre[i] + ":" + o + ":" + z);
     }
     return res;
   }
