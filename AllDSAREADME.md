@@ -283,6 +283,7 @@
 | [2640. Find the Score of All Prefixes of an Array](./dsa/leetcode/RhoCassiopeiae/FindTheScoreOfAllPrefixesOfAnArray.java) | #array #prefix-sum #medium |
 | [2661. First Completely Painted Row or Column](./dsa/leetcode/fermi_s_paradox/FirstCompletelyPaintedRowOrColumn.java) | #array #hash-table #matrix #medium |
 | [2663. Lexicographically Smallest Beautiful String](https://github.com/everrover/mount-kronos/blob/main/LordShiva/LexoSmallestBeautifulString.java) | # |
+| [2670. Find the Distinct Difference Array](./dsa/leetcode/fermi_s_paradox/FindTheDistinctDifferenceArray.java) | #array #hash-table #easy |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard |
 | [2751. Robot Collisions](./dsa/leetcode/kuiperBelt/RobotCollisions.java) | #stack #array #sorting #simulation #hard |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java)        | #easy |
@@ -375,9 +376,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 220/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 221/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 660/1600
+All problems progress in LeetCode: 661/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
