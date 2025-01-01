@@ -28,7 +28,17 @@ public class ReachingPoints {
      * 
      * x, y = x', y' if x' = x+y, y' = y => x = x' % y = x' % y'
      * x, y = x', y' if x' = x, y' = x+y => y = y' % x = y' % x'
-     *
+     * 
+x             , y
+x+y           , y
+x+2y          , y
+x+3y          , y
+x+4y          , y
+x+5y          , y
+x+5y          , x+6y
+x+5y          , 2x+11y
+x+5y          , 3x+16y - x+5y
+     * 
      * TC: O(log(max(tx, ty))) SC: O(1)
      * #math #reachability #hard
      */
