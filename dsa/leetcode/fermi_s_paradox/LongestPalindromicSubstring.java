@@ -6,6 +6,13 @@ public class LongestPalindromicSubstring {
    *
    * Expand around the center for each character and find the longest palindromic substring.
    * For each character, compare characters on both sides and expand outwards while they match.
+   * 
+   * Also, DP could be used as in [this](../jovianMoonOrbit/PalindromicSubstrings.java) solution.
+   * If DP were to be used,
+   * dp(i, j) = max(dp(i + 1, j), dp(i, j - 1)), s[i] != s[j]
+   *          = 2 + dp(i + 1, j - 1), s[i] == s[j], i>j
+   *          = 1, i==j
+   *          = 0, j>i
    *
    * TC: O(n^2) SC: O(1)
    * #two-pointers #dynamic-programming #string #medium

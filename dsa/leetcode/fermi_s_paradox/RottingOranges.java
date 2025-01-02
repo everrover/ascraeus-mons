@@ -6,8 +6,12 @@ public class RottingOranges {
   /**
    * https://leetcode.com/problems/rotting-oranges/description/?envType=company&envId=goldman-sachs&favoriteSlug=goldman-sachs-all
    *
-   * To find the minimum number of minutes for all fresh oranges to become rotten, use a Breadth-First Search (BFS) strategy.
-   * Use a queue to keep track of rotten oranges and iterate for each minute to spread rot to adjacent fresh oranges.
+   * Use a Breadth-First Search (BFS) with rotten oranges as the nodes from which edges emerge.
+   * Use a queue to keep track of rotten oranges and iterate for each minute to spread rot to 
+   * adjacent fresh oranges.
+   * 
+   * For each iteration before increasing time, poll only the rotten oranges that were rotten
+   * in that minute, using `sz` var.
    *
    * TC: O(m * n) SC: O(m * n)
    * #array #breadth-first-search #matrix #medium
@@ -25,17 +29,20 @@ public class RottingOranges {
       }
     }
     while (!q.isEmpty() && fresh > 0) {
+      int sz = q.size();
+      if(fresh==0) return res; // If no fresh oranges are left, return res
       res++;
-      int size = q.size();
-      for (int s = 0; s < size; s++) {
+      while(sz-->0){
         int[] co = q.poll();
-        for (int[] move: moves) {
-          int r = co[0] + move[0], c = co[1] + move[1];
-          if (r < 0 || c < 0 || r >= m || c >= n || grid[r][c] == 0 || grid[r][c] == 2 || v[r][c]) continue;
-          grid[r][c] = 2; // Rot fresh orange.
+        if(v[co[0]][co[1]]) continue;
+        v[co[0]][co[1]] = true;
+        if(fresh==0) return res;
+        for(int []move: moves){
+          int r = co[0]+move[0], c = co[1]+move[1];
+          if(r<0 || c<0 || r >= m || c>=n || grid[r][c] == 0 || grid[r][c] == 2) continue;
+          grid[r][c] = 2; // Mark the fresh orange as rotten
           fresh--;
-          v[r][c] = true; // Mark as visited.
-          q.offer(new int[]{r, c}); // Add newly rotten orange to queue.
+          q.offer(new int[]{r,c}); // Add the rotten orange to the queue
         }
       }
     }
