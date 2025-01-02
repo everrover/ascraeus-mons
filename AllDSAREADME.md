@@ -5,6 +5,7 @@
 <!-- | --- | --- | -->
 | Title | Some pointers |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| [5. Longest Palindromic Substring](./dsa/leetcode/fermi_s_paradox/LongestPalindromicSubstring.java) | #two-pointers #dynamic-programming #string #medium |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
 | [42. Trapping Rain Water](./dsa/leetcode/kuiperBelt/TrappingRainWater.java) | #array #two-pointers #dynamic-programming #stack #hard |
@@ -380,9 +381,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 225/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 226/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 665/1600
+All problems progress in LeetCode: 666/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
