@@ -279,6 +279,7 @@
 | [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MaxNumberOfIntsToChooseFromRange1.java) | #contest #greedy #traversal |
 | [2555. Separate Digits in an Array](https://github.com/everrover/mount-kronos/blob/main/LordShiva/SeparateDigitsInArr.java) | #contest #easy #traversal |
 | [2556. Disconnect Path in a Binary Matrix by at Most One Flip](./LordShiva/DisconnectPathInBinMatrixByAtmostOneFlip.java) | #dfs #rashly-coded #contest |
+| [2559. Count Vowel Strings in Ranges](./dsa/leetcode/fermi_s_paradox/CountVowelStringsInRanges.java) | #array #string #prefix-sum #medium |
 | [2565. Subsequence With the Minimum Score](https://github.com/everrover/mount-kronos/blob/main/NinetySix/SubseqWithMinScore.java) | #split-sliding-window #sliding-window #suffix-precomputation #dp #binary-search #bin-search-across_sol-space  |
 | [2575. Find the Divisibility Array of a String](./dsa/leetcode/RhoCassiopeiae/FindDivisibilityArrayOfString.java) | #array #math #string #medium |
 | [2577. Minimum Time to Visit a Cell In a Grid](./dsa/leetcode/RhoCassiopeiae/MinimumTimeToVisitACellInAGrid.java) | #array #breadth-first-search #graph #heap #matrix #shortest-path #hard |
@@ -379,9 +380,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 224/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 225/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 664/1600
+All problems progress in LeetCode: 665/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
