@@ -2,7 +2,7 @@ package dsa.leetcode.fermi_s_paradox;
 
 import java.util.*;
 
-public class Solution {
+public class CountVowelStringsInRanges {
   /**
    * https://leetcode.com/problems/count-vowel-strings-in-ranges/?envType=daily-question&envId=2025-01-02
    *
