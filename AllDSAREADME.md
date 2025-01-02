@@ -209,6 +209,7 @@
 | [1762. Buildings With an Ocean View](./dsa/leetcode/kuiperBelt/BuildingsWithAnOceanView.java) | #array #stack #monotonic-stack #medium |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
 | [1769. Minimum Number of Operations to Move All Balls to Each Box](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinimumNumberOperationsToMoveAllBallsToEachBox.java) | #prefix-sum-concept #array #math #easy |
+| [1771. Maximize Palindrome Length From Subsequences](./dsa/leetcode/fermi_s_paradox/MaximizePalindromeLengthFromSubsequences.java) | #string #dynamic-programming #hard |
 | [1775. Equal Sum Arrays With Minimum Number of Operations](https://github.com/everrover/mount-kronos/blob/main/NinetySix/EqualSumArraysWithMinimumNumberOfOperations.java) | #greedy-simulation #greedy #buckets |
 | [1793. Maximum Score of a Good Subarray](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaximumScoreOfGoodSubarray.java) | #greedy #two-pointer #ranged-two-pointer #based-on-others #monotonic-stack #dynamic-programming #stack        |
 | [1799. Maximize Score After N Operations](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MaximizeScoreAfterNOperations.java) | #backtracking #dynamic-programming #gcd #memoization #tricky-optimization #bitmasking                         |
@@ -378,9 +379,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 223/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 224/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 663/1600
+All problems progress in LeetCode: 664/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
