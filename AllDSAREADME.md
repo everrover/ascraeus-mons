@@ -70,6 +70,7 @@
 | [498. Diagonal Traverse](./dsa/leetcode/jovianMoonOrbit/DiagonalTraverse.java) | #array #matrix #simulation #medium |
 | [502. IPO](https://github.com/everrover/mount-kronos/blob/main/SuperMario/IPO.java)       | #greedy #heap #priority-queue #trivial-optimization                |
 | [515. 515. Find Largest Value in Each Tree Row](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindLargestInEachBinTreeRow.java) | #binary-tree #bfs #dfs |
+| [516. Longest Palindromic Subsequence](./dsa/leetcode/fermi_s_paradox/LongestPalindromicSubsequence.java) | #string #dynamic-programming #medium |
 | [518. Counting Coins II](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountingcCoins_II/sol.md)             | #dynamic-programming #memory-optimization |
 | [523. Continuous Subarray Sum](./dsa/leetcode/jovianMoonOrbit/ContinuousSubarraySum.java) | #array #hash-table #math #prefix-sum #medium |
 | [525. Contiguous Array](./dsa/leetcode/jovianMoonOrbit/ContiguousArray.java) | #array #hash-table #prefix-sum #medium |
@@ -377,9 +378,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 222/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 223/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 662/1600
+All problems progress in LeetCode: 663/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
