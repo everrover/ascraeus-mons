@@ -240,6 +240,7 @@
 | [2217. Find Palindrome With Fixed Length](https://github.com/everrover/mount-kronos/blob/main/LordShiva/FindPalindromeWithFixedLength.java) | #math #array |
 | [2218. Maximum Value of K Coins From Piles](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MaximumValueOfKCoinsFromPiles/sol.md) | |
 | [2258. Escape the Spreading Fire](https://github.com/everrover/mount-kronos/blob/main/SuperMario/EscapeTheSpreadingFire.java) | #dfs #bfs #binary-search #binary-search-over-solution-space #optimization                                     |
+| [2258. Escape the Spreading Fire](./dsa/leetcode/fermi_s_paradox/EscapeTheSpreadingFire.java) | #bfs #binary-search #matrix #hard |
 | [2260. Minimum Consecutive Cards to Pick Up](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumConsecutivCardsToPickUp.java) | sliding-window #hashing |
 | [2265. Count Nodes Equal to Average of Subtree](./dsa/leetcode/kuiperBelt/CountNodesEqualToAverageOfSubtree.java) | #tree #dfs #binary-tree #medium |
 | [2270. Number of Ways to Split Array](./dsa/leetcode/fermi_s_paradox/NumberOfWaysToSplitArray.java) | #array #prefix-sum #medium |
@@ -384,9 +385,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 229/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 230/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 669/1600
+All problems progress in LeetCode: 670/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
