@@ -242,6 +242,7 @@
 | [2258. Escape the Spreading Fire](https://github.com/everrover/mount-kronos/blob/main/SuperMario/EscapeTheSpreadingFire.java) | #dfs #bfs #binary-search #binary-search-over-solution-space #optimization                                     |
 | [2260. Minimum Consecutive Cards to Pick Up](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumConsecutivCardsToPickUp.java) | sliding-window #hashing |
 | [2265. Count Nodes Equal to Average of Subtree](./dsa/leetcode/kuiperBelt/CountNodesEqualToAverageOfSubtree.java) | #tree #dfs #binary-tree #medium |
+| [2270. Number of Ways to Split Array](./dsa/leetcode/fermi_s_paradox/NumberOfWaysToSplitArray.java) | #array #prefix-sum #medium |
 | [2271. Maximum White Tiles Covered by a Carpet](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaxWhiteTilesCoveredByCarpet.java) | #tricky #banged-head-in-the-wall-for-it #critical-edge-case        |
 | [2286. Booking Concert Tickets in Groups](./dsa/leetcode/kuiperBelt/BookingConcertTicketsInGroups.java) | #binary-search #design #binary-indexed-tree #segment-tree #hard        |
 | [2290. Minimum Obstacle Removal to Reach Corner](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumObstacleRemovalToReachCorner/Solution.java) | #graphs #bfs #dfs #dijkstras-algo #optinization #shortest-path-tree #minsweeper                               |
@@ -383,9 +384,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 228/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 229/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 668/1600
+All problems progress in LeetCode: 669/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
