@@ -1,14 +1,14 @@
 package dsa.leetcode.fermi_s_paradox;
 
-public class Solution {
+public class NumberOfWaysToSplitArray {
   
   /**
    * https://leetcode.com/problems/number-of-ways-to-split-array/description/?envType=daily-question&envId=2025-01-03
    *
-   * To find the number of valid splits in the array, maintain a running prefix sum for the left partition
-   * and compare it with the right partition's sum, which can be derived from the total sum minus the prefix sum.
-   * Increment counts when the prefix sum is at least half the total sum, excluding the current element.
-   * Traverse the array up to the second last element.
+   * `prec` is the prefix sum of the left subarray. `pre` is the total sum of the array.
+   * `pre - prec` is the prefix sum of the right subarray.
+   * reqd cindition: prec <= pre - prec ... prec + prec <= pre ... 2 * prec <= pre
+   * Increment counts when the condition is met.
    * 
    * TC: O(n) SC: O(1)
    * #array #prefix-sum #medium

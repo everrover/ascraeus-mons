@@ -1,5 +1,8 @@
 package dsa.leetcode.fermi_s_paradox;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /*
  * https://leetcode.com/problems/battleships-in-a-board/description/
  *
@@ -11,23 +14,45 @@ package dsa.leetcode.fermi_s_paradox;
  * BFS/DFS also works but the above one is also optimal.
  * 
  * TC: O(m * n) SC: O(1)
- * #array #matrix #medium
+ * #array #matrix #medium #bfs #dfs
  */
 
 public class BattleshipsInABoard {
-
-    public int countBattleships(char[][] board) {
-        int m = board.length, n = board[0].length;
-        int res = 0;
-        // Iterate through each cell of the board
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                // Increment res if it's the start of a battleship
-                if (board[i][j] == 'X' && (i == 0 || board[i - 1][j] != 'X') && (j == 0 || board[i][j - 1] != 'X')) {
-                    res++;
-                }
-            }
+int m, n;
+  public int countBattleships(char[][] board) {
+    int res = 0;
+    m = board.length; n = board[0].length;
+    // boolean [][]v = new boolean[m][n];
+    for(int i=0; i<m; i++){
+      for(int j=0; j<n; j++){
+        if (board[i][j] == 'X' && (i == 0 || board[i - 1][j] != 'X') && (j == 0 || board[i][j - 1] != 'X')) {
+          res++;
         }
-        return res;
+        // if(!v[i][j]){
+        //   if(board[i][j] == 'X'){
+        //     res++;
+        //     bfs(board, v, i, j);
+        //   } else v[i][j] = true;
+        // }
+      }
     }
+      
+    return res;
+  }
+  
+  private void bfs(char [][]b, boolean [][]v, int idx, int jdx){
+    Queue<int[]> q = new LinkedList<>();
+    q.offer(new int[]{idx, jdx});
+    while(!q.isEmpty()){
+      int []c = q.poll();
+      
+      if(v[c[0]][c[1]]) continue;
+      v[c[0]][c[1]] = true;
+      if(b[c[0]][c[1]] != 'X') continue;
+      if(c[0] != m-1) q.offer(new int[]{c[0]+1, c[1]});
+      if(c[0] != 0) q.offer(new int[]{c[0]-1, c[1]});
+      if(c[1] != n-1) q.offer(new int[]{c[0], c[1]+1});
+      if(c[1] != 0) q.offer(new int[]{c[0], c[1]-1});
+    }
+  }
 }

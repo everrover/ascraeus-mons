@@ -240,7 +240,7 @@
 | [2217. Find Palindrome With Fixed Length](https://github.com/everrover/mount-kronos/blob/main/LordShiva/FindPalindromeWithFixedLength.java) | #math #array |
 | [2218. Maximum Value of K Coins From Piles](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MaximumValueOfKCoinsFromPiles/sol.md) | |
 | [2258. Escape the Spreading Fire](https://github.com/everrover/mount-kronos/blob/main/SuperMario/EscapeTheSpreadingFire.java) | #dfs #bfs #binary-search #binary-search-over-solution-space #optimization                                     |
-| [2258. Escape the Spreading Fire](./dsa/leetcode/fermi_s_paradox/EscapeTheSpreadingFire.java) | #bfs #binary-search #matrix #hard |
+| [2258. Escape the Spreading Fire](./dsa/leetcode/fermi_s_paradox/EscapeTheSpreadingFire.java) | #dfs #bfs #binary-search #binary-search-over-solution-space #optimization |
 | [2260. Minimum Consecutive Cards to Pick Up](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumConsecutivCardsToPickUp.java) | sliding-window #hashing |
 | [2265. Count Nodes Equal to Average of Subtree](./dsa/leetcode/kuiperBelt/CountNodesEqualToAverageOfSubtree.java) | #tree #dfs #binary-tree #medium |
 | [2270. Number of Ways to Split Array](./dsa/leetcode/fermi_s_paradox/NumberOfWaysToSplitArray.java) | #array #prefix-sum #medium |
