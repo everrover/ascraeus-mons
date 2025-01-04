@@ -384,11 +384,12 @@
 | [3402. Minimum Operations to Make Columns Strictly Increasing](./dsa/leetcode/fermi_s_paradox/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | #matrix #greedy #easy |
 | [3403. Find the Lexicographically Largest String From the Box I](./dsa/leetcode/fermi_s_paradox/FindTheLexicographicallyLargestStringFromTheBoxI.java) | #string #greedy #medium |
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
+| [3407. Substring Matching Pattern](./dsa/leetcode/fermi_s_paradox/SubstringMatchingPattern.java) | #string #pattern-matching #substring #easy |
 | --- | --- |
 
-DSA Progress: 231/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 232/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 671/1600
+All problems progress in LeetCode: 672/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
