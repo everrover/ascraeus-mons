@@ -385,11 +385,12 @@
 | [3403. Find the Lexicographically Largest String From the Box I](./dsa/leetcode/fermi_s_paradox/FindTheLexicographicallyLargestStringFromTheBoxI.java) | #string #greedy #medium |
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | [3407. Substring Matching Pattern](./dsa/leetcode/fermi_s_paradox/SubstringMatchingPattern.java) | #string #pattern-matching #substring #easy |
+| [3408. Design Task Manager](./dsa/leetcode/fermi_s_paradox/DesignTaskManager.java) | #priority-queue #data-structure #medium |
 | --- | --- |
 
-DSA Progress: 232/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 233/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 672/1600
+All problems progress in LeetCode: 673/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
