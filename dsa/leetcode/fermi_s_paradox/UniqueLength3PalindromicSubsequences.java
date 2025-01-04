@@ -9,6 +9,8 @@ public class UniqueLength3PalindromicSubsequences {
      *
      * The solution involves identifying unique palindromic subsequences 
      * by tracking appearances of characters before and after positions in the string.
+     * 
+     * Prefix sum can also be used by iterating over each char but uses O(n 26) space.
      *
      * TC: O(n) SC: O(1)
      * #hash-table #string #prefix-sum #medium
