@@ -222,6 +222,7 @@
 | [1894. Find the Student that Will Replace the Chalk](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindStudentThatWillReplaceChalk.java) | #prefix-sum #binary-search #trivial #simulation #preventing-recomputes                                        |
 | [1909. Remove One Element to Make the Array Strictly Increasing](./dsa/leetcode/RhoCassiopeiae/RemoveOneElementToMakeArrayStrictlyIncreasing.java) | #array #greedy #easy |
 | [1928. Minimum Cost to Reach Destination in Time](./dsa/leetcode/RhoCassiopeiae/MinimumCostToReachDestinationInTime.java) | #graph #shortest-path #dijkstra #hard |
+| [1930. Unique Length-3 Palindromic Subsequences](./dsa/leetcode/fermi_s_paradox/UniqueLength3PalindromicSubsequences.java) | #hash-table #string #prefix-sum #medium |
 | [1936. Add Minimum Number of Rungs](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddMinNumberOfRungs.java) | #maths #greedy |
 | [1944. Number of Visible People in a Queue](./dsa/leetcode/kuiperBelt/NumberOfVisiblePeopleInAQueue.java) | #monotonic-stack #array #hard |
 | [1945. Sum of Digits of String After Convert](./dsa/leetcode/fermi_s_paradox/SumOfDigitsOfStringAfterConvert.java) | #string #simulation #easy |
@@ -385,9 +386,9 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | --- | --- |
 
-DSA Progress: 230/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 231/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 670/1600
+All problems progress in LeetCode: 671/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
