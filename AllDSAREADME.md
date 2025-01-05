@@ -33,6 +33,7 @@
 | [282. Expression Add Operators](./dsa/leetcode/kuiperBelt/ExpressionAddOperators.java) | #math #string #backtracking #hard |
 | [283. Move Zeroes](./dsa/leetcode/kuiperBelt/MoveZeroes.java)                             | #array #two-pointers #easy |
 | [284. Peeking Iterator](./dsa/leetcode/fermi_s_paradox/PeekingIterator.java) | #iterator #design #medium |
+| [286. Walls and Gates](./dsa/leetcode/mithrim_montez/WallsAndGates.java) | #array #bfs #matrix #medium |
 | [295. Find Median From Data Stream](./dsa/leetcode/kuiperBelt/FindMedianFromDataStream.java) | #heap #priority-queue #design #data-stream #hard |
 | [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java)                | #array #math #sorting #matrix #hard |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
@@ -392,9 +393,9 @@
 | [3413. Maximum Coins From K Consecutive Bags](./dsa/leetcode/fermi_s_paradox/MaximumCoinsFromKConsecutiveBags.java) | #sliding-window #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 237/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 238/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 677/1600
+All problems progress in LeetCode: 678/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
