@@ -7,8 +7,10 @@ public class ShiftingLettersII {
    *
    * Instead of shifting every character in each shift, could keep track of which characters are shifted and by how much across all shifts.
    * Try marking the start and ends of each shift, then perform a prefix sum of the shifts.
+   * 
+   * Remember for -ve shifts, we add 26 to the result to get the correct character.
    *
-   * TC: O(n + m) where n is the length of the string and m is the number of shifts. SC: O(n)
+   * TC: O(n + m) SC: O(n)
    * #array #string #prefix-sum #medium
    */
 
