@@ -6,7 +6,7 @@ public class MaximumSubarrayWithEqualProducts {
    * https://leetcode.com/problems/maximum-subarray-with-equal-products/description/
    *
    * For each subarray, calculate the product, gcd, and lcm. If product equals gcd * lcm,
-   * update the maximum length found.
+   * update the maximum length found. Simple brute force...
    *
    * TC: O(n^2) SC: O(1)
    * #math #gcd-lcm #subarray #easy
