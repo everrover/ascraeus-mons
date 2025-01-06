@@ -388,14 +388,15 @@
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
 | [3407. Substring Matching Pattern](./dsa/leetcode/fermi_s_paradox/SubstringMatchingPattern.java) | #string #pattern-matching #substring #easy |
 | [3408. Design Task Manager](./dsa/leetcode/fermi_s_paradox/DesignTaskManager.java) | #priority-queue #data-structure #medium |
+| [3409. Longest Subsequence With Decreasing Adjacent Difference](./dsa/leetcode/mithrim_montez/LongestSubsequenceWithDecreasingAdjacentDifference.java) | #array #dynamic-programming #medium |
 | [3411. Maximum Subarray With Equal Products](./dsa/leetcode/fermi_s_paradox/MaximumSubarrayWithEqualProducts.java) | #math #gcd-lcm #subarray #easy |
 | [3412. Find Mirror Score of a String](./dsa/leetcode/fermi_s_paradox/FindMirrorScoreOfAString.java) | #two-pointers #hash-map #mirror #medium |
 | [3413. Maximum Coins From K Consecutive Bags](./dsa/leetcode/fermi_s_paradox/MaximumCoinsFromKConsecutiveBags.java) | #sliding-window #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 238/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 239/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 678/1600
+All problems progress in LeetCode: 679/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
