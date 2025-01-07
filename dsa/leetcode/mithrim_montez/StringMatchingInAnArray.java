@@ -8,7 +8,10 @@ public class StringMatchingInAnArray {
    *
    * Simply iterate each word and check if it is a substring of any other word in the list.
    * Add it to the result list if it is found as a substring.
-   *
+   * 
+   * Ideally, i might've used a trie to store all the words and then check if a word is a substring of any other word.
+   * Even in case of brute-force i might've considered KMP or Rabin-Karp algorithms.
+   * 
    * TC: O(n^2 * m) SC: O(n)
    * #array #string #string-matching #easy
    */
