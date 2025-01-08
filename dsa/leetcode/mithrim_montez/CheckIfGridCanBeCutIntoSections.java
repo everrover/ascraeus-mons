@@ -1,6 +1,6 @@
 package dsa.leetcode.mithrim_montez;
 
-import java.util.Arrays;
+import java.util.*;
 
 class Solution {
   /**
@@ -14,25 +14,31 @@ class Solution {
    * #array #sorting #geometry #medium
    */
   public boolean checkValidCuts(int n, int[][] rectangles) {
-    int [][]x = new int[rectangles.length * 2][3];
-    int [][]y = new int[rectangles.length * 2][3];
-    
-    for(int i = 0; i < rectangles.length; i++) {
-      x[i * 2][0] = rectangles[i][0];
-      x[i * 2 + 1][0] = rectangles[i][2];
-      y[i * 2][0] = rectangles[i][1];
-      y[i * 2 + 1][0] = rectangles[i][3];
-      
-      y[i * 2][1] = y[i * 2 + 1][1] = x[i * 2][1] = x[i * 2 + 1][1] = i;
-      y[i * 2][2] = x[i * 2][2] = 1;
-      y[i * 2 + 1][2] = x[i * 2 + 1][2] = 0;
+    int [][]y = new int[rectangles.length*2][3];
+    int [][]x = new int[rectangles.length*2][3];
+    for(int i=0; i<rectangles.length; i++){
+      y[i*2][0]=rectangles[i][1];
+      y[i*2+1][0]=rectangles[i][3];
+      x[i*2][0]=rectangles[i][0];
+      x[i*2+1][0]=rectangles[i][2];
+      y[i*2][1]=y[i*2+1][1]=x[i*2][1]=x[i*2+1][1]=i;
+      y[i*2][2]=x[i*2][2]=1; y[i*2+1][2]=x[i*2+1][2]=0;
     }
-    
-    Arrays.sort(x, (a, b) -> (a[0] == b[0]) ? (a[2] - b[2]) : (a[0] - b[0]));
-    Arrays.sort(y, (a, b) -> (a[0] == b[0]) ? (a[2] - b[2]) : (a[0] - b[0]));
-    
-    // Implementation to check valid cuts goes here...
+    Arrays.sort(x, (a,b)->(a[0]==b[0])?(a[2]-b[2]):(a[0]-b[0]));
+    Arrays.sort(y, (a,b)->(a[0]==b[0])?(a[2]-b[2]):(a[0]-b[0]));
+    int xc = 0, yc = 0;
+    Set<Integer> xs = new HashSet<>();
+    Set<Integer> ys = new HashSet<>();
+    for(int i=0; i<x.length; i++){
+      if(x[i][2] == 1) xs.add(x[i][1]);
+      else xs.remove(x[i][1]);
+      if(y[i][2] == 1) ys.add(y[i][1]);
+      else ys.remove(y[i][1]);
 
-    return false; // placeholder for actual logic
+      if(xs.isEmpty()) xc++;
+      if(ys.isEmpty()) yc++;
+
+    }
+    return xc > 2 || yc > 2;
   }
 }

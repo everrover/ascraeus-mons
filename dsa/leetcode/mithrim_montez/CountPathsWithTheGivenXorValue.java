@@ -1,5 +1,7 @@
 package dsa.leetcode.mithrim_montez;
 
+import java.util.*;
+
 public class CountPathsWithTheGivenXorValue {
   
   /**
@@ -8,7 +10,7 @@ public class CountPathsWithTheGivenXorValue {
    * Use DFS with memoization to explore all possible paths.
    * Calculate XOR at each step and check against k at the destination.
    * 
-   * TC: O(m * n * 2^k) SC: O(m * n * 2^k)
+   * TC: O(m * n * 16) SC: O(m * n * 16)
    * #array #dynamic-programming #bit-manipulation #matrix #medium
    */
   

@@ -1,6 +1,6 @@
 package dsa.leetcode.mithrim_montez;
 
-public class Solution {
+public class CountPrefixAndSuffixPairs {
 
   /**
    * https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/?envType=daily-question&envId=2025-01-08
@@ -8,8 +8,8 @@ public class Solution {
    * Iterate through all index pairs (i, j), such that i < j, and check
    * if a word is both prefix and suffix of another. Count such valid pairs.
    *
-   * TC: O(n * m) SC: O(1), where n is number of words and m is word length
-   * #array #string #trie #rolling-hash #easy
+   * TC: O(n + m) SC: O(m+n), where n is number of words and m is word length
+   * #array #string #trie #brute-force #easy
    */
 
   public int countPrefixSuffixPairs(String[] words) {
@@ -23,7 +23,7 @@ public class Solution {
   }
 
   private boolean isPS(String a, String b) {
-    return a.length() <= b.length() &&
+    return a.length() <= b.length() && // check if a is a prefix of b as well as a suffix
            b.substring(0, a.length()).equals(a) &&
            b.substring(b.length() - a.length(), b.length()).equals(a);
   }
