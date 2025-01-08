@@ -385,6 +385,7 @@
 | [3341. Find Minimum Time to Reach Last Room](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomI.java) | #array #graph #priority-queue #matrix #shortest-path #medium |
 | [3342. Find Minimum Time to Reach Last Room II](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomIi.java) | #array #graph #heap #matrix #shortest-path #medium |
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
+| [3394. Check if Grid can be Cut into Sections](./dsa/leetcode/mithrim_montez/CheckIfGridCanBeCutIntoSections.java) | #array #sorting #geometry #medium |
 | [3402. Minimum Operations to Make Columns Strictly Increasing](./dsa/leetcode/fermi_s_paradox/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | #matrix #greedy #easy |
 | [3403. Find the Lexicographically Largest String From the Box I](./dsa/leetcode/fermi_s_paradox/FindTheLexicographicallyLargestStringFromTheBoxI.java) | #string #greedy #medium |
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
@@ -396,9 +397,9 @@
 | [3413. Maximum Coins From K Consecutive Bags](./dsa/leetcode/fermi_s_paradox/MaximumCoinsFromKConsecutiveBags.java) | #sliding-window #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 241/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 242/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 681/1600
+All problems progress in LeetCode: 682/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
