@@ -385,6 +385,7 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | [3341. Find Minimum Time to Reach Last Room](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomI.java) | #array #graph #priority-queue #matrix #shortest-path #medium |
 | [3342. Find Minimum Time to Reach Last Room II](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomIi.java) | #array #graph #heap #matrix #shortest-path #medium |
+| [3376. Minimum Time to Break Locks](./dsa/leetcode/mithrim_montez/MinimumTimeToBreakLocks.java) | #array #dynamic-programming #backtracking #bit-manipulation #depth-first-search #bitmask #medium |
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | [3393. Count Paths With the Given XOR Value](./dsa/leetcode/mithrim_montez/CountPathsWithTheGivenXorValue.java) | #array #dynamic-programming #bit-manipulation #matrix #medium |
 | [3394. Check if Grid can be Cut into Sections](./dsa/leetcode/mithrim_montez/CheckIfGridCanBeCutIntoSections.java) | #array #sorting #geometry #medium |
@@ -399,9 +400,9 @@
 | [3413. Maximum Coins From K Consecutive Bags](./dsa/leetcode/fermi_s_paradox/MaximumCoinsFromKConsecutiveBags.java) | #sliding-window #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 244/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 245/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 684/1600
+All problems progress in LeetCode: 685/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
