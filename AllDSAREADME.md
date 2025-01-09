@@ -239,6 +239,7 @@
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard                |
 | [2183. Count Array Pairs Divisible by K](./dsa/leetcode/kuiperBelt/CountArrayPairsDivisibleByK.java) | #math #number-theory #hard |
 | [2184. Number of Ways to Build Sturdy Brick Wall](./dsa/leetcode/RhoCassiopeiae/NumberOfWaysToBuildSturdyBrickWall.java) | #array #dynamic-programming #bitmask #medium |
+| [2185. Counting Words With a Given Prefix](./dsa/leetcode/mithrim_montez/CountingWordsWithAGivenPrefix.java) | #array #string #string-matching #easy |
 | [2208. Minimum Operations to Halve Array Sum](./dsa/leetcode/kuiperBelt/MinimumOperationsToHalveArraySum.java) | #heap #priority-queue #greedy #medium |
 | [2217. Find Palindrome With Fixed Length](https://github.com/everrover/mount-kronos/blob/main/LordShiva/FindPalindromeWithFixedLength.java) | #math #array |
 | [2218. Maximum Value of K Coins From Piles](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MaximumValueOfKCoinsFromPiles/sol.md) | |
@@ -398,9 +399,9 @@
 | [3413. Maximum Coins From K Consecutive Bags](./dsa/leetcode/fermi_s_paradox/MaximumCoinsFromKConsecutiveBags.java) | #sliding-window #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 243/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 244/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 683/1600
+All problems progress in LeetCode: 684/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
