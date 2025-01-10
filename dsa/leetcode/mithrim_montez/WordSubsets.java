@@ -7,7 +7,8 @@ public class WordSubsets {
   /**
    * https://leetcode.com/problems/word-subsets/description/?envType=daily-question&envId=2025-01-10
    *
-   * Determine the maximum frequency of each character required by any word in words2.
+   * SUBSET CONDITION: Determine the maximum frequency of each character required by any word in words2.
+   * SIMPLE HASHING USED HERE:
    * For each word in words1, check if it contains these maximum required frequencies for every character.
    * If it does, add it to the result list.
    *
