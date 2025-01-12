@@ -175,6 +175,7 @@
 | [1323. Max 69 number](https://github.com/everrover/mount-kronos/blob/main/NinetySix/Maximum69Number.java) | #java #easy |
 | [1373. Maximum Sum BST in Binary Tree](./dsa/leetcode/kuiperBelt/MaximumSumBstInBinaryTree.java) | #dynamic-programming #tree #depth-first-search #binary-search-tree #binary-tree #hard |
 | [1376. Inform employees](https://github.com/everrover/mount-kronos/blob/main/SuperMario/InformEmployee.java) | #dfs #easy #bfs #tree |
+| [1400. Construct K Palindrome Strings](./dsa/leetcode/mithrim_montez/ConstructKPalindromeStrings.java) | #hash-table #string #greedy #counting #medium |
 | [1402. Reducing Dishes](./dsa/leetcode/RhoCassiopeiae/ReducingDishes.java) | #array #dynamic-programming #greedy #sorting #hard |
 | [1408. String Matching in an Array](./dsa/leetcode/mithrim_montez/StringMatchingInAnArray.java) | #array #string #string-matching #easy |
 | [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FibNumbersWithSumK.java) | #math #greedy |
@@ -402,9 +403,9 @@
 | [3413. Maximum Coins From K Consecutive Bags](./dsa/leetcode/fermi_s_paradox/MaximumCoinsFromKConsecutiveBags.java) | #sliding-window #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 247/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 248/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 687/1600
+All problems progress in LeetCode: 688/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
