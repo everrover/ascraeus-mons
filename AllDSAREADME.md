@@ -235,6 +235,7 @@
 | [2060. Check if an Original String Exists Given Two Encoded Strings](./dsa/leetcode/kuiperBelt/CheckIfAnOriginalStringExistsGivenTwoEncodedStrings.java) | #dynamic-programming #string #hard #recursion #tricky |
 | [2076. Process Restricted Friend Requests](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ProcessRestrictedFriendRequests/sol.md) | |
 | [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
+| [2116. Check if a Parentheses String Can Be Valid](./dsa/leetcode/mithrim_montez/CheckIfAParenthesesStringCanBeValid.java) | #string #stack #greedy #medium |
 | [2127. Maximum Employees to Be Invited to a Meeting](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MinimumEmpToBInvitedToMeeting/sol.md) | #dfs #cycle-detection #tricky #ques-specific-approximation         |
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard                |
 | [2183. Count Array Pairs Divisible by K](./dsa/leetcode/kuiperBelt/CountArrayPairsDivisibleByK.java) | #math #number-theory #hard |
@@ -401,9 +402,9 @@
 | [3413. Maximum Coins From K Consecutive Bags](./dsa/leetcode/fermi_s_paradox/MaximumCoinsFromKConsecutiveBags.java) | #sliding-window #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 246/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 247/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 686/1600
+All problems progress in LeetCode: 687/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
