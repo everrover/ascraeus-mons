@@ -402,11 +402,12 @@
 | [3412. Find Mirror Score of a String](./dsa/leetcode/fermi_s_paradox/FindMirrorScoreOfAString.java) | #two-pointers #hash-map #mirror #medium |
 | [3413. Maximum Coins From K Consecutive Bags](./dsa/leetcode/fermi_s_paradox/MaximumCoinsFromKConsecutiveBags.java) | #sliding-window #prefix-sum #medium |
 | [3417. Zigzag Grid Traversal With Skip](./dsa/leetcode/mithrim_montez/ZigzagGridTraversalWithSkip.java) | #array #traversal #zigzag #easy |
+| [3418. Maximum Amount of Money Robot Can Earn](./dsa/leetcode/mithrim_montez/MaximumAmountOfMoneyRobotCanEarn.java) | #dp #grid-traversal #medium |
 | --- | --- |
 
-DSA Progress: 249/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 250/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 689/1600
+All problems progress in LeetCode: 690/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
