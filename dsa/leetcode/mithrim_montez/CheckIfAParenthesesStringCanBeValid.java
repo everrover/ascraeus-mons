@@ -12,23 +12,43 @@ package dsa.leetcode.mithrim_montez;
  */
 
 public class CheckIfAParenthesesStringCanBeValid {
-  public boolean canBeValid(String s, String lockedStr) {
-    if ((s.length() & 1) > 0) return false; // If length is odd, it cannot be valid
-    char[] locked = lockedStr.toCharArray();
-    int rem = 0, lrc = 0;
-    for (int i = 0; i < s.length(); i++) {
-      if (s[i] == '(') {
-        rem++;
-      } else if (locked[i] == '0') {
-        if (rem > 0) {
-          rem--;
-        } else {
+  public boolean canBeValid(String str, String lockedStr) {
+      int lrc = 0, rlc = 0, rem = 0;
+      char []s = str.toCharArray();
+      char []locked = lockedStr.toCharArray();
+      if((s.length&1) > 0) return false;
+      for (int i = 0; i < s.length; i++){
+        if (locked[i] == '0') {
+          rem++;
+        } else if (s[i] == '(') {
           lrc++;
+        } else {
+          if (rem > 0) {
+            rem--;
+          } else if (lrc > 0) {
+            lrc--;
+          } else {
+            return false;
+          }
         }
-      } else {
-        lrc--;
       }
-    }
-    return lrc == 0 && rem >= 0; // Valid if we balance all parentheses
+      rem = 0;
+      for (int i = s.length-1; i >=0; i--){
+        if (locked[i] == '0') {
+          rem++;
+        } else if (s[i] == ')') {
+          rlc++;
+        } else {
+          if (rem > 0) {
+            rem--;
+          } else if (rlc > 0) {
+            rlc--;
+          } else {
+            return false;
+          }
+        }
+      }
+          
+      return true;
   }
 }

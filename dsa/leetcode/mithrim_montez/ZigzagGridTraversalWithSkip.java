@@ -6,8 +6,8 @@ public class ZigzagGridTraversalWithSkip {
   /**
    * https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/
    *
-   * Traverse the grid in a zigzag fashion while skipping every alternate cell.
-   * Start from the top-left, traverse right for even-indexed rows and left for odd-indexed rows, skipping every second cell.
+   * For odd rows, start from the second column and skip every other column; and 
+   * rev the list before adding to the result list
    *
    * TC: O(m*n) SC: O(m*n)
    * #array #traversal #zigzag #easy
@@ -18,8 +18,7 @@ public class ZigzagGridTraversalWithSkip {
     List<Integer> res = new LinkedList<>();
     for(int i = 0; i < m; i++) {
       List<Integer> tmp = new ArrayList<>();
-      int j = 0;
-      if(i % 2 == 1) j = 1;
+      int j = (i % 2 == 1) ? 1 : 0;
       for(; j < n; j += 2) {
         tmp.add(grid[i][j]);
       }

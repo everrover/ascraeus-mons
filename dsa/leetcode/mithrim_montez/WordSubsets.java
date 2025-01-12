@@ -5,9 +5,10 @@ import java.util.*;
 public class WordSubsets {
 
   /**
-   * https://leetcode.com/problems/word-subsets/description/?envType=daily-question&envId=2025-01-10
+   * https://leetcode.com/problems/word-subsets/description
    *
-   * SUBSET CONDITION: Determine the maximum frequency of each character required by any word in words2.
+   * SUBSET CONDITION: Determine the maximum frequency of each character required by any word in words2. Each
+   * word in words1 should contain these frequencies for every character of string in words2.
    * SIMPLE HASHING USED HERE:
    * For each word in words1, check if it contains these maximum required frequencies for every character.
    * If it does, add it to the result list.
