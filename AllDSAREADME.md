@@ -379,6 +379,7 @@
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium |
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard |
 | [3219. Minimum Cost for Cutting Cake II](./dsa/leetcode/jovianMoonOrbit/MinimumCostForCuttingCakeII.java) | #array #greedy #sorting #hard |
+| [3223. Minimum Length of String After Operations](./dsa/leetcode/mithrim_montez/MinimumLengthOfStringAfterOperations.java) | #string-manipulation #greedy #hash-table #medium |
 | [3238. Find the Number of Winning Players](./dsa/leetcode/kuiperBelt/FindTheNumberOfWinningPlayers.java) | #hashmap #array #greedy #easy |
 | [3239. Minimum Number of Flips to Make Binary Grid Palindromic](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromic.java) | #grid #matrix #palindrome #greedy #medium |
 | [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](./dsa/leetcode/kuiperBelt/MinimumNumberOfFlipsToMakeBinaryGridPalindromicII.java) | #matrix #palindrome #greedy #medium |
@@ -405,9 +406,9 @@
 | [3418. Maximum Amount of Money Robot Can Earn](./dsa/leetcode/mithrim_montez/MaximumAmountOfMoneyRobotCanEarn.java) | #dp #grid-traversal #medium |
 | --- | --- |
 
-DSA Progress: 250/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 251/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 690/1600
+All problems progress in LeetCode: 691/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
