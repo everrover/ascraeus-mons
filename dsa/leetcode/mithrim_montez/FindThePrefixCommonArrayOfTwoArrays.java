@@ -4,8 +4,8 @@ public class FindThePrefixCommonArrayOfTwoArrays {
   /**
    * https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/?envType=daily-question&envId=2025-01-14
    *
-   * Calculate the prefix common array by checking bit representation of presence of elements.
-   * Iterate through both arrays, updating bit masks and calculating counts.
+   * If the number in A at i is there in B[0...i], increment the count. Either we check presence using a hash-table
+   * or bit-mask since constraints are small. Similarly for B.
    *
    * TC: O(n) SC: O(1)
    * #array #hash-table #bit-manipulation #medium
