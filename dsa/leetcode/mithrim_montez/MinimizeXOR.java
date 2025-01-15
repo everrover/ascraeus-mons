@@ -3,8 +3,9 @@ package dsa.leetcode.mithrim_montez;
 /**
  * https://leetcode.com/problems/minimize-xor/description/?envType=daily-question&envId=2025-01-15
  *
- * Calculate the number of set bits in num2 and use that to determine the number of set bits needed in the result.
- * Try to use bits from num1 and, if necessary, set additional bits from least significant to minimize XOR result.
+ * Calculate the number of set bits in num2.
+ * 
+ * GREEDY CHOICE: To minimize XOR, set MSB bits from num1 and if any bits are left, set them from least significant.
  *
  * TC: O(1) SC: O(1)
  * #bit-manipulation #greedy #medium
