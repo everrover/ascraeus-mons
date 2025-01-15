@@ -275,6 +275,7 @@
 | [2406. Divide Intervals Into Minimum Number of Groups](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/DivideIntervalsIntoMinimumGroups/Solution.java) | #heaps #meeting-rooms #line-sweep |
 | [2407. Longest Increasing Subsequence II](./dsa/leetcode/kuiperBelt/LongestIncreasingSubsequenceII.java) | #dynamic-programming #segment-tree #binary-indexed-tree #monotonic-queue #hard                                    |
 | [2416. Sum of Prefix Scores of Strings](./dsa/leetcode/kuiperBelt/SumOfPrefixScoresOfStrings.java) | #trie #string #hard |
+| [2429. Minimize XOR](./dsa/leetcode/mithrim_montez/MinimizeXOR.java) | #bit-manipulation #greedy #medium |
 | [2433. Find The Original Array of Prefix Xor](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindOrginalArrayOfPrefixXor.java) | #easy #binary-math |
 | [2435. Paths in Matrix Whose Sum Is Divisible by K](https://github.com/everrover/mount-kronos/blob/main/SuperMario/PathsInMatrixWhoseSumIsDivisibleByK.java) | #dfs #dynamic-programming #matrix |
 | [2444. Count Subarrays With Fixed Bounds](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountSubarraysWithFixedBounds.java) | #tricky #sliding-windows #twist |
@@ -407,9 +408,9 @@
 | [3418. Maximum Amount of Money Robot Can Earn](./dsa/leetcode/mithrim_montez/MaximumAmountOfMoneyRobotCanEarn.java) | #dp #grid-traversal #medium |
 | --- | --- |
 
-DSA Progress: 252/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 253/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 692/1600
+All problems progress in LeetCode: 693/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
