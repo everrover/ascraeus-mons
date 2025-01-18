@@ -173,6 +173,7 @@
 | [1315. Sum of Nodes with Even-Valued Grandparent](./dsa/leetcode/kuiperBelt/SumOfNodesWithEvenValuedGrandparent.java) | #tree #depth-first-search #breadth-first-search #binary-tree #medium   |
 | [1320. Minimum Distance to Type a Word Using Two Fingers](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinDistanceToTypeWordUsingTwoFingers.java) | #dynamic-programming #small-trick #optimization #memoization-optimization                                     |
 | [1323. Max 69 number](https://github.com/everrover/mount-kronos/blob/main/NinetySix/Maximum69Number.java) | #java #easy |
+| [1368. Minimum Cost to Make at Least One Valid Path in a Grid](./dsa/leetcode/mithrim_montez/MinimumCostToMakeAtLeastOneValidPathInGrid.java) | #array #bfs #graph #heap #matrix #shortest-path #hard |
 | [1373. Maximum Sum BST in Binary Tree](./dsa/leetcode/kuiperBelt/MaximumSumBstInBinaryTree.java) | #dynamic-programming #tree #depth-first-search #binary-search-tree #binary-tree #hard |
 | [1376. Inform employees](https://github.com/everrover/mount-kronos/blob/main/SuperMario/InformEmployee.java) | #dfs #easy #bfs #tree |
 | [1400. Construct K Palindrome Strings](./dsa/leetcode/mithrim_montez/ConstructKPalindromeStrings.java) | #hash-table #string #greedy #counting #medium |
@@ -410,9 +411,9 @@
 | [3424. Minimum Cost to Make Arrays Identical](./dsa/leetcode/mithrim_montez/MinimumCostToMakeArraysIdentical.java) | #sorting #greedy #array #medium |
 | --- | --- |
 
-DSA Progress: 255/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 256/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 695/1600
+All problems progress in LeetCode: 696/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
