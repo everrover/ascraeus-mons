@@ -7,8 +7,7 @@ public class SumOfVariableLengthSubarrays {
   /**
    * https://leetcode.com/problems/sum-of-variable-length-subarrays/description/
    *
-   * For each index i in the array, define a subarray nums[start ... i] where start = max(0, i - nums[i]).
-   * Calculate the total sum of all elements from the subarray for each index.
+   * Added simple B.F. sol. If constraints are large, we can use prefix sum to solve this problem.
    *
    * TC: O(n^2) SC: O(1)
    * #bruteforce #subarray #sum #easy

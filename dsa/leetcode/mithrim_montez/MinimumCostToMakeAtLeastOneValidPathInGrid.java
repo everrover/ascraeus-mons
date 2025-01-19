@@ -12,7 +12,7 @@ public class MinimumCostToMakeAtLeastOneValidPathInGrid {
    * Do BFS from (0, 0) visit all edges with weight = 0 first.
    * The answer is the distance to (m -1, n - 1).
    * 
-   * Used PQ earlier, but it's more straightforward and cheaper to use Deque.
+   * Used PQ earlier, but the one below is more straightforward and cheaper to use Deque.
    * 
    * TC: O(m * n)
    * SC: O(m * n)

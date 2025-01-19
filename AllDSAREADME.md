@@ -174,7 +174,6 @@
 | [1320. Minimum Distance to Type a Word Using Two Fingers](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinDistanceToTypeWordUsingTwoFingers.java) | #dynamic-programming #small-trick #optimization #memoization-optimization                                     |
 | [1323. Max 69 number](https://github.com/everrover/mount-kronos/blob/main/NinetySix/Maximum69Number.java) | #java #easy |
 | [1368. Minimum Cost to Make at Least One Valid Path in a Grid](./dsa/leetcode/mithrim_montez/MinimumCostToMakeAtLeastOneValidPathInGrid.java) | #array #bfs #graph #heap #matrix #shortest-path #hard |
-| [1368. Minimum Cost to Make at Least One Valid Path in a Grid](./dsa/leetcode/mithrim_montez/MinimumCostToMakeAtLeastOneValidPathInAGrid.java) | #array #bfs #graph #priority-queue #matrix #hard |
 | [1373. Maximum Sum BST in Binary Tree](./dsa/leetcode/kuiperBelt/MaximumSumBstInBinaryTree.java) | #dynamic-programming #tree #depth-first-search #binary-search-tree #binary-tree #hard |
 | [1376. Inform employees](https://github.com/everrover/mount-kronos/blob/main/SuperMario/InformEmployee.java) | #dfs #easy #bfs #tree |
 | [1400. Construct K Palindrome Strings](./dsa/leetcode/mithrim_montez/ConstructKPalindromeStrings.java) | #hash-table #string #greedy #counting #medium |
@@ -414,9 +413,9 @@
 | [3429. Paint House IV](./dsa/leetcode/mithrim_montez/PaintHouseIV.java) | #dp #two-pointers #medium |
 | --- | --- |
 
-DSA Progress: 259/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 258/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 699/1600
+All problems progress in LeetCode: 698/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
