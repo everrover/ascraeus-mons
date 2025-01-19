@@ -410,11 +410,12 @@
 | [3418. Maximum Amount of Money Robot Can Earn](./dsa/leetcode/mithrim_montez/MaximumAmountOfMoneyRobotCanEarn.java) | #dp #grid-traversal #medium |
 | [3423. Maximum Difference Between Adjacent Elements in a Circular Array](./dsa/leetcode/mithrim_montez/MaximumDifferenceBetweenAdjacentElementsInCircularArray.java) | #array #circular-array #easy |
 | [3424. Minimum Cost to Make Arrays Identical](./dsa/leetcode/mithrim_montez/MinimumCostToMakeArraysIdentical.java) | #sorting #greedy #array #medium |
+| [3427. Sum of Variable Length Subarrays](./dsa/leetcode/mithrim_montez/SumOfVariableLengthSubarrays.java) | #bruteforce #subarray #sum #easy |
 | --- | --- |
 
-DSA Progress: 257/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 258/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 697/1600
+All problems progress in LeetCode: 698/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
