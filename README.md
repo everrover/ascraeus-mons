@@ -1,5 +1,14 @@
 # ascraeus-mons
 
+## Basic premise
+
+- **System Design** - Low level and high level distributed system design ✅✅✅
+- **Data Structures and Algorithms** - Self evident ✅✅✅✅
+- **Low-level application design** - Object oriented design, design patterns, Functional design, etc.
+- **Database design and queries** - SQL, NoSQL, etc.
+- **Research** - Papers, articles, case studies, etc. ✅✅
+**Other basics**
+
 ### Table of Contents - System Design - Low level design
 
 Progress: 1/100 [1:2:1::Easier:Medium:Hard ratio followed]
@@ -26,7 +35,7 @@ Progress: 3/100
 
 | [Topics](./DSATopics.md) | [DSA](./AllDSAREADME.md)
 
-DSA Progress: 268/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 269/256  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 

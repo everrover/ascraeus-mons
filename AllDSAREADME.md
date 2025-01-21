@@ -234,6 +234,7 @@
 | [1970. Last Day Where You Can Still Cross](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LastDayWhereYouCanStillCross.java) | #binary-search #dfs #bfs #disjoint-sets #tricky #inverse-thought-process                                      |
 | [1997. First Day Where You Have Been in All the Rooms](./NinetySix/FirstDayWhereYouHaveBeenInAllRooms/FirstDayWhereYouHaveBeenInAllRooms.java) | #greedy #tricky-dp #graphs #dynamic-programming #deep-logic        |
 | [2009. Minimum Number of Operations to Make Array Continuous](./dsa/leetcode/jovianMoonOrbit/MinNumberOfOperationsToMakeArrayContinuous.java) | #array #sliding-window #hard #tricky |
+| [2017. Grid Game](./dsa/leetcode/mithrim_montez/GridGame.java) | #array #matrix #prefix-sum #medium |
 | [2060. Check if an Original String Exists Given Two Encoded Strings](./dsa/leetcode/kuiperBelt/CheckIfAnOriginalStringExistsGivenTwoEncodedStrings.java) | #dynamic-programming #string #hard #recursion #tricky |
 | [2076. Process Restricted Friend Requests](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ProcessRestrictedFriendRequests/sol.md) | |
 | [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
@@ -414,9 +415,9 @@
 | [3429. Paint House IV](./dsa/leetcode/mithrim_montez/PaintHouseIV.java) | #dp #two-pointers #medium |
 | --- | --- |
 
-DSA Progress: 259/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 260/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 699/1600
+All problems progress in LeetCode: 700/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 

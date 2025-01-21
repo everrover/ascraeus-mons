@@ -1,0 +1,41 @@
+package dsa.leetcode.mithrim_montez;
+
+public class GridGame {
+    /**
+     * https://leetcode.com/problems/grid-game/description/?envType=daily-question&envId=2025-01-21
+     *
+     * To solve the problem, the first robot minimizes points collected by the second robot by strategically deciding where to move down to the second row. Prefix sums are used for potential paths. Find a point minimizing max points left for the second robot.
+     *
+     * TC: O(n) SC: O(n)
+     * #array #matrix #prefix-sum #medium
+     */
+    
+    public long gridGame(int[][] grid) {
+        int n = grid[0].length;
+        long[] pre = new long[n];
+        long[] pre2 = new long[n];
+        
+        // Calculate prefix sums for the first row
+        pre[0] = grid[0][0];
+        for(int i = 1; i < n; i++) {
+            pre[i] = pre[i - 1] + grid[0][i];
+        }
+        
+        // Calculate prefix sums for the second row
+        pre2[0] = grid[1][0];
+        for(int i = 1; i < n; i++) {
+            pre2[i] = pre2[i - 1] + grid[1][i];
+        }
+        
+        long res = Long.MAX_VALUE;
+        for(int i = 0; i < n; i++) {
+            // Calculate max path if at index `i` the first robot goes down
+            long path1 = pre[n - 1] - pre[i]; // Remaining from first row
+            long path2 = i > 0 ? pre2[i - 1] : 0; // Collected by second robot before down switch
+            
+            // Minimize the maximum points second robot can collect
+            res = Math.min(res, Math.max(path1, path2));
+        }
+        return res;
+    }
+}
