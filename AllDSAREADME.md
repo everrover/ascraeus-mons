@@ -215,6 +215,7 @@
 | [1761. Minimum Degree of a Connected Trio in a Graph](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumDegreeOfConnectedTrioInGraph.java) | #BRUTE-force #graph |
 | [1762. Buildings With an Ocean View](./dsa/leetcode/kuiperBelt/BuildingsWithAnOceanView.java) | #array #stack #monotonic-stack #medium |
 | [1764. Form Array by Concatenating Subarrays of Another Array](.dsa/leetcode/kuiperBelt/FormArrayByConcatenatingSubarraysOfAnotherArray.java) | #array #medium #simple-brute |
+| [1765. Map of Highest Peak](./dsa/leetcode/mithrim_montez/MapOfHighestPeak.java) | #array #bfs #matrix #medium |
 | [1769. Minimum Number of Operations to Move All Balls to Each Box](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinimumNumberOperationsToMoveAllBallsToEachBox.java) | #prefix-sum-concept #array #math #easy |
 | [1771. Maximize Palindrome Length From Subsequences](./dsa/leetcode/fermi_s_paradox/MaximizePalindromeLengthFromSubsequences.java) | #string #dynamic-programming #hard |
 | [1775. Equal Sum Arrays With Minimum Number of Operations](https://github.com/everrover/mount-kronos/blob/main/NinetySix/EqualSumArraysWithMinimumNumberOfOperations.java) | #greedy-simulation #greedy #buckets |
@@ -415,9 +416,9 @@
 | [3429. Paint House IV](./dsa/leetcode/mithrim_montez/PaintHouseIV.java) | #dp #two-pointers #medium |
 | --- | --- |
 
-DSA Progress: 260/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 261/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 700/1600
+All problems progress in LeetCode: 701/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
