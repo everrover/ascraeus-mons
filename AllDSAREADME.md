@@ -168,6 +168,7 @@
 | [1249. Minimum Remove to Make Valid Parentheses](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinRemoveToMakeValidParenthesis.java) | #stacks #string |
 | [1255. Maximum Score Words Formed by Letters](./dsa/leetcode/kuiperBelt/MaximumScoreWordsFormedByLetters.java) | #array #string #dynamic-programming #backtracking #bit-manipulation #hard                                         |
 | [1263. Minimum Moves to Move a Box to Their Target Location](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinMovesToMoveBoxToTargetLocation.java) | #dfs #state-traversal #bfs #route-optimization #tricky             |
+| [1267. Count Servers that Communicate](./dsa/leetcode/mithrim_montez/CountServersThatCommunicate.java) | #array #matrix #counting #medium |
 | [1293. Shortest Path in a Grid with Obstacles Elimination](./dsa/leetcode/kuiperBelt/ShortestPathInAGridWithObstaclesElimination.java) | #breadth-first-search #dynamic-programming #matrix #hard               |
 | [1312. Minimum Insertion Steps to Make a String Palindrome](./dsa/leetcode/kuiperBelt/MinimumInsertionStepsToMakeStringPalindrome.java) | #dynamic-programming #string #palindrome #hard |
 | [1315. Sum of Nodes with Even-Valued Grandparent](./dsa/leetcode/kuiperBelt/SumOfNodesWithEvenValuedGrandparent.java) | #tree #depth-first-search #breadth-first-search #binary-tree #medium   |
@@ -416,9 +417,9 @@
 | [3429. Paint House IV](./dsa/leetcode/mithrim_montez/PaintHouseIV.java) | #dp #two-pointers #medium |
 | --- | --- |
 
-DSA Progress: 261/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 262/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 701/1600
+All problems progress in LeetCode: 702/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
