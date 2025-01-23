@@ -7,6 +7,11 @@ public class CountServersThatCommunicate {
    *
    * Calculate the number of servers on each row and column, then count all servers
    * not isolated (i.e., that have row or column count greater than one).
+   * 
+   * If a node is isolated, the count of servers in both its row and column will be 1.
+   * 
+   * Thought of BFS/DFS+(Union-Find based disjoint set with path compression) approach earlier, 
+   * but these are more memory intensive. 
    *
    * TC: O(m * n) SC: O(m + n)
    * #array #matrix #counting #medium
