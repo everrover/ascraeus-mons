@@ -7,10 +7,10 @@ public class FindEventualSafeStates {
   /**
    * https://leetcode.com/problems/find-eventual-safe-states/description/?envType=daily-question&envId=2025-01-24
    *
+   * 0 = not-visited, 1 = visited, 2 = marked-unsafe-after-completely-visited, 3 = marked-safe-after-completely-visited
+   * 
    * The algorithm uses depth-first search (DFS) to identify safe nodes.
    * For each node, we perform a DFS to see if it eventually leads to a terminal node.
-   * A coloring schema is used where nodes marked with `0` are unvisited, `1` are visited
-   * and currently in the DFS path, and `2` are safe.
    * Each node is evaluated, and if deemed safe, it is added to the result.
    *
    * TC: O(n + e), SC: O(n)
@@ -30,16 +30,21 @@ public class FindEventualSafeStates {
     return res;
   }
 
-  private boolean dfs(int idx, int[] v, final int[][] graph, final List<Integer> res) {
-    if (v[idx] != 0) return v[idx] == 2;
+  private boolean dfs(int idx, int []v, final int [][]graph, final List<Integer> res){
+    if(v[idx]!=0) return v[idx] == 3;
     v[idx] = 1;
-    for (int next : graph[idx]) {
-      boolean isSafe = true;
+    boolean isSafe = true;
+    for(int next: graph[idx]){
       isSafe = isSafe && dfs(next, v, graph, res);
-      if (!isSafe) return false;
     }
-    v[idx] = 2;
-    return true;
+    if(isSafe){
+      v[idx] = 3;
+      res.add(idx);
+    }else{
+      v[idx] = 2;
+    }
+
+    return isSafe;
   }
 
 }
