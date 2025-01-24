@@ -116,6 +116,7 @@
 | [789. Escaaape the ghosts](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PacmanEscapesTheGhost.java) | #math #easy |
 | [791. Custom Sort String](./dsa/leetcode/jovianMoonOrbit/CustomSortString.java) | #hash-table #string #sorting #medium |
 | [799. Champagne Tower](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChampagneTower/sol.md)                  | |
+| [802. Find Eventual Safe States](./dsa/leetcode/mithrim_montez/FindEventualSafeStates.java) | #depth-first-search #graph #topological-sort #medium |
 | [803. Bricks falling when hit](https://github.com/everrover/mount-kronos/blob/main/SuperMario/StableBric.java)+[Sol#1](https://github.com/everrover/mount-kronos/blob/main/SuperMario/StableBrix.java) | #dfs #bfs #graphs #union-find |
 | [815. Bus Routes](./dsa/leetcode/jovianMoonOrbit/BusRoutes.java) | #array #hash-table #breadth-first-search #hard #shortest-path-tree #graph #queue |
 | [826. Most Profit Assigning Work](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaxProfitAssignment.java) | #implmentation |
@@ -417,9 +418,9 @@
 | [3429. Paint House IV](./dsa/leetcode/mithrim_montez/PaintHouseIV.java) | #dp #two-pointers #medium |
 | --- | --- |
 
-DSA Progress: 262/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 263/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 702/1600
+All problems progress in LeetCode: 703/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
