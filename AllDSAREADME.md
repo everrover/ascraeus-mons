@@ -183,6 +183,7 @@
 | [1408. String Matching in an Array](./dsa/leetcode/mithrim_montez/StringMatchingInAnArray.java) | #array #string #string-matching #easy |
 | [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FibNumbersWithSumK.java) | #math #greedy |
 | [1422. Maximum Score After Splitting a String](./dsa/leetcode/fermi_s_paradox/MaximumScoreAfterSplittingAString.java) | #string #prefix-sum #easy |
+| [1462. Course Schedule IV](./dsa/leetcode/mithrim_montez/CourseScheduleIv.java) | #dfs #bfs #graph #topological-sort #medium |
 | [1463. Cherry Pickup II](https://github.com/everrover/mount-kronos/blob/main/SuperMario/CherryPickupII.java) | #dfs #dynamic-programming |
 | [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](./LordShiva/ProbabilityOfTwoBoxesHavingSameNumberOfDistinctBalls.java) | #dynamic-programming #memoization #combinatorics #backtracking #tricky #hard                                  |
 | [1478. Allocate Mailboxes](https://github.com/everrover/mount-kronos/blob/main/SuperMario/AllocateMailboxes.java) | #math #dynamic-programming #sorting |
@@ -421,9 +422,9 @@
 | [3434. Maximum Frequency After Subarray Operation](./dsa/leetcode/mithrim_montez/MaximumFrequencyAfterSubarrayOperation.java) | #prefix-sum #sliding-window #medium |
 | --- | --- |
 
-DSA Progress: 266/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 267/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 706/1600
+All problems progress in LeetCode: 707/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
