@@ -417,14 +417,15 @@
 | [3424. Minimum Cost to Make Arrays Identical](./dsa/leetcode/mithrim_montez/MinimumCostToMakeArraysIdentical.java) | #sorting #greedy #array #medium |
 | [3427. Sum of Variable Length Subarrays](./dsa/leetcode/mithrim_montez/SumOfVariableLengthSubarrays.java) | #bruteforce #subarray #sum #easy |
 | [3429. Paint House IV](./dsa/leetcode/mithrim_montez/PaintHouseIV.java) | #dp #two-pointers #medium |
+| [3431. Minimum Unlocked Indices to Sort Nums](./dsa/leetcode/mithrim_montez/MinimumUnlockedIndicesToSortNums.java) | #array #greedy #sort #medium |
 | [3432. Count Partitions with Even Sum Difference](./dsa/leetcode/mithrim_montez/CountPartitionsWithEvenSumDifference.java) | #array #greedy #easy |
 | [3433. Count Mentions Per User](./dsa/leetcode/mithrim_montez/CountMentionsPerUser.java) | #array #set #event-simulation #medium |
 | [3434. Maximum Frequency After Subarray Operation](./dsa/leetcode/mithrim_montez/MaximumFrequencyAfterSubarrayOperation.java) | #prefix-sum #sliding-window #medium |
 | --- | --- |
 
-DSA Progress: 267/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 268/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 707/1600
+All problems progress in LeetCode: 708/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
