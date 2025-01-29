@@ -5,7 +5,8 @@ public class MinimumUnlockedIndicesToSortNums {
      * https://leetcode.com/problems/minimum-unlocked-indices-to-sort-nums/description/
      *
      * Basically go from left to right, and bringing the max element to the right.
-     * If we encounter a number = max-1, we need to unlock all the locks for max.
+     * If we encounter a new max, the array before it is already sorted, so we don't need to unlock any locks at this `idx`
+     * If we encounter a number = max-1, we need to unlock all the locks as they are encountered for max.
      * If we encounter a number < max-1, as per the condition, we return -1, since we can't sort the array.
      * 
      * TC: O(n) SC: O(1)
