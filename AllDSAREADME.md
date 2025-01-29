@@ -395,6 +395,8 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | [3255. Find the Power of K-Size Subarrays II](./dsa/leetcode/jovianMoonOrbit/FindThePowerOfKSizeSubarraysII.java) | #array #sliding-window #medium |
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
+| [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #combinatorics #medium |
+| [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #medium |
 | [3341. Find Minimum Time to Reach Last Room](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomI.java) | #array #graph #priority-queue #matrix #shortest-path #medium |
 | [3342. Find Minimum Time to Reach Last Room II](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomIi.java) | #array #graph #heap #matrix #shortest-path #medium |
 | [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/mithrim_montez/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java) | #tree #bfs #medium |
@@ -425,9 +427,9 @@
 | [3434. Maximum Frequency After Subarray Operation](./dsa/leetcode/mithrim_montez/MaximumFrequencyAfterSubarrayOperation.java) | #prefix-sum #sliding-window #medium |
 | --- | --- |
 
-DSA Progress: 271/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 272/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 711/1600
+All problems progress in LeetCode: 713/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 

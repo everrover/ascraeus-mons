@@ -4,13 +4,10 @@ class Solution {
   /**
    * https://leetcode.com/problems/maximum-number-of-matching-indices-after-right-shifts/description/
    *
-   * The function simulates right shifts on `nums1` and counts matching indices with `nums2`.
-   * For each shift, calculate the number of indices `i` where `nums1[i]` equals `nums2[i]`.
-   * This implementation iterates over all shifts and returns the maximum count of matching indices.
+   * Simple simulation of the right shift operation. B.F.
    *
-   * TC: O(n^2)  where n is the length of the arrays.
-   * SC: O(1)  since no extra space is used.
-   * #array #two-pointers #simulation #medium
+   * TC: O(n^2) SC: O(1)
+   * #array #two-pointers #simulation #medium #brute-force
    */
   public int maximumMatchingIndices(int[] nums1, int[] nums2) {
     final int n = nums1.length;
