@@ -402,6 +402,7 @@
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
 | [3393. Count Paths With the Given XOR Value](./dsa/leetcode/mithrim_montez/CountPathsWithTheGivenXorValue.java) | #array #dynamic-programming #bit-manipulation #matrix #medium |
 | [3394. Check if Grid can be Cut into Sections](./dsa/leetcode/mithrim_montez/CheckIfGridCanBeCutIntoSections.java) | #array #sorting #geometry #medium |
+| [3400. Maximum Number of Matching Indices After Right Shifts](./dsa/leetcode/mithrim_montez/MaximumNumberOfMatchingIndicesAfterRightShifts.java) | #array #two-pointers #simulation #medium |
 | [3402. Minimum Operations to Make Columns Strictly Increasing](./dsa/leetcode/fermi_s_paradox/MinimumOperationsToMakeColumnsStrictlyIncreasing.java) | #matrix #greedy #easy |
 | [3403. Find the Lexicographically Largest String From the Box I](./dsa/leetcode/fermi_s_paradox/FindTheLexicographicallyLargestStringFromTheBoxI.java) | #string #greedy #medium |
 | [3404. Count Special Subsequences](./dsa/leetcode/fermi_s_paradox/CountSpecialSubsequences.java) | #array #combinatorial #medium |
@@ -424,9 +425,9 @@
 | [3434. Maximum Frequency After Subarray Operation](./dsa/leetcode/mithrim_montez/MaximumFrequencyAfterSubarrayOperation.java) | #prefix-sum #sliding-window #medium |
 | --- | --- |
 
-DSA Progress: 270/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 271/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 710/1600
+All problems progress in LeetCode: 711/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
