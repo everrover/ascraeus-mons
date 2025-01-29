@@ -5,12 +5,9 @@ import java.util.*;
 public class CourseScheduleIv {
 
     /**
-     * https://leetcode.com/problems/course-schedule-iv/description/?envType=daily-question&envId=2025-01-27
+     * https://leetcode.com/problems/course-schedule-iv/description
      *
-     * The courses can be represented as nodes of a graph. Build an adjacency list representing
-     * the direct dependencies (prerequisites). For each query, perform a BFS to determine if the
-     * first course is reachable from the second course. Utilize a boolean array to track visited
-     * courses during BFS traversal.
+     * The courses can be represented as nodes of a graph. For each query perform a DFS to check if the query satisfies.
      *
      * TC: O(n*(m+n)) SC: O(n^2)
      * #dfs #bfs #graph #topological-sort #medium
