@@ -305,6 +305,7 @@
 | [2587. Rearrange Array to Maximize Prefix Score](./dsa/leetcode/fermi_s_paradox/RearrangeArrayToMaximizePrefixScore.java) | #array #greedy #sorting #prefix-sum #medium |
 | [2640. Find the Score of All Prefixes of an Array](./dsa/leetcode/RhoCassiopeiae/FindTheScoreOfAllPrefixesOfAnArray.java) | #array #prefix-sum #medium |
 | [2657. Find the Prefix Common Array of Two Arrays](./dsa/leetcode/mithrim_montez/FindThePrefixCommonArrayOfTwoArrays.java) | #array #hash-table #bit-manipulation #medium |
+| [2658. Maximum Number of Fish in a Grid](./dsa/leetcode/mithrim_montez/MaximumNumberOfFishInAGrid.java) | #array #depth-first-search #matrix #medium |
 | [2661. First Completely Painted Row or Column](./dsa/leetcode/fermi_s_paradox/FirstCompletelyPaintedRowOrColumn.java) | #array #hash-table #matrix #medium |
 | [2663. Lexicographically Smallest Beautiful String](https://github.com/everrover/mount-kronos/blob/main/LordShiva/LexoSmallestBeautifulString.java) | # |
 | [2670. Find the Distinct Difference Array](./dsa/leetcode/fermi_s_paradox/FindTheDistinctDifferenceArray.java) | #array #hash-table #easy |
@@ -423,9 +424,9 @@
 | [3434. Maximum Frequency After Subarray Operation](./dsa/leetcode/mithrim_montez/MaximumFrequencyAfterSubarrayOperation.java) | #prefix-sum #sliding-window #medium |
 | --- | --- |
 
-DSA Progress: 269/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 270/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 709/1600
+All problems progress in LeetCode: 710/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
