@@ -92,7 +92,7 @@
 | [664. Strange printer](https://github.com/everrover/mount-kronos/blob/main/LordShiva/StrangePrinter.java) | #dynamic-programming #array #tricky #important |
 | [670. Maximum Swap](./dsa/leetcode/jovianMoonOrbit/MaximumSwap.java) | #math #greedy #medium |
 | [672. Bulb switcher II](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BulbSwitcherII.java) | #simulation-on-paper #trick #simulation-was-overkill-in-code       |
-| [684. Redudant Connections](https://github.com/everrover/mount-kronos/blob/main/SuperMario/DisjointSet.java) | #dfs #cycle-detection |
+| [684. Redundant Connection](./dsa/leetcode/mithrim_montez/RedundantConnection.java) | #depth-first-search #breadth-first-search #union-find #graph #medium |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](./dsa/leetcode/jovianMoonOrbit/MaximumSumOf3NonOverlappingSubarrays.java) | #array #dynamic-programming #hard |
 | [691. Stickers to Spell Word](./dsa/leetcode/jovianMoonOrbit/StickersToSpellWord.java) | #array #string #dynamic-programming #backtracking #bit-manipulation #hard |
 | [694. Number of Distinct Islands](./dsa/leetcode/kuiperBelt/NumberOfDistinctIslands.java) | #hash-table #depth-first-search #breadth-first-search #union-find #hash-function #medium                          |
@@ -423,9 +423,9 @@
 | [3434. Maximum Frequency After Subarray Operation](./dsa/leetcode/mithrim_montez/MaximumFrequencyAfterSubarrayOperation.java) | #prefix-sum #sliding-window #medium |
 | --- | --- |
 
-DSA Progress: 268/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 269/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 708/1600
+All problems progress in LeetCode: 709/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
