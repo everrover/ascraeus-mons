@@ -25,6 +25,7 @@ public class FindTheNumberOfKEvenArrays {
 
     private long dfs(int idx, int kdx, int prevEven) {
         if (idx >= N) return kdx == K ? 1 : 0;
+        if (kdx > K) return 0; // exactly K even numbers are required
         if (dp[prevEven][idx][kdx] != -1) return dp[prevEven][idx][kdx];
 
         long currEven = (M / 2L * dfs(idx + 1, kdx + prevEven, 1)) % MOD;
