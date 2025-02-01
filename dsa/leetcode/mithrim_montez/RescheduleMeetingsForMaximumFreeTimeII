@@ -1,0 +1,28 @@
+package dsa.leetcode.mithrim_montez;
+
+class Solution {
+  public int maxFreeTime(int eventTime, int[] st, int[] en) {
+    // If there is only one meeting, calculate the free time around it
+    if(st.length == 1) return eventTime - (en[0] - st[0]);
+
+    final int n = st.length;
+    int time = 0, left = 0, right = 0, res = 0, currres, idx = 0;
+    while(idx<n){
+      // Calculate the block of current meeting
+      int block = en[idx] - st[idx];
+      // Calculate current available free time
+      currres = ((idx+1) >= n ? eventTime : st[idx+1]) - time;
+      // Adjust result if required
+      if(left < block) currres -= block;
+      res = Math.max(res, currres);
+
+      // Go to next meeting interval
+      left = Math.max(st[idx] - time, left);
+      time = en[idx];
+
+      idx++;
+    }
+
+    return res;
+  }
+}

@@ -426,11 +426,12 @@
 | [3432. Count Partitions with Even Sum Difference](./dsa/leetcode/mithrim_montez/CountPartitionsWithEvenSumDifference.java) | #array #greedy #easy |
 | [3433. Count Mentions Per User](./dsa/leetcode/mithrim_montez/CountMentionsPerUser.java) | #array #set #event-simulation #medium |
 | [3434. Maximum Frequency After Subarray Operation](./dsa/leetcode/mithrim_montez/MaximumFrequencyAfterSubarrayOperation.java) | #prefix-sum #sliding-window #medium |
+| [3440. Reschedule Meetings for Maximum Free Time II](./dsa/leetcode/mithrim_montez/RescheduleMeetingsForMaximumFreeTimeII.java) | #greedy #intervals #medium |
 | --- | --- |
 
-DSA Progress: 273/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 274/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 714/1600
+All problems progress in LeetCode: 715/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
