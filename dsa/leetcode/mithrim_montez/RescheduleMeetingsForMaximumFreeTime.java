@@ -4,7 +4,8 @@ class Solution {
   /**
    * https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/description/
    *
-   * Use a sliding window approach to maximize free time by rescheduling up to k meetings maintaining their duration but changing their start times, ensuring meetings remain non-overlapping.
+   * Use a sliding window approach to maximize free time by rescheduling up to k meetings maintaining 
+   * their duration but changing their start times, ensuring meetings remain non-overlapping.
    *
    * TC: O(n) SC: O(1)
    * #sliding-window #interval-scheduling #greedy #medium

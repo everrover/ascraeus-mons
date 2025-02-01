@@ -1,28 +1,42 @@
 package dsa.leetcode.mithrim_montez;
 
 class Solution {
-  public int maxFreeTime(int eventTime, int[] st, int[] en) {
-    // If there is only one meeting, calculate the free time around it
-    if(st.length == 1) return eventTime - (en[0] - st[0]);
 
+  /**
+   * https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/description/
+   *
+   * Identify a gap of length at least equal to the duration of one meeting on either the left or right side of each meeting.
+   * This we do by tracking the longest continuous period of free time between meetings on either side.
+   * 
+   * Reschedule one meeting to maximize the longest continuous period of free time.
+   *
+   * TC: O(n) SC: O(1)
+   * #intervals #greedy #sorting #medium
+   */
+  
+   public int maxFreeTime(int eventTime, int[] st, int[] en) {
+    if(st.length == 1) return eventTime - st[0] + en[0];
     final int n = st.length;
     int time = 0, left = 0, right = 0, res = 0, currres, idx = 0;
     while(idx<n){
-      // Calculate the block of current meeting
-      int block = en[idx] - st[idx];
-      // Calculate current available free time
-      currres = ((idx+1) >= n ? eventTime : st[idx+1]) - time;
-      // Adjust result if required
+      int block = en[idx]-st[idx];
+      currres = ((idx+1)>=n?eventTime:st[idx+1])-time;
       if(left < block) currres -= block;
       res = Math.max(res, currres);
-
-      // Go to next meeting interval
-      left = Math.max(st[idx] - time, left);
+      left = Math.max(st[idx]-time, left);
       time = en[idx];
-
       idx++;
     }
-
+    idx = n-1; time = eventTime;
+    while(idx>=0){
+      int block = en[idx]-st[idx];
+      currres = time-((idx-1)<0?0:en[idx-1]);
+      if(right<block) currres -= block;
+      res = Math.max(res, currres);
+      right = Math.max(time-en[idx], right);
+      time = st[idx];
+      idx--;
+    }
     return res;
   }
 }
