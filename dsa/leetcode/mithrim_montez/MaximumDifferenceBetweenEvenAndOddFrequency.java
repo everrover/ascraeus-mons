@@ -26,10 +26,11 @@ class Solution {
         oddMin = Math.min(oddMin, cnt);
         oddMax = Math.max(oddMax, cnt);
       }
-      // Check and update maximum difference calculated
-      if (oddMax != -1 && evenMin != 101) res = Math.max(oddMax - evenMin, res);
-      if (evenMax != -1 && oddMin != 101) res = Math.max(oddMin - evenMax, res);
     }
+
+    // Check and update maximum difference calculated
+    if (oddMax != -1 && evenMin != 101) res = Math.max(oddMax - evenMin, res);
+    if (evenMax != -1 && oddMin != 101) res = Math.max(oddMin - evenMax, res);
     return res;
   }
 }
