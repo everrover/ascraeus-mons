@@ -378,6 +378,7 @@
 | [3101. Count Alternating Subarrays](./dsa/leetcode/kuiperBelt/CountAlternatingSubarrays.java) | #array #math #dynamic-programming #medium |
 | [3102. Minimize Manhattan Distances](./dsa/leetcode/kuiperBelt/MinimizeManhattanDistances.java) | #array #math #hard |
 | [3104. Find Longest Self-Contained Substring](./dsa/leetcode/kuiperBelt/FindLongestSelfContainedSubstring.java) | #substring #optimization #hard #prefix-sum #alt-way-to-look-at-problem |
+| [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](./dsa/leetcode/mithrim_montez/LongestStrictlyIncreasingOrDecreasingSubarray.java) | #array #two-pointers #easy |
 | [3141. Maximum Hamming Distances](./dsa/leetcode/kuiperBelt/MaxHammingDistances.java)     | #array #bit-manipulation #breadth-first-search #hard #brute-force #bit-manipulation #bfs #array #hard             |
 | [3143. Maximum Points Inside the Square](./dsa/leetcode/kuiperBelt/MaximumPointsInsideTheSquare.java) | #binary-search #sorting #geometry #hash-table #string #logical #medium |
 | [3152. Special Array II](./dsa/leetcode/kuiperBelt/SpecialArrayII.java)                   | #prefix-sum #array #medium |
@@ -435,9 +436,9 @@
 | [3443. Maximum Manhattan Distance After K Changes](./dsa/leetcode/mithrim_montez/MaximumManhattanDistanceAfterKChanges.java) | #greedy #string #manhattan-distance #medium |
 | --- | --- |
 
-DSA Progress: 280/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 281/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 721/1600
+All problems progress in LeetCode: 722/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
