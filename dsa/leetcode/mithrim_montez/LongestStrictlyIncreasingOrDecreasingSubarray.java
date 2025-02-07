@@ -5,10 +5,7 @@ public class LongestStrictlyIncreasingOrDecreasingSubarray {
   /**
    * https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/?envType=daily-question&envId=2025-02-03
    *
-   * The solution involves iterating through the array while keeping track of the longest strictly
-   * increasing or decreasing subarray by comparing the current and previous elements. Increment the
-   * count for a strict sequence, reset if a sequence violation occurs, and keep track of the maximum
-   * sequence length encountered.
+   * Two words. Brute-force.
    *
    * TC: O(n) SC: O(1)
    * #array #two-pointers #easy

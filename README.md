@@ -28,6 +28,7 @@ Progress: 1/100 [1:2:1::Easier:Medium:Hard ratio followed]
 | [FB Memcache case study - 2012 - paper](./research/#sys-design/caching_solutions/FB_memcache_2012.pdf) | |
 | [Caching solution and premise](./research/#sys-design/caching_solutions/index.md) | |
 | [PageRank algorithm](./research/page-rank-algo/pagerank.py) | |
+| [Tiktok monolith](./hld/TikTok_RecommendationSystem/readme.md) | |
 
 Progress: 3/100
 

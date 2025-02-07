@@ -3,7 +3,7 @@
 ❗Note: All examples i present will be based off either Java or in shell.
 
 - [Redis](./redis.md)
-- Memcache
+- [Memcache](./memcache.md)
 - Couchbase
 - Apache Ignite
 - Hazelcast IMDG
