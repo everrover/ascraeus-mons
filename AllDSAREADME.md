@@ -306,6 +306,7 @@
 | [2575. Find the Divisibility Array of a String](./dsa/leetcode/RhoCassiopeiae/FindDivisibilityArrayOfString.java) | #array #math #string #medium |
 | [2577. Minimum Time to Visit a Cell In a Grid](./dsa/leetcode/RhoCassiopeiae/MinimumTimeToVisitACellInAGrid.java) | #array #breadth-first-search #graph #heap #matrix #shortest-path #hard |
 | [2587. Rearrange Array to Maximize Prefix Score](./dsa/leetcode/fermi_s_paradox/RearrangeArrayToMaximizePrefixScore.java) | #array #greedy #sorting #prefix-sum #medium |
+| [2599. Make the Prefix Sum Non-negative](./dsa/leetcode/mithrim_montez/MakeThePrefixSumNonNegative.java) | #array #greedy #heap #medium |
 | [2640. Find the Score of All Prefixes of an Array](./dsa/leetcode/RhoCassiopeiae/FindTheScoreOfAllPrefixesOfAnArray.java) | #array #prefix-sum #medium |
 | [2657. Find the Prefix Common Array of Two Arrays](./dsa/leetcode/mithrim_montez/FindThePrefixCommonArrayOfTwoArrays.java) | #array #hash-table #bit-manipulation #medium |
 | [2658. Maximum Number of Fish in a Grid](./dsa/leetcode/mithrim_montez/MaximumNumberOfFishInAGrid.java) | #array #depth-first-search #matrix #medium |
@@ -437,9 +438,9 @@
 | [3443. Maximum Manhattan Distance After K Changes](./dsa/leetcode/mithrim_montez/MaximumManhattanDistanceAfterKChanges.java) | #greedy #string #manhattan-distance #medium |
 | --- | --- |
 
-DSA Progress: 282/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 283/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 723/1600
+All problems progress in LeetCode: 724/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
