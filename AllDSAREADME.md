@@ -226,6 +226,7 @@
 | [1775. Equal Sum Arrays With Minimum Number of Operations](https://github.com/everrover/mount-kronos/blob/main/NinetySix/EqualSumArraysWithMinimumNumberOfOperations.java) | #greedy-simulation #greedy #buckets |
 | [1793. Maximum Score of a Good Subarray](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaximumScoreOfGoodSubarray.java) | #greedy #two-pointer #ranged-two-pointer #based-on-others #monotonic-stack #dynamic-programming #stack        |
 | [1799. Maximize Score After N Operations](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MaximizeScoreAfterNOperations.java) | #backtracking #dynamic-programming #gcd #memoization #tricky-optimization #bitmasking                         |
+| [1852. Distinct Numbers in Each Subarray](./dsa/leetcode/mithrim_montez/DistinctNumbersInEachSubarray.java) | #array #hash-table #sliding-window #medium |
 | [1855. Maximum Distance Between a Pair of Values](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MaximumDistanceBetweenPairOfValues.java) | #two-pointer-approach #binary-search #greedy #array-traversal      |
 | [1861. Rotating the Box](./dsa/leetcode/jovianMoonOrbit/RotatingTheBox.java) | #array #matrix #twopointers #medium |
 | [1868. Product of Two Run-Length Encoded Arrays](./dsa/leetcode/jovianMoonOrbit/ProductOfTwoRunLengthEncodedArrays.java) | #array #two-pointers #medium |
@@ -436,9 +437,9 @@
 | [3443. Maximum Manhattan Distance After K Changes](./dsa/leetcode/mithrim_montez/MaximumManhattanDistanceAfterKChanges.java) | #greedy #string #manhattan-distance #medium |
 | --- | --- |
 
-DSA Progress: 281/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 282/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 722/1600
+All problems progress in LeetCode: 723/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
