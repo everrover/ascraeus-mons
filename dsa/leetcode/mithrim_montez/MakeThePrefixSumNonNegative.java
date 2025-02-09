@@ -22,7 +22,7 @@ public class MakeThePrefixSumNonNegative {
       p += nums[i];
       if (nums[i] < 0) pq.offer(nums[i]);
       if (p < 0) {
-        p -= pq.poll();
+        p -= pq.poll(); // remove the smallest negative number, -5 over -3
         moves++;
       }
     }
