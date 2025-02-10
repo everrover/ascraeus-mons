@@ -391,6 +391,7 @@
 | [3164. Find the Number of Good Pairs II](./dsa/leetcode/kuiperBelt/NumberOfGoodPairsII.java) | #array #hash-table #medium |
 | [3165. Maximum Sum of Subsequence With Non-adjacent Elements](./dsa/leetcode/kuiperBelt/MaximumSumOfSubsequenceWithNonAdjacentElements.java) | #segment-tree #dynamic-programming #array #hard #recursion #modular-arithmetic                                    |
 | [3170. Lexicographically Minimum String After Removing Stars](./dsa/leetcode/kuiperBelt/LexicographicallyMinimumStringAfterRemovingStars.java) | #hash-table #string #stack #greedy #heap-priority-queue #medium        |
+| [3174. Clear Digits](./dsa/leetcode/mithrim_montez/ClearDigits.java) | #string #stack #simulation #easy |
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium |
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard |
 | [3219. Minimum Cost for Cutting Cake II](./dsa/leetcode/jovianMoonOrbit/MinimumCostForCuttingCakeII.java) | #array #greedy #sorting #hard |
@@ -438,9 +439,9 @@
 | [3443. Maximum Manhattan Distance After K Changes](./dsa/leetcode/mithrim_montez/MaximumManhattanDistanceAfterKChanges.java) | #greedy #string #manhattan-distance #medium |
 | --- | --- |
 
-DSA Progress: 283/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 284/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 724/1600
+All problems progress in LeetCode: 725/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
