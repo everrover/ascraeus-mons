@@ -232,6 +232,7 @@
 | [1868. Product of Two Run-Length Encoded Arrays](./dsa/leetcode/jovianMoonOrbit/ProductOfTwoRunLengthEncodedArrays.java) | #array #two-pointers #medium |
 | [1894. Find the Student that Will Replace the Chalk](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindStudentThatWillReplaceChalk.java) | #prefix-sum #binary-search #trivial #simulation #preventing-recomputes                                        |
 | [1909. Remove One Element to Make the Array Strictly Increasing](./dsa/leetcode/RhoCassiopeiae/RemoveOneElementToMakeArrayStrictlyIncreasing.java) | #array #greedy #easy |
+| [1910. Remove All Occurrences of a Substring](./dsa/leetcode/VallesMarineris/RemoveAllOccurrencesOfASubstring.java) | #string #stack #simulation #medium |
 | [1928. Minimum Cost to Reach Destination in Time](./dsa/leetcode/RhoCassiopeiae/MinimumCostToReachDestinationInTime.java) | #graph #shortest-path #dijkstra #hard |
 | [1930. Unique Length-3 Palindromic Subsequences](./dsa/leetcode/fermi_s_paradox/UniqueLength3PalindromicSubsequences.java) | #hash-table #string #prefix-sum #medium |
 | [1936. Add Minimum Number of Rungs](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddMinNumberOfRungs.java) | #maths #greedy |
@@ -246,7 +247,6 @@
 | [2076. Process Restricted Friend Requests](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ProcessRestrictedFriendRequests/sol.md) | |
 | [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
 | [2116. Check if a Parentheses String Can Be Valid](./dsa/leetcode/mithrim_montez/CheckIfAParenthesesStringCanBeValid.java) | #string #stack #greedy #medium |
-| [2127. Maximum Employees to Be Invited to a Meeting](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MinimumEmpToBInvitedToMeeting/sol.md) | #dfs #cycle-detection #tricky #ques-specific-approximation         |
 | [2127. Maximum Employees to Be Invited to a Meeting](./dsa/leetcode/VallesMarineris/MaximumEmployeesToBeInvitedToAMeeting.java) | #graph #dfs #cycle #hard |
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard                |
 | [2183. Count Array Pairs Divisible by K](./dsa/leetcode/kuiperBelt/CountArrayPairsDivisibleByK.java) | #math #number-theory #hard |
@@ -440,9 +440,9 @@
 | [3443. Maximum Manhattan Distance After K Changes](./dsa/leetcode/mithrim_montez/MaximumManhattanDistanceAfterKChanges.java) | #greedy #string #manhattan-distance #medium |
 | --- | --- |
 
-DSA Progress: 285/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 286/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 726/1600
+All problems progress in LeetCode: 727/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
