@@ -439,11 +439,12 @@
 | [3440. Reschedule Meetings for Maximum Free Time II](./dsa/leetcode/mithrim_montez/RescheduleMeetingsForMaximumFreeTimeII.java) | #greedy #intervals #medium |
 | [3442. Maximum Difference Between Even and Odd Frequency](./dsa/leetcode/mithrim_montez/MaximumDifferenceBetweenEvenAndOddFrequency.java) | #frequency-map #greedy #easy |
 | [3443. Maximum Manhattan Distance After K Changes](./dsa/leetcode/mithrim_montez/MaximumManhattanDistanceAfterKChanges.java) | #greedy #string #manhattan-distance #medium |
+| [3449. Maximize the Minimum Game Score](./dsa/leetcode/VallesMarineris/MaximizeTheMinimumGameScore.java) | #array #binary-search #greedy #hard |
 | --- | --- |
 
-DSA Progress: 287/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 288/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 728/1600
+All problems progress in LeetCode: 729/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
