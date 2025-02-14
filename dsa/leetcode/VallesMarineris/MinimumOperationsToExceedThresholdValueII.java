@@ -10,6 +10,8 @@ public class MinimumOperationsToExceedThresholdValueII {
      * Use a priority queue to always extract the two smallest values from the list. Combine them according to the operation
      * and place the result back in the queue if it doesn't satisfy the threshold. Continue until all values satisfy the threshold.
      * 
+     * hv done similar problem at Amazon OA, or maybe it was google
+     * 
      * TC: O(n log n) SC: O(n)
      * #array #heap #priority-queue #simulation #medium
      */

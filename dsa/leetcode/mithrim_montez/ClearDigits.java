@@ -4,7 +4,8 @@ public class ClearDigits {
   /**
    * https://leetcode.com/problems/clear-digits/description/?envType=daily-question&envId=2025-02-10
    *
-   * Process the string by iterating from left to right, deleting the first digit and the closest non-digit character to its left until no digits remain.
+   * Process the string by iterating from left to right, adding it to `result` string and deleting the rightmost
+   * character in `result` string
    * 
    * TC: O(n) SC: O(n)
    * #string #stack #simulation #easy
