@@ -442,12 +442,13 @@
 | [3442. Maximum Difference Between Even and Odd Frequency](./dsa/leetcode/mithrim_montez/MaximumDifferenceBetweenEvenAndOddFrequency.java) | #frequency-map #greedy #easy |
 | [3443. Maximum Manhattan Distance After K Changes](./dsa/leetcode/mithrim_montez/MaximumManhattanDistanceAfterKChanges.java) | #greedy #string #manhattan-distance #medium |
 | [3449. Maximize the Minimum Game Score](./dsa/leetcode/VallesMarineris/MaximizeTheMinimumGameScore.java) | #array #binary-search #greedy #hard |
+| [3452. Sum of Good Numbers](./dsa/leetcode/VallesMarineris/SumOfGoodNumbers.java) | #array #iteration #easy |
 | [3453. Separate Squares I](./dsa/leetcode/VallesMarineris/SeparateSquaresI.java) | #binary-search #geometry #medium |
 | --- | --- |
 
-DSA Progress: 291/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 292/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 732/1600
+All problems progress in LeetCode: 733/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
