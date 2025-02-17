@@ -14,23 +14,36 @@ public class LetterTilePossibilities {
    * #hash-table #string #backtracking #medium
    */
 
-  public int numTilePossibilities(String tiles) {
-    int[] count = new int[26];
-    for (char c : tiles.toCharArray()) {
-      count[c - 'A']++;
-    }
-    return dfs(count);
-  }
-
-  private int dfs(int[] count) {
-    int sum = 0;
-    for (int i = 0; i < 26; i++) {
-      if (count[i] == 0) continue;
-      sum++;
-      count[i]--;
-      sum += dfs(count);
-      count[i]++;
-    }
-    return sum;
-  }
+   private final int[] fact = {1,1,2,6,24,120,720,5040};
+   public int numTilePossibilities(String tiles) {
+     Map<Character, Integer> map = new HashMap<>();
+     for(char ch: tiles.toCharArray()){
+       map.put(ch, map.getOrDefault(ch, 0)+1);
+     }
+     List<Integer> list = new ArrayList<>();
+     for(int cnt: map.values()){
+       list.add(cnt);
+     }
+     return dfs(0, list);
+   }
+ 
+   private int dfs(int idx, List<Integer> list){
+     if(idx == list.size()){
+       int num = 0, den = 1;
+       for(int elem: list){
+         den *= fact[elem];
+         num += elem;
+       }
+       if(num == 0) return 0;
+       return fact[num]/den;
+     }
+     int res = 0;
+     int curr = list.get(idx);
+     for(int i=list.get(idx); i>=0; i--){
+       list.set(idx, i);
+       res += dfs(idx+1, list);
+     }
+     list.set(idx, curr);
+     return res;
+   }
 }

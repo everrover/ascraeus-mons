@@ -5,7 +5,7 @@ import java.util.*;
 public class RemoveAllOccurrencesOfASubstring {
 
   /**
-   * https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/?envType=daily-question&envId=2025-02-11
+   * https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
    *
    * The problem is to remove all occurrences of a given substring from a string. This can be done by iterating through the main string and removing the substring whenever it's found, until no more occurrences exist.
    *
@@ -13,11 +13,28 @@ public class RemoveAllOccurrencesOfASubstring {
    * #string #stack #simulation #medium
    */
 
-  private boolean checkplz(char[] pchs, Stack<Character> st) {
+   public String removeOccurrences(String s, String part) {
+    char []schs = s.toCharArray();
+    char []pchs = part.toCharArray();
+    StringBuilder res = new StringBuilder();
+    Stack<Character> st = new Stack<>();
+    for(int i=0; i<schs.length; i++){
+      st.push(schs[i]);
+      if(st.size() >= pchs.length && checkplz(pchs, st)){
+        int j = pchs.length;
+        while(j-->0) st.pop();
+      }
+    }
+    while(!st.isEmpty()){
+      res.append(st.pop());
+    }
+    return res.reverse().toString();
+  }
+
+  private boolean checkplz(char []pchs, Stack<Character> st){
     Stack<Character> temp = new Stack<>();
-    for(int idx = pchs.length - 1; idx >= 0; idx--){
-      boolean res = true;
-      while(!temp.isEmpty()) st.push(temp.pop());
+    boolean res = true;
+    for(int idx = pchs.length-1; idx>=0; idx--){
       char tmp = st.pop();
       temp.push(tmp);
       if(tmp != pchs[idx]){
@@ -25,7 +42,8 @@ public class RemoveAllOccurrencesOfASubstring {
         break;
       }
     }
-    return res.reverse().toString();
+    while(!temp.isEmpty()) st.push(temp.pop());
+    return res;
   }
 
 }
