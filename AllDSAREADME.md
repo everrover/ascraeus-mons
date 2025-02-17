@@ -444,13 +444,14 @@
 | [3449. Maximize the Minimum Game Score](./dsa/leetcode/VallesMarineris/MaximizeTheMinimumGameScore.java) | #array #binary-search #greedy #hard |
 | [3452. Sum of Good Numbers](./dsa/leetcode/VallesMarineris/SumOfGoodNumbers.java) | #array #iteration #easy |
 | [3453. Separate Squares I](./dsa/leetcode/VallesMarineris/SeparateSquaresI.java) | #binary-search #geometry #medium |
+| [3456. Find Special Substring of Length K](./dsa/leetcode/VallesMarineris/FindSpecialSubstringOfLengthK.java) | #string #easy |
 | [3457. Eat Pizzas!](./dsa/leetcode/VallesMarineris/EatPizzas.java) | #greedy #array #sorting #medium |
 | [3459. Length of Longest V Shaped Diagonal Segment](./dsa/leetcode/VallesMarineris/LengthOfLongestVShapedDiagonalSegment.java) | #dfs #dynamic-programming #grid #hard |
 | --- | --- |
 
-DSA Progress: 294/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 295/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 735/1600
+All problems progress in LeetCode: 736/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
