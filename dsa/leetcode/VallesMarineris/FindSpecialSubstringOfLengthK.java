@@ -1,6 +1,6 @@
 package dsa.leetcode.VallesMarineris;
 
-public class Solution {
+public class FindSpecialSubstringOfLengthK {
 
   /**
    * https://leetcode.com/problems/find-special-substring-of-length-k/description/

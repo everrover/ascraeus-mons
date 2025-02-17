@@ -2,13 +2,12 @@ package dsa.leetcode.VallesMarineris;
 
 import java.util.Arrays;
 
-public class Solution {
+public class LengthOfLongestVShapedDiagonalSegment {
   /**
    * https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/
    *
-   * The solution involves a Depth-First Search (DFS) approach along with dynamic programming
-   * to keep track of the length of the diagonal segments. The algorithm considers both the current
-   * direction and checks for a possible 90-degree turn.
+   * Understanding the problem was tricky.
+   * The implementation of DFS in itself was tricky. I put memoization on top of it, that's it.
    *
    * TC: O(n * m) SC: O(n * m)
    * #dfs #dynamic-programming #grid #hard
@@ -32,7 +31,7 @@ public class Solution {
       res = Math.max(res, 1 + dfs(ni, nj, ndir, 0, nex, m, n, g, dp));
     }
     return dp[i][j][dir][pivoted] = res;
-  }
+  } // i'm sure the `expected` parameter should be memoized, but don't have an example use-case
 
   public int lenOfVDiagonal(int[][] grid) {
     final int m = grid.length, n = grid[0].length;
@@ -42,11 +41,12 @@ public class Solution {
     int res = 0;
     for(int i = 0; i < m; i++){
       for(int j = 0; j < n; j++){
-        if (grid[i][j] == 1) {
-          // Start the DFS traversal from any cell containing '1'
-          for(int dir = 0; dir < 4; dir++) {
-            res = Math.max(res, dfs(i, j, dir, 1, 2, m, n, grid, dp));
-          }
+        if(grid[i][j] != 1) continue;
+        for(int dir=0; dir<4; dir++){
+          res = Math.max(
+            res,
+            dfs(i,j,dir,1,1,m,n,grid,dp)
+          );
         }
       }
     }

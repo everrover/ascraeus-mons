@@ -11,27 +11,28 @@ import java.util.Arrays;
  * - On even-numbered days, choose two largest and two smallest pizzas.
  *
  * Using this greedy approach ensures an optimal solution.
+ * 
+ * earlier thought of only selecting the largest pizza on odd days and two largest on even days. didn't work in
+ * case such as `[x x x x x x x x x x 4 4 5 5 5 5]` two 4's would've been picked... but ideally, one 4 and three 5's
  *
  * TC: O(n log n) SC: O(1)
  * #greedy #array #sorting #medium
  */
 
-class Solution {
+class EatPizzas {
   public long maxWeight(int[] pizzas) {
-    Arrays.sort(pizzas);  // Sort the pizzas to easily access smallest and largest
-    final int n = pizzas.length / 4;
+    Arrays.sort(pizzas);
+    final int n = pizzas.length/4;
+    final int candsize = ((n/2) * 3) + (n%2==0?0:1);
     long res = 0;
-    int i = 4 * n - candsize, j = 4 * n - 1, k = 1;
-    final int candsize = ((n / 2) * 3) + (n % 2 == 0 ? 0 : 1);
-    while (k <= n) {
-      if (k % 2 == 0) {  // Even day: add two largest distinct pizzas
-        res += pizzas[j];
-        j--;
-      } else {  // Odd day: add one smallest and three largest pizzas
-        res += pizzas[j];
-        j--;
+    int i=4*n-candsize, j=4*n-1, k = 1; 
+    while(k<=n){
+      if(k%2 == 0) {
         res += pizzas[i];
-        i += 2;
+        i+=2;
+      }else{
+        res += pizzas[j];
+        j--;
       }
       k++;
     }
