@@ -1,6 +1,6 @@
 package dsa.leetcode.mithrim_montez;
 
-class Solution {
+class CountingWordsWithAGivenPrefix {
   /**
    * https://leetcode.com/problems/counting-words-with-a-given-prefix/description/?envType=daily-question&envId=2025-01-09
    *

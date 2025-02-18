@@ -12,25 +12,28 @@ public class ConstructSmallestNumberFromDiString {
    * #string #backtracking #stack #greedy #medium
    */
   
-  public String constructSmallestNumberFromDIString(String pattern) {
-    boolean[] used = new boolean[10];
-    return dfs(0, pattern, new StringBuilder(), 0, used);
-  }
-  
-  private String dfs(int idx, String pattern, StringBuilder newstr, int prev, boolean[] used) {
-    if (idx == pattern.length() + 1) {
-      return newstr.toString();
+   public String smallestNumber(String pattern) {
+    boolean []used = new boolean[10];
+    for(int i=1; i<10; i++){
+
+      used[i] = true;
+      String res = dfs(0, pattern.toCharArray(), ""+i, i, used);
+      used[i] = false;
+      if(res != null) return res;
     }
-    for (int i = 1; i <= 9; i++) {
-      if (used[i]) continue;
-      if ((idx == 0 || (pattern.charAt(idx - 1) == 'I' && prev < i) || (pattern.charAt(idx - 1) == 'D' && prev > i))) {
-        newstr.append(i);
-        used[i] = true;
-        String res = dfs(idx + 1, pattern, newstr, i, used);
-        if (res != null) return res;
-        used[i] = false;
-        newstr.deleteCharAt(newstr.length() - 1);
-      }
+    return "";
+  }
+
+  private String dfs(int idx, char []pattern, String curr, int prev, final boolean []used){
+    if(idx == pattern.length) return curr;
+    int inc = pattern[idx]=='D'?-1:1;
+    for(int i=prev+inc; i<10 && i>0; i+=inc){
+      if(used[i]) continue;
+      String newstr = curr + i;
+      used[i] = true;
+      String res = dfs(idx+1, pattern, newstr, i, used);
+      used[i] = false;
+      if(res != null) return res;
     }
     return null;
   }
