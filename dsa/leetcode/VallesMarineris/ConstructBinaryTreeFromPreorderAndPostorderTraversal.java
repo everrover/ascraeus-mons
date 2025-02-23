@@ -20,13 +20,37 @@ public class ConstructBinaryTreeFromPreorderAndPostorderTraversal {
      * #tree #binary-tree #divide-and-conquer #medium
      */
     
-    private TreeNode construct(int st, int en, int postst, int posten, int []preorder, int []idxpostorder) {
-        if (st > en) return null;
-        else if (st == en) return new TreeNode(preorder[st]);
-        int nleft = idxpostorder[preorder[st + 1]] - postst + 1;
-        TreeNode root = new TreeNode(preorder[st]);
-        root.left = construct(st + 1, st + nleft, postst, preorder, idxpostorder);
-        root.right = construct(st + nleft + 1, en, postst + nleft, preorder, idxpostorder);
-        return root;
+  public TreeNode constructFromPrePost(int[] preorder, int[] postorder) {
+    final int n = postorder.length;
+    TreeNode root = new TreeNode();
+    int []indexInPostOrder = new int[n+1];
+    for(int i=0; i<n; i++){
+        indexInPostOrder[postorder[i]] = i;
     }
+    return construct(0, n-1, 0, preorder, indexInPostOrder);
+  }
+
+  private TreeNode construct(int st, int en, int postst, int []preorder, int []idxpostorder){
+    if(st>en) return null;
+    else if(st==en) return new TreeNode(preorder[st]);
+    int nleft = idxpostorder[preorder[st+1]]-postst+1;
+    TreeNode root = new TreeNode(preorder[st]);
+    root.left = construct(st+1, st+nleft, postst, preorder, idxpostorder);
+    root.right = construct(st+nleft+1, en, postst+nleft, preorder, idxpostorder);
+    return root;
+  }
+
+  
+  private static class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode() {}
+     TreeNode(int val) { this.val = val; }
+     TreeNode(int val, TreeNode left, TreeNode right) {
+         this.val = val;
+         this.left = left;
+         this.right = right;
+     }
+  }
 }
