@@ -450,11 +450,12 @@
 | [3456. Find Special Substring of Length K](./dsa/leetcode/VallesMarineris/FindSpecialSubstringOfLengthK.java) | #string #easy |
 | [3457. Eat Pizzas!](./dsa/leetcode/VallesMarineris/EatPizzas.java) | #greedy #array #sorting #medium |
 | [3459. Length of Longest V Shaped Diagonal Segment](./dsa/leetcode/VallesMarineris/LengthOfLongestVShapedDiagonalSegment.java) | #dfs #dynamic-programming #grid #hard |
+| [3461. Check If Digits Are Equal in String After Operations](./dsa/leetcode/VallesMarineris/CheckIfDigitsAreEqualInStringAfterOperations.java) | #math #string #simulation #easydifficulty |
 | --- | --- |
 
-DSA Progress: 298/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 299/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 739/1600
+All problems progress in LeetCode: 740/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
