@@ -1,17 +1,14 @@
 package dsa.leetcode.VallesMarineris;
 
-class Solution {
+class CheckIfDigitsAreEqualInStringAfterOperations {
 
   /**
    * https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/
    *
-   * For each pair of consecutive digits in the string, calculate the sum of the
-   * two digits modulo 10. Continuously perform this operation until the string
-   * has only two digits left. If the final two digits are equal, return true;
-   * otherwise, return false.
+   * Do as is said...
    *
    * TC: O(n^2) SC: O(n)
-   * #math #string #simulation #easydifficulty
+   * #math #string #simulation #easy
    */
 
   public boolean hasSameDigits(String s) {
