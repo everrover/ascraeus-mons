@@ -196,6 +196,7 @@
 | [1514. Path with Maximum Probability](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/PathWithMaxProbability/sol.md) | #dijkstras-algorithm |
 | [1515. Best Position for a Service Centre](./dsa/leetcode/RhoCassiopeiae/BestPositionForAServiceCentre.java) | #array #math #geometry #randomized #hard |
 | [1521. Find a Value of a Mysterious Function Closest to Target](./SuperMario/FindValueOfMysteriousFunctionClosestToTarget.java) | #bitset-ops #hashing #optimization #cheated🙃 |
+| [1524. Number of Sub-arrays With Odd Sum](./dsa/leetcode/VallesMarineris/NumberOfSubarraysWithOddSum.java) | #array #math #dynamic-programming #prefix-sum #medium |
 | [1534. Count Good Triplets](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountGoodTriplets/Solution.java)   | |
 | [1547. Minimum Cost to Cut a Stick](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MinimumCostToCutStick/sol.md) | |
 | [1570. Dot Product of Two Sparse Vectors](./dsa/leetcode/kuiperBelt/DotProductOfTwoSparseVectors.java) | #array #hash-table #two-pointers #design #medium |
@@ -454,9 +455,9 @@
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 300/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 301/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 741/1600
+All problems progress in LeetCode: 742/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
