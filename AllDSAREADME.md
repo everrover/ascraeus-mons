@@ -436,6 +436,7 @@
 | [3423. Maximum Difference Between Adjacent Elements in a Circular Array](./dsa/leetcode/mithrim_montez/MaximumDifferenceBetweenAdjacentElementsInCircularArray.java) | #array #circular-array #easy |
 | [3424. Minimum Cost to Make Arrays Identical](./dsa/leetcode/mithrim_montez/MinimumCostToMakeArraysIdentical.java) | #sorting #greedy #array #medium |
 | [3427. Sum of Variable Length Subarrays](./dsa/leetcode/mithrim_montez/SumOfVariableLengthSubarrays.java) | #bruteforce #subarray #sum #easy |
+| [3428. Maximum and Minimum Sums of at Most Size K Subsequences](./dsa/leetcode/VallesMarineris/MaximumAndMinimumSumsOfAtMostSizeKSubsequences.java) | #array #dynamic-programming #sorting #combinatorics #medium |
 | [3429. Paint House IV](./dsa/leetcode/mithrim_montez/PaintHouseIV.java) | #dp #two-pointers #medium |
 | [3431. Minimum Unlocked Indices to Sort Nums](./dsa/leetcode/mithrim_montez/MinimumUnlockedIndicesToSortNums.java) | #array #greedy #sort #medium |
 | [3432. Count Partitions with Even Sum Difference](./dsa/leetcode/mithrim_montez/CountPartitionsWithEvenSumDifference.java) | #array #greedy #easy |
@@ -456,9 +457,9 @@
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 302/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 303/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 743/1600
+All problems progress in LeetCode: 744/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 

@@ -1,0 +1,36 @@
+package dsa.leetcode.VallesMarineris;
+
+import java.util.Arrays;
+
+public class MaximumAndMinimumSumsOfAtMostSizeKSubsequences {
+  
+  /**
+   * https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subsequences/description/
+   *
+   * Sort the array. Then, for each subsequence of size up to k, calculate the sum of the maximum and minimum elements.
+   * Use combinatorics to efficiently calculate the sum over all valid subsequences.
+   * 
+   * TC: O(n^2) SC: O(n * k)
+   * #array #dynamic-programming #sorting #combinatorics #medium
+   */
+
+  public int minMaxSums(int[] nums, int k) {
+    Arrays.sort(nums);
+    long [][]ncr = new long[nums.length+1][k+1];
+    ncr[0][0] = 1;
+    for (int n = 1; n <= nums.length; n++) {
+      ncr[n][0] = 1;
+      for (int r = 1; r <= k; r++)
+        ncr[n][r] = (ncr[n - 1][r - 1] + ncr[n - 1][r]) % 1000000007;
+    }
+    long res = 0;
+    for(int n = 0; n < nums.length; n++){
+      long count = 0;
+      for(int r = 0; r <= k - 1; r++){
+        if(n >= r) count = (count + ncr[n][r]) % 1000000007;
+      }
+      res = (res + (nums[n] + nums[nums.length - n - 1]) * count) % 1000000007;
+    }
+    return (int)res;
+  }
+}
