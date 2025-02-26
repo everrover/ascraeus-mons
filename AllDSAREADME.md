@@ -455,12 +455,13 @@
 | [3457. Eat Pizzas!](./dsa/leetcode/VallesMarineris/EatPizzas.java) | #greedy #array #sorting #medium |
 | [3459. Length of Longest V Shaped Diagonal Segment](./dsa/leetcode/VallesMarineris/LengthOfLongestVShapedDiagonalSegment.java) | #dfs #dynamic-programming #grid #hard |
 | [3461. Check If Digits Are Equal in String After Operations](./dsa/leetcode/VallesMarineris/CheckIfDigitsAreEqualInStringAfterOperations.java) | #math #string #simulation #easydifficulty |
+| [3462. Maximum Sum With at Most K Elements](./dsa/leetcode/VallesMarineris/MaximumSumWithAtMostKElements.java) | #array #greedy #sorting #heap #matrix #medium |
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 304/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 305/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 745/1600
+All problems progress in LeetCode: 746/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
