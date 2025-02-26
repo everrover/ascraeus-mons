@@ -221,6 +221,7 @@
 | [1730. Shortest Path to Get Food](./dsa/leetcode/kuiperBelt/ShortestPathToGetFood.java)   | #breadth-first-search #matrix #medium |
 | [1735. Count Ways to Make Array With Product](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CountWaysToMakeArrayWithProduct.java) | #sieve-eratosthenes #combinatorics #math #dp #tricky               |
 | [1737. Change Minimum Characters to Satisfy One of Three Conditions](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChangeMinimumCharactersToSatisfyOneOfThreeConditions/sol.md) | |
+| [1749. Maximum Absolute Sum of Any Subarray](./dsa/leetcode/VallesMarineris/MaximumAbsoluteSumOfAnySubarray.java) | #array #dynamic-programming #medium |
 | [1752. Check if Array Is Sorted and Rotated](./dsa/leetcode/mithrim_montez/CheckIfArrayIsSortedAndRotated.java) | #array #rotation #check #easy |
 | [1761. Minimum Degree of a Connected Trio in a Graph](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumDegreeOfConnectedTrioInGraph.java) | #BRUTE-force #graph |
 | [1762. Buildings With an Ocean View](./dsa/leetcode/kuiperBelt/BuildingsWithAnOceanView.java) | #array #stack #monotonic-stack #medium |
@@ -455,9 +456,9 @@
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 301/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 302/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 742/1600
+All problems progress in LeetCode: 743/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
