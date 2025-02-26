@@ -7,7 +7,11 @@ public class TupleWithSameProductSolvedMedium {
   /**
    * https://leetcode.com/problems/tuple-with-same-product/description/?envType=daily-question&envId=2025-02-06
    *
-   * Count the frequency of each product of two distinct numbers in the array. Then, calculate the permutations with these products.
+   * Count the frequency of each product of two distinct numbers in the array. 
+   * Then, calculate the permutations with these products.
+   * 
+   * Since all numbers are distinct, the pairs we select by indexes are by themselves distinct.
+   * i.e. automatically are a != b != c != d.
    * 
    * TC: O(n^2) SC: O(n)
    * #array #hash-table #counting #medium

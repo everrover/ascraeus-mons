@@ -2,10 +2,11 @@ package dsa.leetcode.VallesMarineris;
 
 import java.util.*;
 
-public class Solution {
+public class MaximumSumWithAtMostKElements {
   /**
    * https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/description/
    *
+   * Trivial greedy choice : 
    * Sort each row in descending order and take the top elements as specified by the limits for each row.
    * Use a max-heap to extract the largest `k` elements efficiently and compute the sum.
    *
@@ -13,24 +14,18 @@ public class Solution {
    * #array #greedy #sorting #heap #matrix #medium
    */
 
-  public long maxSum(int[][] grid, int[] limits, int k) {
-    Queue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+   public long maxSum(int[][] grid, int[] limits, int k) {
+    Queue<Integer> pq = new PriorityQueue<>();
+    for(int []g: grid) Arrays.sort(g);
+    for(int j=0; j<grid.length; j++){
+      int []g = grid[j];
+      for(int i=0; i<limits[j] && i<g.length; i++) pq.offer(g[g.length-1-i]);
+      while(pq.size()>k) pq.poll();
+    }
     long res = 0;
-    for (int[] g : grid) {
-      Arrays.sort(g);
-      for (int j = 0; j < g.length; j++) {
-        int limit = limits[j];
-        for (int i = 0; i < limit && i < g.length; i++) {
-          pq.offer(g[g.length - 1 - i]);
-        }
-      }
-    }
-
-    while (!pq.isEmpty() && k > 0) {
+    while(!pq.isEmpty()){
       res += pq.poll();
-      k--;
     }
-
     return res;
   }
 }
