@@ -217,6 +217,7 @@
 | [1718. Construct the Lexicographically Largest Valid Sequence](./dsa/leetcode/VallesMarineris/ConstructTheLexicographicallyLargestValidSequence.java) | #array #backtracking #medium |
 | [1720. Decode XORed arr](https://github.com/everrover/mount-kronos/blob/main/NinetySix/DecodeXORedArr.java) | #binary-math #easy |
 | [1722. Minimise Hamming Distance](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MinimiseHammingDistance/Solution.java) | #graphs #math-and-logic #strongly-connected-components #dfs        |
+| [1726. Tuple with Same Product](./dsa/leetcode/VallesMarineris/TupleWithSameProductSolvedMedium.java) | #array #hash-table #counting #medium |
 | [1728. Cat and mouse II](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CatAndMouseII.java)                   | #graphs #dfs #dp #memoiation #game-theory #trick #dfs-no-visit-track #dfs                                     |
 | [1730. Shortest Path to Get Food](./dsa/leetcode/kuiperBelt/ShortestPathToGetFood.java)   | #breadth-first-search #matrix #medium |
 | [1735. Count Ways to Make Array With Product](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CountWaysToMakeArrayWithProduct.java) | #sieve-eratosthenes #combinatorics #math #dp #tricky               |
@@ -457,9 +458,9 @@
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 303/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 304/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 744/1600
+All problems progress in LeetCode: 745/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
