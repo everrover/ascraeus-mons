@@ -299,6 +299,7 @@
 | [2444. Count Subarrays With Fixed Bounds](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountSubarraysWithFixedBounds.java) | #tricky #sliding-windows #twist |
 | [2456. Most Popular Video Creator](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MostPopularVideoCreator.java) | #greedy #priority-queue #sorting #math #optimization               |
 | [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/HtOfBinTreeAfterSubtreeRemovalQueries.java) | #DFS #bfs #binary-tree #tricky #best-and-2nd-best |
+| [2460. Apply Operations to an Array](./dsa/leetcode/VallesMarineris/ApplyOperationsToAnArray.java) | #array #two-pointers #simulation #easy |
 | [2466. Count Ways To Build Good Strings](./dsa/leetcode/fermi_s_paradox/CountWaysToBuildGoodStrings.java) | #dynamic-programming #medium |
 | [2477. MinimumFuelToReportToCapitol](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MinimumFuelToReportToCapitol.java) | #DFS #bfs #tree #post-order-traversal #math-and-logic              |
 | [2482. Difference Between Ones and Zeros in Row and Column](./dsa/leetcode/fermi_s_paradox/DifferenceBetweenOnesAndZerosInRowAndColumn.java) | #array #matrix #simulation #medium |
@@ -459,9 +460,9 @@
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 305/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 306/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 746/1600
+All problems progress in LeetCode: 747/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
