@@ -459,12 +459,13 @@
 | [3462. Maximum Sum With at Most K Elements](./dsa/leetcode/VallesMarineris/MaximumSumWithAtMostKElements.java) | #array #greedy #sorting #heap #matrix #medium |
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
 | [3471. Find the Largest Almost Missing Integer](./dsa/leetcode/VallesMarineris/FindTheLargestAlmostMissingInteger.java) | #array #sliding-window #counting #easy |
+| [3471. Find the Largest Almost Missing Integer](./dsa/leetcode/VallesMarineris/FindTheLargestAlmostMissingInteger.java) | #arrays #sliding-window #easy |
 | [3472. Longest Palindromic Subsequence After at Most K Operations](./dsa/leetcode/VallesMarineris/LongestPalindromicSubsequenceAfterAtMostKOperations.java) | #dp #palindrome #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 308/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 309/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 749/1600
+All problems progress in LeetCode: 750/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
