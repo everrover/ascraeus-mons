@@ -458,11 +458,12 @@
 | [3461. Check If Digits Are Equal in String After Operations](./dsa/leetcode/VallesMarineris/CheckIfDigitsAreEqualInStringAfterOperations.java) | #math #string #simulation #easydifficulty |
 | [3462. Maximum Sum With at Most K Elements](./dsa/leetcode/VallesMarineris/MaximumSumWithAtMostKElements.java) | #array #greedy #sorting #heap #matrix #medium |
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
+| [3472. Longest Palindromic Subsequence After at Most K Operations](./dsa/leetcode/VallesMarineris/LongestPalindromicSubsequenceAfterAtMostKOperations.java) | #dp #palindrome #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 306/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 307/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 747/1600
+All problems progress in LeetCode: 748/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
