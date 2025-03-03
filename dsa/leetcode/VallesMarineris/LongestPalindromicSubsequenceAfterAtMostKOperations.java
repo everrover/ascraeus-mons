@@ -27,6 +27,8 @@ public class LongestPalindromicSubsequenceAfterAtMostKOperations {
     
     int res = Math.max(dfs(idx+1, jdx, kdx, chs, k, dp), dfs(idx, jdx-1, kdx, chs, k, dp));
     int dist = dist(chs[idx], chs[jdx]);
+    // if(chs[idx] == chs[jdx]) res = Math.max(res, dfs(idx+1, jdx-1, kdx, chs, k, dp) + 2);
+    // else
     if(dist <= kdx)
       res = Math.max(res, 2 + dfs(idx+1, jdx-1, kdx-dist, chs, k, dp));
     return dp[idx][jdx][kdx] = res;

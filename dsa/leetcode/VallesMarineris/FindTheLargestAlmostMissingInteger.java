@@ -22,7 +22,8 @@ public class FindTheLargestAlmostMissingInteger {
     for (int i = 0; i < nums.length && i < k; i++) {
       cnt[nums[i]]++;
     }
-
+    for (int idx = 0; idx < cnt.length; idx++) if (cnt[idx] > 0) rhash[idx]++;
+    
     // Process each element in the subarray and adjust as window slides
     for (int i = k; i < nums.length; i++) {
       cnt[nums[i]]++;
@@ -31,9 +32,9 @@ public class FindTheLargestAlmostMissingInteger {
       // Update khash for the current subarray's elements
       for (int idx = 0; idx < cnt.length; idx++) if (cnt[idx] > 0) rhash[idx]++;
 
-      // Identify the maximum almost missing number
-      for (int idx = 0; idx < cnt.length; idx++) if (rhash[idx] == 1) res = Math.max(res, idx);
     }
+    // Identify the maximum almost missing number
+    for (int idx = 0; idx < cnt.length; idx++) if (rhash[idx] == 1) res = Math.max(res, idx);
 
     return res;
   }
