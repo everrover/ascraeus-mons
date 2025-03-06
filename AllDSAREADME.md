@@ -164,6 +164,7 @@
 | [1130. Minimum Cost Tree From Leaf Values](./dsa/leetcode/RhoCassiopeiae/MinimumCostTreeFromLeafValues.java) | #array #dynamic-programming #stack #monotonic-stack #greedy #medium |
 | [1143. Longest common sub-seq](https://github.com/everrover/mount-kronos/blob/main/NinetySix/LongestCommonSubseq.java) | #dynamic-programming #memory-optimization |
 | [1147. Longest Chunked Palindrome Decomposition](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LongestChunkedPalindromeDecomposition.java) | #dynamic-programming #palindrome #no-effort #two-pointer #string   |
+| [1151. Minimum Swaps to Group All 1's Together](./dsa/leetcode/VallesMarineris/MinimumSwapsToGroupAllOnesTogether.java) | #array #sliding-window #medium |
 | [1155. Rolling dice with sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/DiceRollsWithTargetSum.java) | #dynamic-programming #memory-optimization |
 | [1192. Connections in a Network - Articulation points](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ArticulationPoints/sol.md) | #dynamic-programming #graph-theory #cycle-detection               |
 | [1202. Smallest String With Swaps](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/SmallestStringWithSwaps/sol.md) | |
@@ -467,9 +468,9 @@
 | [3473. Sum of K Subarrays With Length at Least M](./dsa/leetcode/VallesMarineris/SumOfKSubarraysWithLengthAtLeastM.java) | #dynamic-programming #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 313/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 314/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 754/1600
+All problems progress in LeetCode: 755/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
