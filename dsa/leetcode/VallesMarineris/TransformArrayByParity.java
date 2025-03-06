@@ -1,6 +1,6 @@
 package dsa.leetcode.VallesMarineris;
 
-class Solution {
+class TransformArrayByParity {
   /**
    * https://leetcode.com/problems/transform-array-by-parity/description/
    *

@@ -28,7 +28,6 @@ public class SumOfKSubarraysWithLengthAtLeastM {
    *     if(nextres != S) res = max(nextres + p[idx+m-1+1]-p[idx], res);
    *   }
    * }
-   * 
    * ```
    *
    * TC: O(n*k) SC: O(n*k)
@@ -50,7 +49,7 @@ public class SumOfKSubarraysWithLengthAtLeastM {
     dp = new int[2][nums.length][k+1];
     for(int [][]dd: dp) {
       for(int []d: dd) {
-        Arrays.fill(d, S);
+        Arrays.fill(d, -1);
         d[0] = 0;
       }
     }
@@ -64,7 +63,7 @@ public class SumOfKSubarraysWithLengthAtLeastM {
   private int dfs(int idx, int kdx, int cont){
     if(idx == nums.length && kdx > 0) return S;
     else if(idx == nums.length || kdx == 0) return 0;
-    else if(dp[cont][idx][kdx] != S) return dp[cont][idx][kdx];
+    else if(dp[cont][idx][kdx] != -1) return dp[cont][idx][kdx];
 
     // start at idx
     int res = S;
