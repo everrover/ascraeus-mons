@@ -1,0 +1,30 @@
+package dsa.leetcode.VallesMarineris;
+
+import java.util.Arrays;
+
+public class FindMinimumCostToRemoveArrayElements {
+
+    /**
+     * https://leetcode.com/problems/find-minimum-cost-to-remove-array-elements/description/
+     *
+     * The problem is approached using dynamic programming. The key idea is to define a dp state dp[i][j] where i is the last element to be removed, and j is the starting index of the current prefix.
+     * The function recursively calculates the cost by exploring the removal of elements in a specific sequence and choosing the sequence with minimal cost.
+     *
+     * TC: O(n^2) SC: O(n^2)
+     * #array #dynamic-programming #medium
+     */
+
+    public int minCost(int[] nums) {
+        int[][] dp = new int[nums.length][nums.length];
+        for (int[] d : dp) Arrays.fill(d, -1);
+        return dfs(0, 1, nums, dp);
+    }
+
+    private int dfs(int idx, int jdx, int[] nums, int[][] dp) {
+        if (jdx == nums.length) return nums[idx];
+        if (jdx == nums.length - 1) return Math.max(nums[idx], nums[jdx]);
+        if (dp[idx][jdx] != -1) return dp[idx][jdx];
+        int res = Math.max(nums[idx], nums[jdx]) + dfs(jdx + 1, jdx + 2, nums, dp);
+        return dp[idx][jdx] = res;
+    }
+}

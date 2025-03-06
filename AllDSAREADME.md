@@ -460,15 +460,16 @@
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
 | [3467. Transform Array by Parity](./dsa/leetcode/VallesMarineris/TransformArrayByParity.java) | #array #sorting #counting #easy |
 | [3468. Find the Number of Copy Arrays](./dsa/leetcode/VallesMarineris/FindTheNumberOfCopyArrays.java) | #array #math #medium |
+| [3469. Find Minimum Cost to Remove Array Elements](./dsa/leetcode/VallesMarineris/FindMinimumCostToRemoveArrayElements.java) | #array #dynamic-programming #medium |
 | [3471. Find the Largest Almost Missing Integer](./dsa/leetcode/VallesMarineris/FindTheLargestAlmostMissingInteger.java) | #array #sliding-window #counting #easy |
 | [3471. Find the Largest Almost Missing Integer](./dsa/leetcode/VallesMarineris/FindTheLargestAlmostMissingInteger.java) | #arrays #sliding-window #easy |
 | [3472. Longest Palindromic Subsequence After at Most K Operations](./dsa/leetcode/VallesMarineris/LongestPalindromicSubsequenceAfterAtMostKOperations.java) | #dp #palindrome #dynamic-programming #medium |
 | [3473. Sum of K Subarrays With Length at Least M](./dsa/leetcode/VallesMarineris/SumOfKSubarraysWithLengthAtLeastM.java) | #dynamic-programming #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 312/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 313/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 753/1600
+All problems progress in LeetCode: 754/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
