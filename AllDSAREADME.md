@@ -458,15 +458,16 @@
 | [3461. Check If Digits Are Equal in String After Operations](./dsa/leetcode/VallesMarineris/CheckIfDigitsAreEqualInStringAfterOperations.java) | #math #string #simulation #easydifficulty |
 | [3462. Maximum Sum With at Most K Elements](./dsa/leetcode/VallesMarineris/MaximumSumWithAtMostKElements.java) | #array #greedy #sorting #heap #matrix #medium |
 | [3466. Maximum Coin Collection](./dsa/leetcode/VallesMarineris/MaximumCoinCollection.java) | #dynamic-programming #medium |
+| [3467. Transform Array by Parity](./dsa/leetcode/VallesMarineris/TransformArrayByParity.java) | #array #sorting #counting #easy |
 | [3471. Find the Largest Almost Missing Integer](./dsa/leetcode/VallesMarineris/FindTheLargestAlmostMissingInteger.java) | #array #sliding-window #counting #easy |
 | [3471. Find the Largest Almost Missing Integer](./dsa/leetcode/VallesMarineris/FindTheLargestAlmostMissingInteger.java) | #arrays #sliding-window #easy |
 | [3472. Longest Palindromic Subsequence After at Most K Operations](./dsa/leetcode/VallesMarineris/LongestPalindromicSubsequenceAfterAtMostKOperations.java) | #dp #palindrome #dynamic-programming #medium |
 | [3473. Sum of K Subarrays With Length at Least M](./dsa/leetcode/VallesMarineris/SumOfKSubarraysWithLengthAtLeastM.java) | #dynamic-programming #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 310/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 311/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 751/1600
+All problems progress in LeetCode: 752/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
