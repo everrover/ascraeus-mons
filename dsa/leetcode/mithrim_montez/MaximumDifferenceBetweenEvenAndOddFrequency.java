@@ -1,6 +1,6 @@
 package dsa.leetcode.mithrim_montez;
 
-class Solution {
+class MaximumDifferenceBetweenEvenAndOddFrequency {
 
   /**
    * https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/description/

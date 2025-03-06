@@ -4,7 +4,10 @@ public class MinimumSwapsToGroupAllOnesTogether {
   /**
    * https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/description/?envType=weekly-question&envId=2025-03-01
    *
-   * The problem is to group all '1's together in a binary array. Calculate the total number of '1's to form a sliding window. Use the sliding window technique to find the subarray with maximum '1's, which will require minimum swaps to gather all '1's.
+   * The problem is to group all '1's together in a binary array. 
+   * Calculate the total number of '1's to form a sliding window. 
+   * Use the sliding window technique to find the subarray with maximum '1's, 
+   * which will require minimum swaps to gather all '1's.
    *
    * TC: O(n) SC: O(1)
    * #array #sliding-window #medium

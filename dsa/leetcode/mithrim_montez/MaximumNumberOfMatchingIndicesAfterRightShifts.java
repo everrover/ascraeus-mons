@@ -1,6 +1,6 @@
 package dsa.leetcode.mithrim_montez;
 
-class Solution {
+class MaximumNumberOfMatchingIndicesAfterRightShifts {
   /**
    * https://leetcode.com/problems/maximum-number-of-matching-indices-after-right-shifts/description/
    *
