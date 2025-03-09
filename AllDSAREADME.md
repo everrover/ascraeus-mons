@@ -130,6 +130,7 @@
 | [857. Minimum Cost to Hire K Workers](./dsa/leetcode/kuiperBelt/MinimumCostToHireKWorkers.java) | #greepy #sorting #heap #priority-queue #hard |
 | [862. Shortest Subarray with Sum at Least K](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithSumAtLeastK.java) | #array #queue #prefix-sum #monotonic-queue #hard |
 | [863. All Nodes Distance K in Binary Tree](./dsa/leetcode/RhoCassiopeiae/AllNodesDistanceKInBinaryTree.java) | #binary-tree #tree #dfs #bfs #medium |
+| [873. Length of Longest Fibonacci Subsequence](./dsa/leetcode/VallesMarineris/LengthOfLongestFibonacciSubsequence.java) | #array #hash-table #dynamic-programming #medium |
 | [875. Koko eating bananas](https://github.com/everrover/mount-kronos/blob/main/SuperMario/KokoEatingBananas.java) | #binary-search #bin-search-over-solution-space |
 | [877. Stone Game](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/StoneGame/sol.md)                            | #dynamic-programming #game-theory #greedy #math |
 | [887. Super Egg Drop](https://github.com/everrover/mount-kronos/blob/main/SuperMario/EggDroppingPuzzle.java) | #binary-search #dynamic-programming #tricky-optimization           |
@@ -471,9 +472,9 @@
 | [3473. Sum of K Subarrays With Length at Least M](./dsa/leetcode/VallesMarineris/SumOfKSubarraysWithLengthAtLeastM.java) | #dynamic-programming #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 317/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 318/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 758/1600
+All problems progress in LeetCode: 759/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
