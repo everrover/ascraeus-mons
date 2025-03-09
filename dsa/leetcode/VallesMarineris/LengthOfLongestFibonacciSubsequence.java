@@ -11,6 +11,16 @@ public class LengthOfLongestFibonacciSubsequence {
    * For each pair of numbers, it checks if the difference exists as a prior number in the sequence.
    * If it does, it extends the length by 1. If not, it starts a new sequence with these two numbers.
    * 
+   * For an index, 0, we don't have any previous numbers to check for, so res=1;
+   * For an index, 1, we have an initial pair of numbers, so res=2;
+   * For an index, 2, we have a possible value to check for at `0`, so we need to insert `0` indexed element
+   * into the map.
+   * Similarly for index 3 and onwards, we insert the element at index `idx-2` into the map to find the prevPrev
+   * using the `curr` and `prev` values. 
+   * i.e. `prevPrev = curr - prev` if it exists in the map and `prevPrev < prev`.
+   * 
+   * Second check is to ensure we pick an element that's present before the `prev` element.
+   * 
    * TC: O(n^2) SC: O(n^2)
    * #array #hash-table #dynamic-programming #medium
    */

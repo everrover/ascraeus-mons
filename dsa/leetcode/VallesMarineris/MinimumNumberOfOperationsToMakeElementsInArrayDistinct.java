@@ -7,7 +7,8 @@ public class MinimumNumberOfOperationsToMakeElementsInArrayDistinct {
   /**
    * https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/
    *
-   * To make the array distinct, remove 3 elements from the front repeatedly until no duplicates exist. The formula calculates the number of batches required.
+   * To make the array distinct, remove 3 elements from the front repeatedly until no duplicates exist. 
+   * The formula calculates the number of batches required.
    * 
    * TC: O(n) SC: O(n)
    * #array #hash-table #easy
