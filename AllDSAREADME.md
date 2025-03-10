@@ -113,6 +113,7 @@
 | [743. Network Delay Time](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/NetworkDelayTime.java) | #dijkstras-algorithm |
 | [745. Prefix and Suffix Search](./dsa/leetcode/kuiperBelt/PrefixAndSuffixSearch.java) | #trie #string #design #hard |
 | [756. Pyramid transition matrix](https://github.com/everrover/mount-kronos/blob/main/NinetySix/PyramidTransitionMatrix.java) | #dfs #bfs #recursion #backtracking |
+| [763. Partition Labels](./dsa/leetcode/VallesMarineris/PartitionLabels.java) | #hash-table #two-pointers #string #greedy #medium |
 | [778. Swim in Rising Water](./dsa/leetcode/jovianMoonOrbit/SwimInRisingWater.java) | #array #binary-search #dfs #bfs #union-find #heap #matrix #hard |
 | [780. Reaching Points](./dsa/leetcode/fermi_s_paradox/ReachingPoints.java) | #math #reachability #hard |
 | [789. Escaaape the ghosts](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PacmanEscapesTheGhost.java) | #math #easy |
@@ -473,9 +474,9 @@
 | [3473. Sum of K Subarrays With Length at Least M](./dsa/leetcode/VallesMarineris/SumOfKSubarraysWithLengthAtLeastM.java) | #dynamic-programming #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 319/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 320/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 760/1600
+All problems progress in LeetCode: 761/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
