@@ -417,6 +417,7 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | [3255. Find the Power of K-Size Subarrays II](./dsa/leetcode/jovianMoonOrbit/FindThePowerOfKSizeSubarraysII.java) | #array #sliding-window #medium |
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
+| [3306. Count of Substrings Containing Every Vowel and K Consonants II](./dsa/leetcode/VallesMarineris/CountOfSubstringsContainingEveryVowelAndKConsonantsIi.java) | #sliding-window #string #hash-table #medium |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #combinatorics #medium |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #medium |
 | [3341. Find Minimum Time to Reach Last Room](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomI.java) | #array #graph #priority-queue #matrix #shortest-path #medium |
@@ -474,9 +475,9 @@
 | [3473. Sum of K Subarrays With Length at Least M](./dsa/leetcode/VallesMarineris/SumOfKSubarraysWithLengthAtLeastM.java) | #dynamic-programming #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 320/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 321/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 761/1600
+All problems progress in LeetCode: 762/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
