@@ -1,4 +1,9 @@
 
+### Some other references
+
+- https://www.youtube.com/watch?v=SAa6xFyATcw&t=745s&ab_channel=Jordanhasnolife
+- 
+
 ### Requirements:
 - User should be able to ASK or BID for a stock[or any financial instruments] on stock exchange
 - Users should be able to see realtime value of their portfolio and each component of it
@@ -52,7 +57,7 @@ Reducing number of calls to the exchage(s)
   - Basically exploit SE to the fullest
 - To have real high frequency algorithmic trades a separate tier can be created where calls would be batched and sent together to the SE without relying on StockCaller - easier to impl - definitely more costly
 
-### User-facing servers - RDBMS
+### User-facing servers - RDBMS#1
 
 - RDBMS : Maintains write consistency. Especially w.r.t. cancellations of orders.
   - Active-Passive config based DB can be used to accomodate write-consistency and ASK/BID call workloads via SE notifications per order
@@ -66,7 +71,7 @@ Reducing number of calls to the exchage(s)
     - HTTPS REST calls
     - Will contain crucial data points
 
-**DB tables:**
+**DB tables:** 
 
 - `[userid, totalPortfolioVal, (... configs), (... profile)]` - Users
 - `[holdingId, stockId, inUse, userID, confirmationNeededOrNo, holdingBoughtAt, ]` - HOLDINGs
@@ -75,28 +80,40 @@ Reducing number of calls to the exchage(s)
   - `confirmed` flag reserves the ASK - exec at #5
 - `[bidId, stockId, userId, (inUse, reason), (others...)]` - BIDs
 
-### StockCaller | DB - RDBMS
+### StockCaller | DB - RDBMS#2
 
 - Communication
   - SC -> SE(s)
-    - UDP multicast twice/thrice
+    - UDP multicast twice/thrice / whatever's needed [diff SEs might hv different requirements]
     - Deduplication(just thinking what they might do) : Using seq number
-  - SE(s) -> SC
-    - UDP multicast rcv
-    - Deduplication : Using seq number or update-ts with hashing
-- StockCaller is acting as our gateway!
+- StockCaller is acting as our gateway and information-server
   - Consistent hashing needed to distribute workload
-  - Active-active or Active-Passive config based instances can be used per shard 
-- Sharded on `stockId`
-  - Active-active or Active-Passive config based instances can be used per shard 
-- Maintains stock relevant information
-  - Stock price aggregated across multiple SEs
-  - A set of ASKs and BIDs from out of our system to provision a view for users to gauge the market😉
-  - Sth else... if needed
+- RDBMS#2
+  - Sharded on `stockId`
+  - Active-active or Active-Passive config based instances can be used per shard to accomodate high read workloads
 
 - `[stockId, exchangeId, stockName, stockPrice, (others ..., SEBIDs, SEASKs, LastTrades), updatedAt]` - STOCKs
   - For reducing WRITEs[stock-prices] on RDBMS
 - `[seOrderId, askId/bidId, type, stockId, userId, (others...)]` - mappings
+
+### StockExchange Server : M - RDBMS#2
+- Responsible for rcv updates[notifications from a single exchange]
+- SE(s) -> SEC
+  - UDP multicast rcv
+  - Deduplication : Using seq number or update-ts with hashing- Active-active or Active-Passive config per node [a node is a single server single/multiple SE]
+  - Hardware and OS/Containers can be configured for high number of socket connections per node
+- Tracking live nodes? `zookeeper` would be needed[for heatbeats, network co-ordination and consensus checks for service] to track
+- AA will need seq numbers to accomodate dedup
+
+### Pricing Server : N - RDBMS#2
+- #SES -> #PS
+  - Web sockets based communication
+  - [M #SES servers -> N #PS servers :: communication]
+    - #PS would be excessively loaded 
+- Serves info from exchange to user-servers
+  - Stock price and other info aggregated across multiple SEs
+  - A set of aggregated ASKs and BIDs from out of our system to provision a view for users to gauge the market😉
+  - Sth else... if needed
 - Use from RDBMS - Violates SRP a bit, but prevents overwhelming the SE
   - Queries for ASKs - {[askId: price, ...], ...}
   - Queries for BIDs - {[bidId: price, ...], ...}
@@ -109,8 +126,8 @@ Reducing number of calls to the exchage(s)
 
 ### SE
 
-- They can publish on multiple streams.(most common is **UDP multicast** as is used by MQTT) Hence central notifications handler is essential.
-- 
+- They can publish on multiple streams.(most common is **UDP multicast** as is used by MQTT for exchange info and **REST calls for trade info**) Hence central notifications handler is essential.
+- They send not
 
 ### Questions??
 
@@ -119,5 +136,10 @@ Reducing number of calls to the exchage(s)
 - Since we're sharding `BIDs` and `ASKs` by `userId`'s to avoid race-conditions(due to cancellations) we'll need to call all shards for fetching `BIDs` and `ASKs` for accomodating calls/notifications from SE. 
   - To accomodate that in `mappings` table `userId` is added. So whenever we get a notification w.r.t. an `orderId` we'll route it to an appropriate shard. 
   - This helps in managing internal trades as well(if legalities allow)
+- In practice web-sockets can cause an additional overhead in application mainetence and upgrades. How do we tackle it?
+  - Using UDP multi-cast/uni-cast or native TCP based REST calls
+  - Stateless all the way
+- Why can't we have a central notification service?
+  - Multi read-write overhead to different services. Complicates maintenence and design.
 
 p.s. Notifications can be called events, request, logs, whatever we'd like to say.
