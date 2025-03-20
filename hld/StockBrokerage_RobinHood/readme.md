@@ -55,13 +55,20 @@ Reducing number of calls to the exchage(s)
 ### User-facing servers - RDBMS
 
 - RDBMS : Maintains write consistency. Especially w.r.t. cancellations of orders.
-  - Active-Passive config based DB is needed to accomodate consistency and ASK/BID call workloads via SE notifications per order
-- Sharding w.r.t users is possible[users A isn't related to user B, separate relational joins aren't needed in that case] with consistent hashing via `userId`
-- 
+  - Active-Passive config based DB can be used to accomodate write-consistency and ASK/BID call workloads via SE notifications per order
+- Sharding :: w.r.t users is possible[users A isn't related to user B, separate relational joins aren't needed in that case] with consistent hashing via `userId`
+- Communication:
+  - Real-time updates : Server -> User
+    - Socket based communication for real-time updates to the user
+    - One socket connection per user
+    - Hardware and OS/Containers can be configured for high number of socket connections per node
+  - User -> Server
+    - HTTPS REST calls
+    - Will contain crucial data points
 
-DB tables:
+**DB tables:**
 
-- `[userid, totalPortfolioVal, (configs), (profile)]`
+- `[userid, totalPortfolioVal, (... configs), (... profile)]` - Users
 - `[holdingId, stockId, inUse, userID, confirmationNeededOrNo, holdingBoughtAt, ]` - HOLDINGs
   - inUse allows to execute soft-deletes in case of cancellations or sale of it
 - `[askId, holdingId, userId, confirmed, (inUse, reason), (others...)]` - ASKs
@@ -70,13 +77,22 @@ DB tables:
 
 ### StockCaller | DB - RDBMS
 
+- Communication
+  - SC -> SE(s)
+    - UDP multicast twice/thrice
+    - Deduplication(just thinking what they might do) : Using seq number
+  - SE(s) -> SC
+    - UDP multicast rcv
+    - Deduplication : Using seq number or update-ts with hashing
 - StockCaller is acting as our gateway!
   - Consistent hashing needed to distribute workload
   - Active-active or Active-Passive config based instances can be used per shard 
 - Sharded on `stockId`
   - Active-active or Active-Passive config based instances can be used per shard 
-- Maintains stock relevant information and a common set of ASKs and BIDs from out of our system to provision a view for users to gauge the market😉
-- Maintains eventual consistency with capacity for high read-workloads
+- Maintains stock relevant information
+  - Stock price aggregated across multiple SEs
+  - A set of ASKs and BIDs from out of our system to provision a view for users to gauge the market😉
+  - Sth else... if needed
 
 - `[stockId, exchangeId, stockName, stockPrice, (others ..., SEBIDs, SEASKs, LastTrades), updatedAt]` - STOCKs
   - For reducing WRITEs[stock-prices] on RDBMS
@@ -85,11 +101,11 @@ DB tables:
   - Queries for ASKs - {[askId: price, ...], ...}
   - Queries for BIDs - {[bidId: price, ...], ...}
 
+### Event streaming - listened via `zookeeper`
+
 - Streaming all the events within the system
   - Kafka + CassandraDB 
-  - stream[eventId, eventJson]
-
-### Notifications can be listened via `zookeeper`
+  - stream[eventId, eventPayload, (others ...)]
 
 ### SE
 
