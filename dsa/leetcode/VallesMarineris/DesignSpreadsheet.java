@@ -16,30 +16,40 @@ public class DesignSpreadsheet {
    * #array #hash-table #string #design #matrix #medium
    */
 
-  private HashMap<String, Integer> sheet;
-
-  public DesignSpreadsheet(int rows) {
-    sheet = new HashMap<>();
-  }
-
-  public void setCell(String cell, int value) {
-    sheet.put(cell, value);
-  }
-
-  public void resetCell(String cell) {
-    sheet.put(cell, 0);
-  }
-
-  public int getValue(String formula) {
-    int res = 0;
-    String[] operands = formula.substring(1).split("\\+");
-    for (String operand : operands) {
-      if (sheet.containsKey(operand)) {
-        res += sheet.get(operand);
-      } else {
-        res += Integer.parseInt(operand);
-      }
-    }
-    return res;
-  }
+   private int [][]sheet;
+   public DesignSpreadsheet(int rows) {
+     sheet = new int[26][rows];
+   }
+   
+   public void setCell(String cell, int value) {
+     int []rc = retrc(cell);
+     sheet[rc[0]][rc[1]] = value;
+   }
+   
+   public void resetCell(String cell) {
+     int []rc = retrc(cell);
+     sheet[rc[0]][rc[1]] = 0;
+   }
+   
+   private int []retrc(String cell){
+     int []rc = new int[]{
+       (int)(cell.charAt(0)-'A'), 
+       Integer.valueOf(cell.substring(1))-1
+     };
+     return rc;
+   }
+   
+   public int getValue(String formula) {
+     String []operands = formula.substring(1).split("\\+");
+     int res = 0;
+     for(String op: operands){
+       if(op.charAt(0) >= 'A' && op.charAt(0) <= 'Z'){
+         int []rc = retrc(op);
+         res += sheet[rc[0]][rc[1]];
+       }else{
+         res += Integer.valueOf(op);
+       }
+     }
+     return res;
+   }
 }
