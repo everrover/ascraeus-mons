@@ -475,14 +475,15 @@
 | [3471. Find the Largest Almost Missing Integer](./dsa/leetcode/VallesMarineris/FindTheLargestAlmostMissingInteger.java) | #arrays #sliding-window #easy |
 | [3472. Longest Palindromic Subsequence After at Most K Operations](./dsa/leetcode/VallesMarineris/LongestPalindromicSubsequenceAfterAtMostKOperations.java) | #dp #palindrome #dynamic-programming #medium |
 | [3473. Sum of K Subarrays With Length at Least M](./dsa/leetcode/VallesMarineris/SumOfKSubarraysWithLengthAtLeastM.java) | #dynamic-programming #prefix-sum #medium |
+| [3484. Design Spreadsheet](./dsa/leetcode/VallesMarineris/DesignSpreadsheet.java) | #array #hash-table #string #design #matrix #medium |
 | [3487. Maximum Unique Subarray Sum After Deletion](./dsa/leetcode/VallesMarineris/MaximumUniqueSubarraySumAfterDeletion.java) | #array #hash-table #greedy #easy |
 | [3488. Closest Equal Element Queries](./dsa/leetcode/VallesMarineris/ClosestEqualElementQueries.java) | #array #hash-table #binary-search #medium |
 | [3491. Phone Number Prefix](./dsa/leetcode/VallesMarineris/PhoneNumberPrefix.java) | #string #sorting #prefix #easy |
 | --- | --- |
 
-DSA Progress: 326/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 327/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 767/1600
+All problems progress in LeetCode: 768/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
