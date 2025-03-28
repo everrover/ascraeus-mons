@@ -11,17 +11,24 @@ public class FindMinimumAmountOfTimeToBrewPotions {
    * #array #simulation #prefix-sum #medium
    */
 
-  public long minTime(int[] skill, int[] mana) {
-    long[] pre = new long[skill.length];
-    long[] ss = new long[skill.length];
+   public long minTime(int[] skill, int[] mana) {
+    long []ss = new long[skill.length];
+    long []pre = new long[skill.length];
     ss[0] = (long)skill[0]*mana[0];
+    for(int i=1; i<skill.length; i++){
+      ss[i] = ss[i-1]+skill[i]*mana[0];
+      pre[i] = pre[i-1]+skill[i-1];
+    }
+    
     for(int i=1; i<mana.length; i++){
       long mst = Math.max(0L, ss[0]);
-      pre[i] = pre[i-1] + skill[i-1];
       for(int j=1; j<skill.length; j++){
-        ss[j] = ss[j-1] + mana[i] * skill[j];
+        mst = Math.max(mst, ss[j]-pre[j]*mana[i]);
       }
-      ss[0] = mst + mana[i] * skill[0];
+      ss[0] = mst+mana[i]*skill[0];
+      for(int j=1; j<skill.length; j++){
+        ss[j] = ss[j-1]+mana[i]*skill[j];
+      }
     }
     return ss[skill.length-1];
   }
