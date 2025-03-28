@@ -481,11 +481,12 @@
 | [3488. Closest Equal Element Queries](./dsa/leetcode/VallesMarineris/ClosestEqualElementQueries.java) | #array #hash-table #binary-search #medium |
 | [3491. Phone Number Prefix](./dsa/leetcode/VallesMarineris/PhoneNumberPrefix.java) | #string #sorting #prefix #easy |
 | [3492. Maximum Containers on a Ship](./dsa/leetcode/VallesMarineris/MaximumContainersOnAShip.java) | #math #greedy #easy |
+| [3493. Properties Graph](./dsa/leetcode/VallesMarineris/PropertiesGraph.java) | #array #hash-table #dfs #bfs #union-find #graph #medium |
 | --- | --- |
 
-DSA Progress: 329/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 330/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 770/1600
+All problems progress in LeetCode: 771/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
