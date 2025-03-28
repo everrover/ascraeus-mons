@@ -482,11 +482,12 @@
 | [3491. Phone Number Prefix](./dsa/leetcode/VallesMarineris/PhoneNumberPrefix.java) | #string #sorting #prefix #easy |
 | [3492. Maximum Containers on a Ship](./dsa/leetcode/VallesMarineris/MaximumContainersOnAShip.java) | #math #greedy #easy |
 | [3493. Properties Graph](./dsa/leetcode/VallesMarineris/PropertiesGraph.java) | #array #hash-table #dfs #bfs #union-find #graph #medium |
+| [3494. Find the Minimum Amount of Time to Brew Potions](./dsa/leetcode/VallesMarineris/FindMinimumAmountOfTimeToBrewPotions.java) | #array #simulation #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 330/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 331/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 771/1600
+All problems progress in LeetCode: 772/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
