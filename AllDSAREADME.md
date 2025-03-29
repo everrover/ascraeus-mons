@@ -483,11 +483,12 @@
 | [3492. Maximum Containers on a Ship](./dsa/leetcode/VallesMarineris/MaximumContainersOnAShip.java) | #math #greedy #easy |
 | [3493. Properties Graph](./dsa/leetcode/VallesMarineris/PropertiesGraph.java) | #array #hash-table #dfs #bfs #union-find #graph #medium |
 | [3494. Find the Minimum Amount of Time to Brew Potions](./dsa/leetcode/VallesMarineris/FindMinimumAmountOfTimeToBrewPotions.java) | #array #simulation #prefix-sum #medium |
+| [3495. Minimum Operations to Make Array Elements Zero](./dsa/leetcode/VallesMarineris/MinimumOperationsToMakeArrayElementsZero.java) | #array #math #bit-manipulation #hard |
 | --- | --- |
 
-DSA Progress: 331/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 332/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 772/1600
+All problems progress in LeetCode: 773/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
