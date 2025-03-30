@@ -8,7 +8,7 @@ public class MinimumCostToReachEveryPosition {
    * Use a greedy approach to keep track of minimum cost encountered from the end of the array.
    * Update the result array with this minimum cost to allow free swaps later.
    *
-   * TC: O(n) SC: O(n)
+   * TC: O(n) SC: O(1)
    * #greedy #array #minimum-cost #easy
    */
 

@@ -1,6 +1,6 @@
 package dsa.leetcode.VallesMarineris;
 
-class Solution {
+class LongestPalindromeAfterSubstringConcatenationI {
   /**
    * https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-i/
    * 
@@ -11,21 +11,25 @@ class Solution {
    * #substring #palindrome #medium
    */
 
-  private boolean isP(String s){
-    int l = 0, r = s.length() - 1;
-    while(l < r){
+   private boolean isP(String s){
+    int l =0, r = s.length()-1;
+    while(l<r){
       if(s.charAt(l) != s.charAt(r)) return false;
       l++; r--;
     }
     return true;
   }
-
   public int longestPalindrome(String s, String t) {
     int res = 1;
-    for(int i = 0; i < s.length(); i++){
-      for(int j = i; j <= s.length(); j++){
-        String fs = s.substring(i, j);
-        // Further code to consider all potential concatenations and updates to 'res' needed...
+    for(int i=0; i<s.length(); i++){
+      for(int j=i; j<=s.length(); j++){
+        String fs = s.substring(i,j);
+        for(int k=0; k<t.length(); k++){
+          for(int l=k; l<=t.length(); l++){
+            String ls = fs+t.substring(k,l);
+            if(isP(ls)) res = Math.max(res, ls.length());
+          }
+        }
       }
     }
     return res;
