@@ -260,6 +260,7 @@
 | [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
 | [2116. Check if a Parentheses String Can Be Valid](./dsa/leetcode/mithrim_montez/CheckIfAParenthesesStringCanBeValid.java) | #string #stack #greedy #medium |
 | [2127. Maximum Employees to Be Invited to a Meeting](./dsa/leetcode/VallesMarineris/MaximumEmployeesToBeInvitedToAMeeting.java) | #graph #dfs #cycle #hard |
+| [2140. Solving Questions With Brainpower](./dsa/leetcode/VallesMarineris/SolvingQuestionsWithBrainpower.java) | #array #dynamic-programming #medium |
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard                |
 | [2183. Count Array Pairs Divisible by K](./dsa/leetcode/kuiperBelt/CountArrayPairsDivisibleByK.java) | #math #number-theory #hard |
 | [2184. Number of Ways to Build Sturdy Brick Wall](./dsa/leetcode/RhoCassiopeiae/NumberOfWaysToBuildSturdyBrickWall.java) | #array #dynamic-programming #bitmask #medium |
@@ -490,9 +491,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 336/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 337/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 777/1600
+All problems progress in LeetCode: 778/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
