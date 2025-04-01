@@ -19,7 +19,11 @@ public class SolvingQuestionsWithBrainpower {
   public long mostPoints(int[][] questions) {
     long[] dp = new long[questions.length];
     Arrays.fill(dp, -1);
-    return dfs(0, questions, dp);
+    dfs(0, questions, dp);
+
+    long res = 0L;
+    for(long d: dp) res = Math.max(res, d);
+    return res;
   }
 
   private long dfs(int idx, int[][] q, long[] dp) {
@@ -33,9 +37,18 @@ public class SolvingQuestionsWithBrainpower {
     );
   }
 
-  public static void main(String[] args) {
-    Solution sol = new Solution();
-    int[][] questions = {{3,2}, {4,3}, {4,4}, {2,5}};
-    System.out.println(sol.mostPoints(questions)); // Output: 5
+  public long mostPointsBU(int[][] questions) {
+    long []dp = new long[questions.length];
+    Arrays.fill(dp,-1);
+    for(int idx=questions.length-1; idx>=0; idx--){
+      int p = questions[idx][0], s = questions[idx][1];
+      dp[idx] = Math.max(
+        (idx+1)>=questions.length?0L:dp[idx+1],
+        ((idx+s+1)>=questions.length?0L:dp[idx+s+1])+p
+      );
+    }
+    long res = 0L;
+    for(long d: dp) res = Math.max(res, d);
+    return res;
   }
 }
