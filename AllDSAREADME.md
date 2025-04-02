@@ -477,6 +477,7 @@
 | [3471. Find the Largest Almost Missing Integer](./dsa/leetcode/VallesMarineris/FindTheLargestAlmostMissingInteger.java) | #arrays #sliding-window #easy |
 | [3472. Longest Palindromic Subsequence After at Most K Operations](./dsa/leetcode/VallesMarineris/LongestPalindromicSubsequenceAfterAtMostKOperations.java) | #dp #palindrome #dynamic-programming #medium |
 | [3473. Sum of K Subarrays With Length at Least M](./dsa/leetcode/VallesMarineris/SumOfKSubarraysWithLengthAtLeastM.java) | #dynamic-programming #prefix-sum #medium |
+| [3478. Choose K Elements With Maximum Sum](./dsa/leetcode/VallesMarineris/ChooseKElementsWithMaximumSum.java) | #array #sorting #heap #medium |
 | [3484. Design Spreadsheet](./dsa/leetcode/VallesMarineris/DesignSpreadsheet.java) | #array #hash-table #string #design #matrix #medium |
 | [3487. Maximum Unique Subarray Sum After Deletion](./dsa/leetcode/VallesMarineris/MaximumUniqueSubarraySumAfterDeletion.java) | #array #hash-table #greedy #easy |
 | [3488. Closest Equal Element Queries](./dsa/leetcode/VallesMarineris/ClosestEqualElementQueries.java) | #array #hash-table #binary-search #medium |
@@ -491,9 +492,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 337/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 338/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 778/1600
+All problems progress in LeetCode: 779/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
