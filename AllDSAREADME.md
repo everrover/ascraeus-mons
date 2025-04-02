@@ -357,6 +357,7 @@
 | [2869. Minimum Operations to Collect Elements](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinimumOperationsToCollectElements.java) | #easy #sets #contest |
 | [2870. Minimum Number of Operations to Make Array Empty](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinimumNumberOfOperationsToMakeArrayEmpty.java) | #dp #math #contest |
 | [2872. Maximum Number of K-Divisible Components](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MaximumNumberOfKDivisibleComponents.java) | #math #divisibility-rules #contest #dfs #greedy |
+| [2873. Maximum Value of an Ordered Triplet](./dsa/leetcode/VallesMarineris/MaximumValueOfAnOrderedTriplet.java) | #array #brute-force #easy |
 | [2899. Last Visited Integers](./dsa/leetcode/kuiperBelt/LastVisitedIntegers.java)         | |
 | [2900.  Longest Unequal Adjacent Groups Subsequence I](./dsa/leetcode/kuiperBelt/LongestUnequalAdjGroupsSubseqI.java) | |
 | [2901.  Longest Unequal Adjacent Groups Subsequence II](./dsa/leetcode/kuiperBelt/LongestUnequalAdjGroupsSubseqII.java) | |
@@ -492,9 +493,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 338/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 339/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 779/1600
+All problems progress in LeetCode: 780/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
