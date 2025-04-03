@@ -241,6 +241,7 @@
 | [1852. Distinct Numbers in Each Subarray](./dsa/leetcode/mithrim_montez/DistinctNumbersInEachSubarray.java) | #array #hash-table #sliding-window #medium |
 | [1855. Maximum Distance Between a Pair of Values](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MaximumDistanceBetweenPairOfValues.java) | #two-pointer-approach #binary-search #greedy #array-traversal      |
 | [1861. Rotating the Box](./dsa/leetcode/jovianMoonOrbit/RotatingTheBox.java) | #array #matrix #twopointers #medium |
+| [1862. Sum of Floored Pairs](./dsa/leetcode/VallesMarineris/SumOfFlooredPairs.java) | #array #math #prefix-sum #hard |
 | [1868. Product of Two Run-Length Encoded Arrays](./dsa/leetcode/jovianMoonOrbit/ProductOfTwoRunLengthEncodedArrays.java) | #array #two-pointers #medium |
 | [1894. Find the Student that Will Replace the Chalk](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindStudentThatWillReplaceChalk.java) | #prefix-sum #binary-search #trivial #simulation #preventing-recomputes                                        |
 | [1909. Remove One Element to Make the Array Strictly Increasing](./dsa/leetcode/RhoCassiopeiae/RemoveOneElementToMakeArrayStrictlyIncreasing.java) | #array #greedy #easy |
@@ -494,9 +495,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 340/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 341/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 781/1600
+All problems progress in LeetCode: 782/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
