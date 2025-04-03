@@ -65,7 +65,7 @@ public class MaximumValueOfAnOrderedTriplet {
   // SC: O(1) TC: O(n)
   public int maxTripletValueGreedy(int[] nums) {
     int res = 0, imax = nums[0], dmax = Integer.MIN_VALUE;
-    for (int k = 2; k < nums.length; k++) {
+    for (int k = 0; k < nums.length; k++) {
       res = Math.max(res, dmax * nums[k]);
       dmax = Math.max(dmax, imax - nums[k]); // max diff computed, always with imax
       imax = Math.max(imax, nums[k]);

@@ -10,24 +10,40 @@ public class MinimumIndexOfAValidSplit {
    * The method finds the minimum index to split the array such that both halves
    * have the same dominant element. It calculates the frequency of the dominant element
    * on both sides of the split and checks validity based on conditions.
+   * 
+   * MAJORITY ELEMENT is found using Voting Algorithm. Otherwise, we can use a hashmap to
+   * count the frequency of each element.
    *
    * TC: O(n) SC: O(1)
    * #array #hashtable #sorting #medium
    */
 
-  public int minimumIndex(List<Integer> nums) {
-    int tot = cnt; // Total occurrences of the dominant element
-    cnt = 0; // Reset count for tracking dominant frequency
-
-    for(int i = 0; i < nums.size(); i++) {
-      if(cand == nums.get(i)) cnt++; // Increment count if current element is dominant
-
-      int fc = cnt, fp = i + 1 - cnt; // Frequency and position left of split
-      int sc = tot - cnt, sp = nums.size() - i - 1 - tot + cnt; // Frequency and position right of split
-
-      if(fc > fp && sc > sp) return i; // Check if both sides are valid
+   public int minimumIndex(List<Integer> nums) {
+    int cand = -1, cnt = 0;
+    for(int num: nums){
+      if(cnt == 0) {cand = num; cnt++;}
+      else{
+        if(cand == num){
+          cnt++;
+        }else{
+          cnt--;
+        }
+      }
     }
-
-    return -1; // Return -1 if no valid split exists
+    if(cand == -1) return -1;
+    cnt = 0;
+    for(int num: nums){
+      if(cand == num){
+        cnt++;
+      }
+    }
+    int tot = cnt; cnt = 0;
+    for(int i=0; i<nums.size(); i++){
+      if(cand == nums.get(i)) cnt++;
+      int fc = cnt, fp = i+1-cnt;
+      int sc = tot-cnt, sp = nums.size()-i-1-tot+cnt;
+      if(fc>fp && sc>sp) return i;
+    }
+    return -1;
   }
 }
