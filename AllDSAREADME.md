@@ -334,6 +334,7 @@
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard |
 | [2751. Robot Collisions](./dsa/leetcode/kuiperBelt/RobotCollisions.java) | #stack #array #sorting #simulation #hard |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java)        | #easy |
+| [2780. Minimum Index of a Valid Split](./dsa/leetcode/VallesMarineris/MinimumIndexOfAValidSplit.java) | #array #hashtable #sorting #medium |
 | [2784. Check if Array is Good](.dsa/leetcode/kuiperBelt/EasySetI.java)                    | #easy |
 | [2788. Split Strings by Separator](.dsa/leetcode/kuiperBelt/EasySetI.java)                | #easy |
 | [2806. Account Balance After Rounded Purchase](.dsa/leetcode/kuiperBelt/EasySetI.java)    | #easy |
@@ -493,9 +494,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 339/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 340/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 780/1600
+All problems progress in LeetCode: 781/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
