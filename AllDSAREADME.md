@@ -254,6 +254,7 @@
 | [1945. Sum of Digits of String After Convert](./dsa/leetcode/fermi_s_paradox/SumOfDigitsOfStringAfterConvert.java) | #string #simulation #easy |
 | [1963. Minimum Number of Swaps to Make the String Balanced](.dsa/leetcode/kuiperBelt/MinNumberOfSwapsToMakeStrBalanced.java) | #stack #greedy #string #medium |
 | [1970. Last Day Where You Can Still Cross](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LastDayWhereYouCanStillCross.java) | #binary-search #dfs #bfs #disjoint-sets #tricky #inverse-thought-process                                      |
+| [1976. Number of Ways to Arrive at Destination](./dsa/leetcode/VallesMarineris/NumberOfWaysToArriveAtDestination.java) | #dynamic-programming #graph #shortest-path #medium |
 | [1997. First Day Where You Have Been in All the Rooms](./NinetySix/FirstDayWhereYouHaveBeenInAllRooms/FirstDayWhereYouHaveBeenInAllRooms.java) | #greedy #tricky-dp #graphs #dynamic-programming #deep-logic        |
 | [2009. Minimum Number of Operations to Make Array Continuous](./dsa/leetcode/jovianMoonOrbit/MinNumberOfOperationsToMakeArrayContinuous.java) | #array #sliding-window #hard #tricky |
 | [2017. Grid Game](./dsa/leetcode/mithrim_montez/GridGame.java) | #array #matrix #prefix-sum #medium |
@@ -496,9 +497,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 342/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 343/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 783/1600
+All problems progress in LeetCode: 784/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
