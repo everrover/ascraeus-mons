@@ -164,6 +164,7 @@
 | [1092. Shortest Common Supersequence](https://github.com/everrover/mount-kronos/blob/main/NinetySix/ShortestCommonSupersequence.java) | #dynamic-programming #memory-optimization #LCS #piggybacking       |
 | [1095. Find in Mountain Array](./dsa/leetcode/jovianMoonOrbit/FindInMountainArray.java) | #binary-search #interactive #hard |
 | [1106. Parsing A Boolean Expression](./dsa/leetcode/kuiperBelt/ParsingABooleanExpression.java) | #stack #recursion #string #hard |
+| [1123. Lowest Common Ancestor of Deepest Leaves](./dsa/leetcode/VallesMarineris/LowestCommonAncestorOfDeepestLeaves.java) | #tree #dfs #binary-tree #medium |
 | [1130. Minimum Cost Tree From Leaf Values](./dsa/leetcode/RhoCassiopeiae/MinimumCostTreeFromLeafValues.java) | #array #dynamic-programming #stack #monotonic-stack #greedy #medium |
 | [1143. Longest common sub-seq](https://github.com/everrover/mount-kronos/blob/main/NinetySix/LongestCommonSubseq.java) | #dynamic-programming #memory-optimization |
 | [1147. Longest Chunked Palindrome Decomposition](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LongestChunkedPalindromeDecomposition.java) | #dynamic-programming #palindrome #no-effort #two-pointer #string   |
@@ -495,9 +496,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 341/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 342/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 782/1600
+All problems progress in LeetCode: 783/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
