@@ -6,44 +6,58 @@ public class NumberOfWaysToArriveAtDestination {
   /**
    * https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/?envType=daily-question&envId=2025-04-04
    *
-   * To find the number of ways to reach the destination in the shortest time, use a shortest path algorithm such as Dijkstra's. Track 
-   * the number of ways each node can be reached using dynamic programming.
+   * Dijkstra loop with a priority queue to find the shortest path from the source to all nodes.
+   * For a node, if it's already visited with a shorter distance, use it from it's source.
    *
    * TC: O(n + E * log n) SC: O(n + E)
    * #dynamic-programming #graph #shortest-path #medium
    */
 
-  static final int M = 1000000007;
-
+  private final static int M = 7+(int)1e9;
   public int countPaths(int n, int[][] roads) {
-    List<int[]>[] g = new ArrayList[n];
-    for (int i = 0; i < n; i++) g[i] = new ArrayList<>();
-    for (int[] road : roads) {
-      g[road[0]].add(new int[]{road[1], road[2]});
-      g[road[1]].add(new int[]{road[0], road[2]});
+    int [][]g = new int[n][n];
+    for(int []gg: g) Arrays.fill(gg, -1);
+    for(int []r : roads) {
+      g[r[0]][r[1]] = g[r[1]][r[0]] = r[2];
     }
-    long[][] v = new long[n][2]; // v[i][0] stores shortest time, v[i][1] stores number of ways
-    for (int i = 0; i < n; i++) Arrays.fill(v[i], Long.MAX_VALUE);
-    v[0][0] = 0L;
-    v[0][1] = 1L;
-    Queue<long[]> q = new PriorityQueue<>(Comparator.comparingLong(a -> a[1]));
-    q.add(new long[]{0, 0L});
-    while (!q.isEmpty()) {
-      long[] values = q.poll();
-      int curr = (int) values[0];
-      long dist = values[1];
-      if (v[curr][0] < dist) continue;
-      for (int[] nd : g[curr]) {
-        long ndist = dist + nd[1];
-        if (v[nd[0]][0] > ndist) {
-          v[nd[0]][0] = ndist;
-          v[nd[0]][1] = v[curr][1];
-          q.offer(new long[]{nd[0], ndist});
-        } else if (v[nd[0]][0] == ndist) {
-          v[nd[0]][1] = (v[curr][1] + v[nd[0]][1]) % M;
-        }
+
+    long [][]v = new long[n][2];
+    for(long []vv: v) {vv[0] = Long.MAX_VALUE; vv[1] = 0;}
+
+    bfs(0, g, v);
+
+    return (int)v[0][1];
+  }
+
+  // v[i][0] = dist, v[i][1] = count
+  private void bfs(int idx, int [][]g, long [][]v){
+    final int n = g.length;
+    Queue<long[]> q = new PriorityQueue<>((a,b)->(int)(a[1]-b[1])); // {node:dist}
+
+    q.offer(new long[]{n-1, 0, n-1});
+    v[n-1][0] = Integer.MAX_VALUE;
+    v[n-1][1] = 1;
+
+    while(!q.isEmpty()){
+      long []polled = q.poll();
+      int curr = (int)polled[0], prev = (int)polled[2];
+      long dist = polled[1];
+      if(v[curr][0] < dist) continue;
+
+      if(v[curr][0] > dist) {
+        v[curr][0] = dist;
+        v[curr][1] = v[prev][1];
+      }else {
+        v[curr][1] = (v[prev][1] + v[curr][1]) % M;
+        continue;
+      }
+      
+      for(int i=0; i<n; i++){
+        if(g[curr][i] == -1) continue;
+        long ndist = dist+g[curr][i];
+        if(v[i][0] < ndist) continue;
+        q.offer(new long[]{i, ndist, curr});
       }
     }
-    return (int) v[n - 1][1];
   }
 }
