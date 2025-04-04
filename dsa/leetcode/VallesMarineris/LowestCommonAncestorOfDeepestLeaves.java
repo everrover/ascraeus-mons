@@ -14,25 +14,39 @@ public class LowestCommonAncestorOfDeepestLeaves {
    * #tree #dfs #binary-tree #medium
    */
 
-  // Custom class for returning the TreeNode and its maximum depth
-  private class T {
-    TreeNode node;
-    int md; // max depth
-
-    T(TreeNode node, int md) {
-      this.node = node;
-      this.md = md;
-    }
+  private static class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
   }
 
+  // Custom class for returning the TreeNode and its maximum depth
+  private static class T {
+    public int md;
+    public TreeNode lca;
+    public T(TreeNode n, int md){
+      this.md = md;
+      this.lca = n;
+    }
+  }
   public TreeNode lcaDeepestLeaves(TreeNode root) {
-    return dfs(root, 0).node;
+    return dfs(root, 1).lca;
   }
 
   private T dfs(TreeNode root, int depth) {
     if(root == null) return new T(root, depth);
+
     T left = dfs(root.left, depth+1);
     T right = dfs(root.right, depth+1);
+    
+    if(left == null && right == null) return new T(root, depth);
     if(left.md > right.md) return left;
     if(right.md > left.md) return right;
     return new T(root, left.md);

@@ -9,6 +9,13 @@ public class SumOfFlooredPairs {
    * For each element, iterate through its multiples and use their frequencies
    * to compute the result efficiently.
    * 
+   * FOR each element we can find the range of elements that are floored by it, for all it's multiples till `maxval`.
+   * For example, for 2, the floored pairs are (2, 2), (2, 4), (2, 6), etc.
+   * So, if we go for the worst case,
+   * n/1 + n/2 + n/3 + ... + n/n = 12.xxx for 10e6
+   * 
+   * So it just works...
+   * 
    * TC: O(n log n) SC: O(n)
    * #array #math #prefix-sum #hard
    */
