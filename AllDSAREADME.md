@@ -315,6 +315,7 @@
 | [2482. Difference Between Ones and Zeros in Row and Column](./dsa/leetcode/fermi_s_paradox/DifferenceBetweenOnesAndZerosInRowAndColumn.java) | #array #matrix #simulation #medium |
 | [2484. Count Palindromic Subsequences](./dsa/leetcode/fermi_s_paradox/CountPalindromicSubsequences.java) | #string #dynamic-programming #hard |
 | [2501. Longest Square Streak in an Array](./dsa/leetcode/RhoCassiopeiae/LongestSquareStreakInAnArray.java) | #array #hash-table #sorting #dynamic-programming #medium |
+| [2503. Maximum Number of Points From Grid Queries](./dsa/leetcode/VallesMarineris/MaxNumberOfPointsFromGridQueries.java) | #array #bfs #priority-queue #matrix #hard |
 | [2508. Add Edges to Make Degrees of All Nodes Even](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddEdgesToMakeDegreesOfAllNodesEven.java) | ##two-pointer #sliding-window #unconventional-traversal            |
 | [2516. Take K of Each Character From Left and Right](https://github.com/everrover/mount-kronos/blob/main/NinetySix/TakeKOfEachCharacterFromLeftAndRight.java) | #split-sliding-window #sliding-window #suffix-precomputation       |
 | [2529. Maximum Count of Positive Integer and Negative Integer](./dsa/leetcode/VallesMarineris/MaximumCountOfPositiveIntegerAndNegativeInteger.java) | #array #counting #easy |
@@ -498,9 +499,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 344/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 345/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 785/1600
+All problems progress in LeetCode: 786/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
