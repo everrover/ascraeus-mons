@@ -296,6 +296,7 @@
 | [2353. Design a Food Rating System](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/DesignFoodRatingSystem.java) | #lld #crude-impl #hashmaps #bst #heap |
 | [2374. Node With Highest Edge Score](./dsa/leetcode/RhoCassiopeiae/NodeWithHighestEdgeScore.java) | #hash-table #graph #medium |
 | [2375. Construct Smallest Number From DI String](./dsa/leetcode/VallesMarineris/ConstructSmallestNumberFromDiString.java) | #string #backtracking #stack #greedy #medium |
+| [2376. Count Special Integers](./dsa/leetcode/VallesMarineris/CountSpecialIntegers.java) | #math #dynamic-programming #hard |
 | [2381. Shifting Letters II](./dsa/leetcode/fermi_s_paradox/ShiftingLettersII.java) | #array #string #prefix-sum #medium |
 | [2385. Amount of Time for Binary Tree to Be Infected](./dsa/leetcode/RhoCassiopeiae/AmountOfTimeForBinaryTreeToBeInfected.java) | #tree #graph #bfs #medium |
 | [2400. Number of Ways to Reach a Position After Exactly k Steps](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/NumberOfWaysToReachAPositionAfterExactlyKSteps/Solution.java) | #dynaic-programming #math #combinatorics |
@@ -500,9 +501,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 346/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 347/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 787/1600
+All problems progress in LeetCode: 788/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
