@@ -336,6 +336,7 @@
 | [2663. Lexicographically Smallest Beautiful String](https://github.com/everrover/mount-kronos/blob/main/LordShiva/LexoSmallestBeautifulString.java) | # |
 | [2670. Find the Distinct Difference Array](./dsa/leetcode/fermi_s_paradox/FindTheDistinctDifferenceArray.java) | #array #hash-table #easy |
 | [2683. Neighboring Bitwise XOR](./dsa/leetcode/mithrim_montez/NeighboringBitwiseXOR.java) | #array #bit-manipulation #medium |
+| [2685. Count the Number of Complete Components](./dsa/leetcode/VallesMarineris/CountTheNumberOfCompleteComponents.java) | #graph #dfs #bfs #union-find #medium |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard |
 | [2751. Robot Collisions](./dsa/leetcode/kuiperBelt/RobotCollisions.java) | #stack #array #sorting #simulation #hard |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java)        | #easy |
@@ -499,9 +500,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 345/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 346/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 786/1600
+All problems progress in LeetCode: 787/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
