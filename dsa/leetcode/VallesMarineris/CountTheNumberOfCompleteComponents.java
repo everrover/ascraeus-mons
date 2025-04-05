@@ -9,8 +9,14 @@ public class CountTheNumberOfCompleteComponents {
    *
    * Find the connected components of an undirected graph using depth-first search (DFS) or breadth-first search (BFS).
    * For each connected component, count the number of nodes and edges in the component.
-   * A connected component is complete if and only if the number of edges in the component is equal to m*(m-1)/2,
+   * A connected component is complete if and only if the number of outgoing edges for each component's node is equal to m-1,
    * where m is the number of nodes in the component.
+   * 
+   * For the same I've used union-find to find the connected components. And then
+   * for each component, we check if the number of edges on each node is equal to m-1.
+   * 
+   * BFS/DFS can also be used to find the connected components and then again check
+   * if the number of edges on each node is equal to m-1.
    * 
    * TC: O(n * log n) SC: O(n)
    * #graph #dfs #bfs #union-find #medium
