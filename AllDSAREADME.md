@@ -57,6 +57,7 @@
 | [397. Count Range Sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountOfRangeSum/Solution.java) | #merge-sort #merge-algo #math #sliding-window #binary-search-tree #binary-indexed-tree                        |
 | [403. Frog Jump](./dsa/leetcode/kuiperBelt/FrogJump.java) | #array #dynamic-programming #hard |
 | [407. Trapping Rain Water II](./dsa/leetcode/kuiperBelt/TrappingRainWaterII.java) | #array #bfs #heap #priority-queue #matrix #hard |
+| [416. Partition Equal Subset Sum](./dsa/leetcode/VallesMarineris/PartitionEqualSubsetSum.java) | #array #dynamic-programming #medium |
 | [419. Battleships in a Board](./dsa/leetcode/fermi_s_paradox/BattleshipsInABoard.java) | #array #matrix #medium |
 | [424. Longest Repeating Character Replacement](./dsa/leetcode/RhoCassiopeiae/LongestRepeatingCharacterReplacement.java) | #hash-table #string #sliding-window #medium |
 | [426. Convert Binary Search Tree to Sorted Doubly Linked List](./dsa/leetcode/jovianMoonOrbit/ConvertBstToSortedDoublyLinkedList.java) | #linked-list #tree #binary-search-tree #medium |
@@ -501,9 +502,9 @@
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | --- | --- |
 
-DSA Progress: 347/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 348/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 788/1600
+All problems progress in LeetCode: 789/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
