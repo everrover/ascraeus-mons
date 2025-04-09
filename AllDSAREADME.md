@@ -501,11 +501,12 @@
 | [3499. Maximize Active Section with Trade I](./dsa/leetcode/VallesMarineris/MaximizeActiveSectionWithTradeI.java) | #greedy #trade #string #medium |
 | [3502. Minimum Cost to Reach Every Position](./dsa/leetcode/VallesMarineris/MinimumCostToReachEveryPosition.java) | #greedy #array #minimum-cost #easy |
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
+| [3508. Implement Router](./dsa/leetcode/VallesMarineris/ImplementRouter.java) | #array #hash-table #binary-search #design #queue #medium |
 | --- | --- |
 
-DSA Progress: 349/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 350/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 790/1600
+All problems progress in LeetCode: 791/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
