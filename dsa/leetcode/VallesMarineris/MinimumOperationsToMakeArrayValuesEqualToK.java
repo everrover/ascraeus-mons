@@ -7,7 +7,12 @@ public class MinimumOperationsToMakeArrayValuesEqualToK {
   /**
    * https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/?envType=daily-question&envId=2025-04-09
    *
-   * To solve this problem, we need to make all the elements in the array equal to the target integer k by performing a series of valid integer operations. A valid operation replaces elements greater than a valid integer h with h. The goal is to reduce all elements to k or determine if it is impossible. We achieve this by counting how many distinct integers are greater than k.
+   * To solve this problem, we need to make all the elements in the array equal to the target integer k by performing a series of valid integer operations.
+   * A valid operation replaces elements greater than a valid integer h with h.
+   * The goal is to reduce all elements to k or determine if it is impossible.
+   * We achieve this by counting how many distinct integers are greater than k.
+   * 
+   * If the minimum integer in the array is less than k, we return -1, since we cannot increase the values less than k to k.
    *
    * TC: O(n) SC: O(n)
    * #array #hash-table #greedy #easy
