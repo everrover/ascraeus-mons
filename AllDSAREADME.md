@@ -503,11 +503,12 @@
 | [3502. Minimum Cost to Reach Every Position](./dsa/leetcode/VallesMarineris/MinimumCostToReachEveryPosition.java) | #greedy #array #minimum-cost #easy |
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | [3508. Implement Router](./dsa/leetcode/VallesMarineris/ImplementRouter.java) | #array #hash-table #binary-search #design #queue #medium |
+| [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](./dsa/leetcode/VallesMarineris/MaximumProductOfSubsequencesWithAnAlternatingSumEqualToK.java) | #array #hash-table #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 351/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 352/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 792/1600
+All problems progress in LeetCode: 793/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
