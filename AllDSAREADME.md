@@ -386,6 +386,7 @@
 | [2952. Minimum Number of Coins to be added](.dsa/leetcode/kuiperBelt/MinimumNumberOfCoinsToBeAdded.java) | #array # |
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
 | [2975. Maximum Square Area Removing Fences From Field](./dsa/leetcode/kuiperBelt/MaximumSquareAreaRemovingFencesFromField.java) | #two-pointers #set #enumeration #area-calculation |
+| [2999. Count the Number of Powerful Integers](./dsa/leetcode/VallesMarineris/CountTheNumberOfPowerfulIntegers.java) | #dynamic-programming #math #string #hard |
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](.dsa/leetcode/kuiperBelt/MaximumNumberSumPricesLessEqualK.java) | #binary-search #dynamic-programming #bit-manipulation #medium          |
 | [3009. Maximum Number of Intersections on the Chart](./dsa/leetcode/kuiperBelt/MaximumNumberOfIntersectionsOnTheChart.java) | #array #math #binary-indexed-tree #geometry #hard |
 | [3014. Minimum Number of Pushes to Type Word I](./dsa/leetcode/kuiperBelt/ManimumNumberOfPushedToTypeWordI.java) | #easy #math |
@@ -504,9 +505,9 @@
 | [3508. Implement Router](./dsa/leetcode/VallesMarineris/ImplementRouter.java) | #array #hash-table #binary-search #design #queue #medium |
 | --- | --- |
 
-DSA Progress: 350/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 351/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 791/1600
+All problems progress in LeetCode: 792/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
