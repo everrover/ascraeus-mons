@@ -12,7 +12,7 @@ package dsa.leetcode.VallesMarineris;
  * I applied DP as well, but found that combinatoric dedcutions were being done internally through 
  * it's state transitions. So I used a combinatoric approach to find the number of integers...
  * 
- * 1. So, for a given MSD, we can find the reqd count using `(digit-1[to not include MSD]+1[to accomodate 0])*(number of digits in prefix)`.
+ * 1. So, for a given MSD, we can find the reqd count using `(digit-1[to not include MSD]+1[to accomodate 0])*possible-states-in-prefix`.
  * Here digit is restricted to the limit, and the prefix is the number of digits in the suffix, i.e. res += max(limit,MSD)*pow(limit, prefixlen-1)
  * 
  * 2. Now, for MSD, we can iterate through the digits in prefix and find the combinations from MSD[0] to MSD[1], i.e. res += pow(limit, prefixlen-1-i[=0])
