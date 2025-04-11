@@ -1,11 +1,13 @@
 package dsa.leetcode.VallesMarineris;
 
 // https://leetcode.com/problems/maximize-active-section-with-trade-i/
-
-// To maximize active sections, we strategically trade one contiguous inactive segment
-// surrounded by active segments with an active one. Track zero-one segments and calculate
-// potential trade benefits. Find the maximal benefit and apply the trade.
 // 
+// For the given set of ops, we select two different but adjacent regions of zeros[max number of zeros], convert
+// the middle ones to zeros and convert the three regions to all ones.
+// 000011100 => 000000000 =>111111111
+// 
+// Or if only one zero region is present, lz == co[only one zero region with atleast one ending one] or cz == co[only one zero region with no ending ones], there's no point in executing the trade, so we return ones count.
+//
 // First and last set of encountered converted ones are ignored.
 // TC: O(n); SC: O(1)
 // #greedy #trade #string #medium
@@ -13,7 +15,7 @@ package dsa.leetcode.VallesMarineris;
 public class MaximizeActiveSectionWithTradeI {
 
     public int maxActiveSectionsAfterTrade(String s) {
-        // oc = total ones, co = converted ones, cz = current zeros, lz = last zeros
+        // oc = ones count, co = converted ones[from zeros], cz = current zeros, lz = last zeros
         int oc = 0, co = 0, cz = 0, lz = 0;
         for(char ch: s.toCharArray()){
           if(ch == '0') cz++;
