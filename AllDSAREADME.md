@@ -501,15 +501,16 @@
 | [3495. Minimum Operations to Make Array Elements Zero](./dsa/leetcode/VallesMarineris/MinimumOperationsToMakeArrayElementsZero.java) | #array #math #bit-manipulation #hard |
 | [3498. Reverse Degree of a String](./dsa/leetcode/VallesMarineris/ReverseDegreeOfAString.java) | #string #easy |
 | [3499. Maximize Active Section with Trade I](./dsa/leetcode/VallesMarineris/MaximizeActiveSectionWithTradeI.java) | #greedy #trade #string #medium |
+| [3499. Maximize Active Section with Trade I](./dsa/leetcode/VallesMarineris/MaximizeActiveSectionWithTradeI.java) | #string #enumeration #medium |
 | [3502. Minimum Cost to Reach Every Position](./dsa/leetcode/VallesMarineris/MinimumCostToReachEveryPosition.java) | #greedy #array #minimum-cost #easy |
 | [3503. Longest Palindrome After Substring Concatenation I](./dsa/leetcode/VallesMarineris/LongestPalindromeAfterSubstringConcatenationI.java) | #substring #palindrome #medium |
 | [3508. Implement Router](./dsa/leetcode/VallesMarineris/ImplementRouter.java) | #array #hash-table #binary-search #design #queue #medium |
 | [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](./dsa/leetcode/VallesMarineris/MaximumProductOfSubsequencesWithAnAlternatingSumEqualToK.java) | #array #hash-table #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 353/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 354/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 794/1600
+All problems progress in LeetCode: 795/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
