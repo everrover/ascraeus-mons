@@ -51,6 +51,7 @@
 | [339. Nested List Weight Sum](./dsa/leetcode/kuiperBelt/NestedListWeightSum.java)         | #depth-first-search #bfs #recursion #nested-lists #medium              |
 | [347. Top K Frequent Elements](./dsa.leetcode.kuiperBelt/TopKFrequentElements.java)       | #hashmap #priorityqueue #heaps #medium |
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) | |
+| [368. Largest Divisible Subset](./dsa/leetcode/VallesMarineris/LargestDivisibleSubset.java) | #array #math #dynamic-programming #sorting #medium |
 | [380. Insert Delete GetRandom O(1)](./dsa/leetcode/jovianMoonOrbit/InsertDeleteGetRandomO1.java) | #hash-map #array-list #random #medium |
 | [381. Insert Delete GetRandom O(1) - Duplicates Allowed](./dsa/leetcode/jovianMoonOrbit/InsertDeleteGetRandomO1DuplicatesAllowed.java) | #array #hash-table #design #randomized #hard |
 | [387. First Unique Character in a String](./dsa/leetcode/RhoCassiopeiae/FirstUniqueCharacterInAString.java) | #hash-table #string #queue #counting #easy |
@@ -508,9 +509,9 @@
 | [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](./dsa/leetcode/VallesMarineris/MaximumProductOfSubsequencesWithAnAlternatingSumEqualToK.java) | #array #hash-table #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 354/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 355/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 795/1600
+All problems progress in LeetCode: 796/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
