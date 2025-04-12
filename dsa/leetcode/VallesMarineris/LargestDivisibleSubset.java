@@ -5,10 +5,12 @@ import java.util.*;
 public class LargestDivisibleSubset {
 
   /**
-   * https://leetcode.com/problems/largest-divisible-subset/?envType=daily-question&envId=2025-04-06
+   * https://leetcode.com/problems/largest-divisible-subset
    *
-   * Use dynamic programming to track the size of the largest divisible subset that ends with each element.
-   * Also track previous element index to reconstruct the subset.
+   * dfs(idx) = max(dfs(idx+i), (dfs(idx+i) + 1) if nums[idx] % nums[i] == 0 else 0) for i in range(idx+1, n)
+   * 
+   * on same premise, i've used bottom up dp to solve this problem.
+   * `prev` is used to store the previous index of the element in the subset.
    * 
    * TC: O(n^2) SC: O(n)
    * #array #math #dynamic-programming #sorting #medium
