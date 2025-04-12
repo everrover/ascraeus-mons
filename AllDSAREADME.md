@@ -433,6 +433,7 @@
 | [3244. Shortest Distance After Road Addition Queries II](./dsa/leetcode/kuiperBelt/ShortestDistanceAfterRoadAdditionQueriesII.java) | #graph #shortest-path #greedy #hard |
 | [3255. Find the Power of K-Size Subarrays II](./dsa/leetcode/jovianMoonOrbit/FindThePowerOfKSizeSubarraysII.java) | #array #sliding-window #medium |
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
+| [3272. Find the Count of Good Integers](./dsa/leetcode/VallesMarineris/FindTheCountOfGoodIntegers.java) | #hash-table #math #combinatorics #hard |
 | [3282. Reach End of Array With Max Score](./dsa/leetcode/VallesMarineris/ReachEndOfArrayWithMaxScore.java) | #array #greedy #medium |
 | [3306. Count of Substrings Containing Every Vowel and K Consonants II](./dsa/leetcode/VallesMarineris/CountOfSubstringsContainingEveryVowelAndKConsonantsIi.java) | #sliding-window #string #hash-table #medium |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #combinatorics #medium |
@@ -509,9 +510,9 @@
 | [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](./dsa/leetcode/VallesMarineris/MaximumProductOfSubsequencesWithAnAlternatingSumEqualToK.java) | #array #hash-table #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 355/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 356/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 796/1600
+All problems progress in LeetCode: 797/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
