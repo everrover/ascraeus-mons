@@ -5,6 +5,7 @@
 <!-- | --- | --- | -->
 | Title | Some pointers |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| [1. Two Sum](./dsa/leetcode/JupitersGreatStorm/TwoSum.java) | #array #hash-table #easy |
 | [5. Longest Palindromic Substring](./dsa/leetcode/fermi_s_paradox/LongestPalindromicSubstring.java) | #two-pointers #dynamic-programming #string #medium |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
@@ -510,9 +511,9 @@
 | [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](./dsa/leetcode/VallesMarineris/MaximumProductOfSubsequencesWithAnAlternatingSumEqualToK.java) | #array #hash-table #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 356/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 357/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 797/1600
+All problems progress in LeetCode: 798/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
