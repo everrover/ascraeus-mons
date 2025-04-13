@@ -14,6 +14,8 @@ public class FindTheCountOfGoodIntegers {
    * #hash-table #math #combinatorics #hard
    */
 
+  // we'll compute the factorials of 0-10 using a loop in a contest
+  // for(int i = 1; i <= n; i++) { fact[i] = fact[i-1] * i; }
   private long[] fact = new long[]{1,1,2,6,24,120,720,5040,40320,362880, 3628800};
 
   public long countGoodIntegers(int n, int k) {

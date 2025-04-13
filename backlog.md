@@ -1,6 +1,11 @@
 
 ### DSA
-
+- https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/
+- https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii/description/
+- https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/description/
+- https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i
+- https://leetcode.com/problems/maximize-active-section-with-trade-ii/
+- https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/description/
 - https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i/
 - https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/
 - https://leetcode.com/problemset/
