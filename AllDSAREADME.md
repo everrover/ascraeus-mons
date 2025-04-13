@@ -511,11 +511,12 @@
 | [3508. Implement Router](./dsa/leetcode/VallesMarineris/ImplementRouter.java) | #array #hash-table #binary-search #design #queue #medium |
 | [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](./dsa/leetcode/VallesMarineris/MaximumProductOfSubsequencesWithAnAlternatingSumEqualToK.java) | #array #hash-table #dynamic-programming #hard |
 | [3516. Find Closest Person](./dsa/leetcode/JupitersGreatStorm/FindClosestPerson.java) | #math #comparison #easy |
+| [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | --- | --- |
 
-DSA Progress: 359/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 360/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 800/1600
+All problems progress in LeetCode: 801/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
