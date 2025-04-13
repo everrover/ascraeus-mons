@@ -252,6 +252,7 @@
 | [1894. Find the Student that Will Replace the Chalk](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindStudentThatWillReplaceChalk.java) | #prefix-sum #binary-search #trivial #simulation #preventing-recomputes                                        |
 | [1909. Remove One Element to Make the Array Strictly Increasing](./dsa/leetcode/RhoCassiopeiae/RemoveOneElementToMakeArrayStrictlyIncreasing.java) | #array #greedy #easy |
 | [1910. Remove All Occurrences of a Substring](./dsa/leetcode/VallesMarineris/RemoveAllOccurrencesOfASubstring.java) | #string #stack #simulation #medium |
+| [1922. Count Good Numbers](./dsa/leetcode/JupitersGreatStorm/CountGoodNumbers.java) | #math #recursion #medium |
 | [1928. Minimum Cost to Reach Destination in Time](./dsa/leetcode/RhoCassiopeiae/MinimumCostToReachDestinationInTime.java) | #graph #shortest-path #dijkstra #hard |
 | [1930. Unique Length-3 Palindromic Subsequences](./dsa/leetcode/fermi_s_paradox/UniqueLength3PalindromicSubsequences.java) | #hash-table #string #prefix-sum #medium |
 | [1936. Add Minimum Number of Rungs](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddMinNumberOfRungs.java) | #maths #greedy |
@@ -511,9 +512,9 @@
 | [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](./dsa/leetcode/VallesMarineris/MaximumProductOfSubsequencesWithAnAlternatingSumEqualToK.java) | #array #hash-table #dynamic-programming #hard |
 | --- | --- |
 
-DSA Progress: 357/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 358/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 798/1600
+All problems progress in LeetCode: 799/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
