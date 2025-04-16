@@ -326,6 +326,7 @@
 | [2508. Add Edges to Make Degrees of All Nodes Even](https://github.com/everrover/mount-kronos/blob/main/NinetySix/AddEdgesToMakeDegreesOfAllNodesEven.java) | ##two-pointer #sliding-window #unconventional-traversal            |
 | [2516. Take K of Each Character From Left and Right](https://github.com/everrover/mount-kronos/blob/main/NinetySix/TakeKOfEachCharacterFromLeftAndRight.java) | #split-sliding-window #sliding-window #suffix-precomputation       |
 | [2529. Maximum Count of Positive Integer and Negative Integer](./dsa/leetcode/VallesMarineris/MaximumCountOfPositiveIntegerAndNegativeInteger.java) | #array #counting #easy |
+| [2537. Count the Number of Good Subarrays](./dsa/leetcode/JupitersGreatStorm/CountTheNumberOfGoodSubarrays.java) | #array #hash-table #sliding-window #medium |
 | [2551. Put Marbles in Bags](https://github.com/everrover/mount-kronos/blob/main/SuperMario/PickingMarbles.java) | #math #combinatorics #dp #tricky |
 | [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MaxNumberOfIntsToChooseFromRange1.java) | #contest #greedy #traversal |
 | [2555. Separate Digits in an Array](https://github.com/everrover/mount-kronos/blob/main/LordShiva/SeparateDigitsInArr.java) | #contest #easy #traversal |
@@ -515,9 +516,9 @@
 | [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | --- | --- |
 
-DSA Progress: 361/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 362/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 802/1600
+All problems progress in LeetCode: 803/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
