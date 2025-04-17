@@ -15,25 +15,23 @@ public class CountTheNumberOfGoodSubarrays {
    * #array #hash-table #sliding-window #medium
    */
 
-  public long countGoodSubarrays(int[] nums, int k) {
+   public long countGood(int[] nums, int k) {
     int n = nums.length;
-    long res = 0;
-    HashMap<Integer, Integer> cnt = new HashMap<>();
     int same = 0, right = -1;
-
+    HashMap<Integer, Integer> cnt = new HashMap<>();
+    long res = 0;
     for (int left = 0; left < n; ++left) {
-      while (same < k && right + 1 < n) {
-        ++right;
-        cnt.put(nums[right], cnt.getOrDefault(nums[right], 0) + 1);
-        same += cnt.get(nums[right]) - 1;
-      }
-      if (same >= k) {
-        res += n - right;
-      }
-      cnt.put(nums[left], cnt.get(nums[left]) - 1);
-      same -= cnt.get(nums[left]);
+        while (same < k && right + 1 < n) {
+            ++right;
+            same += cnt.getOrDefault(nums[right], 0);
+            cnt.put(nums[right], cnt.getOrDefault(nums[right], 0) + 1);
+        }
+        if (same >= k) {
+            res += n - right;
+        }
+        cnt.put(nums[left], cnt.get(nums[left]) - 1);
+        same -= cnt.get(nums[left]);
     }
-
     return res;
   }
 }
