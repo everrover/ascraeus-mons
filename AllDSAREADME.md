@@ -272,6 +272,7 @@
 | [2127. Maximum Employees to Be Invited to a Meeting](./dsa/leetcode/VallesMarineris/MaximumEmployeesToBeInvitedToAMeeting.java) | #graph #dfs #cycle #hard |
 | [2140. Solving Questions With Brainpower](./dsa/leetcode/VallesMarineris/SolvingQuestionsWithBrainpower.java) | #array #dynamic-programming #medium |
 | [2163. Minimum Difference in Sums After Removal of Elements](./dsa/leetcode/kuiperBelt/MinimumDifferenceInSumsAfterRemovalOfElements.java) | #array #dynamic-programming #heap #priority-queue #hard                |
+| [2176. Count Equal and Divisible Pairs in an Array](./dsa/leetcode/JupitersGreatStorm/CountEqualAndDivisiblePairsInArray.java) | #array #brute-force #easy |
 | [2179. Count Good Triplets in an Array](./dsa/leetcode/JupitersGreatStorm/CountGoodTripletsInAnArray.java) | #array #binary-search #divide-and-conquer #binary-indexed-tree #segment-tree #hard |
 | [2183. Count Array Pairs Divisible by K](./dsa/leetcode/kuiperBelt/CountArrayPairsDivisibleByK.java) | #math #number-theory #hard |
 | [2184. Number of Ways to Build Sturdy Brick Wall](./dsa/leetcode/RhoCassiopeiae/NumberOfWaysToBuildSturdyBrickWall.java) | #array #dynamic-programming #bitmask #medium |
@@ -517,9 +518,9 @@
 | [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | --- | --- |
 
-DSA Progress: 363/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 364/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 804/1600
+All problems progress in LeetCode: 805/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
