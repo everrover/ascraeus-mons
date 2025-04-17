@@ -45,6 +45,7 @@
 | [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force                                |
 | [319. Bulb switcher](https://github.com/everrover/mount-kronos/blob/main/NinetySix/BulbSwitcher/BulbSwitcher.java) | #maths #trick #simulation-was-overkill |
 | [323. Number of Connected Components in an Undirected Graph](./dsa/leetcode/VallesMarineris/NumberOfConnectedComponentsInAnUndirectedGraph.java) | #depth-first-search #breadth-first-search #union-find #graph #medium |
+| [325. Maximum Size Subarray Sum Equals k](./dsa/leetcode/JupitersGreatStorm/MaximumSizeSubarraySumEqualsK.java) | #array #hash-table #prefix-sum #medium |
 | [329. Longest Increasing Path in a Matrix](./dsa/leetcode/kuiperBelt/LongestIncreasingPathInMatrix.java) | #array #dynamic-programming #depth-first-search #graph #memoization #hard                                         |
 | [330. Patching Array](./dsa/leetcode/kuiperBelt/PatchingArray.java) | #array #greedy #hard |
 | [332. Reconstruct Itinerary](./dsa/leetcode/RhoCassiopeiae/ReconstructItinerary.java) | #dfs #graph #eulerian-path #hard |
@@ -516,9 +517,9 @@
 | [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | --- | --- |
 
-DSA Progress: 362/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 363/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 803/1600
+All problems progress in LeetCode: 804/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
