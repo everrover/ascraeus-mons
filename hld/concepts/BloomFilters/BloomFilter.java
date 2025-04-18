@@ -1,4 +1,4 @@
-package hld.kuiperBelt.BloomFilters;
+package hld.concepts.BloomFilters;
 
 public class BloomFilter {
   /**
