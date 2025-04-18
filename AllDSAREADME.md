@@ -9,6 +9,7 @@
 | [5. Longest Palindromic Substring](./dsa/leetcode/fermi_s_paradox/LongestPalindromicSubstring.java) | #two-pointers #dynamic-programming #string #medium |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
+| [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium |
 | [42. Trapping Rain Water](./dsa/leetcode/kuiperBelt/TrappingRainWater.java) | #array #two-pointers #dynamic-programming #stack #hard |
 | [76. Minimum Window Substring](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinWindowSubstring.java) | #sliding-window #hashmap #array #string #done-b4 |
 | [84. Largest rectangle in histogram](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/LargestRectangleInHistogram/Solution.java) | #🙅🏻\u200d♀ #monotonic-stack #dynamic-programming #stack               |
@@ -518,9 +519,9 @@
 | [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | --- | --- |
 
-DSA Progress: 364/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 365/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 805/1600
+All problems progress in LeetCode: 806/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
