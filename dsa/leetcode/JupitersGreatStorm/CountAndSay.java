@@ -16,27 +16,40 @@ import java.util.List;
  * #string #simulation #medium
  */
 
-class Solution {
+class CountAndSay {
 
     public String countAndSay(int n) {
-        List<Integer> l = new LinkedList<>();
+        int []nums = null;
         String prev = "1";
-        int[] nums = null;
         n--;
-        while(n-- > 0) {
-            prev = csutil(nums);
-            nums = cs(prev);
+        while(n-->0) {
+          nums = cs(prev);
+          prev = csutil(nums);
         }
         return prev;
-    }
+      }
     
-    private int[] cs(String str) {
-        // pseudo code for counting and creating the sequence
-        return null;
-    }
-
-    private String csutil(int[] nums) {
-        // pseudo code for utility function
-        return null;
-    }
+      private int []cs(String str){
+        List<Integer> l = new LinkedList<>();
+        int idx = 0;
+        while(idx < str.length()){
+          int cnt = 1;
+          while(idx+cnt < str.length() && str.charAt(idx) == str.charAt(idx+cnt)){
+            cnt++;
+          }
+          l.add(cnt);
+          l.add((int)(str.charAt(idx)-'0'));
+          idx+=cnt;
+        }
+        idx=0;
+        int []res = new int[l.size()];
+        for(int ll: l) res[idx++]=ll;
+        return res;
+      }
+    
+      private String csutil(int []nums){
+        StringBuilder sb = new StringBuilder();
+        for(int num: nums) sb.append(num);
+        return sb.toString();
+      }
 }

@@ -13,37 +13,42 @@ public class CountTheNumberOfFairPairs {
    * #array #two-pointers #binary-search #sorting #medium
    */
 
-  public int countFairPairs(int[] nums, int lower, int upper) {
-    Arrays.sort(nums); // Sort the array first
-    int count = 0;
-    int till = nums.length;
-    for (int i = 0; i < till; i++) {
-      int l = i + 1, r = till - 1;
-      int start = i, end = i;
-      // Binary search for the lower bound
-      while (l <= r) {
-        int m = (l + r) / 2;
-        if (nums[m] < lower - nums[i]) {
-          l = m + 1;
-          start = m;
-        } else {
-          r = m - 1;
-        }
+   private int bsearch(int []nums, int till, int lower, int upper){
+    int l = 0, r = till-1, m;
+    int start = -2, end = -2;
+    // find start
+    while(l<=r){
+      m = (l+r)/2;
+      if(nums[m] >= lower){
+        start = m;
+        r = m-1;
+      }else if(nums[m] < lower){
+        l = m+1;
       }
-      l = i + 1; 
-      r = till - 1;
-      // Binary search for the upper bound
-      while (l <= r) {
-        int m = (l + r) / 2;
-        if (nums[m] > upper - nums[i]) {
-          r = m - 1;
-          end = m;
-        } else {
-          l = m + 1;
-        }
-      }
-      count += end - start;
     }
-    return count;
+    // find lower element count
+    l = 0; r = till-1;
+    while(l<=r){
+      m = (l+r)/2;
+      if(nums[m] <= upper){
+        end = m;
+        l = m+1;
+      }else if(nums[m] > upper){
+        r = m-1;
+      }
+    }
+    return (start==-2||end==-2)?0:(end-start+1);
   }
+  public long countFairPairs(int[] nums, int lower, int upper) {
+    long res = 0L;
+    Arrays.sort(nums);
+    for(int i=0; i<nums.length; i++){
+      int b = bsearch(nums, i, lower-nums[i], upper-nums[i]);
+      res += b;
+    }
+    return res;
+  }
+  // pair i,j
+  // upper >= nums[i]+nums[j] >= lower
+  // upper-nums[i] >= nums[j] >= lower-nums[i]
 }
