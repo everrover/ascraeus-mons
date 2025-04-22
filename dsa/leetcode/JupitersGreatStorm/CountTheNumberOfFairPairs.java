@@ -9,6 +9,13 @@ public class CountTheNumberOfFairPairs {
    * For each number in the sorted array, perform binary search to find the smallest and largest numbers
    * that can form a fair pair with the current number, given the constraints.
    * 
+   * Earlier i was thinking of using a BST maybe because of some of an overwhelmed mind, but BS clicked afterwards. 
+   * Damn...
+   * How these things influence our thinking. 
+   * 
+   * Learning : To keep your mind empty and open to new ideas especially 
+   * when you want to perform. Co-routine is the key before a contest...
+   * 
    * TC: O(n log n) due to sorting and binary search; SC: O(1)
    * #array #two-pointers #binary-search #sorting #medium
    */
