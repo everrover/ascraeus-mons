@@ -18,14 +18,17 @@ public class CountCompleteSubarraysInArray {
   public int countCompleteSubarrays(int[] nums) {
     int distinct = (int) Arrays.stream(nums).distinct().count(); // Total distinct elements in nums
     int res = 0;
-    for (int i = 0; i < nums.length; i++) {
-      Map<Integer, Integer> h = new HashMap<>();
-      for (int j = i; j < nums.length; j++) {
-        h.put(nums[j], h.getOrDefault(nums[j], 0) + 1);
-        if (h.size() == distinct) {
-          res++;
-        }
+    Map<Integer, Integer> h = new HashMap<>();
+    for (int i = 0, j = 0; i < nums.length; i++) {
+      while(j<nums.length && h.size() < distinct){
+        h.put(nums[j], h.getOrDefault(nums[j], 0)+1);j++;
       }
+      if(h.size() == distinct){
+        res += (nums.length-j+1);
+      }
+      if(h.get(nums[i]) == 1) {
+        h.remove(nums[i]);
+      }else h.put(nums[i], h.get(nums[i])-1);
     }
     return res;
   }
