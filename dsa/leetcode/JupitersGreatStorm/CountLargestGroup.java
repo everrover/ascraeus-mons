@@ -1,0 +1,37 @@
+package dsa.leetcode.JupitersGreatStorm;
+
+import java.util.*;
+
+public class CountLargestGroup {
+
+  /**
+   * https://leetcode.com/problems/count-largest-group/description/?envType=daily-question&envId=2025-04-23
+   *
+   * Count the digit sum for each integer in the range and find out the largest groups.
+   * Use a hashmap to track sizes of groups and find the largest.
+   *
+   * TC: O(n log n) SC: O(n)
+   * #hash-table #math #easy
+   */
+
+  public int countLargestGroup(int n) {
+    Map<Integer, Integer> hashMap = new HashMap<>();
+    int maxValue = 0;
+      for (int i = 1; i <= n; i++) {
+        int key = 0, i0 = i;
+        while (i0 > 0) {
+          key += i0 % 10;
+          i0 /= 10;
+        }
+        hashMap.put(key, hashMap.getOrDefault(key, 0) + 1);
+        maxValue = Math.max(maxValue, hashMap.get(key));
+      }
+    int count = 0;
+    for (Map.Entry<Integer, Integer> kvpair : hashMap.entrySet()) {
+      if (kvpair.getValue() == maxValue) {
+        ++count;
+      }
+    }
+    return count;
+  }
+}

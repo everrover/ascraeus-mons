@@ -194,6 +194,7 @@
 | [1368. Minimum Cost to Make at Least One Valid Path in a Grid](./dsa/leetcode/mithrim_montez/MinimumCostToMakeAtLeastOneValidPathInGrid.java) | #array #bfs #graph #heap #matrix #shortest-path #hard |
 | [1373. Maximum Sum BST in Binary Tree](./dsa/leetcode/kuiperBelt/MaximumSumBstInBinaryTree.java) | #dynamic-programming #tree #depth-first-search #binary-search-tree #binary-tree #hard |
 | [1376. Inform employees](https://github.com/everrover/mount-kronos/blob/main/SuperMario/InformEmployee.java) | #dfs #easy #bfs #tree |
+| [1399. Count Largest Group](./dsa/leetcode/JupitersGreatStorm/CountLargestGroup.java) | #hash-table #math #easy |
 | [1400. Construct K Palindrome Strings](./dsa/leetcode/mithrim_montez/ConstructKPalindromeStrings.java) | #hash-table #string #greedy #counting #medium |
 | [1402. Reducing Dishes](./dsa/leetcode/RhoCassiopeiae/ReducingDishes.java) | #array #dynamic-programming #greedy #sorting #hard |
 | [1408. String Matching in an Array](./dsa/leetcode/mithrim_montez/StringMatchingInAnArray.java) | #array #string #string-matching #easy |
@@ -298,8 +299,7 @@
 | [2321. Maximum Score Of Spliced Array](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MaxScoreOfSplicedArray/sol.md) | |
 | [2322. Minimum Score After Removals on a Tree](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MinScoreAfterRemovalsOnTree/sol.md) | #trees #graph-theory #dynamic-programming #tricky |
 | [2328. Number of Increasing Paths in a Grid](./dsa/leetcode/kuiperBelt/NumberOfIncreasingPathsInGrid.java) | #array #dynamic-programming #depth-first-search #graph #memoization #matrix #hard                                 |
-| [2338. Count the Number of Ideal Arrays](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CountIdealArrays/sol.md) | #combinatorics #dynamic-programming #tricky #hard |
-| [2338. Count the Number of Ideal Arrays](./dsa/leetcode/JupitersGreatStorm/CountTheNumberOfIdealArrays.java) | #math #dynamic-programming #combinatorics #number-theory #hard |
+| [2338. Count the Number of Ideal Arrays](./dsa/leetcode/JupitersGreatStorm/CountTheNumberOfIdealArrays.java#https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CountIdealArrays/sol.md) | #combinatorics #dynamic-programming #tricky #hard |
 | [2347. Best Poker Hand](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/BestPokerHand.java) | #easy |
 | [2348. Number of Zero-Filled Subarrays](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/ZeroFilledSubArrays/Solution.java) | #combinatorics |
 | [2349. Design a Number Container System](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/NumberContainerSystem/NumberContainers.java) | #maps #sets #bst #augmented-data-str |
@@ -522,9 +522,9 @@
 | [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | --- | --- |
 
-DSA Progress: 368/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 369/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 809/1600
+All problems progress in LeetCode: 810/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
