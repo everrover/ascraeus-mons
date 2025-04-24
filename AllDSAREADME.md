@@ -357,6 +357,7 @@
 | [2780. Minimum Index of a Valid Split](./dsa/leetcode/VallesMarineris/MinimumIndexOfAValidSplit.java) | #array #hashtable #sorting #medium |
 | [2784. Check if Array is Good](.dsa/leetcode/kuiperBelt/EasySetI.java)                    | #easy |
 | [2788. Split Strings by Separator](.dsa/leetcode/kuiperBelt/EasySetI.java)                | #easy |
+| [2799. Count Complete Subarrays in an Array](./dsa/leetcode/JupitersGreatStorm/CountCompleteSubarraysInArray.java) | #array #hash-table #sliding-window #medium |
 | [2806. Account Balance After Rounded Purchase](.dsa/leetcode/kuiperBelt/EasySetI.java)    | #easy |
 | [2809. Minimum Time to Make Array Sum At Most x](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinTimeToMakeArraySumAtMostX.java) // [Minimum Time to Make Array Sum At Most x](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinimumTimetoMakeArraySumAtMostX.java) | #tricky #very-hard #dynamic-programming #array #sorting #greedy #ai-wrote-this-description #contest           |
 | [2810. Faulty Keyboard](https://github.com/everrover/mount-kronos/blob/main/LordShiva/FaultyKeyboard.java) | #contest #simulation #very-easy |
@@ -522,9 +523,9 @@
 | [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | --- | --- |
 
-DSA Progress: 369/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 370/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 810/1600
+All problems progress in LeetCode: 811/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
