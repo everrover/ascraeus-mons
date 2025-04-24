@@ -40,6 +40,7 @@
 | [296. Best Meeting Point](./dsa/leetcode/kuiperBelt/BestMeetingPoint.java)                | #array #math #sorting #matrix #hard |
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard |
 | [301. Remove Invalid Parentheses](./dsa/leetcode/kuiperBelt/RemoveInvalidParentheses.java) | #backtracking #string #bfs #hard |
+| [302. Smallest Rectangle Enclosing Black Pixels](./dsa/leetcode/JupitersGreatStorm/SmallestRectangleEnclosingBlackPixels.java) | #array #dfs #matrix #hard |
 | [306. Additive Number](./dsa/leetcode/RhoCassiopeiae/AdditiveNumber.java) | #string #backtracking #medium |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium                         |
 | [315. Count of Smaller Numbers After Self](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountOfSmallerElementsAfterSelf/sol.md) | |
@@ -523,9 +524,9 @@
 | [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | --- | --- |
 
-DSA Progress: 370/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 371/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 811/1600
+All problems progress in LeetCode: 812/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
