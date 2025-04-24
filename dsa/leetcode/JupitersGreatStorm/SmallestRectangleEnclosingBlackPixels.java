@@ -17,10 +17,7 @@ public class SmallestRectangleEnclosingBlackPixels {
   private int left, right, top, bottom;
 
   public int minArea(char[][] image, int x, int y) {
-    left = y;
-    right = y;
-    top = x;
-    bottom = x;
+    left = y; right = y; top = x; bottom = x;
     dfs(image, x, y);
     return (right - left + 1) * (bottom - top + 1);
   }
