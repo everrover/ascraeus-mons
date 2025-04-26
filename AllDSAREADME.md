@@ -319,8 +319,7 @@
 | [2429. Minimize XOR](./dsa/leetcode/mithrim_montez/MinimizeXOR.java) | #bit-manipulation #greedy #medium |
 | [2433. Find The Original Array of Prefix Xor](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindOrginalArrayOfPrefixXor.java) | #easy #binary-math |
 | [2435. Paths in Matrix Whose Sum Is Divisible by K](https://github.com/everrover/mount-kronos/blob/main/SuperMario/PathsInMatrixWhoseSumIsDivisibleByK.java) | #dfs #dynamic-programming #matrix |
-| [2444. Count Subarrays With Fixed Bounds](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountSubarraysWithFixedBounds.java) | #tricky #sliding-windows #twist |
-| [2444. Count Subarrays With Fixed Bounds](./dsa/leetcode/JupitersGreatStorm/CountSubarraysWithFixedBounds.java) | #array #queue #sliding-window #monotonic-queue #hard |
+| [2444. Count Subarrays With Fixed Bounds](./dsa/leetcode/JupitersGreatStorm/CountSubarraysWithFixedBounds.java) | #tricky #sliding-windows #twist #array #queue #sliding-window #monotonic-queue #hard |
 | [2456. Most Popular Video Creator](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MostPopularVideoCreator.java) | #greedy #priority-queue #sorting #math #optimization               |
 | [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/HtOfBinTreeAfterSubtreeRemovalQueries.java) | #DFS #bfs #binary-tree #tricky #best-and-2nd-best |
 | [2460. Apply Operations to an Array](./dsa/leetcode/VallesMarineris/ApplyOperationsToAnArray.java) | #array #two-pointers #simulation #easy |

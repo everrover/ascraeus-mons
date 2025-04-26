@@ -20,6 +20,7 @@ class FindXValueOfArrayI {
    public long[] resultArray(int[] nums, int k) {
     Set<Long> ps = new HashSet<>();
     long[] res = new long[k];
+    // ( n1 * n2 * n3 ) % k = ( ( n1 % k ) * ( n2 % k ) * ( n3 % k ) ) % k
     for(int i=0; i<nums.length; i++) nums[i] %= k;
     Long [][]dp;
     for(int j=0; j<k; j++){
