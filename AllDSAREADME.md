@@ -320,6 +320,7 @@
 | [2433. Find The Original Array of Prefix Xor](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindOrginalArrayOfPrefixXor.java) | #easy #binary-math |
 | [2435. Paths in Matrix Whose Sum Is Divisible by K](https://github.com/everrover/mount-kronos/blob/main/SuperMario/PathsInMatrixWhoseSumIsDivisibleByK.java) | #dfs #dynamic-programming #matrix |
 | [2444. Count Subarrays With Fixed Bounds](https://github.com/everrover/mount-kronos/blob/main/NinetySix/CountSubarraysWithFixedBounds.java) | #tricky #sliding-windows #twist |
+| [2444. Count Subarrays With Fixed Bounds](./dsa/leetcode/JupitersGreatStorm/CountSubarraysWithFixedBounds.java) | #array #queue #sliding-window #monotonic-queue #hard |
 | [2456. Most Popular Video Creator](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MostPopularVideoCreator.java) | #greedy #priority-queue #sorting #math #optimization               |
 | [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/HtOfBinTreeAfterSubtreeRemovalQueries.java) | #DFS #bfs #binary-tree #tricky #best-and-2nd-best |
 | [2460. Apply Operations to an Array](./dsa/leetcode/VallesMarineris/ApplyOperationsToAnArray.java) | #array #two-pointers #simulation #easy |
@@ -526,9 +527,9 @@
 | [3524. Find X Value of Array I](./dsa/leetcode/JupitersGreatStorm/FindXValueOfArrayI.java) | #array #math #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 373/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 374/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 814/1600
+All problems progress in LeetCode: 815/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
