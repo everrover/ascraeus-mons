@@ -525,11 +525,12 @@
 | [3517. Smallest Palindromic Rearrangement](./dsa/leetcode/JupitersGreatStorm/SmallestPalindromicRearrangement.java) | #palindrome #string #sorting #medium |
 | [3523. Make Array Non-decreasing](./dsa/leetcode/JupitersGreatStorm/MakeArrayNonDecreasing.java) | #array #stack #greedy #monotonic stack #medium |
 | [3524. Find X Value of Array I](./dsa/leetcode/JupitersGreatStorm/FindXValueOfArrayI.java) | #array #math #dynamic-programming #medium |
+| [3525. Find X Value of Array II](./dsa/leetcode/JupitersGreatStorm/FindXValueOfArrayII.java) | #array #math #segment-tree #hard |
 | --- | --- |
 
-DSA Progress: 375/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 376/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 816/1600
+All problems progress in LeetCode: 817/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
