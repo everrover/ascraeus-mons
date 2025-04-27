@@ -456,6 +456,7 @@
 | [3375. Minimum Operations to Make Array Values Equal to K](./dsa/leetcode/VallesMarineris/MinimumOperationsToMakeArrayValuesEqualToK.java) | #array #hash-table #greedy #easy |
 | [3376. Minimum Time to Break Locks](./dsa/leetcode/mithrim_montez/MinimumTimeToBreakLocks.java) | #array #dynamic-programming #backtracking #bit-manipulation #depth-first-search #bitmask #medium |
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium |
+| [3392. Count Subarrays of Length Three With a Condition](./dsa/leetcode/JupitersGreatStorm/CountSubarraysOfLengthThreeWithACondition.java) | #array #sliding-window #easy |
 | [3393. Count Paths With the Given XOR Value](./dsa/leetcode/mithrim_montez/CountPathsWithTheGivenXorValue.java) | #array #dynamic-programming #bit-manipulation #matrix #medium |
 | [3394. Check if Grid can be Cut into Sections](./dsa/leetcode/mithrim_montez/CheckIfGridCanBeCutIntoSections.java) | #array #sorting #geometry #medium |
 | [3396. Minimum Number of Operations to Make Elements in Array Distinct](./dsa/leetcode/VallesMarineris/MinimumNumberOfOperationsToMakeElementsInArrayDistinct.java) | #array #hash-table #easy |
@@ -526,9 +527,9 @@
 | [3524. Find X Value of Array I](./dsa/leetcode/JupitersGreatStorm/FindXValueOfArrayI.java) | #array #math #dynamic-programming #medium |
 | --- | --- |
 
-DSA Progress: 374/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 375/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 815/1600
+All problems progress in LeetCode: 816/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
