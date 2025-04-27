@@ -14,21 +14,20 @@ public class ConstructBinaryTreeFromString {
    * #string #stack #tree #dfs #binary-tree #medium
    */
 
-  /**
-   * Definition for a binary tree node.
-   * public class TreeNode {
-   *     int val;
-   *     TreeNode left;
-   *     TreeNode right;
-   *     TreeNode() {}
-   *     TreeNode(int val) { this.val = val; }
-   *     TreeNode(int val, TreeNode left, TreeNode right) {
-   *         this.val = val;
-   *         this.left = left;
-   *         this.right = right;
-   *     }
-   * }
-   */
+  // Definition for a binary tree node.
+  public class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }
+
   public TreeNode str2tree(String s) {
     Stack<TreeNode> st = new Stack<>();
     TreeNode parent = null, curr = null;

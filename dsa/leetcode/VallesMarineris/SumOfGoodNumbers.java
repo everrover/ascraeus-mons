@@ -1,6 +1,6 @@
 package dsa.leetcode.VallesMarineris;
 
-class Solution {
+class SumOfGoodNumbers {
 
     /**
      * https://leetcode.com/problems/sum-of-good-numbers/description/

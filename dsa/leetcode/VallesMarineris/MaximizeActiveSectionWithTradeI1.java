@@ -1,6 +1,6 @@
 package dsa.leetcode.VallesMarineris;
 
-public class MaximizeActiveSectionWithTradeI {
+public class MaximizeActiveSectionWithTradeI1 {
 
     /**
      * https://leetcode.com/problems/maximize-active-section-with-trade-i/description/

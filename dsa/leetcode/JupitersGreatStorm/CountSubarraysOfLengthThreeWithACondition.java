@@ -1,6 +1,6 @@
 package dsa.leetcode.JupitersGreatStorm;
 
-public class Solution {
+public class CountSubarraysOfLengthThreeWithACondition {
 
   /**
    * https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/?envType=daily-question&envId=2025-04-27

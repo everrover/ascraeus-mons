@@ -12,8 +12,10 @@ public class Singleton {
   }
 
   public static Singleton getInstance() {
-    if (uniqueInstance == null) {
-      uniqueInstance = new Singleton();
+    synchronized (Singleton.class) { // thread-safe access to the instance
+      if (uniqueInstance == null) {
+        uniqueInstance = new Singleton();
+      }
     }
     return uniqueInstance;
   }
