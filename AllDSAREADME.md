@@ -526,12 +526,13 @@
 | [3523. Make Array Non-decreasing](./dsa/leetcode/JupitersGreatStorm/MakeArrayNonDecreasing.java) | #array #stack #greedy #monotonic stack #medium |
 | [3524. Find X Value of Array I](./dsa/leetcode/JupitersGreatStorm/FindXValueOfArrayI.java) | #array #math #dynamic-programming #medium |
 | [3525. Find X Value of Array II](./dsa/leetcode/JupitersGreatStorm/FindXValueOfArrayII.java) | #array #math #segment-tree #hard |
+| [3531. Count Covered Buildings](./dsa/leetcode/VallesMarineris/CountCoveredBuildings.java) | #array #hash-table #sorting #medium |
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 377/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 378/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 818/1600
+All problems progress in LeetCode: 819/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
