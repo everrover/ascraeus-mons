@@ -8,31 +8,37 @@ public class CountCoveredBuildings {
    * https://leetcode.com/problems/count-covered-buildings/description/
    *
    * Calculate covered buildings by iterating through each building and checking
-   * if it has buildings on all four sides.
+   * if it has buildings on all four sides. This i did using a hash table to store
+   * the max and min values of each row and column. 
    *
    * TC: O(n) SC: O(n)
    * #array #hash-table #sorting #medium
    */
 
-  public int countCoveredBuildings(int n, int[][] buildings) {
-    final int sz = (int)1e5;
-    int r = buildings[0][0], c = buildings[0][1];
-    int max = -1, min = Integer.MAX_VALUE;
-    
-    T[] cols = new T[n + 1];
-    T[] rows = new T[n + 1];
-
-    for (int i = 0; i <= n; i++) {
-      cols[i] = new T();
-      rows[i] = new T();
-    }
-
-    for (int[] b : buildings) {
-      // Initialize and gather necessary row and column data
-    }
-
-    return 0; // Replace with actual covered building count
+   private static class T {
+    public int max = -1, min = Integer.MAX_VALUE;
   }
-
-  private static class T {}
+  final int sz = (int)1e5;
+  public int countCoveredBuildings(int n, int[][] buildings) {
+    T [] rows = new T[n+1];
+    T [] cols = new T[n+1];
+    for(int i=0; i<=n; i++) {
+      rows[i] = new T();
+      cols[i] = new T();
+    }
+    for(int []b: buildings){
+      int r = b[0], c = b[1];
+      rows[c].max = Math.max(rows[c].max, r);
+      rows[c].min = Math.min(rows[c].min, r);
+      cols[r].max = Math.max(cols[r].max, c);
+      cols[r].min = Math.min(cols[r].min, c);
+    }
+    int res = 0;
+    for(int []b: buildings){
+      int r = b[0], c = b[1];
+      T col = cols[r], row = rows[c];
+      if(col.max > c && c > col.min && row.max > r && r > row.min) res++;
+    }
+    return res;
+  }
 }
