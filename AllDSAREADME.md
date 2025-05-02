@@ -376,6 +376,7 @@
 | [2826. Sorting Three Groups](https://github.com/everrover/mount-kronos/blob/main/LordShiva/SortThreeGroups.java) | #easy #greedy #memoization #dynamic-programming #contest           |
 | [2842. Count K-Subsequences of a String With Maximum Beauty](https://github.com/everrover/mount-kronos/blob/main/LordShiva/CountKSubseqOfStringWithMaxBeauty.java) | #contest #math #greedy #combinatorics #combinatorial-optimization  |
 | [2843. Count Symmetric Integers](.dsa/leetcode/kuiperBelt/EasySetI.java)                  | #easy |
+| [2845. Count of Interesting Subarrays](./dsa/leetcode/VallesMarineris/CountOfInterestingSubarrays.java) | #array #hash-table #prefix-sum #medium |
 | [2860. Happy students](https://github.com/everrover/mount-kronos/blob/main/LordShiva/HappyStudents.java)  | #array #greedy #sorting #contest |
 | [2861. Max Number Of Alloys](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MaxNumberOfAlloys.java) | #contest #binary-search #greedy |
 | [2864. Maximum Odd Binary Number](.dsa/leetcode/kuiperBelt/EasySetI.java)                 | #easy |
@@ -533,9 +534,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 381/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 382/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 822/1600
+All problems progress in LeetCode: 823/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
