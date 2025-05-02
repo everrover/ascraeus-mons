@@ -133,8 +133,7 @@
 | [826. Most Profit Assigning Work](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaxProfitAssignment.java) | #implmentation |
 | [827. Making A Large Island](./dsa/leetcode/kuiperBelt/MakingALargeIsland.java)           | #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process               |
 | [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
-| [838. Push dominoes](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PushDominos.java)      | #implmentation |
-| [838. Push Dominoes](./dsa/leetcode/VallesMarineris/PushDominoes.java) | #two-pointers #string #dynamic-programming #medium |
+| [838. Push dominoes](./dsa/leetcode/VallesMarineris/PushDominoes.java) | #two-pointers #string #dynamic-programming #medium |
 | [841. Keys and rooms](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/KeysAndRooms.java)    | #dfs |
 | [842. Split Array into Fibonacci Sequence](./dsa/leetcode/RhoCassiopeiae/SplitArrayIntoFibonacciSequence.java) | #string #backtracking #medium |
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java)                  | #array #segment-tree #line-sweep #ordered-set #hard |

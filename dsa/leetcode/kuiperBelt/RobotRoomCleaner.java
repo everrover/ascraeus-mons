@@ -46,6 +46,7 @@ public class RobotRoomCleaner {
         r.turnLeft();
         r.turnLeft();
         r.move();
+        // face in same direction again
         r.turnLeft();
         r.turnLeft();
     }
