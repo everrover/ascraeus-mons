@@ -269,6 +269,7 @@
 | [2009. Minimum Number of Operations to Make Array Continuous](./dsa/leetcode/jovianMoonOrbit/MinNumberOfOperationsToMakeArrayContinuous.java) | #array #sliding-window #hard #tricky |
 | [2017. Grid Game](./dsa/leetcode/mithrim_montez/GridGame.java) | #array #matrix #prefix-sum #medium |
 | [2060. Check if an Original String Exists Given Two Encoded Strings](./dsa/leetcode/kuiperBelt/CheckIfAnOriginalStringExistsGivenTwoEncodedStrings.java) | #dynamic-programming #string #hard #recursion #tricky |
+| [2071. Maximum Number of Tasks You Can Assign](./dsa/leetcode/VallesMarineris/MaximumNumberOfTasksYouCanAssign.java) | #array #binary-search #greedy #queue #hard |
 | [2076. Process Restricted Friend Requests](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ProcessRestrictedFriendRequests/sol.md) | |
 | [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
 | [2116. Check if a Parentheses String Can Be Valid](./dsa/leetcode/mithrim_montez/CheckIfAParenthesesStringCanBeValid.java) | #string #stack #greedy #medium |
@@ -531,9 +532,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 379/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 380/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 820/1600
+All problems progress in LeetCode: 821/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
