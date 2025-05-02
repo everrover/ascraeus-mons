@@ -123,6 +123,7 @@
 | [763. Partition Labels](./dsa/leetcode/VallesMarineris/PartitionLabels.java) | #hash-table #two-pointers #string #greedy #medium |
 | [778. Swim in Rising Water](./dsa/leetcode/jovianMoonOrbit/SwimInRisingWater.java) | #array #binary-search #dfs #bfs #union-find #heap #matrix #hard |
 | [780. Reaching Points](./dsa/leetcode/fermi_s_paradox/ReachingPoints.java) | #math #reachability #hard |
+| [781. Rabbits in Forest](./dsa/leetcode/VallesMarineris/RabbitsInForest.java) | #array #hash-table #math #greedy #medium |
 | [789. Escaaape the ghosts](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PacmanEscapesTheGhost.java) | #math #easy |
 | [791. Custom Sort String](./dsa/leetcode/jovianMoonOrbit/CustomSortString.java) | #hash-table #string #sorting #medium |
 | [799. Champagne Tower](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChampagneTower/sol.md)                  | |
@@ -532,9 +533,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 380/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 381/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 821/1600
+All problems progress in LeetCode: 822/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
