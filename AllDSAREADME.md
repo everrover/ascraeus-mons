@@ -134,6 +134,7 @@
 | [827. Making A Large Island](./dsa/leetcode/kuiperBelt/MakingALargeIsland.java)           | #array #depth-first-search #breadth-first-search #union-find #matrix #hard #inverted-though-process               |
 | [828. Count Unique Characters of All Substrings of a Given String](./dsa/leetcode/kuiperBelt/CountUniqueCharactersOfAllSubstringsOfAGivenString.java) | #hash-table #string #dynamic-programming #hard |
 | [838. Push dominoes](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PushDominos.java)      | #implmentation |
+| [838. Push Dominoes](./dsa/leetcode/VallesMarineris/PushDominoes.java) | #two-pointers #string #dynamic-programming #medium |
 | [841. Keys and rooms](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/KeysAndRooms.java)    | #dfs |
 | [842. Split Array into Fibonacci Sequence](./dsa/leetcode/RhoCassiopeiae/SplitArrayIntoFibonacciSequence.java) | #string #backtracking #medium |
 | [850. Rectangle Area II](./dsa/leetcode/kuiperBelt/RectangleAreaII.java)                  | #array #segment-tree #line-sweep #ordered-set #hard |
@@ -534,9 +535,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 382/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 383/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 823/1600
+All problems progress in LeetCode: 824/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
