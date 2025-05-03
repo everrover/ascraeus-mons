@@ -42,6 +42,7 @@
 | [301. Remove Invalid Parentheses](./dsa/leetcode/kuiperBelt/RemoveInvalidParentheses.java) | #backtracking #string #bfs #hard |
 | [302. Smallest Rectangle Enclosing Black Pixels](./dsa/leetcode/JupitersGreatStorm/SmallestRectangleEnclosingBlackPixels.java) | #array #dfs #matrix #hard |
 | [306. Additive Number](./dsa/leetcode/RhoCassiopeiae/AdditiveNumber.java) | #string #backtracking #medium |
+| [311. Sparse Matrix Multiplication](./dsa/leetcode/VallesMarineris/SparseMatrixMultiplication.java) | #array #hash-table #matrix #medium |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium                         |
 | [315. Count of Smaller Numbers After Self](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountOfSmallerElementsAfterSelf/sol.md) | |
 | [317. Shortest Distance from All Buildings](./dsa/leetcode/kuiperBelt/ShortestDistanceFromAllBuildings.java) | #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force                                |
@@ -535,9 +536,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 384/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 385/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 825/1600
+All problems progress in LeetCode: 826/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
