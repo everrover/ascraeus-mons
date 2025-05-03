@@ -2,13 +2,15 @@ package dsa.leetcode.VallesMarineris;
 
 import java.util.*;
 
-public class Solution {
+public class MinimumDominoRotationsForEqualRow {
   /**
    * https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/?envType=daily-question&envId=2025-05-03
    * 
    * Count the frequencies of each number on the top and bottom. Identify potential candidates that can make all
    * values equal in either row by considering common elements with sufficient frequency. Checks for minimum rotations
    * or determine if it is impossible.
+   * 
+   * Remember common's don't need any swap.
    * 
    * TC: O(n) SC: O(1)
    * #array #greedy #medium
