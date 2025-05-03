@@ -162,6 +162,7 @@
 | [987. Vertical Order Traversal of a Binary Tree](./dsa/leetcode/kuiperBelt/VerticalOrderTraversalOfBinaryTree.java) | #hash-table #tree #dfs #bfs #sorting #binary-tree #hard                |
 | [994. Rotting Oranges](./dsa/leetcode/fermi_s_paradox/RottingOranges.java) | #array #breadth-first-search #matrix #medium |
 | [995. Minimum Number Of K Consecutive Bit Flips](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumNumberOfKConsecutiveBitFlips.java) | #tricky-approach #queue #sliding-window #unable-to-do-on-my-own    |
+| [1007. Minimum Domino Rotations For Equal Row](./dsa/leetcode/VallesMarineris/MinimumDominoRotationsForEqualRow.java) | #array #greedy #medium |
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard |
 | [1029. Two City Scheduling](./dsa/leetcode/fermi_s_paradox/TwoCityScheduling.java) | #array #greedy #dynamic-programming #medium |
 | [1035. Uncrossed Lines](./dsa/leetcode/fermi_s_paradox/UncrossedLines.java) | #array #dynamic-programming #medium |
@@ -534,9 +535,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 383/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 384/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 824/1600
+All problems progress in LeetCode: 825/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
