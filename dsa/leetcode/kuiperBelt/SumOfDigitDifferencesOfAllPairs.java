@@ -1,4 +1,4 @@
-package dsa.leetcode.kuiperBelt;
+package dsa.leetcode.KuiperBelt;
 
 /**
  * https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/

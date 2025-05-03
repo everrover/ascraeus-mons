@@ -1,4 +1,4 @@
-package dsa.leetcode.jovianMoonOrbit;
+package dsa.leetcode.JovianMoonOrbit;
 
 // imports here
 import java.util.PriorityQueue;

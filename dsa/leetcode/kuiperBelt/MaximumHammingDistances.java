@@ -1,4 +1,4 @@
-package dsa.leetcode.kuiperBelt;
+package dsa.leetcode.KuiperBelt;
 
 import java.util.HashSet;
 import java.util.HashMap;

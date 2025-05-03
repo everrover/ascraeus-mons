@@ -1,4 +1,4 @@
-package dsa.leetcode.kuiperBelt;
+package dsa.leetcode.KuiperBelt;
 
 public class MaximumNumberSumPricesLessEqualK {
   /**

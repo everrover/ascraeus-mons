@@ -1,4 +1,4 @@
-package dsa.leetcode.jovianMoonOrbit;
+package dsa.leetcode.JovianMoonOrbit;
 
 // Necessary imports
 import java.util.Arrays;

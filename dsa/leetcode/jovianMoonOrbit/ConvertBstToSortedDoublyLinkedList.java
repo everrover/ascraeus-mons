@@ -1,4 +1,4 @@
-package dsa.leetcode.jovianMoonOrbit;
+package dsa.leetcode.JovianMoonOrbit;
 
 // Definition for a Node.
 class Node {
