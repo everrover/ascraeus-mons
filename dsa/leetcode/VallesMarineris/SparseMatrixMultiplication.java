@@ -16,6 +16,7 @@ public class SparseMatrixMultiplication {
     int m = mat1.length;
     int k = mat1[0].length;
     int n = mat2[0].length;
+    if(n != mat1[0].length) return null; // Invalid multiplication
 
     int[][] result = new int[m][n];
 
