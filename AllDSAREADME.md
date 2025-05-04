@@ -454,6 +454,7 @@
 | [3257. Maximum Value Sum by Placing Three Rooks II](./dsa/leetcode/jovianMoonOrbit/MaximumValueSumByPlacingThreeRooksII.java) | #chess #DFS #dynamic-programming #hard |
 | [3272. Find the Count of Good Integers](./dsa/leetcode/VallesMarineris/FindTheCountOfGoodIntegers.java) | #hash-table #math #combinatorics #hard |
 | [3282. Reach End of Array With Max Score](./dsa/leetcode/VallesMarineris/ReachEndOfArrayWithMaxScore.java) | #array #greedy #medium |
+| [3295. Report Spam Message](./dsa/leetcode/VallesMarineris/ReportSpamMessage.java) | #array #hash-table #string #medium |
 | [3306. Count of Substrings Containing Every Vowel and K Consonants II](./dsa/leetcode/VallesMarineris/CountOfSubstringsContainingEveryVowelAndKConsonantsIi.java) | #sliding-window #string #hash-table #medium |
 | [3316. Find Maximum Removals From Source String](./dsa/leetcode/VallesMarineris/FindMaximumRemovalsFromSourceString.java) | #array #hash-table #two-pointers #string #dynamic-programming #medium |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #combinatorics #medium |
@@ -538,9 +539,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 387/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 388/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 828/1600
+All problems progress in LeetCode: 829/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
