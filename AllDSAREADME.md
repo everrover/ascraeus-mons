@@ -175,6 +175,7 @@
 | [1095. Find in Mountain Array](./dsa/leetcode/jovianMoonOrbit/FindInMountainArray.java) | #binary-search #interactive #hard |
 | [1106. Parsing A Boolean Expression](./dsa/leetcode/kuiperBelt/ParsingABooleanExpression.java) | #stack #recursion #string #hard |
 | [1123. Lowest Common Ancestor of Deepest Leaves](./dsa/leetcode/VallesMarineris/LowestCommonAncestorOfDeepestLeaves.java) | #tree #dfs #binary-tree #medium |
+| [1128. Number of Equivalent Domino Pairs](./dsa/leetcode/VallesMarineris/NumberOfEquivalentDominoPairs.java) | #array #hash-table #counting #easy |
 | [1130. Minimum Cost Tree From Leaf Values](./dsa/leetcode/RhoCassiopeiae/MinimumCostTreeFromLeafValues.java) | #array #dynamic-programming #stack #monotonic-stack #greedy #medium |
 | [1143. Longest common sub-seq](https://github.com/everrover/mount-kronos/blob/main/NinetySix/LongestCommonSubseq.java) | #dynamic-programming #memory-optimization |
 | [1147. Longest Chunked Palindrome Decomposition](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LongestChunkedPalindromeDecomposition.java) | #dynamic-programming #palindrome #no-effort #two-pointer #string   |
@@ -536,9 +537,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 385/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 386/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 826/1600
+All problems progress in LeetCode: 827/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
