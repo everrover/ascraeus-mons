@@ -22,7 +22,7 @@ public final int getAndIncrement() {
 - For generic workloads(less to mid contention) it works
 - Superb for primitive types
 
-**Cons**
+  **Cons**
 - For high workloads(>10^6 ops per key per machine as 👍🏻) it works poorly due to infinite loop
 - For object level abstractions it's not possible to perform comparison on hardware level
   - Practically DB level queries mitigate it using sth like 2PC, `UPDATE WHERE` or seq numbers for write-conflict resolution

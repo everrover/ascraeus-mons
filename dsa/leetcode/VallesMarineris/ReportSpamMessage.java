@@ -1,14 +1,16 @@
-package dsa.leetcode.VallesMarineris;
+  package dsa.leetcode.VallesMarineris;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution {
+public class ReportSpamMessage {
   /**
    * https://leetcode.com/problems/report-spam-message/description/
    *
    * Determine if the given message is spam by checking if it contains two or more words that match any word in the bannedWords list.
    * Use a HashSet for efficient look-up and count words matched from the message array.
+   * 
+   * Could've used binary search as well...
    *
    * TC: O(n + m), where n is the length of the message array and m is the length of the bannedWords array.
    * SC: O(m)

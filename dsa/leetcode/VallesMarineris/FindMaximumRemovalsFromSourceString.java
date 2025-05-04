@@ -15,32 +15,27 @@ public class FindMaximumRemovalsFromSourceString {
    */
 
   public int findMaximumRemovals(String source, String pattern, int[] targetIndices) {
-    char[] s = source.toCharArray();
-    char[] p = pattern.toCharArray();
     Set<Integer> set = new HashSet<>();
-    for (int idx : targetIndices) {
-      set.add(idx);
-    }
-    int[][] dp = new int[source.length() + 1][pattern.length() + 1];
-    for (int[] dd : dp) Arrays.fill(dd, -100001);
-    return dfs(0, 0, dp, s, p, set);
+    char[] s = source.toCharArray();
+    for(int t:targetIndices) set.add(t);
+    // int []dp = new int[pattern.length()+1]; Arrays.fill(dp, -1); dp[pattern.length()] = 0;
+    int [][]dp = new int[source.length()+1][pattern.length()+1];
+    for(int []dd: dp) Arrays.fill(dd, -100001);
+    int res = dfs(0, 0, dp, s, pattern.toCharArray(), set);
+    return res;
   }
 
-  private int dfs(int idx, int jdx, final int[][] dp, final char[] s, final char[] p, final Set<Integer> set) {
-    if (idx >= s.length) return jdx >= p.length ? 0 : -100000;
-    else if (dp[idx][jdx] != -100001) return dp[idx][jdx];
+  private int dfs(int idx, int jdx, final int [][]dp, final char[] s, final char[] p, final Set<Integer> set){
+    if(idx>=s.length) return jdx>=p.length?0:-100000;
+    else if(dp[idx][jdx] != -100001) return dp[idx][jdx];
 
-    int res = jdx >= p.length ? 0 : -2;
-    if (set.contains(idx)) {
-      res = Math.max(res, dfs(idx + 1, jdx, dp, s, p, set));
-    }
-    if (jdx < p.length && s[idx] == p[jdx]) {
-      res = Math.max(res, dfs(idx + 1, jdx + 1, dp, s, p, set) + 1);
-    }
-
-    if (!set.contains(idx)) {
-      res = Math.max(res, dfs(idx + 1, jdx, dp, s, p, set));
-    }
+    int res = jdx>=p.length?0:-2;
+    // take idx in ss
+    if(jdx < p.length && s[idx] == p[jdx]) res = Math.max(dfs(idx+1, jdx+1, dp, s, p, set), res);
+    // don't take idx in ss
+    int r = dfs(idx+1, jdx, dp, s, p, set);
+    if(r>=0) res = Math.max(r+(set.contains(idx)?1:0), res);
+    
     return dp[idx][jdx] = res;
   }
 
