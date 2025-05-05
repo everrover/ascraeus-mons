@@ -126,6 +126,7 @@
 | [780. Reaching Points](./dsa/leetcode/fermi_s_paradox/ReachingPoints.java) | #math #reachability #hard |
 | [781. Rabbits in Forest](./dsa/leetcode/VallesMarineris/RabbitsInForest.java) | #array #hash-table #math #greedy #medium |
 | [789. Escaaape the ghosts](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/PacmanEscapesTheGhost.java) | #math #easy |
+| [790. Domino and Tromino Tiling](./dsa/leetcode/VallesMarineris/DominoAndTrominoTiling.java) | #dynamic-programming #tiling #medium |
 | [791. Custom Sort String](./dsa/leetcode/jovianMoonOrbit/CustomSortString.java) | #hash-table #string #sorting #medium |
 | [799. Champagne Tower](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChampagneTower/sol.md)                  | |
 | [802. Find Eventual Safe States](./dsa/leetcode/mithrim_montez/FindEventualSafeStates.java) | #depth-first-search #graph #topological-sort #medium |
@@ -539,9 +540,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 388/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 389/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 829/1600
+All problems progress in LeetCode: 830/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
