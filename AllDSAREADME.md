@@ -212,6 +212,7 @@
 | [1478. Allocate Mailboxes](https://github.com/everrover/mount-kronos/blob/main/SuperMario/AllocateMailboxes.java) | #math #dynamic-programming #sorting |
 | [1481. Least Number of Unique Integers after K Removals](./dsa/leetcode/RhoCassiopeiae/LeastNumberOfUniqueIntegersAfterKRemovals.java) | #array #hash-table #greedy #sorting #medium |
 | [1499. max-value-of-equation](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MaxValueOfEqForPoints.java) | #heap #sliding-window #deque #maths |
+| [1504. Count Submatrices With All Ones](./dsa/leetcode/VallesMarineris/CountSubmatricesWithAllOnes.java) | #array #dynamic-programming #stack #matrix #monotonic-stack #medium |
 | [1514. Path with Maximum Probability](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/PathWithMaxProbability/sol.md) | #dijkstras-algorithm |
 | [1515. Best Position for a Service Centre](./dsa/leetcode/RhoCassiopeiae/BestPositionForAServiceCentre.java) | #array #math #geometry #randomized #hard |
 | [1521. Find a Value of a Mysterious Function Closest to Target](./SuperMario/FindValueOfMysteriousFunctionClosestToTarget.java) | #bitset-ops #hashing #optimization #cheated🙃 |
@@ -541,9 +542,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 390/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 391/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 831/1600
+All problems progress in LeetCode: 832/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
