@@ -55,6 +55,7 @@
 | [332. Reconstruct Itinerary](./dsa/leetcode/RhoCassiopeiae/ReconstructItinerary.java) | #dfs #graph #eulerian-circuit #hard |
 | [339. Nested List Weight Sum](./dsa/leetcode/kuiperBelt/NestedListWeightSum.java)         | #depth-first-search #bfs #recursion #nested-lists #medium              |
 | [347. Top K Frequent Elements](./dsa.leetcode.kuiperBelt/TopKFrequentElements.java)       | #hashmap #priorityqueue #heaps #medium |
+| [353. Design Snake Game](./dsa/leetcode/VallesMarineris/DesignSnakeGame.java) | #array #hash-table #design #queue #simulation #medium |
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) | |
 | [368. Largest Divisible Subset](./dsa/leetcode/VallesMarineris/LargestDivisibleSubset.java) | #array #math #dynamic-programming #sorting #medium |
 | [380. Insert Delete GetRandom O(1)](./dsa/leetcode/jovianMoonOrbit/InsertDeleteGetRandomO1.java) | #hash-map #array-list #random #medium |
@@ -542,9 +543,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 391/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 392/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 832/1600
+All problems progress in LeetCode: 833/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
