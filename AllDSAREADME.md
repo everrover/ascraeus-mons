@@ -462,6 +462,7 @@
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #medium |
 | [3341. Find Minimum Time to Reach Last Room](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomI.java) | #array #graph #priority-queue #matrix #shortest-path #medium |
 | [3342. Find Minimum Time to Reach Last Room II](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomIi.java) | #array #graph #heap #matrix #shortest-path #medium |
+| [3359. Find Sorted Submatrices With Maximum Element at Most K](./dsa/leetcode/VallesMarineris/FindSortedSubmatricesWithMaximumElementAtMostK.java) | #matrix #monotonic-stack #array #hard |
 | [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/mithrim_montez/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java) | #tree #bfs #medium |
 | [3375. Minimum Operations to Make Array Values Equal to K](./dsa/leetcode/VallesMarineris/MinimumOperationsToMakeArrayValuesEqualToK.java) | #array #hash-table #greedy #easy |
 | [3376. Minimum Time to Break Locks](./dsa/leetcode/mithrim_montez/MinimumTimeToBreakLocks.java) | #array #dynamic-programming #backtracking #bit-manipulation #depth-first-search #bitmask #medium |
@@ -540,9 +541,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 389/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 390/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 830/1600
+All problems progress in LeetCode: 831/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
