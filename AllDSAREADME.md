@@ -9,6 +9,7 @@
 | [2. Add Two Numbers](./dsa/leetcode/VallesMarineris/AddTwoNumbers.java) | #linked-list #math #recursion #medium |
 | [3. Longest Substring Without Repeating Characters](./dsa/leetcode/EuropasOceanWorld/LongestSubstringWithoutRepeatingCharacters.java) | #hash-table #string #sliding-window #medium |
 | [5. Longest Palindromic Substring](./dsa/leetcode/fermi_s_paradox/LongestPalindromicSubstring.java) | #two-pointers #dynamic-programming #string #medium |
+| [6. Zigzag Conversion](./dsa/leetcode/EuropasOceanWorld/ZigzagConversion.java) | #string #pattern #medium |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
 | [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium |
@@ -545,9 +546,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 394/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 395/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 835/1600
+All problems progress in LeetCode: 836/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
