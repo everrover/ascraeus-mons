@@ -12,22 +12,35 @@ public class ZigzagConversion {
    *
    * TC: O(n) SC: O(n)
    * #string #pattern #medium
+// 14/4 = 3
+
+// P A Y P A L I S H I R I N G = 14
+// 1           1           1
+//   2       2   2       2   2
+//     3   3       3   3
+//       4           4
    */
-
-  public String convert(String s, int numRows) {
-    if (numRows == 1) return s;
-    StringBuilder sb = new StringBuilder();
-    int len = s.length();
-    int skip = 2 * (numRows - 1);
-
-    for (int i = 0; i < numRows; i++) {
-      int j = 0;
-      while (j < len) {
-        if ((j + i) < len) sb.append(s.charAt(j + i));
-        if (i != 0 && i != numRows - 1 && (j + skip - i) < len) sb.append(s.charAt(j + skip - i));
-        j += skip;
+    public String convert(String s, int n) {
+      char chs[] = s.toCharArray();
+      StringBuilder sb = new StringBuilder("");
+      int i, j, k, skip = n==1?1:2*(n-1), len=chs.length;
+      i=0;
+      while(i<len){
+          sb.append(chs[i]);
+          i+=skip;
       }
-    }
-    return sb.toString();
+      i=1;
+      
+      while(i<n){
+          j=0; k=skip;
+          while(j<len){
+              if ((j+i)<len) sb.append(chs[j+i]);
+              if ((j+i) != (k-i) && (k-i)<len) sb.append(chs[k-i]);
+              j=k;
+              k+=skip;
+          }
+          i++;
+      }
+      return sb.toString();
   }
 }
