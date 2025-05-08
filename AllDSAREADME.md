@@ -6,6 +6,7 @@
 | Title | Some pointers |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [1. Two Sum](./dsa/leetcode/JupitersGreatStorm/TwoSum.java) | #array #hash-table #easy |
+| [2. Add Two Numbers](./dsa/leetcode/VallesMarineris/AddTwoNumbers.java) | #linked-list #math #recursion #medium |
 | [5. Longest Palindromic Substring](./dsa/leetcode/fermi_s_paradox/LongestPalindromicSubstring.java) | #two-pointers #dynamic-programming #string #medium |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
@@ -543,9 +544,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 392/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 393/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 833/1600
+All problems progress in LeetCode: 834/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
