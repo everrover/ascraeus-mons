@@ -14,6 +14,7 @@
 | [9. Palindrome Number](./dsa/leetcode/EuropasOceanWorld/PalindromeNumber.java) | #math #easy |
 | [10. Regular Expression Matching](./dsa/leetcode/EuropasOceanWorld/RegularExpressionMatching.java) | #string #dynamic-programming #recursion #hard |
 | [11. Container With Most Water](./dsa/leetcode/EuropasOceanWorld/ContainerWithMostWater.java) | #array #two-pointers #greedy #medium |
+| [14. Longest Common Prefix](./dsa/leetcode/EuropasOceanWorld/LongestCommonPrefix.java) | #string #trie #easy |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
 | [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium |
@@ -550,9 +551,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 399/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 400/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 840/1600
+All problems progress in LeetCode: 841/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
