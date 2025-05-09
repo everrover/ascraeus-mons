@@ -22,6 +22,7 @@
 | [19. Remove Nth Node From End of List](./dsa/leetcode/EuropasOceanWorld/RemoveNthNodeFromEndOfList.java) | #linked-list #two-pointers #medium |
 | [20. Valid Parentheses](./dsa/leetcode/EuropasOceanWorld/ValidParentheses.java) | #string #stack #parentheses #easy |
 | [21. Merge Two Sorted Lists](./dsa/leetcode/EuropasOceanWorld/MergeTwoSortedLists.java) | #linked-list #iteration #easy |
+| [22. Generate Parentheses](./dsa/leetcode/EuropasOceanWorld/GenerateParentheses.java) | #string #dynamic-programming #backtracking #medium |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
 | [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium |
@@ -558,9 +559,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 407/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 408/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 848/1600
+All problems progress in LeetCode: 849/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
