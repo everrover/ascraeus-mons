@@ -37,6 +37,7 @@
 | [149. Max Points on a Line](./dsa/leetcode/kuiperBelt/MaxPointsOnALine.java) | #array #hash-table #math #geometry #hard |
 | [152. Maximum Product Subarray](./dsa/leetcode/EuropasOceanWorld/MaximumProductSubarray.java) | #array #dynamic-programming #medium |
 | [154. Find Minimum in Rotated Sorted Array II](./dsa/leetcode/kuiperBelt/FindMinimumInRotatedSortedArrayII.java) | #array #binary-search #hard |
+| [169. Majority Element](./dsa/leetcode/EuropasOceanWorld/MajorityElement.java) | #array #hash-table #divide-and-conquer #sorting #counting #easy |
 | [174. Dungeon Game](./dsa/leetcode/kuiperBelt/DungeonGame.java) | #array #dynamic-programming #matrix #hard |
 | [188. Best Time to Buy and Sell Stock IV](./dsa/leetcode/kuiperBelt/BestTimeToBuyAndSellStockIv.java) | #array #dynamic-programming #hard |
 | [189. Rotate array](https://github.com/everrover/mount-kronos/blob/main/SuperMario/RotateArr.java) | #array #rotation #trick #easy |
@@ -560,9 +561,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 409/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 410/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 850/1600
+All problems progress in LeetCode: 851/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
