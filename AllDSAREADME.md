@@ -19,6 +19,7 @@
 | [16. 3Sum Closest](./dsa/leetcode/EuropasOceanWorld/ThreeSumClosest.java) | #array #two-pointers #sorting #medium |
 | [17. Letter Combinations of a Phone Number](./dsa/leetcode/EuropasOceanWorld/LetterCombinationsOfAPhoneNumber.java) | #hash-table #string #backtracking #medium |
 | [18. 4Sum](./dsa/leetcode/EuropasOceanWorld/FourSum.java) | #array #two-pointers #sorting #medium |
+| [19. Remove Nth Node From End of List](./dsa/leetcode/EuropasOceanWorld/RemoveNthNodeFromEndOfList.java) | #linked-list #two-pointers #medium |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
 | [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium |
@@ -555,9 +556,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 404/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 405/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 845/1600
+All problems progress in LeetCode: 846/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
