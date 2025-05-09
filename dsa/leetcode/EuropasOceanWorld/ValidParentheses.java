@@ -6,11 +6,7 @@ public class ValidParentheses {
   /**
    * https://leetcode.com/problems/valid-parentheses/
    * 
-   * To determine if a string containing only parentheses characters is valid, we use a stack data structure. 
-   * The idea is to iterate through each character in the string; if it is an opening bracket, we push it 
-   * onto the stack. Whenever a closing bracket is encountered, we check the top of the stack to see if it 
-   * matches the type of the closing bracket. If it does, we pop the stack and proceed; otherwise, the string 
-   * is invalid. If the stack is empty by the end of the string traversal, then the string was valid.
+   * Uses stack to check if a comlentry valid parentheses is present or not.
    * 
    * TC: O(n) SC: O(n)
    * #string #stack #parentheses #easy

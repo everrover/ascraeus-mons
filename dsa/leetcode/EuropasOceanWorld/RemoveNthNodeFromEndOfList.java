@@ -14,6 +14,8 @@ public class RemoveNthNodeFromEndOfList {
      * Maintain two pointers with a gap of n nodes. Move both until the first pointer reaches end,
      * then delete the nth node from the end by adjusting the second pointer.
      * 
+     * Foundational problem for linked list manipulation - tortoise and hare algorithm.
+     * 
      * TC: O(n) SC: O(1)
      * #linked-list #two-pointers #medium
      */
