@@ -1,0 +1,43 @@
+package dsa.leetcode.EuropasOceanWorld;
+
+import java.util.*;
+
+public class LetterCombinationsOfAPhoneNumber {
+  /**
+   * https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+   *
+   * Map digits to corresponding letters and use backtracking to form all possible
+   * combinations.
+   *
+   * TC: O(3^N * 4^M) SC: O(3^N * 4^M)
+   * #hash-table #string #backtracking #medium
+   */
+
+  public void recurse(char[][] letters, List<String> ans, StringBuilder sb, char[] chars, int pos) {
+    if (pos == chars.length) {
+      if (pos != 0) ans.add(sb.toString());
+      return;
+    }
+    int num = chars[pos] - '0';
+    for (char ch : letters[num]) {
+      sb.append(ch);
+      recurse(letters, ans, sb, chars, pos + 1);
+      sb.deleteCharAt(pos);
+    }
+  }
+
+  public List<String> letterCombinations(String digits) {
+    List<String> ans = new ArrayList<>();
+    if (digits == null || digits.isEmpty()) return ans;
+
+    // Map digits to corresponding letters
+    char[][] letters = {
+      {}, {}, {'a', 'b', 'c'}, {'d', 'e', 'f'}, {'g', 'h', 'i'},
+      {'j', 'k', 'l'}, {'m', 'n', 'o'}, {'p', 'q', 'r', 's'},
+      {'t', 'u', 'v'}, {'w', 'x', 'y', 'z'}
+    };
+
+    recurse(letters, ans, new StringBuilder(""), digits.toCharArray(), 0);
+    return ans;
+  }
+}
