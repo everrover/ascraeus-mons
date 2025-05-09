@@ -2,7 +2,7 @@ package dsa.leetcode.EuropasOceanWorld;
 
 import java.util.*;
 
-public class Solution {
+public class ThreeSum {
 
     /**
      * https://leetcode.com/problems/3sum/description/
@@ -19,30 +19,35 @@ public class Solution {
      */
 
     public List<List<Integer>> threeSum(int[] nums) {
-        Arrays.sort(nums);
         List<List<Integer>> ans = new ArrayList<>();
-        for (int i = 0; i < (nums.length - 2); i++) {
-            if (i > 0 && nums[i] == nums[i - 1]) {
-                continue;  // skip duplicate elements
+        List<Integer> tmp;
+        Arrays.sort(nums);
+        for(int i=0; i<(nums.length-2); i++){
+
+            if(i>0 && nums[i]==nums[i-1]){
+                continue;  // remove duplicates from beg
             }
+            int l=i+1, r=nums.length-1;
             int reqdSum = -nums[i];
-            int l = i + 1, r = nums.length - 1;
-            while (l < r) {
+
+            while(l<r){
                 int sum = nums[l] + nums[r];
-                if (sum == reqdSum) {
-                    ans.add(Arrays.asList(nums[i], nums[l], nums[r]));
-                    // Skip duplicates for the l and r pointers
-                    while (l < r && nums[l] == nums[l + 1]) l++;
-                    while (l < r && nums[r] == nums[r - 1]) r--;
+                if(sum < reqdSum){
                     l++;
+                }else if(sum > reqdSum){
                     r--;
-                } else if (sum < reqdSum) {
-                    l++;
-                } else {
+                }else{
+                    tmp = new ArrayList<Integer>();
+                    tmp.add(nums[i]);
+                    tmp.add(nums[l]);
+                    tmp.add(nums[r]);
+                    ans.add(tmp);
                     r--;
+                    while(r > l && nums[r] == nums[r+1]) r--; // remove duplicates from end
                 }
             }
         }
+
         return ans;
     }
 }

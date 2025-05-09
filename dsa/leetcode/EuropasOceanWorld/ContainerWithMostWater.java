@@ -6,6 +6,15 @@ package dsa.leetcode.EuropasOceanWorld;
  * Use two pointers, one at the beginning and one at the end of the array, moving towards each other.
  * Calculate the area at each step, keeping track of the maximum found.
  * Move the pointer pointing to the shorter line inwards.
+ * 
+ * INTUTION - Against a given larger line at the extremes, the area is determined by the shorter line.
+ * Since, IF best area with extremes(larger width) is already calculated, we need to move the pointer
+ * pointing to the shorter line inwards, as moving the it will always decrease the area less than
+ * moving the pointer pointing to the larger line.
+ * 
+ * x y ... a b
+ * A = min(x, b) * width, B = min(x, a) * width-1, C = min(x, b) * width-1, D = min(y, a) * width-2
+ * try all possible combinations of x, y, a, b and it proves the above intuition
  *
  * TC: O(n), SC: O(1)
  * #array #two-pointers #greedy #medium

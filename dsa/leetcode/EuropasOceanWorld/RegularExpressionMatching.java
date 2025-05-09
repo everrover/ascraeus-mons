@@ -6,8 +6,10 @@ public class RegularExpressionMatching {
    *
    * The problem is solved using dynamic programming approach. The solution
    * keeps track of matching substrings using a memoization table to avoid
-   * redundant calculations. Handles '.' and '*' according to their respective
-   * matching rules.
+   * redundant calculations. 
+   * 
+   * Handles '.' and '*' according to their respective matching rules.
+   * Nth fancy, memo over a brute DFS based recursive solution.
    * 
    * TC: O(m * n)  SC: O(m * n)
    * #string #dynamic-programming #recursion #hard

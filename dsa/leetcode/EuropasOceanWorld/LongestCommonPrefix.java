@@ -1,5 +1,7 @@
 package dsa.leetcode.EuropasOceanWorld;
 
+import java.util.Arrays;
+
 public class LongestCommonPrefix {
 
     /**
@@ -12,19 +14,23 @@ public class LongestCommonPrefix {
      * #string #trie #easy
      */
     public String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0) return "";
-        String lcp = strs[0];
-        int length = lcp.length();
-        for (int j = 1; j < strs.length; j++) {
-            length = Math.min(length, strs[j].length());  // Adjust the length to the smallest string's length
-            int k = 0;
-            for (k = 0; k < length; k++) {
-                if (lcp.charAt(k) != strs[j].charAt(k)) {
-                    break;
-                }
-            }
-            lcp = lcp.substring(0, k);
+        String lcp = "";
+        if(strs.length == 0){
+            return lcp;
         }
-        return lcp;
+        Arrays.sort(strs);
+         lcp = strs[0];
+         for(int j=1; j<strs.length; j++){
+             int length = lcp.length() <= strs[j].length()? lcp.length(): strs[j].length();
+             int k=0;
+             for(k=0; k<length; k++){
+                 if(lcp.charAt(k) != strs[j].charAt(k)){
+                     break;
+                 }
+             }
+             lcp = lcp.substring(0, k);
+         }
+
+         return lcp;
     }
 }
