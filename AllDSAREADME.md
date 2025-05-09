@@ -11,6 +11,7 @@
 | [5. Longest Palindromic Substring](./dsa/leetcode/fermi_s_paradox/LongestPalindromicSubstring.java) | #two-pointers #dynamic-programming #string #medium |
 | [6. Zigzag Conversion](./dsa/leetcode/EuropasOceanWorld/ZigzagConversion.java) | #string #pattern #medium |
 | [7. Reverse Integer](./dsa/leetcode/EuropasOceanWorld/ReverseInteger.java) | #math #integer #easy |
+| [11. Container With Most Water](./dsa/leetcode/EuropasOceanWorld/ContainerWithMostWater.java) | #array #two-pointers #greedy #medium |
 | [36. Valid Sudoku](./dsa/leetcode/jovianMoonOrbit/ValidSudoku.java) | #array #hash-table #matrix #medium |
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
 | [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium |
@@ -547,9 +548,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 396/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 397/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 837/1600
+All problems progress in LeetCode: 838/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
