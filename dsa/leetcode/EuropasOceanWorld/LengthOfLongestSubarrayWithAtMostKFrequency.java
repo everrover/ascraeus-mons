@@ -12,6 +12,8 @@ public class LengthOfLongestSubarrayWithAtMostKFrequency {
    * appears more than k times. Increment window size until condition is violated
    * then adjust the window by moving the left pointer.
    *
+   * `x` is just given to confuse and force us to focus on relevant details.
+   *
    * TC: O(n) SC: O(n)
    * #sliding-window #array #hash-map #medium
    */

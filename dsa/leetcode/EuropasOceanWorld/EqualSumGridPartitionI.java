@@ -5,7 +5,9 @@ public class EqualSumGridPartitionI {
   /**
    * https://leetcode.com/problems/equal-sum-grid-partition-i/
    *
-   * To determine if it's possible to partition the grid such that both resulting sections have equal sums, iterate over possible horizontal and vertical cuts, maintaining cumulative sums for rows and columns. Verify if any cut results in equal section sums both horizontally and vertically.
+   * To determine if it's possible to partition the grid such that both resulting sections have equal sums,
+   * iterate over possible horizontal and vertical cuts, maintaining cumulative sums for rows and columns.
+   * Verify if any cut results in equal section sums both horizontally and vertically.
    *
    * TC: O(m*n) SC: O(m+n)
    * #matrix #grid-partition #medium
@@ -14,7 +16,6 @@ public class EqualSumGridPartitionI {
   public boolean canPartition(int[][] grid) {
     int m = grid.length, n = grid[0].length;
     int[] r = new int[m], c = new int[n];
-    boolean res = false;
     // Calculate row sums
     for (int i = 0; i < m; i++) {
       for (int j = 0; j < n; j++) {
