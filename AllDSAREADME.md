@@ -238,6 +238,8 @@
 | [1524. Number of Sub-arrays With Odd Sum](./dsa/leetcode/VallesMarineris/NumberOfSubarraysWithOddSum.java) | #array #math #dynamic-programming #prefix-sum #medium |
 | [1534. Count Good Triplets](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountGoodTriplets/Solution.java)   | |
 | [1547. Minimum Cost to Cut a Stick](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/MinimumCostToCutStick/sol.md) | |
+| [1550. Three Consecutive Odds](./dsa/leetcode/EuropasOceanWorld/ThreeConsecutiveOdds.java) | #array #simple #easy |
+| [1550. Three Consecutive Odds](./dsa/leetcode/EuropasOceanWorld/ThreeConsecutiveOdds.java) | #array #parity-check #easy |
 | [1570. Dot Product of Two Sparse Vectors](./dsa/leetcode/kuiperBelt/DotProductOfTwoSparseVectors.java) | #array #hash-table #two-pointers #design #medium |
 | [1575. Count All Possible Routes](https://github.com/everrover/mount-kronos/blob/main/SuperMario/CountAllRoutes.java) | #dfs #dynamic-programming #array |
 | [1578. Minimum Time to Make Rope Colorful](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MinimumTimeToMakeRopeColorful.java) | #greedy #math #simple |
@@ -561,9 +563,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 410/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 412/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 851/1600
+All problems progress in LeetCode: 853/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
