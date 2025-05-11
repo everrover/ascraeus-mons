@@ -562,11 +562,12 @@
 | [3525. Find X Value of Array II](./dsa/leetcode/JupitersGreatStorm/FindXValueOfArrayII.java) | #array #math #segment-tree #hard |
 | [3531. Count Covered Buildings](./dsa/leetcode/VallesMarineris/CountCoveredBuildings.java) | #array #hash-table #sorting #medium |
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
+| [3540. Minimum Time to Visit All Houses](./dsa/leetcode/EuropasOceanWorld/MinimumTimeToVisitAllHouses.java) | #array #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 413/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 414/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 854/1600
+All problems progress in LeetCode: 855/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
