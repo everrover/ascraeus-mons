@@ -429,6 +429,7 @@
 | [2945. Find Maximum Non-decreasing Array Length](.dsa/leetcode/kuiperBelt/LeetcodeBiweekly118.java) | #array #dynamic-programming #stack #mono-stack #math #combinatorics #tricky #wasnt-able-to-solve                  |
 | [2952. Minimum Number of Coins to be added](.dsa/leetcode/kuiperBelt/MinimumNumberOfCoinsToBeAdded.java) | #array # |
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium |
+| [2958. Length of Longest Subarray With at Most K Frequency](./dsa/leetcode/EuropasOceanWorld/LengthOfLongestSubarrayWithAtMostKFrequency.java) | #sliding-window #array #hash-map #medium |
 | [2962. Count Subarrays Where Max Element Appears at Least K Times](./dsa/leetcode/VallesMarineris/CountSubarraysWhereMaxElementAppearsAtLeastKTimes.java) | #array #sliding-window #medium |
 | [2975. Maximum Square Area Removing Fences From Field](./dsa/leetcode/kuiperBelt/MaximumSquareAreaRemovingFencesFromField.java) | #two-pointers #set #enumeration #area-calculation |
 | [2999. Count the Number of Powerful Integers](./dsa/leetcode/VallesMarineris/CountTheNumberOfPowerfulIntegers.java) | #dynamic-programming #math #string #hard |
@@ -565,9 +566,9 @@
 | [3540. Minimum Time to Visit All Houses](./dsa/leetcode/EuropasOceanWorld/MinimumTimeToVisitAllHouses.java) | #array #prefix-sum #medium |
 | --- | --- |
 
-DSA Progress: 414/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 415/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 855/1600
+All problems progress in LeetCode: 856/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
