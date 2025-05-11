@@ -75,6 +75,7 @@
 | [347. Top K Frequent Elements](./dsa.leetcode.kuiperBelt/TopKFrequentElements.java)       | #hashmap #priorityqueue #heaps #medium |
 | [353. Design Snake Game](./dsa/leetcode/VallesMarineris/DesignSnakeGame.java) | #array #hash-table #design #queue #simulation #medium |
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) | |
+| [359. Logger Rate Limiter](./dsa/leetcode/EuropasOceanWorld/LoggerRateLimiter.java) | #hash-table #design #data-stream #easy |
 | [368. Largest Divisible Subset](./dsa/leetcode/VallesMarineris/LargestDivisibleSubset.java) | #array #math #dynamic-programming #sorting #medium |
 | [380. Insert Delete GetRandom O(1)](./dsa/leetcode/jovianMoonOrbit/InsertDeleteGetRandomO1.java) | #hash-map #array-list #random #medium |
 | [381. Insert Delete GetRandom O(1) - Duplicates Allowed](./dsa/leetcode/jovianMoonOrbit/InsertDeleteGetRandomO1DuplicatesAllowed.java) | #array #hash-table #design #randomized #hard |
@@ -563,9 +564,9 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | --- | --- |
 
-DSA Progress: 412/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 413/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 853/1600
+All problems progress in LeetCode: 854/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
