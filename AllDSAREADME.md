@@ -564,11 +564,12 @@
 | [3531. Count Covered Buildings](./dsa/leetcode/VallesMarineris/CountCoveredBuildings.java) | #array #hash-table #sorting #medium |
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium |
 | [3540. Minimum Time to Visit All Houses](./dsa/leetcode/EuropasOceanWorld/MinimumTimeToVisitAllHouses.java) | #array #prefix-sum #medium |
+| [3546. Equal Sum Grid Partition I](./dsa/leetcode/EuropasOceanWorld/EqualSumGridPartitionI.java) | #matrix #grid-partition #medium |
 | --- | --- |
 
-DSA Progress: 415/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 416/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 856/1600
+All problems progress in LeetCode: 857/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
