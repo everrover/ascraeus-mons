@@ -37,6 +37,7 @@
 | [149. Max Points on a Line](./dsa/leetcode/kuiperBelt/MaxPointsOnALine.java) | #array #hash-table #math #geometry #hard |
 | [152. Maximum Product Subarray](./dsa/leetcode/EuropasOceanWorld/MaximumProductSubarray.java) | #array #dynamic-programming #medium |
 | [154. Find Minimum in Rotated Sorted Array II](./dsa/leetcode/kuiperBelt/FindMinimumInRotatedSortedArrayII.java) | #array #binary-search #hard |
+| [155. Min Stack](./dsa/leetcode/EuropasOceanWorld/MinStack.java) | #stack #design #medium |
 | [169. Majority Element](./dsa/leetcode/EuropasOceanWorld/MajorityElement.java) | #array #hash-table #divide-and-conquer #sorting #counting #easy |
 | [174. Dungeon Game](./dsa/leetcode/kuiperBelt/DungeonGame.java) | #array #dynamic-programming #matrix #hard |
 | [188. Best Time to Buy and Sell Stock IV](./dsa/leetcode/kuiperBelt/BestTimeToBuyAndSellStockIv.java) | #array #dynamic-programming #hard |
@@ -567,9 +568,9 @@
 | [3546. Equal Sum Grid Partition I](./dsa/leetcode/EuropasOceanWorld/EqualSumGridPartitionI.java) | #matrix #grid-partition #medium |
 | --- | --- |
 
-DSA Progress: 416/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 417/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 857/1600
+All problems progress in LeetCode: 858/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
