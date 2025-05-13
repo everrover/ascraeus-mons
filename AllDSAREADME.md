@@ -300,6 +300,7 @@
 | [2060. Check if an Original String Exists Given Two Encoded Strings](./dsa/leetcode/kuiperBelt/CheckIfAnOriginalStringExistsGivenTwoEncodedStrings.java) | #dynamic-programming #string #hard #recursion #tricky |
 | [2071. Maximum Number of Tasks You Can Assign](./dsa/leetcode/VallesMarineris/MaximumNumberOfTasksYouCanAssign.java) | #array #binary-search #greedy #queue #hard |
 | [2076. Process Restricted Friend Requests](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ProcessRestrictedFriendRequests/sol.md) | |
+| [2094. Finding 3-Digit Even Numbers](./dsa/leetcode/EuropasOceanWorld/Finding3DigitEvenNumbers.java) | #array #hash-table #sorting #enumeration #easy |
 | [2097. Valid Arrangement of Pairs](./dsa/leetcode/kuiperBelt/ValidArrangementOfPairs.java) | #depth-first-search #graph #eulerian-circuit #hard |
 | [2116. Check if a Parentheses String Can Be Valid](./dsa/leetcode/mithrim_montez/CheckIfAParenthesesStringCanBeValid.java) | #string #stack #greedy #medium |
 | [2127. Maximum Employees to Be Invited to a Meeting](./dsa/leetcode/VallesMarineris/MaximumEmployeesToBeInvitedToAMeeting.java) | #graph #dfs #cycle #hard |
@@ -568,9 +569,9 @@
 | [3546. Equal Sum Grid Partition I](./dsa/leetcode/EuropasOceanWorld/EqualSumGridPartitionI.java) | #matrix #grid-partition #medium |
 | --- | --- |
 
-DSA Progress: 417/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 418/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 858/1600
+All problems progress in LeetCode: 859/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
