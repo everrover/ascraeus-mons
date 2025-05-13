@@ -16,20 +16,24 @@ public class TotalCharactersInStringAfterTransformationsI {
    * #hash-table #math #string #dynamic-programming #counting #medium
    */
 
+  private static final int M = (int)1e9+7;
   public int lengthAfterTransformations(String s, int t) {
     int []cnts = new int[26];
     int[] nxt = new int[26];
+    for(char ch: s.toCharArray()) cnts[ch-'a']++;
     for (int round = 0; round < t; ++round) {
+      Arrays.fill(nxt, 0);
       nxt[0] = cnts[25];
-      nxt[1] = (cnts[25] + cnts[0]) % (int)(1e9 + 7); // Replace 'z' with 'ab' and compute modulo
+      nxt[1] = (cnts[25] + cnts[0]) % M;
       for (int i = 2; i < 26; ++i) {
-          nxt[i] = cnts[i - 1];
+        nxt[i] = cnts[i - 1];
       }
-      for(char ch: s.toCharArray()) cnts[ch-'a']++;
-      Arrays.fill(nxt, 0); // Prepare for the next transformation
       int []tmp = cnts;
       cnts = nxt;
       nxt = tmp;
     }
+    int res = 0;
+    for(int cnt: cnts) res = (res + cnt) % M;
+    return res;
   }
 }

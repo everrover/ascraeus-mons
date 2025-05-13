@@ -27,7 +27,6 @@
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard |
 | [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium |
 | [42. Trapping Rain Water](./dsa/leetcode/kuiperBelt/TrappingRainWater.java) | #array #two-pointers #dynamic-programming #stack #hard |
-| [76. Minimum Window Substring](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinWindowSubstring.java) | #sliding-window #hashmap #array #string #done-b4 |
 | [76. Minimum Window Substring](./dsa/leetcode/EuropasOceanWorld/MinimumWindowSubstring.java) | #sliding-window #hash-table #string #hard |
 | [84. Largest rectangle in histogram](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/LargestRectangleInHistogram/Solution.java) | #🙅🏻\u200d♀ #monotonic-stack #dynamic-programming #stack               |
 | [85. Maximal Rectangle](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaximalRectangle.java) | #based-on-others #monotonic-stack #dynamic-programming #stack      |

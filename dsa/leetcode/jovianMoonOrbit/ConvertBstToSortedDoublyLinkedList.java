@@ -1,23 +1,6 @@
 package dsa.leetcode.JovianMoonOrbit;
 
 // Definition for a Node.
-class Node {
-    public int val;
-    public Node left;
-    public Node right;
-
-    public Node() {}
-
-    public Node(int _val) {
-        val = _val;
-    }
-
-    public Node(int _val, Node _left, Node _right) {
-        val = _val;
-        left = _left;
-        right = _right;
-    }
-}
 
 /**
  * https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
@@ -32,6 +15,25 @@ class Node {
  * p.s. did this problem in university...
  */
 class Solution {
+
+    private static class Node {
+        public int val;
+        public Node left;
+        public Node right;
+
+        public Node() {}
+
+        public Node(int _val) {
+            val = _val;
+        }
+
+        public Node(int _val, Node _left, Node _right) {
+            val = _val;
+            left = _left;
+            right = _right;
+        }
+    }
+
     public Node treeToDoublyList(Node root) {
         if (root == null) return root;
         Node[] res = postorder(root);
