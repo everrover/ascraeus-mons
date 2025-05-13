@@ -28,6 +28,7 @@
 | [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium |
 | [42. Trapping Rain Water](./dsa/leetcode/kuiperBelt/TrappingRainWater.java) | #array #two-pointers #dynamic-programming #stack #hard |
 | [76. Minimum Window Substring](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinWindowSubstring.java) | #sliding-window #hashmap #array #string #done-b4 |
+| [76. Minimum Window Substring](./dsa/leetcode/EuropasOceanWorld/MinimumWindowSubstring.java) | #sliding-window #hash-table #string #hard |
 | [84. Largest rectangle in histogram](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/LargestRectangleInHistogram/Solution.java) | #🙅🏻\u200d♀ #monotonic-stack #dynamic-programming #stack               |
 | [85. Maximal Rectangle](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaximalRectangle.java) | #based-on-others #monotonic-stack #dynamic-programming #stack      |
 | [126. Word ladder](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordLadderII.java) | #strings #hashing #trie #bfs #graphs #backtracking #personal-experiment                                       |
@@ -570,9 +571,9 @@
 | [3546. Equal Sum Grid Partition I](./dsa/leetcode/EuropasOceanWorld/EqualSumGridPartitionI.java) | #matrix #grid-partition #medium |
 | --- | --- |
 
-DSA Progress: 419/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 420/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 860/1600
+All problems progress in LeetCode: 861/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
