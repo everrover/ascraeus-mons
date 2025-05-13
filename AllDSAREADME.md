@@ -484,6 +484,7 @@
 | [3295. Report Spam Message](./dsa/leetcode/VallesMarineris/ReportSpamMessage.java) | #array #hash-table #string #medium |
 | [3306. Count of Substrings Containing Every Vowel and K Consonants II](./dsa/leetcode/VallesMarineris/CountOfSubstringsContainingEveryVowelAndKConsonantsIi.java) | #sliding-window #string #hash-table #medium |
 | [3316. Find Maximum Removals From Source String](./dsa/leetcode/VallesMarineris/FindMaximumRemovalsFromSourceString.java) | #array #hash-table #two-pointers #string #dynamic-programming #medium |
+| [3335. Total Characters in String After Transformations](./dsa/leetcode/EuropasOceanWorld/TotalCharactersInStringAfterTransformationsI.java) | #hash-table #math #string #dynamic-programming #counting #medium |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #combinatorics #medium |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #medium |
 | [3341. Find Minimum Time to Reach Last Room](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomI.java) | #array #graph #priority-queue #matrix #shortest-path #medium |
@@ -569,9 +570,9 @@
 | [3546. Equal Sum Grid Partition I](./dsa/leetcode/EuropasOceanWorld/EqualSumGridPartitionI.java) | #matrix #grid-partition #medium |
 | --- | --- |
 
-DSA Progress: 418/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 419/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 859/1600
+All problems progress in LeetCode: 860/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
