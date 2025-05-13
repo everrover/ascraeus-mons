@@ -1,6 +1,6 @@
 package dsa.leetcode.EuropasOceanWorld;
 
-public class Solution {
+class MajorityElement {
   /**
    * https://leetcode.com/problems/majority-element/description/?envType=company&envId=makemytrip&favoriteSlug=makemytrip-all
    *

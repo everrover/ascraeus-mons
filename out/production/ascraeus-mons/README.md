@@ -1,5 +1,14 @@
 # ascraeus-mons
 
+## Basic premise
+
+- **System Design** - Low level and high level distributed system design ✅✅✅
+- **Data Structures and Algorithms** - Self evident ✅✅✅✅
+- **Low-level application design** - Object oriented design, design patterns, Functional design, etc.
+- **Database design and queries** - SQL, NoSQL, etc.
+- **Research** - Papers, articles, case studies, etc. ✅✅
+**Other basics**
+
 ### Table of Contents - System Design - Low level design
 
 Progress: 1/100 [1:2:1::Easier:Medium:Hard ratio followed]
@@ -18,11 +27,16 @@ Progress: 1/100 [1:2:1::Easier:Medium:Hard ratio followed]
 | [Book : System design interview bu Alex Xu - chapter 1](./system-design/high-level-design/system-design-interview-by-alex-xu.md) | |
 | [FB Memcache case study - 2012 - paper](./research/#sys-design/caching_solutions/FB_memcache_2012.pdf) | |
 | [Caching solution and premise](./research/#sys-design/caching_solutions/index.md) | |
+| [PageRank algorithm](./research/page-rank-algo/pagerank.py) | |
+| [Tiktok monolith](./hld/TikTok_RecommendationSystem/readme.md) | |
+
 Progress: 3/100
 
-### [DSA](./AllDSAREADME.md)
+### Data Structures and Algorithms
 
-DSA Progress: 115/256  [1:2:1::Easier:Medium:Hard ratio]
+| [Topics](./DSATopics.md) | [DSA](./AllDSAREADME.md)
+
+DSA Progress: 417/256  [1:2:1::Easier:Medium:Hard ratio]
 
 **Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems**
 

@@ -20,7 +20,7 @@ package dsa.leetcode.EuropasOceanWorld;
  * #array #two-pointers #greedy #medium
  */
 
-class Solution {
+class ContainerWithMostWater {
     public int maxArea(int[] height) {
         int maxArea = Integer.MIN_VALUE; // Initialize max area to minimum integer value
         int l = 0, r = height.length - 1; // Two pointers at start and end

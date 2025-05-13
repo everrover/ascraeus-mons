@@ -1,6 +1,6 @@
 package dsa.leetcode.EuropasOceanWorld;
 
-class Solution {
+class ThreeConsecutiveOdds2 {
   /**
    * https://leetcode.com/problems/three-consecutive-odds/submissions/1630823285/?envType=daily-question&envId=2025-05-11
    *
