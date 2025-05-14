@@ -173,6 +173,7 @@
 | [920. Number of Music Playlists](./dsa/leetcode/kuiperBelt/NumberOfMusicPlaylists.java)   | #dynamic-programming #math #combinatorics #hard |
 | [921. Minimum Add to Make Parentheses Valid](./dsa/leetcode/jovianMoonOrbit/MinimumAddToMakeParenthesesValid.java) | #string #stack #greedy #medium |
 | [927. Three equal parts](https://github.com/everrover/mount-kronos/blob/main/LordShiva/ThreeEqualParts.java) | #math #array #tricky #math:divisibility-rule |
+| [933. Number of Recent Calls](./dsa/leetcode/EuropasOceanWorld/NumberOfRecentCalls.java) | #queue #design #easy |
 | [938. Range sum of BST](https://github.com/everrover/mount-kronos/blob/main/NinetySix/RangeSumOfBST.java) | #easy #bst |
 | [953. Verifying an Alien Dictionary](./dsa/leetcode/kuiperBelt/VerifyingAnAlienDictionary.java) | #array #hash-table #string #easy |
 | [956. Tallest Billboard](https://github.com/everrover/mount-kronos/blob/main/SuperMario/TallestBillboard.java) | #dynamic-programming #knapsack #memoization #tricky #unbounded-knapsack                                       |
@@ -570,9 +571,9 @@
 | [3546. Equal Sum Grid Partition I](./dsa/leetcode/EuropasOceanWorld/EqualSumGridPartitionI.java) | #matrix #grid-partition #medium |
 | --- | --- |
 
-DSA Progress: 420/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 421/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 861/1600
+All problems progress in LeetCode: 862/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
