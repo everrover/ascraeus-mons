@@ -570,12 +570,13 @@
 | [3532. Path Existence Queries in a Graph](./dsa/leetcode/VallesMarineris/PathExistenceQueriesInGraph.java) | #graph #union-find #array #medium                                                                                 |
 | [3540. Minimum Time to Visit All Houses](./dsa/leetcode/EuropasOceanWorld/MinimumTimeToVisitAllHouses.java) | #array #prefix-sum #medium                                                                                        |
 | [3546. Equal Sum Grid Partition I](./dsa/leetcode/EuropasOceanWorld/EqualSumGridPartitionI.java) | #matrix #grid-partition #medium                                                                                   |
+| [3551. Minimum Swaps to Sort by Digit Sum](./dsa/leetcode/EuropasOceanWorld/MinimumSwapsToSortByDigitSum.java) | #sorting #array #digit-sum #medium |
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 423/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 424/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 864/1600
+All problems progress in LeetCode: 865/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
