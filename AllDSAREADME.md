@@ -192,6 +192,7 @@
 | [1007. Minimum Domino Rotations For Equal Row](./dsa/leetcode/VallesMarineris/MinimumDominoRotationsForEqualRow.java) | #array #greedy #medium                                                                                            |
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard                                                                                     |
 | [1029. Two City Scheduling](./dsa/leetcode/fermi_s_paradox/TwoCityScheduling.java) | #array #greedy #dynamic-programming #medium                                                                       |
+| [1032. Stream of Characters](./dsa/leetcode/EuropasOceanWorld/StreamOfCharacters.java) | #trie #design #datastructure #hard |
 | [1035. Uncrossed Lines](./dsa/leetcode/fermi_s_paradox/UncrossedLines.java) | #array #dynamic-programming #medium                                                                               |
 | [1040. Moving Stones Until Consecutive II](./dsa/leetcode/jovianMoonOrbit/MovingStonesUntilConsecutiveII.java) | #array #two-pointers #sorting #medium                                                                             |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space               |
@@ -577,9 +578,9 @@
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 427/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 428/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 868/1600
+All problems progress in LeetCode: 869/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
