@@ -57,7 +57,8 @@ public class MinimumSwapsToSortByDigitSum {
     boolean[] visited = new boolean[n];
     Arrays.fill(visited, false);
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) { // minimum swaps is a stepwise swap, which represents a cycle in graph of swaps as edges where the element is not at it's correct position
+      // a > b > c > d => d, x, x, b, x, a, c => 0 -> 6, 6 -> 5, 5 -> 0
       if (visited[i] || sortedIndexes[i] == i) continue;
 
       int cycleSize = 0;
