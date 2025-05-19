@@ -441,6 +441,7 @@
 | [3009. Maximum Number of Intersections on the Chart](./dsa/leetcode/kuiperBelt/MaximumNumberOfIntersectionsOnTheChart.java) | #array #math #binary-indexed-tree #geometry #hard                                                                 |
 | [3014. Minimum Number of Pushes to Type Word I](./dsa/leetcode/kuiperBelt/ManimumNumberOfPushedToTypeWordI.java) | #easy #math                                                                                                       |
 | [3015. Count the Number of Houses at a Certain Distance I](./dsa/leetcode/kuiperBelt/CountNumberOfHousesAtCertainDistanceI.java) | #enumeration #distance-calculation #medium #little-logic                                                          |
+| [3024. Type of Triangle](./dsa/leetcode/EuropasOceanWorld/TypeOfTriangle.java) | #array #math #easy |
 | [3039. Apply Operations to Make String Empty](./dsa/leetcode/kuiperBelt/LastNonEmptyString.java) | #frequency-count #string #medium                                                                                  |
 | [3040. Maximum Number of Operations With the Same Score II](./dsa/leetcode/kuiperBelt/MaximumNumberOfOperationsWithTheSameScoreII.java) | #array #dynamic-programming #memoization #medium                                                                  |
 | [3042. Count Prefix and Suffix Pairs](./dsa/leetcode/mithrim_montez/CountPrefixAndSuffixPairs.java) | #array #string #trie #rolling-hash #easy                                                                          |
@@ -574,9 +575,9 @@
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 424/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 425/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 865/1600
+All problems progress in LeetCode: 866/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
