@@ -74,6 +74,7 @@
 | [332. Reconstruct Itinerary](./dsa/leetcode/RhoCassiopeiae/ReconstructItinerary.java) | #dfs #graph #eulerian-path #hard                                                                                  |
 | [332. Reconstruct Itinerary](./dsa/leetcode/RhoCassiopeiae/ReconstructItinerary.java) | #dfs #graph #eulerian-circuit #hard                                                                               |
 | [339. Nested List Weight Sum](./dsa/leetcode/kuiperBelt/NestedListWeightSum.java)         | #depth-first-search #bfs #recursion #nested-lists #medium                                                         |
+| [341. Flatten Nested List Iterator](./dsa/leetcode/EuropasOceanWorld/FlattenNestedListIterator.java) | #stack #iterator #dfs #design #medium |
 | [347. Top K Frequent Elements](./dsa.leetcode.kuiperBelt/TopKFrequentElements.java)       | #hashmap #priorityqueue #heaps #medium                                                                            |
 | [353. Design Snake Game](./dsa/leetcode/VallesMarineris/DesignSnakeGame.java) | #array #hash-table #design #queue #simulation #medium                                                             |
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) |                                                                                                                   |
@@ -576,9 +577,9 @@
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 426/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 427/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 867/1600
+All problems progress in LeetCode: 868/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
