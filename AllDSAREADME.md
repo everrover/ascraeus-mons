@@ -60,6 +60,7 @@
 | [297. Serialize and Deserialize Binary Tree](./dsa/leetcode/kuiperBelt/SerializeAndDeserializeBinaryTree.java) | #tree #dfs #design #hard                                                                                          |
 | [301. Remove Invalid Parentheses](./dsa/leetcode/kuiperBelt/RemoveInvalidParentheses.java) | #backtracking #string #bfs #hard                                                                                  |
 | [302. Smallest Rectangle Enclosing Black Pixels](./dsa/leetcode/JupitersGreatStorm/SmallestRectangleEnclosingBlackPixels.java) | #array #dfs #matrix #hard                                                                                         |
+| [304. Range Sum Query 2D - Immutable](./dsa/leetcode/EuropasOceanWorld/RangeSumQuery2DImmutable.java) | #array #design #matrix #prefix-sum #medium |
 | [306. Additive Number](./dsa/leetcode/RhoCassiopeiae/AdditiveNumber.java) | #string #backtracking #medium                                                                                     |
 | [311. Sparse Matrix Multiplication](./dsa/leetcode/VallesMarineris/SparseMatrixMultiplication.java) | #array #hash-table #matrix #medium                                                                                |
 | [314. Binary Tree Vertical Order Traversal](./dsa/leetcode/kuiperBelt/BinaryTreeVerticalOrderTraversal.java) | #hash-table #tree #depth-first-search #breadth-first-search #sorting #binary-tree #medium                         |
@@ -575,9 +576,9 @@
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 425/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 426/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 866/1600
+All problems progress in LeetCode: 867/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
