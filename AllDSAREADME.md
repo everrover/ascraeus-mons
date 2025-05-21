@@ -27,6 +27,7 @@
 | [37. Sudoku Solver](./dsa/leetcode/kuiperBelt/SudokuSolver.java) | #backtracking #matrix #hard                                                                                       |
 | [38. Count and Say](./dsa/leetcode/JupitersGreatStorm/CountAndSay.java) | #string #simulation #medium                                                                                       |
 | [42. Trapping Rain Water](./dsa/leetcode/kuiperBelt/TrappingRainWater.java) | #array #two-pointers #dynamic-programming #stack #hard                                                            |
+| [73. Set Matrix Zeroes](./dsa/leetcode/EuropasOceanWorld/SetMatrixZeroes.java) | #array #matrix #hash-table #medium |
 | [76. Minimum Window Substring](./dsa/leetcode/EuropasOceanWorld/MinimumWindowSubstring.java) | #sliding-window #hash-table #string #hard                                                                         |
 | [84. Largest rectangle in histogram](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/LargestRectangleInHistogram/Solution.java) | #🙅🏻\u200d♀ #monotonic-stack #dynamic-programming #stack                                                         |
 | [85. Maximal Rectangle](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaximalRectangle.java) | #based-on-others #monotonic-stack #dynamic-programming #stack                                                     |
@@ -579,9 +580,9 @@
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 429/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 430/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 870/1600
+All problems progress in LeetCode: 871/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
