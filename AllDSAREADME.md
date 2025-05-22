@@ -136,6 +136,7 @@
 | [710. Random Pick with Blacklist](./dsa/leetcode/RhoCassiopeiae/RandomPickWithBlacklist.java) | #hash-map #randomization #hard                                                                                    |
 | [714. Best Time to Buy and Sell Stock with Transaction Fee](./dsa/leetcode/jovianMoonOrbit/BestTimeToBuyAndSellStockWithTransactionFee.java) | #array #dp #greedy #medium                                                                                        |
 | [715. Range Module](./dsa/leetcode/kuiperBelt/RangeModule.java)                           | #ordered-set #segment-tree #design #hard                                                                          |
+| [716. Max Stack](./dsa/leetcode/EuropasOceanWorld/MaxStack.java) | #stack #design #doubly-linked-list #ordered-set #hard |
 | [719. Find K-th Smallest Pair Distance](https://github.com/everrover/mount-kronos/blob/main/SuperMario/FindKthSmallestPairDistance.java) | #binary-search #binary-search-over-solution-space #tricky                                                         |
 | [721. Accounts Merge](./dsa/leetcode/jovianMoonOrbit/AccountsMerge.java) | #array #hash-table #string #union-find #medium                                                                    |
 | [727. Minimum Window Subsequence](./dsa/leetcode/kuiperBelt/MinimumWindowSubsequence.java) | #dynamic-programming #sliding-window #string #hard #sliding-window                                                |
@@ -580,9 +581,9 @@
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 430/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 431/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 871/1600
+All problems progress in LeetCode: 872/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
