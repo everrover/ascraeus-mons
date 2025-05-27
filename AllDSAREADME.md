@@ -420,6 +420,7 @@
 | [2870. Minimum Number of Operations to Make Array Empty](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinimumNumberOfOperationsToMakeArrayEmpty.java) | #dp #math #contest                                                                                                |
 | [2872. Maximum Number of K-Divisible Components](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MaximumNumberOfKDivisibleComponents.java) | #math #divisibility-rules #contest #dfs #greedy                                                                   |
 | [2873. Maximum Value of an Ordered Triplet](./dsa/leetcode/VallesMarineris/MaximumValueOfAnOrderedTriplet.java) | #array #brute-force #easy                                                                                         |
+| [2894. Divisible and Non-divisible Sums Difference](./dsa/leetcode/EuropasOceanWorld/DivisibleAndNonDivisibleSumsDifference.java) | #math #easy |
 | [2899. Last Visited Integers](./dsa/leetcode/kuiperBelt/LastVisitedIntegers.java)         |                                                                                                                   |
 | [2900.  Longest Unequal Adjacent Groups Subsequence I](./dsa/leetcode/kuiperBelt/LongestUnequalAdjGroupsSubseqI.java) | #dynamic-programming #greedy                                                                                      |
 | [2901.  Longest Unequal Adjacent Groups Subsequence II](./dsa/leetcode/kuiperBelt/LongestUnequalAdjGroupsSubseqII.java) | #dynamic-programming #greedy                                                                                                                  |
@@ -581,9 +582,9 @@
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 431/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 432/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 872/1600
+All problems progress in LeetCode: 873/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
