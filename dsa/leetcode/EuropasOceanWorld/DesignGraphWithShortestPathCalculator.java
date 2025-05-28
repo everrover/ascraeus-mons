@@ -5,10 +5,8 @@ import java.util.*;
 /**
  * https://leetcode.com/problems/design-graph-with-shortest-path-calculator/description/?envType=problem-list-v2&envId=design
  *
- * Use Dijkstra’s algorithm to calculate the shortest paths. 
- * After adding each edge, update the graph and calculate
- * shortest paths using priority queue to manage node
- * exploration order based on cumulative costs.
+ * Used Dijkstra’s algorithm to calculate the shortest paths and associated queries.
+ * After adding each edge, update the graph.
  * 
  * TC: O((n + e) log n), SC: O(n + e) where n is number of nodes, e is number of edges.
  * #graph #design #priorityqueue #shortestpath #hard
