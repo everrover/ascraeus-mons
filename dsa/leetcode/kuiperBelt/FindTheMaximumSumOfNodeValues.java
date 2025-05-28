@@ -17,6 +17,30 @@ public class FindTheMaximumSumOfNodeValues {
    * => sum = sum(max(a, a^k))
    * 4. In case of odd number of XOR operations i.e. for one of the nodes we need to subtract the value. 
    * => except = min(abs(a-a^k))
+   *
+   * ------------
+   *
+   * Another way for intuition. Pick any node. From this node we can reach all other nodes and attempt
+   * to perform XOR operation on the terminal node. This can be done greedily, only if x^k > x, it's picked otherwise it'll decrease the result.
+   *
+   * Consider path from a till f
+   * > a - b - c - d - e - f
+   * If all edges are XORed with k, for intermediate nodes, the value will be x ^ k ^ k = x
+   * For a and f, the value will be a^k and f^k respectively.
+   *
+   * > a - b - c - d - e - f
+   *             - g - h
+   * Here for c, it's c^k^k^k = c^k, a => a^k = a, f => f^k, h => h^k, rest stay the same.
+   * What if we want to XOR only f? We'll have to start from somewhere and end at f. So atleast one more node would XORed.
+   * What if we want to XOR only f and g?
+   * i.e. if XORs on a given number are even, they are nullified, else they are not.
+   *
+   * On any given node, if a value on a node is XORed with k, to maintain an even/odd number of XORs on current nodes the child
+   * nodes must be XORed odd/even number of times, respectively.
+   *
+   * This we can do recursively for all nodes, and then sum up the values.
+   *
+   * ------------------
    * 
    * p.s. in case of arbitrary graphs, the approach will be wildly different.
    *

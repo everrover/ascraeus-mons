@@ -3,74 +3,90 @@ package dsa.leetcode.EuropasOceanWorld;
 import java.util.*;
 
 public class DesignInMemoryFileSystem {
-  private class N {
-    Map<String, N> to = new TreeMap<>();
-    Map<String, StringBuilder> files = new TreeMap<>();
+  /**
+   * https://leetcode.com/problems/design-in-memory-file-system/?envType=problem-list-v2&envId=design
+   *
+   * Because of simplified constraints, simply didn't handle the erronous cases
+   * and assumed that the paths and files are valid. Otherwise, it's simple brute-force
+   * based off the trie structure / Tree structure.
+   *
+   * TC: O(d + k + n log n), SC: O(n)
+   *
+   * #hash-table #string #design #trie #sorting #hard
+   */
+  private static class N {
+    public String dir;
+    public Map<String, N> to = new HashMap<>();
+    public Map<String, StringBuilder> files = new HashMap<>();
+    public N(String dir){
+      this.dir = dir;
+    }
   }
 
-  private N root;
+  N root = new N("/");
 
   public DesignInMemoryFileSystem() {
-    root = new N();
+    // Initialize the root directory
   }
 
   public List<String> ls(String path) {
+    String []route = path.split("/");
     N curr = root;
-    List<String> res = new ArrayList<>();
-    if (!path.equals("/")) {
-      String[] route = path.split("/");
-      for (int i = 1; i < route.length; i++) {
-        curr = curr.to.get(route[i]);
-      }
-      String last = route[route.length - 1];
-      if (curr.files.containsKey(last)) {
-        res.add(last);
-        return res;
+    for(int i=1; i<route.length; i++){
+      String dir = route[i];
+      if(curr.to.containsKey(dir))
+        curr = curr.to.get(dir);
+      else if(curr.files.containsKey(dir)){
+        return List.of(dir);
+        // }else{
+        //   // throw new Exception("Req path doesn't exist");
+        //   return List.of("path", "doesn't exist");
       }
     }
+    List<String> res = new ArrayList<>(curr.files.keySet());
     res.addAll(curr.to.keySet());
-    res.addAll(curr.files.keySet());
+    Collections.sort(res);
     return res;
   }
 
   public void mkdir(String path) {
+    String []route = path.split("/");
     N curr = root;
-    String[] route = path.split("/");
-    for (int i = 1; i < route.length; i++) {
-      curr = curr.to.computeIfAbsent(route[i], k -> new N());
+    for(int i=1; i<route.length; i++){
+      String dir = route[i];
+      curr.to.putIfAbsent(dir, new N(dir));
+      curr = curr.to.get(dir);
     }
   }
 
   public void addContentToFile(String filePath, String content) {
-    String[] route = filePath.split("/");
+    String []route = filePath.split("/");
     N curr = root;
-    for (int i = 1; i < route.length - 1; i++) {
-      curr = curr.to.get(route[i]);
+    for(int i=1; i<route.length-1; i++){
+      String dir = route[i];
+      curr = curr.to.get(dir);
     }
-    String fname = route[route.length - 1];
+    String fname = route[route.length-1];
     curr.files.putIfAbsent(fname, new StringBuilder());
     curr.files.put(fname, curr.files.get(fname).append(content));
   }
 
   public String readContentFromFile(String filePath) {
-    String[] route = filePath.split("/");
+    String []route = filePath.split("/");
     N curr = root;
-    for (int i = 1; i < route.length - 1; i++) {
+    for(int i=1; i<route.length-1; i++){
       curr = curr.to.get(route[i]);
     }
-    String fname = route[route.length - 1];
+    String fname = route[route.length-1];
     return curr.files.get(fname).toString();
   }
 }
 
 /**
- * https://leetcode.com/problems/design-in-memory-file-system/?envType=problem-list-v2&envId=design
- *
- * Implement an in-memory file system with capabilities to list files/directories, create directories,
- * add content to files, and read file contents. The system stores directories and files as nodes in a tree structure.
- * Users can simulate directory creation and file manipulation.
- *
- * TC: O(d + k + n log n), SC: O(n)
- *
- * #hash-table #string #design #trie #sorting #hard
+ * Your FileSystem object will be instantiated and called as such:
+ * FileSystem obj = new FileSystem();
+ * List<String> param_1 = obj.ls(path);
+ * obj.mkdir(path);
+ * obj.addContentToFile(filePath,content);
+ * String param_4 = obj.readContentFromFile(filePath);
  */

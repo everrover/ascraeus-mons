@@ -77,8 +77,8 @@ public class LeetcodeBiweekly118 {
 
   /**
    * https://leetcode.com/problems/find-maximum-non-decreasing-array-length/
-   * format the text, put in emoji's and complete the equations for following post. i want it all in markdown.
-   * Essentially we are to split the array into multiple sub arrays such that the constraints are satisfied. Each 
+   *
+   * Essentially we are to split the array into multiple sub arrays such that the constraints are satisfied. Each
    * of the aforementioned sub arrays are summed up to create one single element.
    * 
    * In order to solve this we assume that `dp[i]` denotes the result at ith index.

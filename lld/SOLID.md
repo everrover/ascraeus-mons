@@ -61,11 +61,11 @@ class Square extends Rect {
 meaning that a class should not be forced to implement interfaces it does not use.
 
 ```java
-public interface Animal {
+public interface Vertebrae {
     void eat();
     void fly();
 }
-public class Bird implements Animal {
+public class Bird implements Vertebrae {
     public void eat() {
         // eat
     }
@@ -74,7 +74,7 @@ public class Bird implements Animal {
         // fly
     }
 }
-public class Fish implements Animal {
+public class Fish implements Vertebrae {
     public void eat() {
         // eat
     }

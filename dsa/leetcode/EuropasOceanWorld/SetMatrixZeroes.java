@@ -1,12 +1,16 @@
 package dsa.leetcode.EuropasOceanWorld;
 
-class Solution {
+class SetMatrixZeroes {
 
   /**
    * https://leetcode.com/problems/set-matrix-zeroes/description/?envType=daily-question&envId=2025-05-21
    *
-   * If any cell of the matrix has a zero, record its row and column. Use the first cell of each row/column as a flag to minimize space usage.
-   * This approach effectively uses O(1) extra space.
+   * If any cell of the matrix has a zero, record its row and column. And use it for mods.
+   *
+   * Also, we can use first row and first column as a marker to mark the rows and columns that need to be set to zero. How,
+   * by setting it to 0, then all the row and column values need to be set to zero.
+   *
+   * Also, BFS/DFS can be used along the row and column of the zero cell to set all cells in that row and column to zero.
    *
    * TC: O(m*n) SC: O(1)
    * #array #matrix #hash-table #medium

@@ -10,6 +10,8 @@ public class StreamOfCharacters {
    * As new characters arrive in the stream, check if any word in
    * reverse is a suffix of the stream.
    *
+   * Given constraints allowed it. So did it this way.
+   *
    * TC: O(W * L) for building; O(L) per query, where W is total words, L is max word length
    * SC: O(W * L)
    * #trie #design #datastructure #hard
