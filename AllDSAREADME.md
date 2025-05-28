@@ -384,6 +384,7 @@
 | [2587. Rearrange Array to Maximize Prefix Score](./dsa/leetcode/fermi_s_paradox/RearrangeArrayToMaximizePrefixScore.java) | #array #greedy #sorting #prefix-sum #medium                                                                       |
 | [2599. Make the Prefix Sum Non-negative](./dsa/leetcode/mithrim_montez/MakeThePrefixSumNonNegative.java) | #array #greedy #heap #medium                                                                                      |
 | [2640. Find the Score of All Prefixes of an Array](./dsa/leetcode/RhoCassiopeiae/FindTheScoreOfAllPrefixesOfAnArray.java) | #array #prefix-sum #medium                                                                                        |
+| [2642. Design Graph With Shortest Path Calculator](./dsa/leetcode/EuropasOceanWorld/DesignGraphWithShortestPathCalculator.java) | #graph #design #priorityqueue #shortestpath #hard |
 | [2657. Find the Prefix Common Array of Two Arrays](./dsa/leetcode/mithrim_montez/FindThePrefixCommonArrayOfTwoArrays.java) | #array #hash-table #bit-manipulation #medium                                                                      |
 | [2658. Maximum Number of Fish in a Grid](./dsa/leetcode/mithrim_montez/MaximumNumberOfFishInAGrid.java) | #array #depth-first-search #matrix #medium                                                                        |
 | [2661. First Completely Painted Row or Column](./dsa/leetcode/fermi_s_paradox/FirstCompletelyPaintedRowOrColumn.java) | #array #hash-table #matrix #medium                                                                                |
@@ -583,9 +584,9 @@
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 433/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 434/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 874/1600
+All problems progress in LeetCode: 875/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
