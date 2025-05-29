@@ -582,11 +582,12 @@
 | [3546. Equal Sum Grid Partition I](./dsa/leetcode/EuropasOceanWorld/EqualSumGridPartitionI.java) | #matrix #grid-partition #medium                                                                                   |
 | [3551. Minimum Swaps to Sort by Digit Sum](./dsa/leetcode/EuropasOceanWorld/MinimumSwapsToSortByDigitSum.java) | #sorting #array #digit-sum #medium |
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
+| [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 434/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 435/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 875/1600
+All problems progress in LeetCode: 876/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
