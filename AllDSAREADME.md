@@ -235,6 +235,7 @@
 | [1408. String Matching in an Array](./dsa/leetcode/mithrim_montez/StringMatchingInAnArray.java) | #array #string #string-matching #easy                                                                             |
 | [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FibNumbersWithSumK.java) | #math #greedy                                                                                                     |
 | [1422. Maximum Score After Splitting a String](./dsa/leetcode/fermi_s_paradox/MaximumScoreAfterSplittingAString.java) | #string #prefix-sum #easy                                                                                         |
+| [1429. First Unique Number](./dsa/leetcode/EuropasOceanWorld/FirstUniqueNumber.java) | #array #hash-table #design #queue #data-stream #medium |
 | [1462. Course Schedule IV](./dsa/leetcode/mithrim_montez/CourseScheduleIv.java) | #dfs #bfs #graph #topological-sort #medium                                                                        |
 | [1463. Cherry Pickup II](https://github.com/everrover/mount-kronos/blob/main/SuperMario/CherryPickupII.java) | #dfs #dynamic-programming                                                                                         |
 | [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](./LordShiva/ProbabilityOfTwoBoxesHavingSameNumberOfDistinctBalls.java) | #dynamic-programming #memoization #combinatorics #backtracking #tricky #hard                                      |
@@ -502,9 +503,7 @@
 | [3342. Find Minimum Time to Reach Last Room II](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomIi.java) | #array #graph #heap #matrix #shortest-path #medium                                                                |
 | [3355. Zero Array Transformation](./dsa/leetcode/EuropasOceanWorld/ZeroArrayTransformationI.java) | #array #prefix-sum #decrement #medium |
 | [3359. Find Sorted Submatrices With Maximum Element at Most K](./dsa/leetcode/VallesMarineris/FindSortedSubmatricesWithMaximumElementAtMostK.java) | #matrix #monotonic-stack #array #hard                                                                             |
-| [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/mithrim_montez/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java) | #tree #bfs #medium                                                                                                |
-| [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/EuropasOceanWorld/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java) | #tree #bfs #dfs #medium |
-| [3372. Maximize the Number of Target Nodes After Connecting Trees](./dsa/leetcode/EuropasOceanWorld/MaximizeTheNumberOfTargetNodesAfterConnectingTrees.java) | #tree #bfs #dfs #medium |
+| [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/EuropasOceanWorld/MaximizeTheNumberOfTargetNodesAfterConnectingTrees.java) | #tree #bfs #medium                                                                                                |
 | [3373. Maximize the Number of Target Nodes After Connecting Trees II](./dsa/leetcode/EuropasOceanWorld/MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.java) | #tree #bfs #dfs #hard |
 | [3375. Minimum Operations to Make Array Values Equal to K](./dsa/leetcode/VallesMarineris/MinimumOperationsToMakeArrayValuesEqualToK.java) | #array #hash-table #greedy #easy                                                                                  |
 | [3376. Minimum Time to Break Locks](./dsa/leetcode/mithrim_montez/MinimumTimeToBreakLocks.java) | #array #dynamic-programming #backtracking #bit-manipulation #depth-first-search #bitmask #medium                  |
@@ -590,9 +589,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 440/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 441/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 881/1600
+All problems progress in LeetCode: 882/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
