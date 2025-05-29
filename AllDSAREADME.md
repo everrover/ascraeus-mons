@@ -33,6 +33,7 @@
 | [85. Maximal Rectangle](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaximalRectangle.java) | #based-on-others #monotonic-stack #dynamic-programming #stack                                                     |
 | [126. Word ladder](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordLadderII.java) | #strings #hashing #trie #bfs #graphs #backtracking #personal-experiment                                           |
 | [127. Word ladder](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordLadder.java) | #strings #hashing #trie #bfs #graphs                                                                              |
+| [128. Longest Consecutive Sequence](./dsa/leetcode/EuropasOceanWorld/LongestConsecutiveSequence.java) | #array #hash-table #union-find #medium |
 | [139. Word Break](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordBreak.java) | #dynamic-programming #trie #string #hashing                                                                       |
 | [140. Word Break II](https://github.com/everrover/mount-kronos/blob/main/SuperMario/WordBreakII.java) | #dynamic-programming #trie #string #hashing #backtracking                                                         |
 | [149. Max Points on a Line](./dsa/leetcode/kuiperBelt/MaxPointsOnALine.java) | #array #hash-table #math #geometry #hard                                                                          |
@@ -589,9 +590,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 441/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 442/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 882/1600
+All problems progress in LeetCode: 883/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
