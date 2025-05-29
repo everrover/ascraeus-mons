@@ -504,6 +504,7 @@
 | [3359. Find Sorted Submatrices With Maximum Element at Most K](./dsa/leetcode/VallesMarineris/FindSortedSubmatricesWithMaximumElementAtMostK.java) | #matrix #monotonic-stack #array #hard                                                                             |
 | [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/mithrim_montez/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java) | #tree #bfs #medium                                                                                                |
 | [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/EuropasOceanWorld/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java) | #tree #bfs #dfs #medium |
+| [3372. Maximize the Number of Target Nodes After Connecting Trees](./dsa/leetcode/EuropasOceanWorld/MaximizeTheNumberOfTargetNodesAfterConnectingTrees.java) | #tree #bfs #dfs #medium |
 | [3375. Minimum Operations to Make Array Values Equal to K](./dsa/leetcode/VallesMarineris/MinimumOperationsToMakeArrayValuesEqualToK.java) | #array #hash-table #greedy #easy                                                                                  |
 | [3376. Minimum Time to Break Locks](./dsa/leetcode/mithrim_montez/MinimumTimeToBreakLocks.java) | #array #dynamic-programming #backtracking #bit-manipulation #depth-first-search #bitmask #medium                  |
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium                                                                            |
@@ -588,9 +589,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 438/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 439/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 879/1600
+All problems progress in LeetCode: 880/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
