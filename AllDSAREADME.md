@@ -194,6 +194,7 @@
 | [994. Rotting Oranges](./dsa/leetcode/fermi_s_paradox/RottingOranges.java) | #array #breadth-first-search #matrix #medium                                                                      |
 | [995. Minimum Number Of K Consecutive Bit Flips](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumNumberOfKConsecutiveBitFlips.java) | #tricky-approach #queue #sliding-window #unable-to-do-on-my-own                                                   |
 | [1007. Minimum Domino Rotations For Equal Row](./dsa/leetcode/VallesMarineris/MinimumDominoRotationsForEqualRow.java) | #array #greedy #medium                                                                                            |
+| [1011. Capacity To Ship Packages Within D Days](./dsa/leetcode/EuropasOceanWorld/CapacityToShipPackagesWithinDDays.java) | #array #binary-search #medium |
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard                                                                                     |
 | [1029. Two City Scheduling](./dsa/leetcode/fermi_s_paradox/TwoCityScheduling.java) | #array #greedy #dynamic-programming #medium                                                                       |
 | [1032. Stream of Characters](./dsa/leetcode/EuropasOceanWorld/StreamOfCharacters.java) | #trie #design #datastructure #hard |
@@ -590,9 +591,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 442/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 443/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 883/1600
+All problems progress in LeetCode: 884/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
