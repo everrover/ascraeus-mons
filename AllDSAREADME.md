@@ -583,12 +583,13 @@
 | [3551. Minimum Swaps to Sort by Digit Sum](./dsa/leetcode/EuropasOceanWorld/MinimumSwapsToSortByDigitSum.java) | #sorting #array #digit-sum #medium |
 | [3552. Grid Teleportation Traversal](./dsa/leetcode/EuropasOceanWorld/GridTeleportationTraversal.java) | #graph #breadth-first-search #greedy #medium |
 | [3555. Smallest Subarray to Sort in Every Sliding Window](./dsa/leetcode/EuropasOceanWorld/SmallestSubarrayToSortInEverySlidingWindow.java) | #array #two-pointers #stack #greedy #sorting #monotonic-stack #medium |
+| [3555. Smallest Subarray to Sort in Every Sliding Window](./dsa/leetcode/EuropasOceanWorld/SmallestSubarrayToSortInEverySlidingWindow.java) | #array #two-pointers #stack #greedy #sorting #monotonic-stack #medium |
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 436/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 437/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 877/1600
+All problems progress in LeetCode: 878/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
