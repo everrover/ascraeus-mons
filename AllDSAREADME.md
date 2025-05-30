@@ -213,6 +213,7 @@
 | [1147. Longest Chunked Palindrome Decomposition](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LongestChunkedPalindromeDecomposition.java) | #dynamic-programming #palindrome #no-effort #two-pointer #string                                                  |
 | [1151. Minimum Swaps to Group All 1's Together](./dsa/leetcode/VallesMarineris/MinimumSwapsToGroupAllOnesTogether.java) | #array #sliding-window #medium                                                                                    |
 | [1155. Rolling dice with sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/DiceRollsWithTargetSum.java) | #dynamic-programming #memory-optimization                                                                         |
+| [1190. Reverse Substrings Between Each Pair of Parentheses](./dsa/leetcode/EuropasOceanWorld/ReverseSubstringsBetweenEachPairOfParentheses.java) | #string #stack #medium |
 | [1192. Connections in a Network - Articulation points](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ArticulationPoints/sol.md) | #dynamic-programming #graph-theory #cycle-detection                                                               |
 | [1202. Smallest String With Swaps](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/SmallestStringWithSwaps/sol.md) |                                                                                                                   |
 | [1210. Minimum Moves to Reach Target with Rotations](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinMovesToReachTargetWithRotations.java) | #bfs #dp #tricky #optimization #memoization-optimization                                                          |
@@ -593,9 +594,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 445/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 446/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 886/1600
+All problems progress in LeetCode: 887/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
