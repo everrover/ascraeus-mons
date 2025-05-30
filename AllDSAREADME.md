@@ -484,6 +484,7 @@
 | [3170. Lexicographically Minimum String After Removing Stars](./dsa/leetcode/kuiperBelt/LexicographicallyMinimumStringAfterRemovingStars.java) | #hash-table #string #stack #greedy #heap-priority-queue #medium                                                   |
 | [3174. Clear Digits](./dsa/leetcode/mithrim_montez/ClearDigits.java) | #string #stack #simulation #easy                                                                                  |
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium                                                                                        |
+| [3178. Find the Child Who Has the Ball After K Seconds](./dsa/leetcode/EuropasOceanWorld/FindTheChildWhoHasTheBallAfterKSeconds.java) | #math #simulation #easy |
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | [3219. Minimum Cost for Cutting Cake II](./dsa/leetcode/jovianMoonOrbit/MinimumCostForCuttingCakeII.java) | #array #greedy #sorting #hard                                                                                     |
 | [3223. Minimum Length of String After Operations](./dsa/leetcode/mithrim_montez/MinimumLengthOfStringAfterOperations.java) | #string-manipulation #greedy #hash-table #medium                                                                  |
@@ -591,9 +592,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 443/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 444/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 884/1600
+All problems progress in LeetCode: 885/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
