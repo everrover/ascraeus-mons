@@ -396,6 +396,7 @@
 | [2683. Neighboring Bitwise XOR](./dsa/leetcode/mithrim_montez/NeighboringBitwiseXOR.java) | #array #bit-manipulation #medium                                                                                  |
 | [2685. Count the Number of Complete Components](./dsa/leetcode/VallesMarineris/CountTheNumberOfCompleteComponents.java) | #graph #dfs #bfs #union-find #medium                                                                              |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard                                                                           |
+| [2734. Lexicographically Smallest String After Substring Operation](./dsa/leetcode/EuropasOceanWorld/LexicographicallySmallestStringAfterSubstringOperation.java) | #string #greedy #medium |
 | [2751. Robot Collisions](./dsa/leetcode/kuiperBelt/RobotCollisions.java) | #stack #array #sorting #simulation #hard                                                                          |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java)        | #easy                                                                                                             |
 | [2780. Minimum Index of a Valid Split](./dsa/leetcode/VallesMarineris/MinimumIndexOfAValidSplit.java) | #array #hashtable #sorting #medium                                                                                |
@@ -592,9 +593,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 444/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 445/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 885/1600
+All problems progress in LeetCode: 886/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
