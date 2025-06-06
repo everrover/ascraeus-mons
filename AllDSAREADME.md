@@ -349,6 +349,7 @@
 | [2349. Design a Number Container System](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/NumberContainerSystem/NumberContainers.java) | #maps #sets #bst #augmented-data-str                                                                              |
 | [2350. Shortest Impossible Sequence of Rolls](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/ShortestImpossibleSeqOfRolls/Solution.java) | #maps #sets #bst #augmented-data-str                                                                              |
 | [2353. Design a Food Rating System](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/DesignFoodRatingSystem.java) | #lld #crude-impl #hashmaps #bst #heap                                                                             |
+| [2359. Find Closest Node to Given Two Nodes](./dsa/leetcode/EuropasOceanWorld/FindClosestNodeToGivenTwoNodes.java) | #graph #breadth-first-search #medium |
 | [2374. Node With Highest Edge Score](./dsa/leetcode/RhoCassiopeiae/NodeWithHighestEdgeScore.java) | #hash-table #graph #medium                                                                                        |
 | [2375. Construct Smallest Number From DI String](./dsa/leetcode/VallesMarineris/ConstructSmallestNumberFromDiString.java) | #string #backtracking #stack #greedy #medium                                                                      |
 | [2376. Count Special Integers](./dsa/leetcode/VallesMarineris/CountSpecialIntegers.java) | #math #dynamic-programming #hard                                                                                  |
@@ -595,9 +596,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 447/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 448/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 888/1600
+All problems progress in LeetCode: 889/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
