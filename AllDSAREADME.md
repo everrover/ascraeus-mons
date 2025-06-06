@@ -361,6 +361,7 @@
 | [2416. Sum of Prefix Scores of Strings](./dsa/leetcode/kuiperBelt/SumOfPrefixScoresOfStrings.java) | #trie #string #hard                                                                                               |
 | [2429. Minimize XOR](./dsa/leetcode/mithrim_montez/MinimizeXOR.java) | #bit-manipulation #greedy #medium                                                                                 |
 | [2433. Find The Original Array of Prefix Xor](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindOrginalArrayOfPrefixXor.java) | #easy #binary-math                                                                                                |
+| [2434. Using a Robot to Print the Lexicographically Smallest String](./dsa/leetcode/EuropasOceanWorld/UsingARobotToPrintTheLexicographicallySmallestString.java) | #string #stack #greedy #medium |
 | [2435. Paths in Matrix Whose Sum Is Divisible by K](https://github.com/everrover/mount-kronos/blob/main/SuperMario/PathsInMatrixWhoseSumIsDivisibleByK.java) | #dfs #dynamic-programming #matrix                                                                                 |
 | [2444. Count Subarrays With Fixed Bounds](./dsa/leetcode/JupitersGreatStorm/CountSubarraysWithFixedBounds.java) | #tricky #sliding-windows #twist #array #queue #sliding-window #monotonic-queue #hard                              |
 | [2456. Most Popular Video Creator](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MostPopularVideoCreator.java) | #greedy #priority-queue #sorting #math #optimization                                                              |
@@ -594,9 +595,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 446/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 447/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 887/1600
+All problems progress in LeetCode: 888/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
