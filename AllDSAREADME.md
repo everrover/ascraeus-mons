@@ -104,6 +104,7 @@
 | [493. Reverse Pairs](./dsa/leetcode/kuiperBelt/ReversePairs.java)                         | #divide-and-conquer #merge-sort #binary-search #hard                                                              |
 | [494. Target Sum](./dsa/leetcode/RhoCassiopeiae/TargetSum.java) | #array #dynamic-programming #backtracking #medium                                                                 |
 | [496. Next Greater Element I](./dsa/leetcode/jovianMoonOrbit/NextGreaterElementI.java) | #array #hash-table #stack #monotonic-stack #easy                                                                  |
+| [496. Next Greater Element I](./dsa/leetcode/EuropasOceanWorld/NextGreaterElementI.java) | #array #hash-table #stack #monotonic-stack #easy |
 | [498. Diagonal Traverse](./dsa/leetcode/jovianMoonOrbit/DiagonalTraverse.java) | #array #matrix #simulation #medium                                                                                |
 | [502. IPO](https://github.com/everrover/mount-kronos/blob/main/SuperMario/IPO.java)       | #greedy #heap #priority-queue #trivial-optimization                                                               |
 | [515. 515. Find Largest Value in Each Tree Row](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindLargestInEachBinTreeRow.java) | #binary-tree #bfs #dfs                                                                                            |
@@ -596,9 +597,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 448/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 449/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 889/1600
+All problems progress in LeetCode: 890/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
