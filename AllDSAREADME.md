@@ -337,6 +337,7 @@
 | [2271. Maximum White Tiles Covered by a Carpet](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaxWhiteTilesCoveredByCarpet.java) | #tricky #banged-head-in-the-wall-for-it #critical-edge-case                                                       |
 | [2286. Booking Concert Tickets in Groups](./dsa/leetcode/kuiperBelt/BookingConcertTicketsInGroups.java) | #binary-search #design #binary-indexed-tree #segment-tree #hard                                                   |
 | [2290. Minimum Obstacle Removal to Reach Corner](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumObstacleRemovalToReachCorner/Solution.java) | #graphs #bfs #dfs #dijkstras-algo #optinization #shortest-path-tree #minsweeper                                   |
+| [2294. Partition Array Such That Maximum Difference Is K](./dsa/leetcode/EuropasOceanWorld/PartitionArraySuchThatMaximumDifferenceIsK.java) | #array #greedy #sorting #medium |
 | [2295. Replace Elements in an Array](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ReplaceElementsInAnArray/sol.md) |                                                                                                                   |
 | [2302. Count Subarrays With Score Less Than K](./dsa/leetcode/kuiperBelt/CountSubarraysWithScoreLessThanK.java) | #array #binary-search #sliding-window #prefix-sum #hard                                                           |
 | [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountUnreachablePairsOfNodesInUDGraph/sol.md) | #graphs #dfs #bfs #scc                                                                                            |
@@ -599,9 +600,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 451/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 452/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 892/1600
+All problems progress in LeetCode: 893/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
