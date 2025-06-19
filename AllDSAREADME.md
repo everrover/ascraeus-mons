@@ -598,11 +598,12 @@
 | [3555. Smallest Subarray to Sort in Every Sliding Window](./dsa/leetcode/EuropasOceanWorld/SmallestSubarrayToSortInEverySlidingWindow.java) | #array #two-pointers #stack #greedy #sorting #monotonic-stack #medium |
 | [3555. Smallest Subarray to Sort in Every Sliding Window](./dsa/leetcode/EuropasOceanWorld/SmallestSubarrayToSortInEverySlidingWindow.java) | #array #two-pointers #stack #greedy #sorting #monotonic-stack #medium |
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
+| [3583. Count Special Triplets](./dsa/leetcode/EuropasOceanWorld/CountSpecialTriplets.java) | #array #hash-table #counting #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 452/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 453/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 893/1600
+All problems progress in LeetCode: 894/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
