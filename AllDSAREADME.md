@@ -452,6 +452,7 @@
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium                                                                                       |
 | [2958. Length of Longest Subarray With at Most K Frequency](./dsa/leetcode/EuropasOceanWorld/LengthOfLongestSubarrayWithAtMostKFrequency.java) | #sliding-window #array #hash-map #medium                                                                          |
 | [2962. Count Subarrays Where Max Element Appears at Least K Times](./dsa/leetcode/VallesMarineris/CountSubarraysWhereMaxElementAppearsAtLeastKTimes.java) | #array #sliding-window #medium                                                                                    |
+| [2966. Divide Array Into Arrays With Max Difference](./dsa/leetcode/EuropasOceanWorld/DivideArrayIntoArraysWithMaxDifference.java) | #array #greedy #sorting #medium |
 | [2975. Maximum Square Area Removing Fences From Field](./dsa/leetcode/kuiperBelt/MaximumSquareAreaRemovingFencesFromField.java) | #two-pointers #set #enumeration #area-calculation                                                                 |
 | [2999. Count the Number of Powerful Integers](./dsa/leetcode/VallesMarineris/CountTheNumberOfPowerfulIntegers.java) | #dynamic-programming #math #string #hard                                                                          |
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](.dsa/leetcode/kuiperBelt/MaximumNumberSumPricesLessEqualK.java) | #binary-search #dynamic-programming #bit-manipulation #medium                                                     |
@@ -598,9 +599,9 @@
 | [3559. Number of Ways to Assign Edge Weights II](./dsa/leetcode/EuropasOceanWorld/NumberOfWaysToAssignEdgeWeightsII.java) | #tree #dfs #math #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 450/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 451/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 891/1600
+All problems progress in LeetCode: 892/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
