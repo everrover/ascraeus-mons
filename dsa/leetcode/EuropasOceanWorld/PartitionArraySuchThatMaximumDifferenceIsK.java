@@ -25,4 +25,19 @@ public class PartitionArraySuchThatMaximumDifferenceIsK {
     }
     return res;
   }
+
+  public int partitionArrayII(int[] nums, int k) { // using set to skip
+    boolean []mk = new boolean[100001];
+    for(int n: nums) mk[n]=true;
+    int res = 0, i = 0;
+    while(i<mk.length && !mk[i]) i++;
+    while(i<mk.length){
+      int j = i;
+      while(j<mk.length && j-i<=k) j++;
+      while(j<mk.length && !mk[j]) j++;
+      res++;
+      i=j;
+    }
+    return res;
+  }
 }
