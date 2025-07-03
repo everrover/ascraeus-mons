@@ -601,11 +601,12 @@
 | [3583. Count Special Triplets](./dsa/leetcode/EuropasOceanWorld/CountSpecialTriplets.java) | #array #hash-table #counting #medium |
 | [3588. Find Maximum Area of a Triangle](./dsa/leetcode/EuropasOceanWorld/FindMaximumAreaOfATriangle.java) | #geometry #sorting #greedy #medium |
 | [3589. Count Prime-Gap Balanced Subarrays](./dsa/leetcode/EuropasOceanWorld/CountPrimeGapBalancedSubarrays.java) | #sliding-window #trees #prime-sieve #medium |
+| [3599. Partition Array to Minimize XOR](./dsa/leetcode/EuropasOceanWorld/PartitionArrayToMinimizeXor.java) | #array #dynamic-programming #bit-manipulation #prefix-sum #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 455/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 456/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 896/1600
+All problems progress in LeetCode: 897/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
