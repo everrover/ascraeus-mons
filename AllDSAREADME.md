@@ -603,12 +603,13 @@
 | [3589. Count Prime-Gap Balanced Subarrays](./dsa/leetcode/EuropasOceanWorld/CountPrimeGapBalancedSubarrays.java) | #sliding-window #trees #prime-sieve #medium |
 | [3596. Minimum Cost Path with Alternating Directions](./dsa/leetcode/EuropasOceanWorld/MinimumCostPathWithAlternatingDirections.java) | #math #brainteaser #greedy #medium |
 | [3597. Partition String](./dsa/leetcode/EuropasOceanWorld/PartitionString.java) | #hash-table #string #trie #simulation #medium |
+| [3598. Longest Common Prefix Between Adjacent Strings After Removals](./dsa/leetcode/EuropasOceanWorld/LongestCommonPrefixBetweenAdjacentStringsAfterRemovals.java) | #array #string #medium |
 | [3599. Partition Array to Minimize XOR](./dsa/leetcode/EuropasOceanWorld/PartitionArrayToMinimizeXor.java) | #array #dynamic-programming #bit-manipulation #prefix-sum #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 458/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 459/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 899/1600
+All problems progress in LeetCode: 900/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
