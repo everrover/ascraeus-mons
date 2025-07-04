@@ -2,7 +2,7 @@ package dsa.leetcode.EuropasOceanWorld;
 
 import java.util.Arrays;
 
-public class Solution {
+public class TypeOfTriangle {
 
   /**
    * https://leetcode.com/problems/type-of-triangle/description/?envType=daily-question&envId=2025-05-19

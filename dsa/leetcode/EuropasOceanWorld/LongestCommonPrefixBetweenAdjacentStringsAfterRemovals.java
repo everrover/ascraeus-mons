@@ -5,10 +5,14 @@ public class LongestCommonPrefixBetweenAdjacentStringsAfterRemovals {
   /**
    * https://leetcode.com/problems/longest-common-prefix-between-adjacent-strings-after-removals/description/
    *
-   * Compute the longest common prefix for adjacent strings after removing each string.
-   * Precompute prefix lengths from left to right and right to left arrays.
-   * Use precomputed values to compute result efficiently.
-   * 
+   * x x x x x x z y z x x x
+   *  p p p p p A q r p p p : L2R : adjacent sums combined together : L2R[i] = max(L2R[i-1], precomp(words[i], words[i+1]))
+   *  a a a a a a b c B a a : R2L : similar to above
+   *
+   * When `y` gets removed, the adjacent strings `z` combine together.
+   * Since `y` becomes invalid L2R's q and r become invalid and R2L's b and c become invalid.
+   * All elements in L2R and R2L are valid except the ones that are adjacent and after the removed element `y`
+   *
    * TC: O(n * m) SC: O(n)
    * #array #string #medium
    */

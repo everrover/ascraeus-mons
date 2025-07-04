@@ -10,6 +10,12 @@ public class FindMaximumAreaOfATriangle {
    * Given a set of coordinates, compute twice the maximum area of a triangle
    * where at least one side is parallel to the x-axis or y-axis.
    *
+   * While going for triangle with base parallel to x-axis, we can go through all points
+   * with the same x-coordinate and find the maximum and minimum y-coordinates to compute the base.
+   * The height can be computed using the maximum and minimum x-coordinates of the points w.r.t. curr x.
+   *
+   * Same for triangle with base parallel to y-axis.
+   *
    * TC: O(n log n) due to sorting
    * SC: O(1) 
    * #geometry #sorting #greedy #medium

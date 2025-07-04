@@ -7,7 +7,9 @@ public class PartitionString {
    * https://leetcode.com/problems/partition-string/
    *
    * Partition the string by creating unique segments based on previously seen segments.
-   * Use a set to track seen segments. Start a new segment whenever a repeated segment is found.
+   * Use a `set` to track seen segments. Start a new segment whenever a repeated segment is found.
+   *
+   * Could've also used a `Trie` to store segments...
    *
    * TC: O(n^2) SC: O(n)
    * #hash-table #string #trie #simulation #medium
@@ -20,8 +22,10 @@ public class PartitionString {
       int j = i + 1;
       while (j <= s.length() && set.contains(s.substring(i, j))) j++;
       String subs = s.substring(i, j);
-      res.add(subs);
-      set.add(subs);
+      if (set.contains(subs)) {
+        res.add(subs);
+        set.add(subs);
+      }
       i = j;
     }
     return res;

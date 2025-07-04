@@ -2,13 +2,16 @@ package dsa.leetcode.EuropasOceanWorld;
 
 import java.util.*;
 
-public class Solution {
+public class CountPrimeGapBalancedSubarrays {
   /**
    * https://leetcode.com/problems/count-prime-gap-balanced-subarrays/description/
    *
    * The algorithm utilizes the Sieve of Eratosthenes to compute prime numbers up to a limit.
    * It uses a sliding window approach to maintain subarrays with valid prime-gap.
+   *
    * TreeMap helps in maintaining current prime status for range queries to check max-min primes.
+   * And queue is used to track indices of prime numbers in the current window, and also to enable easy fetch of 2nd prime val's
+   * index
    *
    * TC: O(n log p) SC: O(p)
    * #sliding-window #trees #prime-sieve #medium
