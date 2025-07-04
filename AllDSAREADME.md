@@ -473,6 +473,7 @@
 | [3068. Find the Maximum Sum of Node Values](./dsa/leetcode/kuiperBelt/FindTheMaximumSumOfNodeValues.java) | #array #greedy #bit-manipulation #tree #min-tracking #math #hard                                                  |
 | [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard                                                                   |
 | [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium                                                                        |
+| [3085. Minimum Deletions to Make String K-Special](./dsa/leetcode/Ipestus/MinimumDeletionsToMakeStringKSpecial.java) | #hash-table #string #greedy #medium |
 | [3093. Longest Common Suffix Queries](./dsa/leetcode/RhoCassiopeiae/LongestCommonSuffixQueries.java) | #array #string #trie #hard                                                                                        |
 | [3095. Shortest Subarray With OR at Least K](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithORAtLeastK.java) | #array #bit-manipulation #sliding-window #easy                                                                    |
 | [3097. Shortest Subarray With OR at Least K II](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithORAtLeastKII.java) | #array #bit-manipulation #sliding-window #medium                                                                  |
@@ -607,9 +608,9 @@
 | [3599. Partition Array to Minimize XOR](./dsa/leetcode/EuropasOceanWorld/PartitionArrayToMinimizeXor.java) | #array #dynamic-programming #bit-manipulation #prefix-sum #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 459/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 460/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 900/1600
+All problems progress in LeetCode: 901/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
