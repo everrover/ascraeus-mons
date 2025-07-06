@@ -606,11 +606,12 @@
 | [3597. Partition String](./dsa/leetcode/EuropasOceanWorld/PartitionString.java) | #hash-table #string #trie #simulation #medium |
 | [3598. Longest Common Prefix Between Adjacent Strings After Removals](./dsa/leetcode/EuropasOceanWorld/LongestCommonPrefixBetweenAdjacentStringsAfterRemovals.java) | #array #string #medium |
 | [3599. Partition Array to Minimize XOR](./dsa/leetcode/EuropasOceanWorld/PartitionArrayToMinimizeXor.java) | #array #dynamic-programming #bit-manipulation #prefix-sum #medium |
+| [3602. Hexadecimal and Hexatrigesimal Conversion](./dsa/leetcode/Ipestus/HexadecimalAndHexatrigesimalConversion.java) | #base-conversion #math #easy |
 | --- | ---                                                                                                               |
 
-DSA Progress: 460/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 461/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 901/1600
+All problems progress in LeetCode: 902/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
