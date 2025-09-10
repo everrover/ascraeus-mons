@@ -104,7 +104,6 @@
 | [493. Reverse Pairs](./dsa/leetcode/kuiperBelt/ReversePairs.java)                         | #divide-and-conquer #merge-sort #binary-search #hard                                                              |
 | [494. Target Sum](./dsa/leetcode/RhoCassiopeiae/TargetSum.java) | #array #dynamic-programming #backtracking #medium                                                                 |
 | [496. Next Greater Element I](./dsa/leetcode/jovianMoonOrbit/NextGreaterElementI.java) | #array #hash-table #stack #monotonic-stack #easy                                                                  |
-| [496. Next Greater Element I](./dsa/leetcode/EuropasOceanWorld/NextGreaterElementI.java) | #array #hash-table #stack #monotonic-stack #easy |
 | [498. Diagonal Traverse](./dsa/leetcode/jovianMoonOrbit/DiagonalTraverse.java) | #array #matrix #simulation #medium                                                                                |
 | [502. IPO](https://github.com/everrover/mount-kronos/blob/main/SuperMario/IPO.java)       | #greedy #heap #priority-queue #trivial-optimization                                                               |
 | [515. 515. Find Largest Value in Each Tree Row](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindLargestInEachBinTreeRow.java) | #binary-tree #bfs #dfs                                                                                            |
@@ -195,7 +194,6 @@
 | [994. Rotting Oranges](./dsa/leetcode/fermi_s_paradox/RottingOranges.java) | #array #breadth-first-search #matrix #medium                                                                      |
 | [995. Minimum Number Of K Consecutive Bit Flips](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumNumberOfKConsecutiveBitFlips.java) | #tricky-approach #queue #sliding-window #unable-to-do-on-my-own                                                   |
 | [1007. Minimum Domino Rotations For Equal Row](./dsa/leetcode/VallesMarineris/MinimumDominoRotationsForEqualRow.java) | #array #greedy #medium                                                                                            |
-| [1011. Capacity To Ship Packages Within D Days](./dsa/leetcode/EuropasOceanWorld/CapacityToShipPackagesWithinDDays.java) | #array #binary-search #medium |
 | [1028. Recover a Tree From Preorder Traversal](./dsa/leetcode/kuiperBelt/RecoverATreeFromPreorderTraversal.java) | #tree #dfs #binary-tree #hard                                                                                     |
 | [1029. Two City Scheduling](./dsa/leetcode/fermi_s_paradox/TwoCityScheduling.java) | #array #greedy #dynamic-programming #medium                                                                       |
 | [1032. Stream of Characters](./dsa/leetcode/EuropasOceanWorld/StreamOfCharacters.java) | #trie #design #datastructure #hard |
@@ -214,7 +212,6 @@
 | [1147. Longest Chunked Palindrome Decomposition](https://github.com/everrover/mount-kronos/blob/main/SuperMario/LongestChunkedPalindromeDecomposition.java) | #dynamic-programming #palindrome #no-effort #two-pointer #string                                                  |
 | [1151. Minimum Swaps to Group All 1's Together](./dsa/leetcode/VallesMarineris/MinimumSwapsToGroupAllOnesTogether.java) | #array #sliding-window #medium                                                                                    |
 | [1155. Rolling dice with sum](https://github.com/everrover/mount-kronos/blob/main/NinetySix/DiceRollsWithTargetSum.java) | #dynamic-programming #memory-optimization                                                                         |
-| [1190. Reverse Substrings Between Each Pair of Parentheses](./dsa/leetcode/EuropasOceanWorld/ReverseSubstringsBetweenEachPairOfParentheses.java) | #string #stack #medium |
 | [1192. Connections in a Network - Articulation points](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ArticulationPoints/sol.md) | #dynamic-programming #graph-theory #cycle-detection                                                               |
 | [1202. Smallest String With Swaps](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/SmallestStringWithSwaps/sol.md) |                                                                                                                   |
 | [1210. Minimum Moves to Reach Target with Rotations](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinMovesToReachTargetWithRotations.java) | #bfs #dp #tricky #optimization #memoization-optimization                                                          |
@@ -223,7 +220,6 @@
 | [1255. Maximum Score Words Formed by Letters](./dsa/leetcode/kuiperBelt/MaximumScoreWordsFormedByLetters.java) | #array #string #dynamic-programming #backtracking #bit-manipulation #hard                                         |
 | [1263. Minimum Moves to Move a Box to Their Target Location](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinMovesToMoveBoxToTargetLocation.java) | #dfs #state-traversal #bfs #route-optimization #tricky                                                            |
 | [1267. Count Servers that Communicate](./dsa/leetcode/mithrim_montez/CountServersThatCommunicate.java) | #array #matrix #counting #medium                                                                                  |
-| [1283. Find the Smallest Divisor Given a Threshold](./dsa/leetcode/EuropasOceanWorld/FindTheSmallestDivisorGivenAThreshold.java) | #binary-search #array #medium |
 | [1293. Shortest Path in a Grid with Obstacles Elimination](./dsa/leetcode/kuiperBelt/ShortestPathInAGridWithObstaclesElimination.java) | #breadth-first-search #dynamic-programming #matrix #hard                                                          |
 | [1312. Minimum Insertion Steps to Make a String Palindrome](./dsa/leetcode/kuiperBelt/MinimumInsertionStepsToMakeStringPalindrome.java) | #dynamic-programming #string #palindrome #hard                                                                    |
 | [1315. Sum of Nodes with Even-Valued Grandparent](./dsa/leetcode/kuiperBelt/SumOfNodesWithEvenValuedGrandparent.java) | #tree #depth-first-search #breadth-first-search #binary-tree #medium                                              |
@@ -240,7 +236,6 @@
 | [1408. String Matching in an Array](./dsa/leetcode/mithrim_montez/StringMatchingInAnArray.java) | #array #string #string-matching #easy                                                                             |
 | [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FibNumbersWithSumK.java) | #math #greedy                                                                                                     |
 | [1422. Maximum Score After Splitting a String](./dsa/leetcode/fermi_s_paradox/MaximumScoreAfterSplittingAString.java) | #string #prefix-sum #easy                                                                                         |
-| [1429. First Unique Number](./dsa/leetcode/EuropasOceanWorld/FirstUniqueNumber.java) | #array #hash-table #design #queue #data-stream #medium |
 | [1462. Course Schedule IV](./dsa/leetcode/mithrim_montez/CourseScheduleIv.java) | #dfs #bfs #graph #topological-sort #medium                                                                        |
 | [1463. Cherry Pickup II](https://github.com/everrover/mount-kronos/blob/main/SuperMario/CherryPickupII.java) | #dfs #dynamic-programming                                                                                         |
 | [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](./LordShiva/ProbabilityOfTwoBoxesHavingSameNumberOfDistinctBalls.java) | #dynamic-programming #memoization #combinatorics #backtracking #tricky #hard                                      |
@@ -277,7 +272,6 @@
 | [1726. Tuple with Same Product](./dsa/leetcode/VallesMarineris/TupleWithSameProductSolvedMedium.java) | #array #hash-table #counting #medium                                                                              |
 | [1728. Cat and mouse II](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CatAndMouseII.java)                   | #graphs #dfs #dp #memoiation #game-theory #trick #dfs-no-visit-track #dfs                                         |
 | [1730. Shortest Path to Get Food](./dsa/leetcode/kuiperBelt/ShortestPathToGetFood.java)   | #breadth-first-search #matrix #medium                                                                             |
-| [1733. Minimum Number of People to Teach](./dsa/leetcode/Ipestus/MinimumNumberOfPeopleToTeach.java) | #array #hash-table #greedy #medium |
 | [1735. Count Ways to Make Array With Product](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CountWaysToMakeArrayWithProduct.java) | #sieve-eratosthenes #combinatorics #math #dp #tricky                                                              |
 | [1737. Change Minimum Characters to Satisfy One of Three Conditions](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChangeMinimumCharactersToSatisfyOneOfThreeConditions/sol.md) |                                                                                                                   |
 | [1749. Maximum Absolute Sum of Any Subarray](./dsa/leetcode/VallesMarineris/MaximumAbsoluteSumOfAnySubarray.java) | #array #dynamic-programming #medium                                                                               |
@@ -338,7 +332,6 @@
 | [2271. Maximum White Tiles Covered by a Carpet](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MaxWhiteTilesCoveredByCarpet.java) | #tricky #banged-head-in-the-wall-for-it #critical-edge-case                                                       |
 | [2286. Booking Concert Tickets in Groups](./dsa/leetcode/kuiperBelt/BookingConcertTicketsInGroups.java) | #binary-search #design #binary-indexed-tree #segment-tree #hard                                                   |
 | [2290. Minimum Obstacle Removal to Reach Corner](https://github.com/everrover/mount-kronos/blob/main/NinetySix/MinimumObstacleRemovalToReachCorner/Solution.java) | #graphs #bfs #dfs #dijkstras-algo #optinization #shortest-path-tree #minsweeper                                   |
-| [2294. Partition Array Such That Maximum Difference Is K](./dsa/leetcode/EuropasOceanWorld/PartitionArraySuchThatMaximumDifferenceIsK.java) | #array #greedy #sorting #medium |
 | [2295. Replace Elements in an Array](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ReplaceElementsInAnArray/sol.md) |                                                                                                                   |
 | [2302. Count Subarrays With Score Less Than K](./dsa/leetcode/kuiperBelt/CountSubarraysWithScoreLessThanK.java) | #array #binary-search #sliding-window #prefix-sum #hard                                                           |
 | [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CountUnreachablePairsOfNodesInUDGraph/sol.md) | #graphs #dfs #bfs #scc                                                                                            |
@@ -353,7 +346,6 @@
 | [2349. Design a Number Container System](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/NumberContainerSystem/NumberContainers.java) | #maps #sets #bst #augmented-data-str                                                                              |
 | [2350. Shortest Impossible Sequence of Rolls](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/ShortestImpossibleSeqOfRolls/Solution.java) | #maps #sets #bst #augmented-data-str                                                                              |
 | [2353. Design a Food Rating System](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/DesignFoodRatingSystem.java) | #lld #crude-impl #hashmaps #bst #heap                                                                             |
-| [2359. Find Closest Node to Given Two Nodes](./dsa/leetcode/EuropasOceanWorld/FindClosestNodeToGivenTwoNodes.java) | #graph #breadth-first-search #medium |
 | [2374. Node With Highest Edge Score](./dsa/leetcode/RhoCassiopeiae/NodeWithHighestEdgeScore.java) | #hash-table #graph #medium                                                                                        |
 | [2375. Construct Smallest Number From DI String](./dsa/leetcode/VallesMarineris/ConstructSmallestNumberFromDiString.java) | #string #backtracking #stack #greedy #medium                                                                      |
 | [2376. Count Special Integers](./dsa/leetcode/VallesMarineris/CountSpecialIntegers.java) | #math #dynamic-programming #hard                                                                                  |
@@ -366,7 +358,6 @@
 | [2416. Sum of Prefix Scores of Strings](./dsa/leetcode/kuiperBelt/SumOfPrefixScoresOfStrings.java) | #trie #string #hard                                                                                               |
 | [2429. Minimize XOR](./dsa/leetcode/mithrim_montez/MinimizeXOR.java) | #bit-manipulation #greedy #medium                                                                                 |
 | [2433. Find The Original Array of Prefix Xor](https://github.com/everrover/mount-kronos/blob/main/NinetySix/FindOrginalArrayOfPrefixXor.java) | #easy #binary-math                                                                                                |
-| [2434. Using a Robot to Print the Lexicographically Smallest String](./dsa/leetcode/EuropasOceanWorld/UsingARobotToPrintTheLexicographicallySmallestString.java) | #string #stack #greedy #medium |
 | [2435. Paths in Matrix Whose Sum Is Divisible by K](https://github.com/everrover/mount-kronos/blob/main/SuperMario/PathsInMatrixWhoseSumIsDivisibleByK.java) | #dfs #dynamic-programming #matrix                                                                                 |
 | [2444. Count Subarrays With Fixed Bounds](./dsa/leetcode/JupitersGreatStorm/CountSubarraysWithFixedBounds.java) | #tricky #sliding-windows #twist #array #queue #sliding-window #monotonic-queue #hard                              |
 | [2456. Most Popular Video Creator](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/MostPopularVideoCreator.java) | #greedy #priority-queue #sorting #math #optimization                                                              |
@@ -403,7 +394,6 @@
 | [2683. Neighboring Bitwise XOR](./dsa/leetcode/mithrim_montez/NeighboringBitwiseXOR.java) | #array #bit-manipulation #medium                                                                                  |
 | [2685. Count the Number of Complete Components](./dsa/leetcode/VallesMarineris/CountTheNumberOfCompleteComponents.java) | #graph #dfs #bfs #union-find #medium                                                                              |
 | [2709. Greatest Common Divisor Traversal](./dsa/leetcode/kuiperBelt/GreatestCommonDivisorTraversal.java) | #union-find #graph #number-theory #hard                                                                           |
-| [2734. Lexicographically Smallest String After Substring Operation](./dsa/leetcode/EuropasOceanWorld/LexicographicallySmallestStringAfterSubstringOperation.java) | #string #greedy #medium |
 | [2751. Robot Collisions](./dsa/leetcode/kuiperBelt/RobotCollisions.java) | #stack #array #sorting #simulation #hard                                                                          |
 | [2778. Sum of Squares of Special Elements](.dsa/leetcode/kuiperBelt/EasySetI.java)        | #easy                                                                                                             |
 | [2780. Minimum Index of a Valid Split](./dsa/leetcode/VallesMarineris/MinimumIndexOfAValidSplit.java) | #array #hashtable #sorting #medium                                                                                |
@@ -454,7 +444,6 @@
 | [2955. Number of Same-End Substrings](.dsa/leetcode/kuiperBelt/NumberOfSameEndSubstrings.java) | #string #prefix-sum #medium                                                                                       |
 | [2958. Length of Longest Subarray With at Most K Frequency](./dsa/leetcode/EuropasOceanWorld/LengthOfLongestSubarrayWithAtMostKFrequency.java) | #sliding-window #array #hash-map #medium                                                                          |
 | [2962. Count Subarrays Where Max Element Appears at Least K Times](./dsa/leetcode/VallesMarineris/CountSubarraysWhereMaxElementAppearsAtLeastKTimes.java) | #array #sliding-window #medium                                                                                    |
-| [2966. Divide Array Into Arrays With Max Difference](./dsa/leetcode/EuropasOceanWorld/DivideArrayIntoArraysWithMaxDifference.java) | #array #greedy #sorting #medium |
 | [2975. Maximum Square Area Removing Fences From Field](./dsa/leetcode/kuiperBelt/MaximumSquareAreaRemovingFencesFromField.java) | #two-pointers #set #enumeration #area-calculation                                                                 |
 | [2999. Count the Number of Powerful Integers](./dsa/leetcode/VallesMarineris/CountTheNumberOfPowerfulIntegers.java) | #dynamic-programming #math #string #hard                                                                          |
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](.dsa/leetcode/kuiperBelt/MaximumNumberSumPricesLessEqualK.java) | #binary-search #dynamic-programming #bit-manipulation #medium                                                     |
@@ -474,7 +463,6 @@
 | [3068. Find the Maximum Sum of Node Values](./dsa/leetcode/kuiperBelt/FindTheMaximumSumOfNodeValues.java) | #array #greedy #bit-manipulation #tree #min-tracking #math #hard                                                  |
 | [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard                                                                   |
 | [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium                                                                        |
-| [3085. Minimum Deletions to Make String K-Special](./dsa/leetcode/Ipestus/MinimumDeletionsToMakeStringKSpecial.java) | #hash-table #string #greedy #medium |
 | [3093. Longest Common Suffix Queries](./dsa/leetcode/RhoCassiopeiae/LongestCommonSuffixQueries.java) | #array #string #trie #hard                                                                                        |
 | [3095. Shortest Subarray With OR at Least K](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithORAtLeastK.java) | #array #bit-manipulation #sliding-window #easy                                                                    |
 | [3097. Shortest Subarray With OR at Least K II](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithORAtLeastKII.java) | #array #bit-manipulation #sliding-window #medium                                                                  |
@@ -494,7 +482,6 @@
 | [3170. Lexicographically Minimum String After Removing Stars](./dsa/leetcode/kuiperBelt/LexicographicallyMinimumStringAfterRemovingStars.java) | #hash-table #string #stack #greedy #heap-priority-queue #medium                                                   |
 | [3174. Clear Digits](./dsa/leetcode/mithrim_montez/ClearDigits.java) | #string #stack #simulation #easy                                                                                  |
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium                                                                                        |
-| [3178. Find the Child Who Has the Ball After K Seconds](./dsa/leetcode/EuropasOceanWorld/FindTheChildWhoHasTheBallAfterKSeconds.java) | #math #simulation #easy |
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard                                                                   |
 | [3219. Minimum Cost for Cutting Cake II](./dsa/leetcode/jovianMoonOrbit/MinimumCostForCuttingCakeII.java) | #array #greedy #sorting #hard                                                                                     |
 | [3223. Minimum Length of String After Operations](./dsa/leetcode/mithrim_montez/MinimumLengthOfStringAfterOperations.java) | #string-manipulation #greedy #hash-table #medium                                                                  |
@@ -516,8 +503,7 @@
 | [3342. Find Minimum Time to Reach Last Room II](./dsa/leetcode/RhoCassiopeiae/FindMinimumTimeToReachLastRoomIi.java) | #array #graph #heap #matrix #shortest-path #medium                                                                |
 | [3355. Zero Array Transformation](./dsa/leetcode/EuropasOceanWorld/ZeroArrayTransformationI.java) | #array #prefix-sum #decrement #medium |
 | [3359. Find Sorted Submatrices With Maximum Element at Most K](./dsa/leetcode/VallesMarineris/FindSortedSubmatricesWithMaximumElementAtMostK.java) | #matrix #monotonic-stack #array #hard                                                                             |
-| [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/EuropasOceanWorld/MaximizeTheNumberOfTargetNodesAfterConnectingTrees.java) | #tree #bfs #medium                                                                                                |
-| [3373. Maximize the Number of Target Nodes After Connecting Trees II](./dsa/leetcode/EuropasOceanWorld/MaximizeTheNumberOfTargetNodesAfterConnectingTreesII.java) | #tree #bfs #dfs #hard |
+| [3372. Maximize the Number of Target Nodes After Connecting Trees I](./dsa/leetcode/mithrim_montez/MaximizeTheNumberOfTargetNodesAfterConnectingTreesI.java) | #tree #bfs #medium                                                                                                |
 | [3375. Minimum Operations to Make Array Values Equal to K](./dsa/leetcode/VallesMarineris/MinimumOperationsToMakeArrayValuesEqualToK.java) | #array #hash-table #greedy #easy                                                                                  |
 | [3376. Minimum Time to Break Locks](./dsa/leetcode/mithrim_montez/MinimumTimeToBreakLocks.java) | #array #dynamic-programming #backtracking #bit-manipulation #depth-first-search #bitmask #medium                  |
 | [3381. Maximum Subarray Sum With Length Divisible by K](./dsa/leetcode/RhoCassiopeiae/MaximumSubarraySumWithLengthDivisibleByK.java) | #array #hash-table #prefix-sum #medium                                                                            |
@@ -610,9 +596,9 @@
 | [3602. Hexadecimal and Hexatrigesimal Conversion](./dsa/leetcode/Ipestus/HexadecimalAndHexatrigesimalConversion.java) | #base-conversion #math #easy |
 | --- | ---                                                                                                               |
 
-DSA Progress: 462/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 463/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 903/1600
+All problems progress in LeetCode: 904/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
