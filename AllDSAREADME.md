@@ -277,6 +277,7 @@
 | [1726. Tuple with Same Product](./dsa/leetcode/VallesMarineris/TupleWithSameProductSolvedMedium.java) | #array #hash-table #counting #medium                                                                              |
 | [1728. Cat and mouse II](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/CatAndMouseII.java)                   | #graphs #dfs #dp #memoiation #game-theory #trick #dfs-no-visit-track #dfs                                         |
 | [1730. Shortest Path to Get Food](./dsa/leetcode/kuiperBelt/ShortestPathToGetFood.java)   | #breadth-first-search #matrix #medium                                                                             |
+| [1733. Minimum Number of People to Teach](./dsa/leetcode/Ipestus/MinimumNumberOfPeopleToTeach.java) | #array #hash-table #greedy #medium |
 | [1735. Count Ways to Make Array With Product](https://github.com/everrover/mount-kronos/blob/main/SixtyFour/CountWaysToMakeArrayWithProduct.java) | #sieve-eratosthenes #combinatorics #math #dp #tricky                                                              |
 | [1737. Change Minimum Characters to Satisfy One of Three Conditions](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ChangeMinimumCharactersToSatisfyOneOfThreeConditions/sol.md) |                                                                                                                   |
 | [1749. Maximum Absolute Sum of Any Subarray](./dsa/leetcode/VallesMarineris/MaximumAbsoluteSumOfAnySubarray.java) | #array #dynamic-programming #medium                                                                               |
@@ -609,9 +610,9 @@
 | [3602. Hexadecimal and Hexatrigesimal Conversion](./dsa/leetcode/Ipestus/HexadecimalAndHexatrigesimalConversion.java) | #base-conversion #math #easy |
 | --- | ---                                                                                                               |
 
-DSA Progress: 461/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 462/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 902/1600
+All problems progress in LeetCode: 903/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
