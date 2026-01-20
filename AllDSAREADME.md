@@ -496,6 +496,7 @@
 | [3282. Reach End of Array With Max Score](./dsa/leetcode/VallesMarineris/ReachEndOfArrayWithMaxScore.java) | #array #greedy #medium                                                                                            |
 | [3295. Report Spam Message](./dsa/leetcode/VallesMarineris/ReportSpamMessage.java) | #array #hash-table #string #medium                                                                                |
 | [3306. Count of Substrings Containing Every Vowel and K Consonants II](./dsa/leetcode/VallesMarineris/CountOfSubstringsContainingEveryVowelAndKConsonantsIi.java) | #sliding-window #string #hash-table #medium                                                                       |
+| [3314. Construct the Minimum Bitwise Array I](./dsa/leetcode/Ipestus/ConstructTheMinimumBitwiseArrayI.java) | #array #bit-manipulation #easy |
 | [3316. Find Maximum Removals From Source String](./dsa/leetcode/VallesMarineris/FindMaximumRemovalsFromSourceString.java) | #array #hash-table #two-pointers #string #dynamic-programming #medium                                             |
 | [3335. Total Characters in String After Transformations](./dsa/leetcode/EuropasOceanWorld/TotalCharactersInStringAfterTransformationsI.java) | #hash-table #math #string #dynamic-programming #counting #medium                                                  |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #combinatorics #medium                                                                       |
@@ -600,9 +601,9 @@
 | [3602. Hexadecimal and Hexatrigesimal Conversion](./dsa/leetcode/Ipestus/HexadecimalAndHexatrigesimalConversion.java) | #base-conversion #math #easy |
 | --- | ---                                                                                                               |
 
-DSA Progress: 464/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 465/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 905/1600
+All problems progress in LeetCode: 906/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
