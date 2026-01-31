@@ -170,6 +170,7 @@
 | [857. Minimum Cost to Hire K Workers](./dsa/leetcode/kuiperBelt/MinimumCostToHireKWorkers.java) | #greepy #sorting #heap #priority-queue #hard                                                                      |
 | [862. Shortest Subarray with Sum at Least K](./dsa/leetcode/fermi_s_paradox/ShortestSubarrayWithSumAtLeastK.java) | #array #queue #prefix-sum #monotonic-queue #hard                                                                  |
 | [863. All Nodes Distance K in Binary Tree](./dsa/leetcode/RhoCassiopeiae/AllNodesDistanceKInBinaryTree.java) | #binary-tree #tree #dfs #bfs #medium                                                                              |
+| [869. Reordered Power of 2](./dsa/leetcode/Ipestus/ReorderedPowerOf2.java) | #hash-table #math #sorting #medium |
 | [873. Length of Longest Fibonacci Subsequence](./dsa/leetcode/VallesMarineris/LengthOfLongestFibonacciSubsequence.java) | #array #hash-table #dynamic-programming #medium                                                                   |
 | [875. Koko eating bananas](https://github.com/everrover/mount-kronos/blob/main/SuperMario/KokoEatingBananas.java) | #binary-search #bin-search-over-solution-space                                                                    |
 | [877. Stone Game](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/StoneGame/sol.md)                            | #dynamic-programming #game-theory #greedy #math                                                                   |
@@ -601,9 +602,9 @@
 | [3602. Hexadecimal and Hexatrigesimal Conversion](./dsa/leetcode/Ipestus/HexadecimalAndHexatrigesimalConversion.java) | #base-conversion #math #easy |
 | --- | ---                                                                                                               |
 
-DSA Progress: 465/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 466/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 906/1600
+All problems progress in LeetCode: 907/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
