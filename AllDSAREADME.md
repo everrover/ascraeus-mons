@@ -78,6 +78,7 @@
 | [339. Nested List Weight Sum](./dsa/leetcode/kuiperBelt/NestedListWeightSum.java)         | #depth-first-search #bfs #recursion #nested-lists #medium                                                         |
 | [341. Flatten Nested List Iterator](./dsa/leetcode/EuropasOceanWorld/FlattenNestedListIterator.java) | #stack #iterator #dfs #design #medium |
 | [347. Top K Frequent Elements](./dsa.leetcode.kuiperBelt/TopKFrequentElements.java)       | #hashmap #priorityqueue #heaps #medium                                                                            |
+| [348. Design Tic-Tac-Toe](./dsa/leetcode/Ipestus/DesignTicTacToe.java) | #design #matrix #simulation #medium |
 | [353. Design Snake Game](./dsa/leetcode/VallesMarineris/DesignSnakeGame.java) | #array #hash-table #design #queue #simulation #medium                                                             |
 | [354. 354. Russian Doll Envelopes](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/RussianDollEnvelopes/Solution.java) |                                                                                                                   |
 | [359. Logger Rate Limiter](./dsa/leetcode/EuropasOceanWorld/LoggerRateLimiter.java) | #hash-table #design #data-stream #easy                                                                            |
@@ -603,9 +604,9 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 467/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 468/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 908/1600
+All problems progress in LeetCode: 909/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
