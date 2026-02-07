@@ -405,6 +405,7 @@
 | [2788. Split Strings by Separator](.dsa/leetcode/kuiperBelt/EasySetI.java)                | #easy                                                                                                             |
 | [2799. Count Complete Subarrays in an Array](./dsa/leetcode/JupitersGreatStorm/CountCompleteSubarraysInArray.java) | #array #hash-table #sliding-window #medium                                                                        |
 | [2806. Account Balance After Rounded Purchase](.dsa/leetcode/kuiperBelt/EasySetI.java)    | #easy                                                                                                             |
+| [2808. Minimum Seconds to Equalize a Circular Array](./dsa/leetcode/Ipestus/MinimumSecondsToEqualizeACircularArray.java) | #array #hash-table #medium |
 | [2809. Minimum Time to Make Array Sum At Most x](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinTimeToMakeArraySumAtMostX.java) // [Minimum Time to Make Array Sum At Most x](https://github.com/everrover/mount-kronos/blob/main/LordShiva/MinimumTimetoMakeArraySumAtMostX.java) | #tricky #very-hard #dynamic-programming #array #sorting #greedy #ai-wrote-this-description #contest               |
 | [2810. Faulty Keyboard](https://github.com/everrover/mount-kronos/blob/main/LordShiva/FaultyKeyboard.java) | #contest #simulation #very-easy                                                                                   |
 | [2811. Check if it is Possible to Split Array](https://github.com/everrover/mount-kronos/blob/main/LordShiva/) | #                                                                                                                 |
@@ -605,9 +606,9 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 469/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 470/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 910/1600
+All problems progress in LeetCode: 911/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
