@@ -6,9 +6,10 @@ public class MinimumSecondsToEqualizeACircularArray {
     /**
      * https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/description/
      * 
-     * The solution involves calculating for each number in the array, the time it would take to make all other numbers equal to it.
-     * This is done by calculating the maximum distance between indices of the same number and halving it, due to simultaneous replacements.
-     * The minimum of these calculated maximum distances across numbers gives the required number of seconds.
+     * For each unique number in the array, calculate the maximum distance between consecutive occurrences of that number (considering the circular nature of the array). 
+     * The minimum seconds required to equalize the array is the minimum of these maximum distances divided by 2 (rounded up).
+     * 
+     * Because the time needed to equalize a given range (i,j) = ceil((j - i - 1)/2).
      * 
      * TC: O(n) SC: O(n)
      * #array #hash-table #medium

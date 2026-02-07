@@ -7,16 +7,24 @@ public class DesignTicTacToe {
     int sdsum;
     int isV = 0;
 
-designTicTacToe(int n) {
+    public DesignTicTacToe(int n) {
         rowsum = new int[n];
         colsum = new int[n];
-        mdsum = 0;
-        sdsum = 0;
+        mdsum = sdsum = isV = 0;
     }
 
     /**
      * Moves a player to the given row and column.
      * Checks for wins along the row, column, and diagonals.
+     * 
+     * The valid conditions for a win are:
+     * 1. All values in a row are the same.
+     * 2. All values in a column are the same.
+     * 3. All values in the main diagonal are the same.
+     * 4. All values in the secondary diagonal are the same.
+     * 
+     * Keeping track of the sums for each row, column, and diagonal allows for checking if a player has won in
+     * O(1) time complexity per move.
      *
      * TC: O(1) per move
      *

@@ -6,8 +6,7 @@ public class SimpleBankSystem {
   /**
    * https://leetcode.com/problems/simple-bank-system/description/
    * 
-   * Implement a banking system that handles transactions such as transfer, deposit, and withdraw.
-   * Ensure transactions only proceed if they are valid based on constraints.
+   * Looked like my production grade brother's bank system!
    * 
    * TC: O(1) SC: O(n)
    * #array #simulation #design #medium
