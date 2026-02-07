@@ -309,6 +309,7 @@
 | [1997. First Day Where You Have Been in All the Rooms](./NinetySix/FirstDayWhereYouHaveBeenInAllRooms/FirstDayWhereYouHaveBeenInAllRooms.java) | #greedy #tricky-dp #graphs #dynamic-programming #deep-logic                                                       |
 | [2009. Minimum Number of Operations to Make Array Continuous](./dsa/leetcode/jovianMoonOrbit/MinNumberOfOperationsToMakeArrayContinuous.java) | #array #sliding-window #hard #tricky                                                                              |
 | [2017. Grid Game](./dsa/leetcode/mithrim_montez/GridGame.java) | #array #matrix #prefix-sum #medium                                                                                |
+| [2043. Simple Bank System](./dsa/leetcode/Ipestus/SimpleBankSystem.java) | #array #simulation #design #medium |
 | [2060. Check if an Original String Exists Given Two Encoded Strings](./dsa/leetcode/kuiperBelt/CheckIfAnOriginalStringExistsGivenTwoEncodedStrings.java) | #dynamic-programming #string #hard #recursion #tricky                                                             |
 | [2071. Maximum Number of Tasks You Can Assign](./dsa/leetcode/VallesMarineris/MaximumNumberOfTasksYouCanAssign.java) | #array #binary-search #greedy #queue #hard                                                                        |
 | [2076. Process Restricted Friend Requests](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/ProcessRestrictedFriendRequests/sol.md) |                                                                                                                   |
@@ -604,9 +605,9 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 468/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 469/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 909/1600
+All problems progress in LeetCode: 910/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
