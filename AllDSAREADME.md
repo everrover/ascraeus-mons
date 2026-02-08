@@ -223,6 +223,7 @@
 | [1263. Minimum Moves to Move a Box to Their Target Location](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinMovesToMoveBoxToTargetLocation.java) | #dfs #state-traversal #bfs #route-optimization #tricky                                                            |
 | [1267. Count Servers that Communicate](./dsa/leetcode/mithrim_montez/CountServersThatCommunicate.java) | #array #matrix #counting #medium                                                                                  |
 | [1293. Shortest Path in a Grid with Obstacles Elimination](./dsa/leetcode/kuiperBelt/ShortestPathInAGridWithObstaclesElimination.java) | #breadth-first-search #dynamic-programming #matrix #hard                                                          |
+| [1304. Find N Unique Integers Sum up to Zero](./dsa/leetcode/Ipestus/FindNUniqueIntegersSumUpToZero.java) | #array #math #easy |
 | [1312. Minimum Insertion Steps to Make a String Palindrome](./dsa/leetcode/kuiperBelt/MinimumInsertionStepsToMakeStringPalindrome.java) | #dynamic-programming #string #palindrome #hard                                                                    |
 | [1315. Sum of Nodes with Even-Valued Grandparent](./dsa/leetcode/kuiperBelt/SumOfNodesWithEvenValuedGrandparent.java) | #tree #depth-first-search #breadth-first-search #binary-tree #medium                                              |
 | [1320. Minimum Distance to Type a Word Using Two Fingers](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinDistanceToTypeWordUsingTwoFingers.java) | #dynamic-programming #small-trick #optimization #memoization-optimization                                         |
@@ -608,9 +609,9 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 472/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 473/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 913/1600
+All problems progress in LeetCode: 914/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
