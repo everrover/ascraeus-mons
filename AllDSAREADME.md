@@ -488,6 +488,7 @@
 | [3174. Clear Digits](./dsa/leetcode/mithrim_montez/ClearDigits.java) | #string #stack #simulation #easy                                                                                  |
 | [3175. Find The First Player to Win K Games in a Row](./dsa/leetcode/kuiperBelt/FindTheFirstPlayerToWinKGamesInARow.java) | #array #simulation #medium                                                                                        |
 | [3187. Peaks in Array](./dsa/leetcode/kuiperBelt/PeaksInArray.java)                       | #segment-tree #array #binary-indexed-tree #hard                                                                   |
+| [3195. Find the Minimum Area to Cover All Ones](./dsa/leetcode/Ipestus/FindTheMinimumAreaToCoverAllOnesI.java) | #array #matrix #medium |
 | [3219. Minimum Cost for Cutting Cake II](./dsa/leetcode/jovianMoonOrbit/MinimumCostForCuttingCakeII.java) | #array #greedy #sorting #hard                                                                                     |
 | [3223. Minimum Length of String After Operations](./dsa/leetcode/mithrim_montez/MinimumLengthOfStringAfterOperations.java) | #string-manipulation #greedy #hash-table #medium                                                                  |
 | [3238. Find the Number of Winning Players](./dsa/leetcode/kuiperBelt/FindTheNumberOfWinningPlayers.java) | #hashmap #array #greedy #easy                                                                                     |
@@ -606,9 +607,9 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 470/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 471/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 911/1600
+All problems progress in LeetCode: 912/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
