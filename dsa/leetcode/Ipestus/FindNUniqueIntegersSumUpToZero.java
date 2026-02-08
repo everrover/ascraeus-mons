@@ -1,6 +1,6 @@
 package dsa.leetcode.Ipestus;
 
-public class Solution {
+public class FindNUniqueIntegersSumUpToZero {
 
   /**
    * https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/
