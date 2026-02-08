@@ -505,6 +505,7 @@
 | [3306. Count of Substrings Containing Every Vowel and K Consonants II](./dsa/leetcode/VallesMarineris/CountOfSubstringsContainingEveryVowelAndKConsonantsIi.java) | #sliding-window #string #hash-table #medium                                                                       |
 | [3314. Construct the Minimum Bitwise Array I](./dsa/leetcode/Ipestus/ConstructTheMinimumBitwiseArrayI.java) | #array #bit-manipulation #easy |
 | [3316. Find Maximum Removals From Source String](./dsa/leetcode/VallesMarineris/FindMaximumRemovalsFromSourceString.java) | #array #hash-table #two-pointers #string #dynamic-programming #medium                                             |
+| [3318. Find X-Sum of All K-Long Subarrays](./dsa/leetcode/Ipestus/FindXSumOfAllKLongSubarrays.java) | #array #hash-table #sliding-window #heap #easy |
 | [3335. Total Characters in String After Transformations](./dsa/leetcode/EuropasOceanWorld/TotalCharactersInStringAfterTransformationsI.java) | #hash-table #math #string #dynamic-programming #counting #medium                                                  |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #combinatorics #medium                                                                       |
 | [3339. Find the Number of K-Even Arrays](./dsa/leetcode/mithrim_montez/FindTheNumberOfKEvenArrays.java) | #dynamic-programming #medium                                                                                      |
@@ -609,9 +610,9 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 473/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 474/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 914/1600
+All problems progress in LeetCode: 915/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
