@@ -466,6 +466,7 @@
 | [3063. Linked List Frequency](./dsa/leetcode/kuiperBelt/LinkedListFrequency.java)         | #hash-table #linked-list #counting #medium                                                                        |
 | [3066. Minimum Operations to Exceed Threshold Value II](./dsa/leetcode/VallesMarineris/MinimumOperationsToExceedThresholdValueII.java) | #array #heap #priority-queue #simulation #medium                                                                  |
 | [3068. Find the Maximum Sum of Node Values](./dsa/leetcode/kuiperBelt/FindTheMaximumSumOfNodeValues.java) | #array #greedy #bit-manipulation #tree #min-tracking #math #hard                                                  |
+| [3071. Minimum Operations to Write the Letter Y on a Grid](./dsa/leetcode/Ipestus/MinimumOperationsToWriteTheLetterYOnAGrid.java) | #matrix #array #medium |
 | [3072. Distribute Elements Into Two Arrays II](./dsa/leetcode/kuiperBelt/DistributeElementsIntoTwoArraysII.java) | #avl-tree #binary-search-tree #simulation #hard                                                                   |
 | [3078. Match Alphanumerical Pattern in Matrix I](./dsa/leetcode/kuiperBelt/MatchAlphanumericalPatternInMatrixI.java) | #hashmap #set #brute-force #matrix #medium                                                                        |
 | [3093. Longest Common Suffix Queries](./dsa/leetcode/RhoCassiopeiae/LongestCommonSuffixQueries.java) | #array #string #trie #hard                                                                                        |
@@ -607,9 +608,9 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 471/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 472/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 912/1600
+All problems progress in LeetCode: 913/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
