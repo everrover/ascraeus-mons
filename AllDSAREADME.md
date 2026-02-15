@@ -454,6 +454,7 @@
 | [2999. Count the Number of Powerful Integers](./dsa/leetcode/VallesMarineris/CountTheNumberOfPowerfulIntegers.java) | #dynamic-programming #math #string #hard                                                                          |
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](.dsa/leetcode/kuiperBelt/MaximumNumberSumPricesLessEqualK.java) | #binary-search #dynamic-programming #bit-manipulation #medium                                                     |
 | [3009. Maximum Number of Intersections on the Chart](./dsa/leetcode/kuiperBelt/MaximumNumberOfIntersectionsOnTheChart.java) | #array #math #binary-indexed-tree #geometry #hard                                                                 |
+| [3013. Divide an Array Into Subarrays With Minimum Cost II](./dsa/leetcode/Ipestus/DivideAnArrayIntoSubarraysWithMinimumCostIi.java) | #array #sliding-window #heap #tree-set #hard |
 | [3014. Minimum Number of Pushes to Type Word I](./dsa/leetcode/kuiperBelt/ManimumNumberOfPushedToTypeWordI.java) | #easy #math                                                                                                       |
 | [3015. Count the Number of Houses at a Certain Distance I](./dsa/leetcode/kuiperBelt/CountNumberOfHousesAtCertainDistanceI.java) | #enumeration #distance-calculation #medium #little-logic                                                          |
 | [3024. Type of Triangle](./dsa/leetcode/EuropasOceanWorld/TypeOfTriangle.java) | #array #math #easy |
@@ -610,9 +611,9 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 474/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 475/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 915/1600
+All problems progress in LeetCode: 916/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
