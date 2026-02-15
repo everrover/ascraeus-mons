@@ -2,7 +2,7 @@ package dsa.leetcode.EuropasOceanWorld;
 
 import java.util.Arrays;
 
-public class Solution {
+public class DivideArrayIntoArraysWithMaxDifference {
 
   /**
    * https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/?envType=daily-question&envId=2025-06-18

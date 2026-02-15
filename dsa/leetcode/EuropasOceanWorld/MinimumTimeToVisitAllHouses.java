@@ -1,6 +1,6 @@
 package dsa.leetcode.EuropasOceanWorld;
 
-class Solution {
+class MinimumTimeToVisitAllHouses {
 
   /**
    * https://leetcode.com/problems/minimum-time-to-visit-all-houses/description/

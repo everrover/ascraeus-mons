@@ -57,7 +57,6 @@ public class StickersToSpellWord {
     return ans;
   }
   /* // Shortest path solution
-  class Solution {
     private boolean empty(int[] freq) {
         for(int f: freq) if(f > 0) return false;
         return true;
@@ -129,6 +128,5 @@ public class StickersToSpellWord {
         }
         return -1;
     }
-}
    */
 }

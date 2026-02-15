@@ -65,7 +65,6 @@ public class LongestIncreasingSubsequenceII {
 }
 
 /**
-class Solution {
   private int mink;
   private int []numsarr, dp;
   public int lengthOfLIS(int[] nums, int k) {
@@ -89,5 +88,4 @@ class Solution {
     }
     return dp[idx]=res;
   }
-}
  */

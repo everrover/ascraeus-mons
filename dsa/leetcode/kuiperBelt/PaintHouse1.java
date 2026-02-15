@@ -15,7 +15,6 @@ public class PaintHouse1 {
    * #array #dp #paint-house #medium
    */
   
-  class Solution {
     int dp[], costs[][];
     public int minCost(int[][] costs) {
       this.costs = costs;
@@ -33,5 +32,4 @@ public class PaintHouse1 {
       }
       return util(idx+1, Integer.min(second, third)+costs[idx][0], Integer.min(first, third)+costs[idx][1], Integer.min(first, second)+costs[idx][2]);
     }
-  }
 }

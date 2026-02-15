@@ -14,7 +14,7 @@ package dsa.leetcode.JovianMoonOrbit;
  * 
  * p.s. did this problem in university...
  */
-class Solution {
+class ConvertBstToSortedDoublyLinkedList {
 
     private static class Node {
         public int val;

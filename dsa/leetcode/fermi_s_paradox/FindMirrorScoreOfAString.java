@@ -15,7 +15,6 @@ public class FindMirrorScoreOfAString {
    * #two-pointers #hash-map #mirror #medium
    */
   
-  class Solution {
     public long calculateScore(String s) {
       long res = 0L;
       List<Integer>[] map = new List[26];
@@ -33,5 +32,4 @@ public class FindMirrorScoreOfAString {
       }
       return res;
     }
-  }
 }

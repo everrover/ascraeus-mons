@@ -1,6 +1,6 @@
 package dsa.leetcode.JupitersGreatStorm;
 
-class Solution {
+class SmallestPalindromicRearrangement {
   /**
    * https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/
    *

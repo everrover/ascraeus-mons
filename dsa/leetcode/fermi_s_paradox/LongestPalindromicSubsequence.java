@@ -1,6 +1,6 @@
 package dsa.leetcode.fermi_s_paradox;
 
-class Solution {
+class LongestPalindromicSubsequence {
   int[][] dp;
   int n;
 

@@ -17,7 +17,6 @@ import java.util.Queue;
  * #breadth-first-search #matrix #hard #bfs #queue #shortest-path #graph #brute-force
  */
 class ShortestDistanceFromAllBuildings {
-  class Solution {
     private int m, n;
     public int shortestDistance(int[][] grid) {
       m = grid.length; n = grid[0].length;
@@ -69,5 +68,4 @@ class ShortestDistanceFromAllBuildings {
       }
       return true;
     }
-  }
 }

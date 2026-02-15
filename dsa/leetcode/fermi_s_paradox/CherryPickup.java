@@ -16,7 +16,6 @@ public class CherryPickup {
    * #array #dynamic-programming #matrix #hard
    */
 
-  class Solution {
     private int N, M;
     private static final int MIN = Integer.MIN_VALUE;
 
@@ -50,5 +49,4 @@ public class CherryPickup {
       );
       return dp[r1][c1][c2] = res;
     }
-  }
 }

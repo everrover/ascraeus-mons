@@ -41,7 +41,6 @@ public class TopKFrequentElements {
         return res;
     }
     /*
-    class Solution {
     int[] unique;
     Map<Integer, Integer> count;
 
@@ -123,6 +122,5 @@ public class TopKFrequentElements {
         // Return top k frequent elements
         return Arrays.copyOfRange(unique, n - k, n);
     }
-}
      */
 }

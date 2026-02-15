@@ -23,7 +23,7 @@ class TreeNode {
     TreeNode(int x) { val = x; }
 }
 
-class Solution {
+class AllNodesDistanceKInBinaryTree {
     List<Integer> res = new LinkedList<>();
     private int k;
     private int postOrder(TreeNode root, TreeNode target, boolean ptfound, int ptdepth) {

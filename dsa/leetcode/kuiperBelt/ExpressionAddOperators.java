@@ -15,7 +15,6 @@ public class ExpressionAddOperators {
    * TC: O(4^n) SC: O(4^n)
    * #math #string #backtracking #hard
    */
-  class Solution {
     List<String> res = new LinkedList<>();
     long target;
     String num;
@@ -45,5 +44,4 @@ public class ExpressionAddOperators {
         }
       }
     }
-  }
 }

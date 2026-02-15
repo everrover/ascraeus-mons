@@ -53,7 +53,6 @@ public class MaximumSumBstInBinaryTree {
     }
 
     /*
-    class Solution {
   private static class T{
     public int val, sum;
     public Integer large, small;
@@ -123,6 +122,5 @@ public class MaximumSumBstInBinaryTree {
     max = Math.max(max, findMax(root.right));
     return max;
   }
-}
      */
 }

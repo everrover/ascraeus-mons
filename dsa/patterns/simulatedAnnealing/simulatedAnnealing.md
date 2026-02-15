@@ -81,7 +81,7 @@ algorithm SimulatedAnnealingOptimizer(T_max, T_min, E_th, α):
 ```java
 // leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/
 // leetcode.com/problems/best-position-for-a-service-centre/
-public class Solution {
+public class SimAnnealing {
     public double getMinDistSum(int [][]positions){
         double res = Double.MAX_VALUE;
 

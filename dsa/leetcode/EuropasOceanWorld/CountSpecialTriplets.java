@@ -1,6 +1,6 @@
 package dsa.leetcode.EuropasOceanWorld;
 
-class Solution {
+class CountSpecialTriplets {
   private final static long M = (int)1e9+7;
 
   /**

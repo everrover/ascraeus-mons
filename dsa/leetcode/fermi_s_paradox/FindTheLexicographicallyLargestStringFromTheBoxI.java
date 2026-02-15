@@ -12,7 +12,6 @@ public class FindTheLexicographicallyLargestStringFromTheBoxI {
    * #string #greedy #medium
    */
   
-  public class Solution {
     public String answerString(String word, int numFriends) {
       if(numFriends == 1) return word;
       char []chs = word.toCharArray();
@@ -24,5 +23,4 @@ public class FindTheLexicographicallyLargestStringFromTheBoxI {
       }
       return res;
     }
-  }
 }

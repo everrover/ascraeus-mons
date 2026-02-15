@@ -14,7 +14,6 @@ public class ShortestSubarrayWithORAtLeastK {
    * #array #bit-manipulation #sliding-window #easy
    */
 
-  class Solution {
     public int minimumSubarrayLength(int[] nums, int k) {
       int ans = 1000;
       for (int i = 0; i < nums.length; i++) {
@@ -29,5 +28,4 @@ public class ShortestSubarrayWithORAtLeastK {
       }
       return ans == 1000 ? -1 : ans;
     }
-  }
 }

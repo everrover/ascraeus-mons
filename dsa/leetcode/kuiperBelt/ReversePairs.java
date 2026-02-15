@@ -10,7 +10,7 @@ package dsa.leetcode.KuiperBelt;
  * #divide-and-conquer #merge-sort #binary-search #hard
  */
 
-class Solution {
+class ReversePairs {
   public int reversePairs(int[] nums) {
     int []res = new int[nums.length];
     int cnt = mergeSort(0, nums.length-1, nums, res);

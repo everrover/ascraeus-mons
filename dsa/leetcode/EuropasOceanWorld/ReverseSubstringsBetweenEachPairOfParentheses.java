@@ -13,7 +13,6 @@ public class ReverseSubstringsBetweenEachPairOfParentheses {
    * #string #stack #medium
    */
 
-  class Solution {
     public String reverseParentheses(String s) {
       Stack<StringBuilder> stack = new Stack<>();
       StringBuilder current = new StringBuilder();
@@ -32,5 +31,4 @@ public class ReverseSubstringsBetweenEachPairOfParentheses {
 
       return current.toString();
     }
-  }
 }

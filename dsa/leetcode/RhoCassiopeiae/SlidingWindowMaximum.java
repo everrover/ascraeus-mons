@@ -57,7 +57,6 @@ public class SlidingWindowMaximum {
 // }
 
 // max heap - removal takes k time so TC: O(nk-k^2) = O(nk)
-// class Solution {
 //     public int[] maxSlidingWindow(int[] nums, int k) {
 //         PriorityQueue<Integer> pq = new PriorityQueue<>(k, Collections.reverseOrder());
         
@@ -74,10 +73,8 @@ public class SlidingWindowMaximum {
 //         ans[j++] = pq.peek();
 //         return ans;
 //     }
-// }
 
 // crude brute force - O(nk)
-// class Solution {
 //     public int[] maxSlidingWindow(int[] nums, int k) {
 //         int max = findMax(0, k, nums);;
 //         int[] ans = new int[nums.length - k + 1];
@@ -100,4 +97,3 @@ public class SlidingWindowMaximum {
 //         }
 //         return max;
 //     }
-// }

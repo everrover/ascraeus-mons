@@ -1,6 +1,6 @@
 package dsa.leetcode.EuropasOceanWorld;
 
-class Solution {
+class ZeroArrayTransformationI {
 
   /**
    * https://leetcode.com/problems/zero-array-transformation-i/description/?envType=daily-question&envId=2025-05-20

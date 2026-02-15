@@ -16,7 +16,7 @@ import java.util.*;
  * #array #hash-table #medium
  */
 
-class Solution {
+class AssignElementsToGroupsWithConstraints {
     private static final int M = (int)1e9;
 
     public int[] assignElements(int[] groups, int[] elements) {

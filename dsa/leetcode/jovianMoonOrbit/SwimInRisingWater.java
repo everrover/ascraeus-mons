@@ -50,7 +50,7 @@ public class SwimInRisingWater {
 
   /**
    * // Binary search solution - CPP
-   * class Solution {
+   * class Sol {
     public:
         int swimInWater(vector<vector<int>>& grid) {
             int n = grid.size();

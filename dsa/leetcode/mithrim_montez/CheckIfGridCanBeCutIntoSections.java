@@ -2,7 +2,7 @@ package dsa.leetcode.mithrim_montez;
 
 import java.util.*;
 
-class Solution {
+class CheckIfGridCanBeCutIntoSections {
   /**
    * https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/description/
    *

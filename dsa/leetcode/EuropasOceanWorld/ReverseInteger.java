@@ -12,10 +12,8 @@ public class ReverseInteger {
    * #math #integer #easy
    */
 
-  class Solution {
     public int reverse(int x) {
       StringBuilder inte = new StringBuilder((x > 0 ? x : -x) + "");
       return (x > 0 ? 1 : -1) * Integer.parseInt(inte.reverse().toString());
     }
-  }
 }

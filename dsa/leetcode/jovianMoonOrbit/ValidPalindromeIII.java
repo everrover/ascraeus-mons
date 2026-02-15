@@ -40,7 +40,6 @@ public class ValidPalindromeIII {
   }
 
   /** // Selection of selected palindrome characters
-  class Solution {
     public boolean isValidPalindrome(String s, int k) {
       int n = s.length();
       int [][][]memo = new int[n][n][k+1];
@@ -62,6 +61,5 @@ public class ValidPalindromeIII {
       }
       return memo[a][b][k] = res;
     }
-  }
    */
 }

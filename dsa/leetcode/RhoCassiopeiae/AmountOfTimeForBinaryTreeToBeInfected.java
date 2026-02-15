@@ -31,7 +31,6 @@ public class AmountOfTimeForBinaryTreeToBeInfected {
     }
   }
 
-  class Solution {
     private int maxDist = 0;
     
     private int traverse(TreeNode root, int start) {
@@ -59,5 +58,4 @@ public class AmountOfTimeForBinaryTreeToBeInfected {
       var res = 0;
       return res = maxDist;
     }
-  }
 }

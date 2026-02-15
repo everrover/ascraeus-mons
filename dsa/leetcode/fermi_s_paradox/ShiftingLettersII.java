@@ -14,7 +14,6 @@ public class ShiftingLettersII {
    * #array #string #prefix-sum #medium
    */
 
-  class Solution {
     public String shiftingLetters(String s, int[][] shifts) {
         int arr[] = new int[s.length() + 1];
         
@@ -40,5 +39,4 @@ public class ShiftingLettersII {
 
         return sb.toString();
     }
-  }
 }

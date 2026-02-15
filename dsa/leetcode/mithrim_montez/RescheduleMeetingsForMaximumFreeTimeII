@@ -1,6 +1,6 @@
 package dsa.leetcode.mithrim_montez;
 
-class Solution {
+class RescheduleMeetingsForMaximumFreeTimeII {
 
   /**
    * https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/description/

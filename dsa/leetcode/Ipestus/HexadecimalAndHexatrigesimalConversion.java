@@ -1,6 +1,6 @@
 package dsa.leetcode.Ipestus;
 
-class Solution { 
+class HexadecimalAndHexatrigesimalConversion { 
   /**
    * https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/description/
    * 
