@@ -229,6 +229,7 @@
 | [1315. Sum of Nodes with Even-Valued Grandparent](./dsa/leetcode/kuiperBelt/SumOfNodesWithEvenValuedGrandparent.java) | #tree #depth-first-search #breadth-first-search #binary-tree #medium                                              |
 | [1320. Minimum Distance to Type a Word Using Two Fingers](https://github.com/everrover/mount-kronos/blob/main/SuperMario/MinDistanceToTypeWordUsingTwoFingers.java) | #dynamic-programming #small-trick #optimization #memoization-optimization                                         |
 | [1323. Max 69 number](https://github.com/everrover/mount-kronos/blob/main/NinetySix/Maximum69Number.java) | #java #easy                                                                                                       |
+| [1340. Jump Game V](./dsa/leetcode/JupitersGreatStorm/JumpGameV.java) | #array #dp #sorting #hard |
 | [1345. Jump Game IV](./dsa/leetcode/JupitersGreatStorm/JumpGameIV.java) | #array #hash-table #bfs #hard |
 | [1352. Product of the Last K Numbers](./dsa/leetcode/VallesMarineris/ProductOfTheLastKNumbers.java) | #array #math #design #data-stream #prefix-sum #medium                                                             |
 | [1358. Number of Substrings Containing All Three Characters](./dsa/leetcode/VallesMarineris/NumberOfSubstringsContainingAllThreeCharacters.java) | #hash-table #string #sliding-window #medium                                                                       |
@@ -618,9 +619,9 @@
 | [3965. Finish Time of Tasks I](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksI.java) | #tree #dfs #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 482/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 483/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 923/1600
+All problems progress in LeetCode: 924/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
