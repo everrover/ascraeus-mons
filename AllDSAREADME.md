@@ -202,6 +202,7 @@
 | [1035. Uncrossed Lines](./dsa/leetcode/fermi_s_paradox/UncrossedLines.java) | #array #dynamic-programming #medium                                                                               |
 | [1040. Moving Stones Until Consecutive II](./dsa/leetcode/jovianMoonOrbit/MovingStonesUntilConsecutiveII.java) | #array #two-pointers #sorting #medium                                                                             |
 | [1044. Longest Duplicate Substring](./dsa/leetcode/kuiperBelt/LongestDuplicateSubstring.java) | #binary-search #sliding-window #rolling-hash #suffix-array #hard #binary-search-over-solution-space               |
+| [1047. Remove All Adjacent Duplicates In String](./dsa/leetcode/JupitersGreatStorm/RemoveAllAdjacentDuplicatesInString.java) | #string #stack #easy |
 | [1079. Letter Tile Possibilities](./dsa/leetcode/VallesMarineris/LetterTilePossibilities.java) | #hash-table #string #backtracking #medium                                                                         |
 | [1091. Shortest Path in Binary Matrix](https://github.com/everrover/mount-kronos/blob/main/SuperMario/ShortestPathInBinaryMatrix.java) | #bfs #shortest-path #matrix                                                                                       |
 | [1092. Shortest Common Supersequence](https://github.com/everrover/mount-kronos/blob/main/NinetySix/ShortestCommonSupersequence.java) | #dynamic-programming #memory-optimization #LCS #piggybacking                                                      |
@@ -612,9 +613,9 @@
 | [3943. Number of Pairs After Increment](./dsa/leetcode/JupitersGreatStorm/NumberOfPairsAfterIncrement.java) | #array #segment-tree #lazy-propagation #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 476/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 477/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 917/1600
+All problems progress in LeetCode: 918/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
