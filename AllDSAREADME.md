@@ -616,15 +616,16 @@
 | [3942. Minimum Operations to Sort a Permutation](./dsa/leetcode/JupitersGreatStorm/MinimumOperationsToSortAPermutation.java) | #array #math #case-analysis #medium |
 | [3943. Number of Pairs After Increment](./dsa/leetcode/JupitersGreatStorm/NumberOfPairsAfterIncrement.java) | #array #segment-tree #lazy-propagation #hard |
 | [3948. Lexicographically Maximum MEX Array](./dsa/leetcode/JupitersGreatStorm/LexicographicallyMaximumMEXArray.java) | #array #hash-table #greedy #hard |
+| [3953. Maximum Score with Co-Prime Element](./dsa/leetcode/JupitersGreatStorm/MaximumScoreWithCoPrimeElement.java) | #array #math #number-theory #inclusion-exclusion #sieve #hard |
 | [3956. Maximum Sum of M Non-Overlapping Subarrays I](./dsa/leetcode/JupitersGreatStorm/MaximumSumOfMNonOverlappingSubarraysI.java) | #array #dynamic-programming #prefix-sum #monotonic-deque #sliding-window #hard |
 | [3963. Create Grid With Exactly One Path](./dsa/leetcode/JupitersGreatStorm/CreateGridWithExactlyOnePath.java) | #array #matrix #construction #easy |
 | [3964. Minimum Lights to Illuminate a Road](./dsa/leetcode/JupitersGreatStorm/MinimumLightsToIlluminateARoad.java) | #array #greedy #difference-array #medium |
 | [3965. Finish Time of Tasks I](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksI.java) | #tree #dfs #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 486/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 487/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 927/1600
+All problems progress in LeetCode: 928/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
