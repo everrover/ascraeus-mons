@@ -612,11 +612,12 @@
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | [3943. Number of Pairs After Increment](./dsa/leetcode/JupitersGreatStorm/NumberOfPairsAfterIncrement.java) | #array #segment-tree #lazy-propagation #hard |
 | [3963. Create Grid With Exactly One Path](./dsa/leetcode/JupitersGreatStorm/CreateGridWithExactlyOnePath.java) | #array #matrix #construction #easy |
+| [3964. Minimum Lights to Illuminate a Road](./dsa/leetcode/JupitersGreatStorm/MinimumLightsToIlluminateARoad.java) | #array #greedy #difference-array #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 478/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 479/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 919/1600
+All problems progress in LeetCode: 920/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
