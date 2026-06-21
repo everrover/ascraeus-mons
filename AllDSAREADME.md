@@ -611,11 +611,12 @@
 | [3602. Hexadecimal and Hexatrigesimal Conversion](./dsa/leetcode/Ipestus/HexadecimalAndHexatrigesimalConversion.java) | #base-conversion #math #easy |
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | [3943. Number of Pairs After Increment](./dsa/leetcode/JupitersGreatStorm/NumberOfPairsAfterIncrement.java) | #array #segment-tree #lazy-propagation #hard |
+| [3963. Create Grid With Exactly One Path](./dsa/leetcode/JupitersGreatStorm/CreateGridWithExactlyOnePath.java) | #array #matrix #construction #easy |
 | --- | ---                                                                                                               |
 
-DSA Progress: 477/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 478/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 918/1600
+All problems progress in LeetCode: 919/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
