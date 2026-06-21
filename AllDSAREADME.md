@@ -272,6 +272,7 @@
 | [1665. Minimum Initial Energy to Finish Tasks](./dsa/leetcode/kuiperBelt/MinimumInitialEnergyToFinishTasks.java) | #array #greedy #sorting #hard                                                                                     |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://github.com/everrover/mount-kronos/blob/main/FirstThreeTwo/SumOfAbsoluteDiffInSortedArrays/sol.md) | #math                                                                                                             |
 | [1687. Delivering Boxes from Storage to Ports](https://github.com/everrover/mount-kronos/blob/main/LordShiva/DeliveringBoxesFromStorageToPorts.java) | #dynamic-programming #sliding-window #mono-deque #prefix-sum #segment-tree #optimization #sliding-window          |
+| [1696. Jump Game VI](./dsa/leetcode/JupitersGreatStorm/JumpGameVI.java) | #array #dp #monotonic-deque #medium |
 | [1705. Maximum Number of Eaten Apples](./dsa/leetcode/fermi_s_paradox/MaximumNumberOfEatenApples.java) | #array #greedy #heap #priority-queue #medium                                                                      |
 | [1718. Construct the Lexicographically Largest Valid Sequence](./dsa/leetcode/VallesMarineris/ConstructTheLexicographicallyLargestValidSequence.java) | #array #backtracking #medium                                                                                      |
 | [1720. Decode XORed arr](https://github.com/everrover/mount-kronos/blob/main/NinetySix/DecodeXORedArr.java) | #binary-math #easy                                                                                                |
@@ -619,9 +620,9 @@
 | [3965. Finish Time of Tasks I](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksI.java) | #tree #dfs #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 483/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 484/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 924/1600
+All problems progress in LeetCode: 925/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
