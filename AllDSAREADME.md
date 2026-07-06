@@ -612,6 +612,7 @@
 | [3598. Longest Common Prefix Between Adjacent Strings After Removals](./dsa/leetcode/EuropasOceanWorld/LongestCommonPrefixBetweenAdjacentStringsAfterRemovals.java) | #array #string #medium |
 | [3599. Partition Array to Minimize XOR](./dsa/leetcode/EuropasOceanWorld/PartitionArrayToMinimizeXor.java) | #array #dynamic-programming #bit-manipulation #prefix-sum #medium |
 | [3602. Hexadecimal and Hexatrigesimal Conversion](./dsa/leetcode/Ipestus/HexadecimalAndHexatrigesimalConversion.java) | #base-conversion #math #easy |
+| [3620. Network Recovery Pathways](./dsa/leetcode/JupitersGreatStorm/NetworkRecoveryPathways.java) | #graph #binary-search #dijkstra #shortest-path #hard |
 | [3733. Minimum Time to Complete All Deliveries](./dsa/leetcode/Ipestus/MinimumTimeToCompleteAllDeliveries.java) | #binary-search #math #medium |
 | [3942. Minimum Operations to Sort a Permutation](./dsa/leetcode/JupitersGreatStorm/MinimumOperationsToSortAPermutation.java) | #array #math #case-analysis #medium |
 | [3943. Number of Pairs After Increment](./dsa/leetcode/JupitersGreatStorm/NumberOfPairsAfterIncrement.java) | #array #segment-tree #lazy-propagation #hard |
@@ -624,9 +625,9 @@
 | [3967. Finish Time of Tasks II](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksII.java) | #tree #dp #rerooting #hard |
 | --- | ---                                                                                                               |
 
-DSA Progress: 488/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 489/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 929/1600
+All problems progress in LeetCode: 930/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
