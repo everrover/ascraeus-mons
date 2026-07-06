@@ -68,3 +68,38 @@ Prompt added for LC: **<u>[LINK](./prompt_for_plugin_v1.md)</u>**
 - Bit manipulation
 - Graph algorithms
 - Modular arithmetic
+
+### For my local use :
+
+An example of conversation at [link](./conversation-ascraeus-mons.txt)
+![](./ss.png)
+
+```bash
+
+claude --resume "ascraeus-mons-conv"
+
+# - name the session:
+# /rename ascraeus-mons-conv
+# - init:
+# /leetcode-discus-publisher publish the article with captureId: <cap_1782037015234_29c30a>
+# - use otherwise:
+# publish the article with captureId: <cap_1782037015234_29c30a>
+# - export the conversation to a file:
+# /export > file > conversation-ascraeus-mons-conv.txt
+# - most of the work is managed by the plugin
+# the plugin copies the required prompt and loads the code in context-server
+
+## ⚠️ can be automated!!!
+# /rewind : around 4-5 steps back after every 4 iterations to preserve input token cost 
+# "context-bridge": {
+#       "type": "stdio",
+#       "command": "/Users/evro/Downloads/claude-context-bridge/server/leetcode/bin/python",
+#       "args": [
+#         "/Users/evro/Downloads/claude-context-bridge/server/main.py"
+#       ],
+#       "env": {
+#         "BRIDGE_ADMIN_SECRET": "the-secret" # used for starting the bridge MCP server
+#       }
+#     }
+# paste the text above # > ~/claude/.claude.json
+```
