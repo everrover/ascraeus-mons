@@ -624,11 +624,12 @@
 | [3965. Finish Time of Tasks I](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksI.java) | #tree #dfs #medium |
 | [3967. Finish Time of Tasks II](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksII.java) | #tree #dp #rerooting #hard |
 | [3985. Palindromic Subarray Sum](./dsa/leetcode/JupitersGreatStorm/PalindromicSubarraySum.java) | #array #string #manacher #prefix-sum #hard |
+| [4032. Longest Subarray With at Most K Distinct Prime Factors](./dsa/leetcode/JupitersGreatStorm/LongestSubarrayWithAtMostKDistinctPrimeFactors.java) | #array #hash-table #sliding-window #sieve #number-theory #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 490/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 491/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 931/1600
+All problems progress in LeetCode: 932/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
