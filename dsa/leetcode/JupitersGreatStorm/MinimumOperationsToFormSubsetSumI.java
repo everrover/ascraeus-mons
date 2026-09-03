@@ -9,6 +9,8 @@ import java.util.*;
  *
  * dfs(nums, sum, idx) returns the minimum operations to hit exactly `sum` using a subset of nums[idx:], memoized on (sum, idx) since sum ranges only over [0, 5000]. At each index it branches over: skip nums[idx]; take nums[idx] unmodified; take it after 1..k halvings; take it after 1..k doublings (while the doubled value stays below sum, since overshooting can't help). The outer loop tries every index as the DP's starting point because the subset doesn't need to include earlier elements at all. Integer.MAX_VALUE denotes "unreachable" and is filtered out at the end to report -1.
  *
+ * Basically, and extension of 0-1 knapsack.
+ * 
  * TC: O(n*sum) SC: O(n*sum)
  * #array #dynamic-programming #bit-manipulation #medium
  */
