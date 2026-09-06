@@ -628,12 +628,13 @@
 | [4036. Lexicographically Largest String After Pair Transformations](./dsa/leetcode/JupitersGreatStorm/LexicographicallyLargestStringAfterPairTransformations.java) | #array #math #greedy #bit-manipulation #medium |
 | [4039. Sum of Decoded Numbers](./dsa/leetcode/JupitersGreatStorm/SumOfDecodedNumbers.java) | #array #math #string #binary-exponentiation #medium |
 | [4040. Minimum Operations to Form Subset Sum I](./dsa/leetcode/JupitersGreatStorm/MinimumOperationsToFormSubsetSumI.java) | #array #dynamic-programming #bit-manipulation #medium |
+| [4044. Count Good Cyclic Rotations](./dsa/leetcode/JupitersGreatStorm/CountGoodCyclicRotations.java) | #array #sliding-window #prefix-sum #medium |
 | [4045. Count Robot Groups](./dsa/leetcode/JupitersGreatStorm/CountRobotGroups.java) | #array #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 495/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 496/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 936/1600
+All problems progress in LeetCode: 937/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
