@@ -625,6 +625,7 @@
 | [3967. Finish Time of Tasks II](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksII.java) | #tree #dp #rerooting #hard |
 | [3985. Palindromic Subarray Sum](./dsa/leetcode/JupitersGreatStorm/PalindromicSubarraySum.java) | #array #string #manacher #prefix-sum #hard |
 | [4032. Longest Subarray With at Most K Distinct Prime Factors](./dsa/leetcode/JupitersGreatStorm/LongestSubarrayWithAtMostKDistinctPrimeFactors.java) | #array #hash-table #sliding-window #sieve #number-theory #medium |
+| [4034. Minimum Bishop Moves to Reach Target](./dsa/leetcode/JupitersGreatStorm/MinimumBishopMovesToReachTarget.java) | #matrix #bfs #chessboard #medium |
 | [4035. Maximum Valid Split Positions I](./dsa/leetcode/JupitersGreatStorm/MaximumValidSplitPositionsI.java) | #array #math #gcd #prefix-sum #medium |
 | [4036. Lexicographically Largest String After Pair Transformations](./dsa/leetcode/JupitersGreatStorm/LexicographicallyLargestStringAfterPairTransformations.java) | #array #math #greedy #bit-manipulation #medium |
 | [4039. Sum of Decoded Numbers](./dsa/leetcode/JupitersGreatStorm/SumOfDecodedNumbers.java) | #array #math #string #binary-exponentiation #medium |
@@ -633,9 +634,9 @@
 | [4045. Count Robot Groups](./dsa/leetcode/JupitersGreatStorm/CountRobotGroups.java) | #array #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 497/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 498/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 938/1600
+All problems progress in LeetCode: 939/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
