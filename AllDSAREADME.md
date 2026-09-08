@@ -624,6 +624,7 @@
 | [3965. Finish Time of Tasks I](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksI.java) | #tree #dfs #medium |
 | [3967. Finish Time of Tasks II](./dsa/leetcode/JupitersGreatStorm/FinishTimeOfTasksII.java) | #tree #dp #rerooting #hard |
 | [3985. Palindromic Subarray Sum](./dsa/leetcode/JupitersGreatStorm/PalindromicSubarraySum.java) | #array #string #manacher #prefix-sum #hard |
+| [4031. Find All Numbers Disappeared in an Array II](./dsa/leetcode/JupitersGreatStorm/FindAllNumbersDisappearedInAnArrayII.java) | #array #sorting #two-pointers #medium |
 | [4032. Longest Subarray With at Most K Distinct Prime Factors](./dsa/leetcode/JupitersGreatStorm/LongestSubarrayWithAtMostKDistinctPrimeFactors.java) | #array #hash-table #sliding-window #sieve #number-theory #medium |
 | [4034. Minimum Bishop Moves to Reach Target](./dsa/leetcode/JupitersGreatStorm/MinimumBishopMovesToReachTarget.java) | #matrix #bfs #chessboard #medium |
 | [4035. Maximum Valid Split Positions I](./dsa/leetcode/JupitersGreatStorm/MaximumValidSplitPositionsI.java) | #array #math #gcd #prefix-sum #medium |
@@ -634,9 +635,9 @@
 | [4045. Count Robot Groups](./dsa/leetcode/JupitersGreatStorm/CountRobotGroups.java) | #array #greedy #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 498/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 499/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 939/1600
+All problems progress in LeetCode: 940/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
