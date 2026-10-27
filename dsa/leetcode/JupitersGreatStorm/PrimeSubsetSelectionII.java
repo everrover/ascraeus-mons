@@ -17,6 +17,8 @@ import java.util.*;
  *   dp[i+1][t - p_i] == dp[i][t] - 1, i.e. an optimal-count completion still exists using p_i.
  *   Taking the smallest feasible prime at every position is exactly what makes the resulting
  *   increasing array lexicographically smallest among all minimum-count, maximum-sum subsets.
+ * 
+ * Basically, it's a 0/1 knapsack problem with a greedy reconstruction to ensure lexicographic minimality.
  *
  * TC: O(π(min(n,s)) · s) SC: O(π(min(n,s)) · s)
  * #array #math #dynamic-programming #number-theory #hard

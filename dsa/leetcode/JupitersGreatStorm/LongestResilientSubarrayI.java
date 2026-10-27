@@ -5,7 +5,16 @@ import java.util.*;
 /**
  * https://leetcode.com/problems/longest-resilient-subarray-i/
  *
- * Normalize every element to its remainder mod k. A window is resilient iff every element in it shares the same remainder r: since the window sum S must satisfy S-x ≡ 0 (mod k) for every x in it, all x must be congruent to S mod k, and since S is itself the sum of such x's, all elements must be mutually congruent mod k. So the problem reduces to finding the longest run of equal remainders [i..j] for which the run's sum is additionally divisible by k after removing its last element (equivalently, by symmetry, after removing any single element, since all elements share the same residue). The single pass extends a run while nums[i] == nums[i-1] (same residue), tracking the running sum crem of the current run; whenever (crem - nums[i]) % k == 0 the whole run is resilient and the running max is updated.
+ * Normalize every element to its remainder mod k. A window is resilient iff every element in it 
+ * shares the same remainder r: since the window sum S must satisfy S-x ≡ 0 (mod k) for every x 
+ * in it, all x must be congruent to S mod k, and since S is itself the sum of such x's, all 
+ * elements must be mutually congruent mod k. So the problem reduces to finding the longest run
+ *  of equal remainders [i..j] for which the run's sum is additionally divisible by k after 
+ * removing its last element (equivalently, by symmetry, after removing any single element, since 
+ * all elements share the same residue). The single pass extends a run while 
+ * 
+ * nums[i] == nums[i-1] (same residue), tracking the running sum crem of the current run; whenever
+ *  (crem - nums[i]) % k == 0 the whole run is resilient and the running max is updated.
  *
  * TC: O(n) SC: O(1)
  * #array #sliding-window #math #medium
