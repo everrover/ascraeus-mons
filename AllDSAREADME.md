@@ -634,11 +634,12 @@
 | [4040. Minimum Operations to Form Subset Sum I](./dsa/leetcode/JupitersGreatStorm/MinimumOperationsToFormSubsetSumI.java) | #array #dynamic-programming #bit-manipulation #medium |
 | [4044. Count Good Cyclic Rotations](./dsa/leetcode/JupitersGreatStorm/CountGoodCyclicRotations.java) | #array #sliding-window #prefix-sum #medium |
 | [4045. Count Robot Groups](./dsa/leetcode/JupitersGreatStorm/CountRobotGroups.java) | #array #greedy #medium |
+| [4075. Longest Resilient Subarray I](./dsa/leetcode/JupitersGreatStorm/LongestResilientSubarrayI.java) | #array #sliding-window #math #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 500/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 501/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 941/1600
+All problems progress in LeetCode: 942/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
