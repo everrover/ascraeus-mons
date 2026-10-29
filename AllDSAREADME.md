@@ -636,11 +636,12 @@
 | [4045. Count Robot Groups](./dsa/leetcode/JupitersGreatStorm/CountRobotGroups.java) | #array #greedy #medium |
 | [4075. Longest Resilient Subarray I](./dsa/leetcode/JupitersGreatStorm/LongestResilientSubarrayI.java) | #array #sliding-window #math #medium |
 | [4081. Prime Subset Selection II](./dsa/leetcode/JupitersGreatStorm/PrimeSubsetSelectionII.java) | #array #math #dynamic-programming #number-theory #hard |
+| [4085. Find Root of a Colored Tree](./dsa/leetcode/JupitersGreatStorm/FindRootOfAColoredTree.java) | #tree #graph #breadth-first-search #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 502/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 503/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 943/1600
+All problems progress in LeetCode: 944/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
