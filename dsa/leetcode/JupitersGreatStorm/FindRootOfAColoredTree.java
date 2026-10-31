@@ -5,8 +5,16 @@ import java.util.*;
 /**
  * https://leetcode.com/problems/find-root-of-a-colored-tree/
  *
+ * Prior to the following approach, I just used Brute Force BFS from every node, checking if the
+ * layered pattern was satisfied, iff a node had a degree <= 2.
+ * 
+ * Surprising, the problem allows an O(n²) solution, since the number of degree<=2 candidates is 
+ * at most n, and each BFS is O(n). i.e. for sth like, we'd still try for many candidates
+ * R -> B -> W -> R -> B -> W -> R -> B -> W -> R -> B -> W
+ * 
+ * THIS clicked in morning, as I woke up.
  * Forced edge orientation. Every parent-to-child edge must advance exactly one step in the cycle
- * R -> B -> W -> R, so each edge's direction is fixed by its endpoint colours alone:
+ * R -> B -> W -> R, and so this entails. Each edge's direction is fixed by its endpoint colours alone:
  * - If colour(v) is the successor of colour(u) the edge must be u -> v (and vice versa); an edge
  *   with equal-coloured endpoints admits neither direction and is dropped, which disconnects the
  *   directed graph and makes every BFS fail.
