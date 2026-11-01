@@ -637,12 +637,13 @@
 | [4075. Longest Resilient Subarray I](./dsa/leetcode/JupitersGreatStorm/LongestResilientSubarrayI.java) | #array #sliding-window #math #medium |
 | [4081. Prime Subset Selection II](./dsa/leetcode/JupitersGreatStorm/PrimeSubsetSelectionII.java) | #array #math #dynamic-programming #number-theory #hard |
 | [4085. Find Root of a Colored Tree](./dsa/leetcode/JupitersGreatStorm/FindRootOfAColoredTree.java) | #tree #graph #breadth-first-search #medium |
+| [4089. Count Subarrays With Loose Bounds](./dsa/leetcode/JupitersGreatStorm/CountSubarraysWithLooseBounds.java) | #array #math #two-pointers #medium |
 | [4093. Maximize Sum After At Most K Digit Rearrangements](./dsa/leetcode/JupitersGreatStorm/MaximizeSumAfterAtMostKDigitRearrangements.java) | #array #math #greedy #sorting #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 504/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 505/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 945/1600
+All problems progress in LeetCode: 946/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
