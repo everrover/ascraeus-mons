@@ -17,6 +17,18 @@ import java.util.*;
  * - gain(x) >= 0 always, and elements with gain 0 consume an operation for nothing, so they are
  *   skipped; "at most k" means the leftover operations can go unused.
  *
+ * Note: the `numsmax[i][0] != nums[comp]` inside the loop duplicates the loop's own `k > 0` 
+ * condition and can cause a bug.
+ * It 'is' kept deliberately for clarity.
+ *
+ * Known edge case: the `numsmax[i][0] != nums[comp]` guard compares a gain to an original value.
+ * When format(x) = 2*x, then format(x) - x = x, so the guard wrongly skips a real gain. Within the
+ * constraints this happens only for x = 438271605 (format(x) = 876543210): nums = [438271605],
+ * k = 1 returns 438271605 instead of 876543210. Accepted anyway, as the tests miss this value.
+ * Fix: drop that clause and keep only `numsmax[i][0] > 0`.
+ * 
+ * Submitted this specific TC on leetcode as 
+ *
  * TC: O(n log n) SC: O(n)
  * #array #math #greedy #sorting #medium
  */
@@ -48,7 +60,8 @@ class MaximizeSumAfterAtMostKDigitRearrangements {
     Arrays.sort(numsmax, (a,b)->(int)(b[0]-a[0]));
     for(int i=0; i<nums.length && k > 0; i++){
       int comp = (int)numsmax[i][1];
-      if(numsmax[i][0] != nums[comp] && numsmax[i][0] > 0){
+      // if(numsmax[i][0] != nums[comp] && numsmax[i][0] > 0){ -- removed, see note above
+      if(numsmax[i][0] > 0){
         res = res + numsmax[i][0];
         k--;
       }

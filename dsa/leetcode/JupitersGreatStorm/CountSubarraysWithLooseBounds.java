@@ -13,9 +13,9 @@ import java.util.*;
  * - j marks the start of the current run (-1 when none is open). On an out-of-range element at i the
  *   run [j, i) is closed and counted; a run that reaches the end of the array is counted after the
  *   loop. An out-of-range element with no open run opens and closes an empty run, which adds 0.
- * - L can reach 10^5, so L * (L + 1) / 2 needs 64 bits, hence the long in seq.
+ * - L can reach 10^5, so L * (L + 1) / 2 needs 64 bits, hence the long in seqcount.
  *
- * This is the loose version of "Count Subarrays With Fixed Bounds", which also requires the min and
+ * This is the loose version of ["Count Subarrays With Fixed Bounds"](./CountSubarraysWithFixedBounds.java), which also requires the min and
  * max of the subarray to equal minK and maxK exactly.
  *
  * TC: O(n) SC: O(1)
@@ -23,7 +23,7 @@ import java.util.*;
  */
 
 class CountSubarraysWithLooseBounds {
-  private long seq(int num){
+  private long seqcount(int num){
     long tnum = (long)num;
     return tnum*(tnum+1)/2;
   }
@@ -33,12 +33,12 @@ class CountSubarraysWithLooseBounds {
     while(i<nums.length){
       if(j == -1) j = i;
       if(nums[i] > maxK || nums[i] < minK){
-        res += seq(i-j);
+        res += seqcount(i-j);
         j = -1;
       }
       i++;
     }
-    if(j != -1) return res+=seq(i-j);
+    if(j != -1) return res+=seqcount(i-j);
     return res;
   }
 }
