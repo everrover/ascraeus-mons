@@ -639,11 +639,12 @@
 | [4085. Find Root of a Colored Tree](./dsa/leetcode/JupitersGreatStorm/FindRootOfAColoredTree.java) | #tree #graph #breadth-first-search #medium |
 | [4089. Count Subarrays With Loose Bounds](./dsa/leetcode/JupitersGreatStorm/CountSubarraysWithLooseBounds.java) | #array #math #two-pointers #medium |
 | [4093. Maximize Sum After At Most K Digit Rearrangements](./dsa/leetcode/JupitersGreatStorm/MaximizeSumAfterAtMostKDigitRearrangements.java) | #array #math #greedy #sorting #medium |
+| [4096. Simulate Bomb Explosions and Falling Boxes](./dsa/leetcode/JupitersGreatStorm/SimulateBombExplosionsAndFallingBoxes.java) | #array #matrix #simulation #medium |
 | --- | ---                                                                                                               |
 
-DSA Progress: 505/256  [1:2:1::Easier:Medium:Hard ratio]
+DSA Progress: 506/256  [1:2:1::Easier:Medium:Hard ratio]
 
-All problems progress in LeetCode: 946/1600
+All problems progress in LeetCode: 947/1600
 
 Attempt made to follow Easy:Medium:Hard ratio but focus currently is on hard&tricky problems
 
