@@ -8,6 +8,10 @@ import java.util.*;
  * Since gcd(x, y) = gcd(x, y - x), two neighbours share a factor exactly when their difference
  * shares a factor with x. So the smallest valid step away from x is spf(x), its smallest prime
  * factor.
+ * 
+ * This is the real reasoning, but i experimented on actual numbers and then figured out the math
+ * around it.
+ * 
  * - value == 1 has no prime factor, so there is no valid array (spf returns 1, giving -1).
  * - Right side: the first step goes to value + p, where p = spf(value). That number is always even:
  * if value is even then p = 2, and if value is odd then p is odd and odd + odd is even. Every later
@@ -40,8 +44,7 @@ class MinimizeTheMaximumValueOfGcdConnectedArray {
     for (int i = 2; i <= lt; i++) if (!isp.get(i)) {long nta = (long)i; psn.add(nta);}
   }
   private long getsmallestprime(long num){
-    // genprimes((int)1e9);
-    // System.out.println(psn);
+    // genprimes((int)1e9); // -- didn't scale well, so just trial division up to sqrt(num) instead
     // for(long prime: psn) if(num % prime == 0) return prime;
     long smpr = num;
     for(int i=2; i*i<=num; i++){

@@ -6,10 +6,20 @@ import java.util.*;
  * https://leetcode.com/problems/minimum-operations-to-sort-with-locked-indices/
  *
  * Unlocks are forced, not chosen, and the remaining work is just counting adjacent swaps.
- * - A locked index i can stay locked only if nothing ever has to cross it. That holds exactly when nums[i] == i+1 and the prefix max over [0..i] is i+1, i.e. nums[0..i] is already a permutation of [1..i+1]. Then the prefix and suffix sort independently and i never moves. Otherwise some value has to pass through i, or nums[i] itself has to move, so i must be unlocked. Each forced unlock costs 1 op, and if there are more than k of them the answer is -1.
- * - After the forced unlocks, the locked indices that remain split the array into independent segments. Each segment holds exactly the values that belong to it, so sorting it with adjacent swaps takes exactly its inversion count (each swap fixes one inversion). Unlocking any more indices would never reduce the swap count.
- * - Inversions per segment are counted with merge sort: when rarr[j] < larr[i] during a merge, every element left in larr forms an inversion with rarr[j].
+ * - A locked index i can stay locked only if nothing ever has to cross it. That holds exactly 
+ * when nums[i] == i+1 and the prefix max over [0..i] is i+1, i.e. nums[0..i] is already a 
+ * permutation of [1..i+1]. Then the prefix and suffix sort independently and i never moves. 
+ * Otherwise some value has to pass through i, or nums[i] itself has to move, so i must be 
+ * unlocked. Each forced unlock costs 1 op, and if there are more than k of them the answer is -1.
+ * - After the forced unlocks, the locked indices that remain split the array into independent 
+ * segments. Each segment holds exactly the values that belong to it, so sorting it with adjacent 
+ * swaps takes exactly its inversion count (each swap fixes one inversion). Unlocking any more 
+ * indices would never reduce the swap count.
+ * - Inversions per segment are counted with merge sort: when rarr[j] < larr[i] during a merge, 
+ * every element left in larr forms an inversion with rarr[j].
  * - Answer = forced unlocks + the sum of segment inversions.
+ * - If not for the actual numbers between 1..n, the problem would be straightforward still. I'd first
+ * map the numbers to their ranks first.
  *
  * TC: O(n log n) SC: O(n)
  * #array #greedy #divide-and-conquer #merge-sort #medium
